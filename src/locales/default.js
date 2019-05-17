@@ -38,7 +38,7 @@ export default {
   del: { en: 'Del', ja: '', zh: '删除' },
   load: { en: 'Load', ja: '', zh: '加载' },
   save: { en: 'Save', ja: '保存', zh: '保存' },
-  //weaponType
+  // weaponType
   Sword: { en: 'Sword', ja: '剣', zh: '剑' },
   Blade: { en: 'Blade', ja: '刀', zh: '刀' },
   Dagger: { en: 'Dagger', ja: '短剣', zh: '短剑' },
@@ -47,20 +47,20 @@ export default {
   Bow: { en: 'Bow', ja: '弓', zh: '弓' },
   Wand: { en: 'Wand', ja: 'ロッド', zh: '魔杖' },
   Staff: { en: 'Staff', ja: '杖', zh: '法杖' },
-  //facility types
+  // facility types
   type: { en: 'Type', ja: '種類', zh: '类型' },
   altar: { en: 'Altar', ja: '祭壇', zh: '祭坛' },
   dojo: { en: 'Dojo', ja: '訓練場', zh: '训练场' },
   event: { en: 'Event', ja: 'イベント', zh: '活动' },
   slime: { en: 'Slime', ja: 'スライム像', zh: '史莱姆像' },
   fafnir: { en: 'Fafnir', ja: 'ファフ二ール像', zh: '法夫纳像' },
-  //element
+  // element
   Flame: { en: 'Flame', ja: '火', zh: '火' },
   Water: { en: 'Water', ja: '水', zh: '水' },
   Wind: { en: 'Wind', ja: '風', zh: '风' },
   Light: { en: 'Light', ja: '光', zh: '光' },
   Shadow: { en: 'Shadow', ja: '闇', zh: '暗' },
-  //Dungeon
+  // dungeon
   hms: { en: 'High Midgardsormr', ja: '真ミドガルズオルム', zh: '真耶梦加得' },
   hbh: { en: 'High Brunhilda', ja: '真ブリュンヒルデ', zh: '真布伦希尔德' },
   hmc: { en: 'High Mercury', ja: '真マーキュリー', zh: '真墨丘利' },
