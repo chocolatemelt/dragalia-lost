@@ -46,14 +46,52 @@ def regex(details):
     return result
 
 
-def regex_HP_STR_Def_DragonRes(details=''):
-    r = re.search(
+skill_pattern = re.compile(
+    r'([Dd]eals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+'
+    r'&lt;span style=&quot;color:#[a-zA-Z0-9]{6}; font-weight:bold;&quot;&gt;([\d.]+)%&lt;/span&gt;',
+    re.IGNORECASE
+)
+
+
+def regex_skill_modifier(details=''):
+    matched = skill_pattern.findall(details)
+    if len(matched) == 0:
+        return 0
+    mod_list = []
+    for r in matched:
+        prefix, hit, _, delayed_hit, modifier = r
+        if len(modifier) == 0:
+            continue
+        if not hit.isdigit():
+            if hit == 'two':
+                hit = 2
+            else:
+                hit = 1
+        else:
+            hit = int(hit)
+        if len(delayed_hit) > 0:
+            hit += int(delayed_hit[4])
+        if len(prefix) > 0:
+            mod_list.append(round(hit * float(modifier), 2))
+        else:
+            if len(mod_list) == 0:
+                print(details)
+                print(r)
+                print(mod_list)
+            mod_list[-1] += round(hit * float(modifier), 2)
+    return mod_list
+
+
+dragon_aura_pattern = re.compile(
         r'([a-zA-Z0-9]+)?:?\s*' +
         r'increases (strength|HP|defense|strength and HP) by (?:\'\'\')?(\d+)%(?:\'\'\')?' +
         r'(?:\.' +
         r'| and adds \'\'\'(\d+)%\'\'\' to (Flame|Water|Wind|Light|Shadow) resistance' +
-        r'| when HP is| and)', details, re.IGNORECASE
-    )
+        r'| when HP is| and)', re.IGNORECASE)
+
+
+def regex_HP_STR_Def_DragonRes(details=''):
+    r = dragon_aura_pattern.search(details)
 
     if r:
         req, field, v, res, resEle = r.groups()
@@ -145,7 +183,7 @@ def set_abilities():
             'details': details,
             'might': int(item['PartyPowerWeight']) or 0,
             'limit': ability_limit[item['AbilityLimitedGroupId1']]
-            if item['AbilityLimitedGroupId1'] in ability_limit.keys() else {}
+            if item['AbilityLimitedGroupId1'] in ability_limit.keys() else 0
         }
 
         updates = regex(details)
@@ -179,18 +217,24 @@ def set_skills():
             new_item = {
                 'name': item['Name'],
                 'icon': item['SkillLv1IconName'],
-                'Description1': item['Description1'],
-                'Description2': item['Description2'],
-                'Description3': item['Description3'],
+                'description1': item['Description1'],
+                'description2': item['Description2'],
+                'description3': item['Description3'],
             }
 
             for k in parse_int:
                 new_item[k] = int(item[k]) if item[k] != '' else 0
 
             for k in parse_bool:
-                new_item[k] = not bool(item[k])
+                new_item[k] = bool(item[k])
 
             new_item['iframe'] = float(item['IframeDuration'][0:2])
+
+            parse_modifier = ['Description1', 'Description2', 'Description3']
+            if new_item['HideLevel3']:
+                parse_modifier = parse_modifier[0:2]
+            for d in parse_modifier:
+                new_item['modifier' + d[-1]] = regex_skill_modifier(item[d])
 
             result[pk] = new_item
     return result

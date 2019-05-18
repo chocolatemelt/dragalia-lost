@@ -13,15 +13,21 @@ const weapon =
     "skill": {
       "name": "Blazing Cleaver",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;614%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;682%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description3": "Deals flame damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;614%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;682%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
       "Sp": 7330,
       "SPLv2": 7330,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -74,15 +80,21 @@ const weapon =
     "skill": {
       "name": "Rain Slicer",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;307%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;341%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description3": "Deals water damage to surrounding enemies.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;307%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;341%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
       "Sp": 7226,
       "SPLv2": 7226,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -166,15 +178,21 @@ const weapon =
     "skill": {
       "name": "Grass Slash",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;307%&lt;/span&gt; wind damage to surrounding enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;341%&lt;/span&gt; wind damage to surrounding enemies.",
-      "Description3": "Deals wind damage to surrounding enemies.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;307%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;341%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description3": "Deals wind damage to surrounding enemies.",
       "Sp": 7226,
       "SPLv2": 7226,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -196,15 +214,21 @@ const weapon =
     "skill": {
       "name": "Merciless Cleaver",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;614%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;682%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description3": "Deals light-based damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;614%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;682%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
       "Sp": 7330,
       "SPLv2": 7330,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -288,15 +312,21 @@ const weapon =
     "skill": {
       "name": "Bloody Cleaver",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;614%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;682%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description3": "Deals shadow damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;614%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;682%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
       "Sp": 7330,
       "SPLv2": 7330,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -336,15 +366,17 @@ const weapon =
     "skill": {
       "name": "Ensorcelled Slash",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of '''276%''' damage to surrounding enemies.",
-      "Description2": "Deals 2 hits of '''307%''' damage to surrounding enemies.",
-      "Description3": "Deals non-elemental damage to surrounding enemies.",
+      "description1": "Deals 2 hits of '''276%''' damage to surrounding enemies.",
+      "description2": "Deals 2 hits of '''307%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
       "Sp": 7226,
       "SPLv2": 7226,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 10,
     "MaxHp": 36,
@@ -366,15 +398,17 @@ const weapon =
     "skill": {
       "name": "Broad Cleaver",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 1 hit of '''553%''' damage to enemies directly ahead.",
-      "Description2": "Deals 1 hit of '''614%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of '''553%''' damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of '''614%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 7330,
       "SPLv2": 7330,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 10,
     "MaxHp": 36,
@@ -448,15 +482,21 @@ const weapon =
     "skill": {
       "name": "Crimson Wave",
       "icon": "Icon_Skill_006",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;338%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;375%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description3": "Deals flame damage to enemies in a line.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;338%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;375%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
       "Sp": 7508,
       "SPLv2": 7508,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        676.0
+      ],
+      "modifier2": [
+        750.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 92,
@@ -543,15 +583,17 @@ const weapon =
     "skill": {
       "name": "Mercurial Recovery",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description3": "Gradually recovers the user's HP for 15 seconds.",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
       "Sp": 14950,
       "SPLv2": 14950,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 105,
@@ -635,15 +677,17 @@ const weapon =
     "skill": {
       "name": "Winged Recovery",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description3": "Gradually recovers the user's HP for 15 seconds.",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
       "Sp": 14950,
       "SPLv2": 14950,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 105,
@@ -699,15 +743,17 @@ const weapon =
     "skill": {
       "name": "Astral Radiance",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description3": "Gradually recovers the user's HP for 15 seconds.",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
       "Sp": 14950,
       "SPLv2": 14950,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 105,
@@ -825,15 +871,21 @@ const weapon =
     "skill": {
       "name": "Dark Wave",
       "icon": "Icon_Skill_006",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;338%&lt;/span&gt; shadow damage to enemies in a line.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;375%&lt;/span&gt; shadow damage to enemies in a line.",
-      "Description3": "Deals shadow damage to enemies in a line.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;338%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;375%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description3": "Deals shadow damage to enemies in a line.",
       "Sp": 7508,
       "SPLv2": 7508,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        676.0
+      ],
+      "modifier2": [
+        750.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 92,
@@ -873,15 +925,17 @@ const weapon =
     "skill": {
       "name": "Glorious Wave",
       "icon": "Icon_Skill_006",
-      "Description1": "Deals 2 hits of '''304%''' damage to enemies in a line.",
-      "Description2": "Deals 2 hits of '''338%''' damage to enemies in a line.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 2 hits of '''304%''' damage to enemies in a line.",
+      "description2": "Deals 2 hits of '''338%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 7508,
       "SPLv2": 7508,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 21,
     "MaxHp": 71,
@@ -903,15 +957,17 @@ const weapon =
     "skill": {
       "name": "Gildan Recovery",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
-      "Description3": "Gradually recovers the user's HP for 15 seconds.",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
       "Sp": 14950,
       "SPLv2": 14950,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 24,
     "MaxHp": 81,
@@ -959,15 +1015,21 @@ const weapon =
     "skill": {
       "name": "Calamitous Cleaver",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;149%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;165%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description3": "Deals flame damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;149%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;165%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
       "Sp": 6847,
       "SPLv2": 6847,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        745.0
+      ],
+      "modifier2": [
+        825.0
+      ]
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -1023,15 +1085,21 @@ const weapon =
     "skill": {
       "name": "Eoantide Cleaver",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;149%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;165%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description3": "Deals water damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;149%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;165%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
       "Sp": 6847,
       "SPLv2": 6847,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        745.0
+      ],
+      "modifier2": [
+        825.0
+      ]
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -1053,15 +1121,17 @@ const weapon =
     "skill": {
       "name": "Heroic Epic",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''30%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''40%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''40%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 47,
     "MaxHp": 158,
@@ -1117,15 +1187,21 @@ const weapon =
     "skill": {
       "name": "Zex's Waltz",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;149%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;165%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description3": "Deals light-based damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;149%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;165%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
       "Sp": 6847,
       "SPLv2": 6847,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        745.0
+      ],
+      "modifier2": [
+        825.0
+      ]
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -1211,15 +1287,17 @@ const weapon =
     "skill": {
       "name": "Eternal Strife",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''30%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''40%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''40%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 47,
     "MaxHp": 158,
@@ -1259,15 +1337,17 @@ const weapon =
     "skill": {
       "name": "Noble Flash",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of '''134%''' damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of '''149%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of '''134%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''149%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 6847,
       "SPLv2": 6847,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 35,
     "MaxHp": 117,
@@ -1289,15 +1369,17 @@ const weapon =
     "skill": {
       "name": "Rage and Retribution",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''40%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''40%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 38,
     "MaxHp": 129,
@@ -1319,15 +1401,17 @@ const weapon =
     "skill": {
       "name": "Happiness Spike",
       "icon": "Icon_Skill_014",
-      "Description1": "Deals 1 hit '''668%''' damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of '''743%''' damage to the target and nearby enemies.",
-      "Description3": "",
+      "description1": "Deals 1 hit '''668%''' damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of '''743%''' damage to the target and nearby enemies.",
+      "description3": "",
       "Sp": 7773,
       "SPLv2": 7773,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 106,
@@ -1349,15 +1433,21 @@ const weapon =
     "skill": {
       "name": "Valkan Wave",
       "icon": "Icon_Skill_008",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;790%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;878%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description3": "Deals flame damage to enemies in a line.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;790%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;878%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
       "Sp": 7920,
       "SPLv2": 7920,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        790.0
+      ],
+      "modifier2": [
+        878.0
+      ]
     },
     "MinHp": 15,
     "MaxHp": 53,
@@ -1410,15 +1500,21 @@ const weapon =
     "skill": {
       "name": "Butterfly Strike",
       "icon": "Icon_Skill_008",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;790%&lt;/span&gt; water damage to enemies in a line.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;878%&lt;/span&gt; water damage to enemies in a line.",
-      "Description3": "Deals water damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;790%&lt;/span&gt; water damage to enemies in a line.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;878%&lt;/span&gt; water damage to enemies in a line.",
+      "description3": "Deals water damage to enemies directly ahead.",
       "Sp": 7920,
       "SPLv2": 7920,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        790.0
+      ],
+      "modifier2": [
+        878.0
+      ]
     },
     "MinHp": 15,
     "MaxHp": 53,
@@ -1471,15 +1567,21 @@ const weapon =
     "skill": {
       "name": "Commander's Blitz",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;264%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;293%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description3": "Deals wind damage to enemies directly ahead.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;264%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;293%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
       "Sp": 7175,
       "SPLv2": 7175,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        792.0
+      ],
+      "modifier2": [
+        879.0
+      ]
     },
     "MinHp": 15,
     "MaxHp": 50,
@@ -1501,15 +1603,21 @@ const weapon =
     "skill": {
       "name": "Chanzelian Strike",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;264%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;293%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description3": "Deals light-based damage to enemies directly ahead.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;264%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;293%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
       "Sp": 7175,
       "SPLv2": 7175,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        792.0
+      ],
+      "modifier2": [
+        879.0
+      ]
     },
     "MinHp": 15,
     "MaxHp": 50,
@@ -1562,15 +1670,21 @@ const weapon =
     "skill": {
       "name": "Sanguine Blitz",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;264%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;293%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description3": "Deals shadow damage to enemies in a line.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;264%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;293%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies in a line.",
       "Sp": 7175,
       "SPLv2": 7175,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        792.0
+      ],
+      "modifier2": [
+        879.0
+      ]
     },
     "MinHp": 15,
     "MaxHp": 50,
@@ -1641,15 +1755,17 @@ const weapon =
     "skill": {
       "name": "Shamshir Strike",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 3 hits of '''238%''' damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of '''264%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 3 hits of '''238%''' damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of '''264%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 7175,
       "SPLv2": 7175,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 9,
     "MaxHp": 32,
@@ -1671,15 +1787,17 @@ const weapon =
     "skill": {
       "name": "Fusion Wave",
       "icon": "Icon_Skill_008",
-      "Description1": "Deals 1 hit of '''710%''' damage to enemies in a line.",
-      "Description2": "Deals 1 hit of '''790%''' damage to enemies in a line.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 1 hit of '''710%''' damage to enemies in a line.",
+      "description2": "Deals 1 hit of '''790%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 7920,
       "SPLv2": 7920,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 9,
     "MaxHp": 33,
@@ -1753,15 +1871,17 @@ const weapon =
     "skill": {
       "name": "Flame's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -1848,15 +1968,21 @@ const weapon =
     "skill": {
       "name": "Whirlpool",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;869%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;966%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description3": "Deals water damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;869%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;966%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
       "Sp": 8178,
       "SPLv2": 8178,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        869.0
+      ],
+      "modifier2": [
+        966.0
+      ]
     },
     "MinHp": 24,
     "MaxHp": 81,
@@ -1947,15 +2073,17 @@ const weapon =
     "skill": {
       "name": "Tempest's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%'''  for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%'''  for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -2011,15 +2139,21 @@ const weapon =
     "skill": {
       "name": "Thunderstorm",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;869%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;966%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description3": "Deals light-based damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;869%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;966%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to surrounding enemies.",
       "Sp": 8178,
       "SPLv2": 8178,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        869.0
+      ],
+      "modifier2": [
+        966.0
+      ]
     },
     "MinHp": 24,
     "MaxHp": 81,
@@ -2106,15 +2240,17 @@ const weapon =
     "skill": {
       "name": "Darkness's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -2185,15 +2321,17 @@ const weapon =
     "skill": {
       "name": "Iron's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''15%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 20,
     "MaxHp": 69,
@@ -2215,15 +2353,17 @@ const weapon =
     "skill": {
       "name": "Masamura's Slash",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 1 hit of '''782%''' damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of '''869%''' damage to surrounding enemies.",
-      "Description3": "Deals non-elemental damage to surrounding enemies.",
+      "description1": "Deals 1 hit of '''782%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''869%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
       "Sp": 8178,
       "SPLv2": 8178,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 18,
     "MaxHp": 62,
@@ -2301,15 +2441,21 @@ const weapon =
     "skill": {
       "name": "Heaven's Flames",
       "icon": "Icon_Skill_010",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;319%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;354%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description3": "Deals flame damage to enemies in a line.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;319%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;354%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
       "Sp": 8030,
       "SPLv2": 8030,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        957.0
+      ],
+      "modifier2": [
+        1062.0
+      ]
     },
     "MinHp": 39,
     "MaxHp": 132,
@@ -2365,15 +2511,17 @@ const weapon =
     "skill": {
       "name": "Maar's Recovery",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 12841,
       "SPLv2": 12841,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -2433,15 +2581,21 @@ const weapon =
     "skill": {
       "name": "Verdant Wave",
       "icon": "Icon_Skill_010",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;319%&lt;/span&gt; wind damage to enemies in a line.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;354%&lt;/span&gt; wind damage to enemies in a line.",
-      "Description3": "Deals wind damage to enemies in a line.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;319%&lt;/span&gt; wind damage to enemies in a line.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;354%&lt;/span&gt; wind damage to enemies in a line.",
+      "description3": "Deals wind damage to enemies in a line.",
       "Sp": 8030,
       "SPLv2": 8030,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        957.0
+      ],
+      "modifier2": [
+        1062.0
+      ]
     },
     "MinHp": 39,
     "MaxHp": 132,
@@ -2497,15 +2651,17 @@ const weapon =
     "skill": {
       "name": "Winged Blessing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 12841,
       "SPLv2": 12841,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -2561,15 +2717,21 @@ const weapon =
     "skill": {
       "name": "Black Dance",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;192%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;213%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description3": "Deals shadow damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;192%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;213%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
       "Sp": 7695,
       "SPLv2": 7695,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        960.0
+      ],
+      "modifier2": [
+        1065.0
+      ]
     },
     "MinHp": 37,
     "MaxHp": 125,
@@ -2609,15 +2771,17 @@ const weapon =
     "skill": {
       "name": "Shade's Flight",
       "icon": "Icon_Skill_010",
-      "Description1": "Deals 3 hits of '''287%''' damage to enemies in a line.",
-      "Description2": "Deals 3 hits of '''319%''' damage to enemies in a line.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 3 hits of '''287%''' damage to enemies in a line.",
+      "description2": "Deals 3 hits of '''319%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 8030,
       "SPLv2": 8030,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 32,
     "MaxHp": 108,
@@ -2639,15 +2803,17 @@ const weapon =
     "skill": {
       "name": "Souleater's Feast",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of '''173%''' damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of '''192%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of '''173%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''192%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 7695,
       "SPLv2": 7695,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 30,
     "MaxHp": 103,
@@ -2669,15 +2835,17 @@ const weapon =
     "skill": {
       "name": "Swordsmith's Recovery",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 12841,
       "SPLv2": 12841,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 35,
     "MaxHp": 117,
@@ -2699,15 +2867,21 @@ const weapon =
     "skill": {
       "name": "Cruel Assault",
       "icon": "Icon_Skill_002",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;305%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;339%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description3": "Deals flame damage to enemies directly ahead.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;305%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;339%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
       "Sp": 7339,
       "SPLv2": 7339,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        610.0
+      ],
+      "modifier2": [
+        678.0
+      ]
     },
     "MinHp": 19,
     "MaxHp": 64,
@@ -2791,15 +2965,21 @@ const weapon =
     "skill": {
       "name": "Water Chain",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;152%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;169%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description3": "Deals water damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;152%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;169%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
       "Sp": 6770,
       "SPLv2": 6770,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        608.0
+      ],
+      "modifier2": [
+        676.0
+      ]
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -2883,15 +3063,21 @@ const weapon =
     "skill": {
       "name": "Storm Chain",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;152%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;169%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description3": "Deals wind damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;152%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;169%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
       "Sp": 6770,
       "SPLv2": 6770,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        608.0
+      ],
+      "modifier2": [
+        676.0
+      ]
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -2944,15 +3130,21 @@ const weapon =
     "skill": {
       "name": "Royal Assault",
       "icon": "Icon_Skill_002",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;305%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;339%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description3": "Deals light-based damage to enemies directly ahead.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;305%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;339%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
       "Sp": 7339,
       "SPLv2": 7339,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        610.0
+      ],
+      "modifier2": [
+        678.0
+      ]
     },
     "MinHp": 19,
     "MaxHp": 64,
@@ -3005,15 +3197,21 @@ const weapon =
     "skill": {
       "name": "Assassin Strike",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;152%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;169%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description3": "Deals shadow damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;152%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;169%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
       "Sp": 6770,
       "SPLv2": 6770,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        608.0
+      ],
+      "modifier2": [
+        676.0
+      ]
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -3053,15 +3251,17 @@ const weapon =
     "skill": {
       "name": "Ancient Assault",
       "icon": "Icon_Skill_002",
-      "Description1": "Deals 2 hits of '''275%''' damage to enemies directly ahead.",
-      "Description2": "Deals 2 hits of '''305%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 2 hits of '''275%''' damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of '''305%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 7339,
       "SPLv2": 7339,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 11,
     "MaxHp": 38,
@@ -3083,15 +3283,17 @@ const weapon =
     "skill": {
       "name": "Lover's Strike",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 4 hits of '''137%''' damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of '''152%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of '''137%''' damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of '''152%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 6770,
       "SPLv2": 6770,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 12,
     "MaxHp": 40,
@@ -3165,15 +3367,21 @@ const weapon =
     "skill": {
       "name": "Scarlet Spiral",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;167%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;186%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description3": "Deals flame damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;167%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;186%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
       "Sp": 7028,
       "SPLv2": 7028,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        668.0
+      ],
+      "modifier2": [
+        744.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 93,
@@ -3291,15 +3499,21 @@ const weapon =
     "skill": {
       "name": "Ultramarine Spin",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;167%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;186%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description3": "Deals water damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;167%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;186%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
       "Sp": 7028,
       "SPLv2": 7028,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        668.0
+      ],
+      "modifier2": [
+        744.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 93,
@@ -3459,15 +3673,17 @@ const weapon =
     "skill": {
       "name": "Queen's Recovery",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 15976,
       "SPLv2": 15976,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 106,
@@ -3520,15 +3736,21 @@ const weapon =
     "skill": {
       "name": "Night Spiral",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;167%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;186%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description3": "Deals light-based damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;167%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;186%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
       "Sp": 7028,
       "SPLv2": 7028,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        668.0
+      ],
+      "modifier2": [
+        744.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 93,
@@ -3581,15 +3803,17 @@ const weapon =
     "skill": {
       "name": "Avaricious Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 15976,
       "SPLv2": 15976,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 106,
@@ -3629,15 +3853,17 @@ const weapon =
     "skill": {
       "name": "Fanged Recovery",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 15976,
       "SPLv2": 15976,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 24,
     "MaxHp": 81,
@@ -3659,15 +3885,17 @@ const weapon =
     "skill": {
       "name": "Dreamer's Spiral",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 4 hits of '''150%''' damage to enemies directly ahead.",
-      "Description2": "Deals 4 hits of '''167%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 4 hits of '''150%''' damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of '''167%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 7028,
       "SPLv2": 7028,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 21,
     "MaxHp": 72,
@@ -3771,15 +3999,21 @@ const weapon =
     "skill": {
       "name": "Aeternal Assault",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;148%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;164%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description3": "Deals flame damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;148%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;164%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
       "Sp": 7323,
       "SPLv2": 7323,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        740.0
+      ],
+      "modifier2": [
+        820.0
+      ]
     },
     "MinHp": 43,
     "MaxHp": 144,
@@ -3835,15 +4069,17 @@ const weapon =
     "skill": {
       "name": "Cobalt Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''35%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''40%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''40%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
       "Sp": 7103,
       "SPLv2": 7103,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 45,
     "MaxHp": 152,
@@ -3941,15 +4177,21 @@ const weapon =
     "skill": {
       "name": "Saga of the Soul",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;148%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;164%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description3": "Deals wind damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;148%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;164%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
       "Sp": 7323,
       "SPLv2": 7323,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        740.0
+      ],
+      "modifier2": [
+        820.0
+      ]
     },
     "MinHp": 43,
     "MaxHp": 144,
@@ -3971,15 +4213,17 @@ const weapon =
     "skill": {
       "name": "Sugaar's Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''35%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''40%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''40%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
       "Sp": 7103,
       "SPLv2": 7103,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 45,
     "MaxHp": 152,
@@ -4001,15 +4245,21 @@ const weapon =
     "skill": {
       "name": "Unwavering Assault",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;148%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;164%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description3": "Deals shadow damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;148%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;164%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
       "Sp": 7323,
       "SPLv2": 7323,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        740.0
+      ],
+      "modifier2": [
+        820.0
+      ]
     },
     "MinHp": 43,
     "MaxHp": 144,
@@ -4049,15 +4299,17 @@ const weapon =
     "skill": {
       "name": "Thorned Assault",
       "icon": "Icon_Skill_003",
-      "Description1": "Deals 5 hits of '''133%''' damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of '''148%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of '''133%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''148%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 7323,
       "SPLv2": 7323,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 35,
     "MaxHp": 118,
@@ -4079,15 +4331,17 @@ const weapon =
     "skill": {
       "name": "Hedgehog's Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''30%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''35%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
       "Sp": 7103,
       "SPLv2": 7103,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 37,
     "MaxHp": 124,
@@ -4109,15 +4363,21 @@ const weapon =
     "skill": {
       "name": "Argent Impact",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;932%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;1036%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description3": "Deals flame damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;932%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;1036%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
       "Sp": 8824,
       "SPLv2": 8824,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 59,
@@ -4139,15 +4399,21 @@ const weapon =
     "skill": {
       "name": "Torrential Impact",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;932%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;1036%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description3": "Deals water damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;932%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;1036%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
       "Sp": 8824,
       "SPLv2": 8824,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 59,
@@ -4200,15 +4466,21 @@ const weapon =
     "skill": {
       "name": "Cyclonic Swing",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;466%&lt;/span&gt; wind damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;518%&lt;/span&gt; wind damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description3": "Deals wind damage to surrounding enemies and draws them toward the user.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;466%&lt;/span&gt; wind damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;518%&lt;/span&gt; wind damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals wind damage to surrounding enemies and draws them toward the user.",
       "Sp": 8603,
       "SPLv2": 8603,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
     },
     "MinHp": 19,
     "MaxHp": 65,
@@ -4230,15 +4502,21 @@ const weapon =
     "skill": {
       "name": "Flash Swing",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;466%&lt;/span&gt; light damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;518%&lt;/span&gt; light damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description3": "Deals light-based damage to surrounding enemies and draws them toward the user.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;466%&lt;/span&gt; light damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;518%&lt;/span&gt; light damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals light-based damage to surrounding enemies and draws them toward the user.",
       "Sp": 8603,
       "SPLv2": 8603,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
     },
     "MinHp": 19,
     "MaxHp": 65,
@@ -4291,15 +4569,21 @@ const weapon =
     "skill": {
       "name": "Reaving Swing",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;466%&lt;/span&gt; shadow damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;518%&lt;/span&gt; shadow damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description3": "Deals shadow damage to surrounding enemies and draws them toward the user.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;466%&lt;/span&gt; shadow damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;518%&lt;/span&gt; shadow damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals shadow damage to surrounding enemies and draws them toward the user.",
       "Sp": 8603,
       "SPLv2": 8603,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
     },
     "MinHp": 19,
     "MaxHp": 65,
@@ -4339,15 +4623,17 @@ const weapon =
     "skill": {
       "name": "Ennobled Impact",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 1 hit of '''839%''' damage to enemies directly ahead.",
-      "Description2": "Deals 1 hit of '''932%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 1 hit of '''839%''' damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of '''932%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 8824,
       "SPLv2": 8824,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 11,
     "MaxHp": 37,
@@ -4369,15 +4655,17 @@ const weapon =
     "skill": {
       "name": "Juggernaut's Swing",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of '''419%''' damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description2": "Deals 2 hits of '''466%''' damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
-      "Description3": "Deals non-elemental damage to surrounding enemies and draws them toward the user.",
+      "description1": "Deals 2 hits of '''419%''' damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of '''466%''' damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals non-elemental damage to surrounding enemies and draws them toward the user.",
       "Sp": 8603,
       "SPLv2": 8603,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 0.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 12,
     "MaxHp": 41,
@@ -4425,15 +4713,21 @@ const weapon =
     "skill": {
       "name": "Crimson Swing",
       "icon": "Icon_Skill_002",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;513%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;570%&lt;/span&gt; flame damage to enemies directly ahead.",
-      "Description3": "Deals flame damage to enemies directly ahead.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;513%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;570%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
       "Sp": 9025,
       "SPLv2": 9025,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1026.0
+      ],
+      "modifier2": [
+        1140.0
+      ]
     },
     "MinHp": 28,
     "MaxHp": 95,
@@ -4489,15 +4783,17 @@ const weapon =
     "skill": {
       "name": "Aqua Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 105,
@@ -4588,15 +4884,17 @@ const weapon =
     "skill": {
       "name": "Winged Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 105,
@@ -4652,15 +4950,17 @@ const weapon =
     "skill": {
       "name": "Lightning's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 31,
     "MaxHp": 105,
@@ -4747,15 +5047,21 @@ const weapon =
     "skill": {
       "name": "Traitor Smiter",
       "icon": "Icon_Skill_002",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;513%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;570%&lt;/span&gt; shadow damage to enemies directly ahead.",
-      "Description3": "Deals shadow damage to enemies directly ahead.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;513%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;570%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
       "Sp": 9025,
       "SPLv2": 9025,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1026.0
+      ],
+      "modifier2": [
+        1140.0
+      ]
     },
     "MinHp": 28,
     "MaxHp": 95,
@@ -4795,15 +5101,17 @@ const weapon =
     "skill": {
       "name": "Tyrant Swing",
       "icon": "Icon_Skill_002",
-      "Description1": "Deals 2 hits of '''462%''' damage to enemies directly ahead.",
-      "Description2": "Deals 2 hits of '''513%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 2 hits of '''462%''' damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of '''513%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 9025,
       "SPLv2": 9025,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 21,
     "MaxHp": 73,
@@ -4825,15 +5133,17 @@ const weapon =
     "skill": {
       "name": "Memento's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''15%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 6678,
       "SPLv2": 6678,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 24,
     "MaxHp": 81,
@@ -4907,15 +5217,17 @@ const weapon =
     "skill": {
       "name": "Blazing Boost",
       "icon": "Icon_Skill_032",
-      "Description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description3": "Increases the user's critical damage by '''50%''' for 30 seconds.",
+      "description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Increases the user's critical damage by '''50%''' for 30 seconds.",
       "Sp": 4711,
       "SPLv2": 4711,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 46,
     "MaxHp": 155,
@@ -4971,15 +5283,21 @@ const weapon =
     "skill": {
       "name": "Seadragon's Impact",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;376%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;418%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description3": "Deals water damage to enemies directly ahead.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;376%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;418%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
       "Sp": 9025,
       "SPLv2": 9025,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1128.0
+      ],
+      "modifier2": [
+        1254.0
+      ]
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -5039,15 +5357,21 @@ const weapon =
     "skill": {
       "name": "Southern Impact",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;376%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;418%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description3": "Deals wind damage to enemies directly ahead.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;376%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;418%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
       "Sp": 9025,
       "SPLv2": 9025,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1128.0
+      ],
+      "modifier2": [
+        1254.0
+      ]
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -5103,15 +5427,17 @@ const weapon =
     "skill": {
       "name": "Radiant Boost",
       "icon": "Icon_Skill_032",
-      "Description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description3": "Deals light-based damage to enemies directly ahead.",
+      "description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
       "Sp": 4711,
       "SPLv2": 4711,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -5167,15 +5493,17 @@ const weapon =
     "skill": {
       "name": "Primordial Boost",
       "icon": "Icon_Skill_032",
-      "Description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description3": "Adds '''50%''' to the modifier applied to the user's critical damage for 30 seconds.",
+      "description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Adds '''50%''' to the modifier applied to the user's critical damage for 30 seconds.",
       "Sp": 4711,
       "SPLv2": 4711,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 46,
     "MaxHp": 155,
@@ -5215,15 +5543,17 @@ const weapon =
     "skill": {
       "name": "Executioner's Impact",
       "icon": "Icon_Skill_011",
-      "Description1": "Deals 3 hits of '''338%''' damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of '''376%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 3 hits of '''338%''' damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of '''376%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 9025,
       "SPLv2": 9025,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 36,
     "MaxHp": 120,
@@ -5245,15 +5575,17 @@ const weapon =
     "skill": {
       "name": "Halfling's Focus",
       "icon": "Icon_Skill_032",
-      "Description1": "Adds '''30%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description2": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
-      "Description3": "Adds '''50%''' to the modifier applied to the user's critical damage for 30 seconds.",
+      "description1": "Adds '''30%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Adds '''50%''' to the modifier applied to the user's critical damage for 30 seconds.",
       "Sp": 4711,
       "SPLv2": 4711,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 38,
     "MaxHp": 127,
@@ -5275,15 +5607,21 @@ const weapon =
     "skill": {
       "name": "Hero's Descent",
       "icon": "Icon_Skill_019",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;685%&lt;/span&gt; flame damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;761%&lt;/span&gt; flame damage to the target and nearby enemies.",
-      "Description3": "Deals flame damage to the target and enemies near it.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;685%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;761%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description3": "Deals flame damage to the target and enemies near it.",
       "Sp": 7054,
       "SPLv2": 7054,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        685.0
+      ],
+      "modifier2": [
+        761.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 58,
@@ -5336,15 +5674,21 @@ const weapon =
     "skill": {
       "name": "Azure Whirlwind",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;343%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;381%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description3": "Deals water damage to surrounding enemies.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;343%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;381%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
       "Sp": 7668,
       "SPLv2": 7668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        686.0
+      ],
+      "modifier2": [
+        762.0
+      ]
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -5428,15 +5772,21 @@ const weapon =
     "skill": {
       "name": "Gale's Descent",
       "icon": "Icon_Skill_019",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;685%&lt;/span&gt; wind damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;761%&lt;/span&gt; wind damage to the target and nearby enemies.",
-      "Description3": "Deals wind damage to the target and nearby enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;685%&lt;/span&gt; wind damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;761%&lt;/span&gt; wind damage to the target and nearby enemies.",
+      "description3": "Deals wind damage to the target and nearby enemies.",
       "Sp": 7054,
       "SPLv2": 7054,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        685.0
+      ],
+      "modifier2": [
+        761.0
+      ]
     },
     "MinHp": 17,
     "MaxHp": 58,
@@ -5489,15 +5839,21 @@ const weapon =
     "skill": {
       "name": "Lunar Whirlwind",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;343%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;381%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description3": "Deals light-based damage to surrounding enemies.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;343%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;381%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to surrounding enemies.",
       "Sp": 7668,
       "SPLv2": 7668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        686.0
+      ],
+      "modifier2": [
+        762.0
+      ]
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -5519,15 +5875,21 @@ const weapon =
     "skill": {
       "name": "Pumpkin Barrage",
       "icon": "Icon_Skill_012",
-      "Description1": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;229%&lt;/span&gt;  light damage to enemies directly ahead.",
-      "Description2": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;254%&lt;/span&gt; light damage to enemies directly ahead.",
-      "Description3": "",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;229%&lt;/span&gt;  light damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;254%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "",
       "Sp": 7668,
       "SPLv2": 7668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 2.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": [
+        687.0
+      ],
+      "modifier2": [
+        762.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 55,
@@ -5580,15 +5942,21 @@ const weapon =
     "skill": {
       "name": "Dark Whirlwind",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;343%&lt;/span&gt; shadow damage to surrounding enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;381%&lt;/span&gt; shadow damage to surrounding enemies.",
-      "Description3": "Deals shadow damage to surrounding enemies.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;343%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;381%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description3": "Deals shadow damage to surrounding enemies.",
       "Sp": 7668,
       "SPLv2": 7668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        686.0
+      ],
+      "modifier2": [
+        762.0
+      ]
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -5659,15 +6027,17 @@ const weapon =
     "skill": {
       "name": "Shattering Whirlwind",
       "icon": "Icon_Skill_004",
-      "Description1": "Deals 2 hits of '''309%''' damage to surrounding enemies.",
-      "Description2": "Deals 2 hits of '''343%''' damage to surrounding enemies.",
-      "Description3": "Deals non-elemental damage to surrounding enemies.",
+      "description1": "Deals 2 hits of '''309%''' damage to surrounding enemies.",
+      "description2": "Deals 2 hits of '''343%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
       "Sp": 7668,
       "SPLv2": 7668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 11,
     "MaxHp": 39,
@@ -5689,15 +6059,17 @@ const weapon =
     "skill": {
       "name": "Spiralling Descent",
       "icon": "Icon_Skill_019",
-      "Description1": "Deals 1 hit of '''617%''' damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of '''685%''' damage to the target and nearby enemies.",
-      "Description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "description1": "Deals 1 hit of '''617%''' damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of '''685%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
       "Sp": 7054,
       "SPLv2": 7054,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 11,
     "MaxHp": 37,
@@ -5797,15 +6169,17 @@ const weapon =
     "skill": {
       "name": "Way of the Serpent",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
       "Sp": 5973,
       "SPLv2": 5973,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 29,
     "MaxHp": 99,
@@ -5892,15 +6266,21 @@ const weapon =
     "skill": {
       "name": "Abyssal Barrage",
       "icon": "Icon_Skill_012",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;151%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;168%&lt;/span&gt; water damage to enemies directly ahead.",
-      "Description3": "Deals water damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;151%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;168%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
       "Sp": 7282,
       "SPLv2": 7282,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 2.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": [
+        755.0
+      ],
+      "modifier2": [
+        840.0
+      ]
     },
     "MinHp": 28,
     "MaxHp": 94,
@@ -6060,15 +6440,21 @@ const weapon =
     "skill": {
       "name": "Tempest Barrage",
       "icon": "Icon_Skill_012",
-      "Description1": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;151%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;168%&lt;/span&gt; wind damage to enemies directly ahead.",
-      "Description3": "Deals wind damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;151%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;168%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
       "Sp": 7282,
       "SPLv2": 7282,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 2.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": [
+        755.0
+      ],
+      "modifier2": [
+        840.0
+      ]
     },
     "MinHp": 28,
     "MaxHp": 94,
@@ -6121,15 +6507,17 @@ const weapon =
     "skill": {
       "name": "Thunder's Focus",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
       "Sp": 5973,
       "SPLv2": 5973,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 29,
     "MaxHp": 99,
@@ -6182,15 +6570,17 @@ const weapon =
     "skill": {
       "name": "Hellish Focus",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
       "Sp": 5973,
       "SPLv2": 5973,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 29,
     "MaxHp": 99,
@@ -6261,15 +6651,17 @@ const weapon =
     "skill": {
       "name": "Sharp Focus",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''10%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''15%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''10%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
       "Sp": 5973,
       "SPLv2": 5973,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 22,
     "MaxHp": 76,
@@ -6291,15 +6683,17 @@ const weapon =
     "skill": {
       "name": "Ironsides's Barrage",
       "icon": "Icon_Skill_012",
-      "Description1": "Deals 5 hits of '''136%''' damage to enemies directly ahead.",
-      "Description2": "Deals 5 hits of '''151%''' damage to enemies directly ahead.",
-      "Description3": "Deals non-elemental damage to enemies directly ahead.",
+      "description1": "Deals 5 hits of '''136%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''151%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
       "Sp": 7282,
       "SPLv2": 7282,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 2.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 21,
     "MaxHp": 72,
@@ -6403,15 +6797,21 @@ const weapon =
     "skill": {
       "name": "Calamitous Descent",
       "icon": "Icon_Skill_019",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;415%&lt;/span&gt; flame damage to the target and nearby enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;461%&lt;/span&gt; flame damage to the target and nearby enemies.",
-      "Description3": "Deals flame damage to the target and enemies near it.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;415%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;461%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description3": "Deals flame damage to the target and enemies near it.",
       "Sp": 8111,
       "SPLv2": 8111,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        830.0
+      ],
+      "modifier2": [
+        922.0
+      ]
     },
     "MinHp": 43,
     "MaxHp": 145,
@@ -6467,15 +6867,17 @@ const weapon =
     "skill": {
       "name": "Ocean's Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores HP to surrounding teammates.",
+      "description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to surrounding teammates.",
       "Sp": 14410,
       "SPLv2": 14410,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 49,
     "MaxHp": 165,
@@ -6573,15 +6975,17 @@ const weapon =
     "skill": {
       "name": "Northern Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores HP to surrounding teammates.",
+      "description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to surrounding teammates.",
       "Sp": 14410,
       "SPLv2": 14410,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 49,
     "MaxHp": 165,
@@ -6603,15 +7007,21 @@ const weapon =
     "skill": {
       "name": "Thunder's Descent",
       "icon": "Icon_Skill_019",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;415%&lt;/span&gt; light damage to the target and nearby enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;461%&lt;/span&gt; light damage to the target and nearby enemies.",
-      "Description3": "Deals light-based damage to the target and enemies near it.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;415%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;461%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description3": "Deals light-based damage to the target and enemies near it.",
       "Sp": 8111,
       "SPLv2": 8111,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        830.0
+      ],
+      "modifier2": [
+        922.0
+      ]
     },
     "MinHp": 43,
     "MaxHp": 145,
@@ -6633,15 +7043,21 @@ const weapon =
     "skill": {
       "name": "Heaven's Mistletoe",
       "icon": "Icon_Skill_019",
-      "Description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;415%&lt;/span&gt; shadow damage to the target and nearby enemies.",
-      "Description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;461%&lt;/span&gt; shadow damage to the target and nearby enemies.",
-      "Description3": "Deals shadow damage to the target and enemies near it.",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;415%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;461%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description3": "Deals shadow damage to the target and enemies near it.",
       "Sp": 8111,
       "SPLv2": 8111,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        830.0
+      ],
+      "modifier2": [
+        922.0
+      ]
     },
     "MinHp": 43,
     "MaxHp": 145,
@@ -6681,15 +7097,17 @@ const weapon =
     "skill": {
       "name": "Explosive Descent",
       "icon": "Icon_Skill_019",
-      "Description1": "Deals 2 hits of '''373%''' damage to the target and nearby enemies.",
-      "Description2": "Deals 2 hits of '''415%''' damage to the target and nearby enemies.",
-      "Description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "description1": "Deals 2 hits of '''373%''' damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of '''415%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
       "Sp": 8111,
       "SPLv2": 8111,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 35,
     "MaxHp": 119,
@@ -6711,15 +7129,17 @@ const weapon =
     "skill": {
       "name": "Accursed Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores HP to surrounding teammates.",
+      "description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to surrounding teammates.",
       "Sp": 14410,
       "SPLv2": 14410,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 40,
     "MaxHp": 135,
@@ -6741,15 +7161,21 @@ const weapon =
     "skill": {
       "name": "Flare Volley",
       "icon": "Icon_Skill_017",
-      "Description1": "Deals 3 shots of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;235%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description2": "Deals 3 shots of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;261%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description3": "Deals flame damage to enemies in a line.",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;235%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;261%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
       "Sp": 7185,
       "SPLv2": 7185,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        705.0
+      ],
+      "modifier2": [
+        783.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -6802,15 +7228,17 @@ const weapon =
     "skill": {
       "name": "Tidal Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''25%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''30%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''15%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''15%''' for 30 seconds.",
       "Sp": 6151,
       "SPLv2": 6151,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 17,
     "MaxHp": 59,
@@ -6894,15 +7322,21 @@ const weapon =
     "skill": {
       "name": "Wind Volley",
       "icon": "Icon_Skill_017",
-      "Description1": "Deals 3 shots of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;235%&lt;/span&gt; wind damage to enemies in a line.",
-      "Description2": "Deals 3 shots of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;261%&lt;/span&gt; wind damage to enemies in a line.",
-      "Description3": "Deals wind damage to enemies in a line.",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;235%&lt;/span&gt; wind damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;261%&lt;/span&gt; wind damage to enemies in a line.",
+      "description3": "Deals wind damage to enemies in a line.",
       "Sp": 7185,
       "SPLv2": 7185,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        705.0
+      ],
+      "modifier2": [
+        783.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -6955,15 +7389,21 @@ const weapon =
     "skill": {
       "name": "Galvanic Volley",
       "icon": "Icon_Skill_017",
-      "Description1": "Deals 3 shots of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;235%&lt;/span&gt; light damage to enemies in a line.",
-      "Description2": "Deals 3 shots of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;261%&lt;/span&gt; light damage to enemies in a line.",
-      "Description3": "Deals light-based damage to enemies in a line.",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;235%&lt;/span&gt; light damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;261%&lt;/span&gt; light damage to enemies in a line.",
+      "description3": "Deals light-based damage to enemies in a line.",
       "Sp": 7185,
       "SPLv2": 7185,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        705.0
+      ],
+      "modifier2": [
+        783.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -7016,15 +7456,17 @@ const weapon =
     "skill": {
       "name": "Cimmerian Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''25%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''30%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''15%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''15%''' for 30 seconds.",
       "Sp": 6151,
       "SPLv2": 6151,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 17,
     "MaxHp": 59,
@@ -7095,15 +7537,17 @@ const weapon =
     "skill": {
       "name": "Mechanical Volley",
       "icon": "Icon_Skill_017",
-      "Description1": "Deals 3 shots of '''212%''' damage to enemies in a line.",
-      "Description2": "Deals 3 shots of '''235%''' damage to enemies in a line.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 3 shots of '''212%''' damage to enemies in a line.",
+      "description2": "Deals 3 shots of '''235%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 7185,
       "SPLv2": 7185,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 10,
     "MaxHp": 35,
@@ -7125,15 +7569,17 @@ const weapon =
     "skill": {
       "name": "Hunter's Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''20%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''25%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''15%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''20%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''15%''' for 30 seconds.",
       "Sp": 6151,
       "SPLv2": 6151,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 11,
     "MaxHp": 37,
@@ -7233,15 +7679,21 @@ const weapon =
     "skill": {
       "name": "Infernal Smash",
       "icon": "Icon_Skill_028",
-      "Description1": "Deals 1 shot of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;777%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description2": "Deals 1 shot of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;863%&lt;/span&gt; flame damage to enemies in a line.",
-      "Description3": "Deals flame damage to enemies in a line.",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;777%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;863%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
       "Sp": 7673,
       "SPLv2": 7673,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        777.0
+      ],
+      "modifier2": [
+        863.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -7328,15 +7780,21 @@ const weapon =
     "skill": {
       "name": "Frost Smash",
       "icon": "Icon_Skill_028",
-      "Description1": "Deals 1 shot of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;777%&lt;/span&gt; water damage to enemies in a line.",
-      "Description2": "Deals 1 shot of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;863%&lt;/span&gt; water damage to enemies in a line.",
-      "Description3": "Deals water damage to enemies in a line.",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;777%&lt;/span&gt; water damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;863%&lt;/span&gt; water damage to enemies in a line.",
+      "description3": "Deals water damage to enemies in a line.",
       "Sp": 7673,
       "SPLv2": 7673,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        777.0
+      ],
+      "modifier2": [
+        863.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -7420,15 +7878,21 @@ const weapon =
     "skill": {
       "name": "Gale Smash",
       "icon": "Icon_Skill_028",
-      "Description1": "Deals 1 shot of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;777%&lt;/span&gt; wind damage to enemies in a line.",
-      "Description2": "Deals 1 shot of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;863%&lt;/span&gt; wind damage to enemies in a line.",
-      "Description3": "Deals wind damage to enemies in a line.",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;777%&lt;/span&gt; wind damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;863%&lt;/span&gt; wind damage to enemies in a line.",
+      "description3": "Deals wind damage to enemies in a line.",
       "Sp": 7673,
       "SPLv2": 7673,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        777.0
+      ],
+      "modifier2": [
+        863.0
+      ]
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -7481,15 +7945,17 @@ const weapon =
     "skill": {
       "name": "Holy Energy",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
-      "Description2": "Increases max HP by '''20%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
-      "Description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description1": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description2": "Increases max HP by '''20%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
       "Sp": 11213,
       "SPLv2": 11213,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 30,
     "MaxHp": 103,
@@ -7542,15 +8008,17 @@ const weapon =
     "skill": {
       "name": "Macabre Energy",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
-      "Description2": "Increases max HP by '''20%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
-      "Description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description1": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description2": "Increases max HP by '''20%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
       "Sp": 11213,
       "SPLv2": 11213,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 30,
     "MaxHp": 103,
@@ -7621,15 +8089,17 @@ const weapon =
     "skill": {
       "name": "Faerie Smash",
       "icon": "Icon_Skill_028",
-      "Description1": "Deals 1 shot of '''699%''' damage to enemies in a line.",
-      "Description2": "Deals 1 shot of '''777%''' damage to enemies in a line.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 1 shot of '''699%''' damage to enemies in a line.",
+      "description2": "Deals 1 shot of '''777%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 7673,
       "SPLv2": 7673,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 21,
     "MaxHp": 70,
@@ -7651,15 +8121,17 @@ const weapon =
     "skill": {
       "name": "Duskhawk's Energy",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases max HP by '''10%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
-      "Description2": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
-      "Description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description1": "Increases max HP by '''10%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description2": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
       "Sp": 11213,
       "SPLv2": 11213,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 23,
     "MaxHp": 79,
@@ -7707,15 +8179,17 @@ const weapon =
     "skill": {
       "name": "Lupine Vision",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -7771,15 +8245,17 @@ const weapon =
     "skill": {
       "name": "Peacock Shot",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -7801,15 +8277,17 @@ const weapon =
     "skill": {
       "name": "Pegasus Shot",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -7831,15 +8309,21 @@ const weapon =
     "skill": {
       "name": "Divine Thunder",
       "icon": "Icon_Skill_028",
-      "Description1": "Deals 1 shot of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;854%&lt;/span&gt; light damage to enemies in a line.",
-      "Description2": "Deals 1 shot of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;949%&lt;/span&gt; light damage to enemies in a line.",
-      "Description3": "Deals light-based damage to enemies in a line.",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;854%&lt;/span&gt; light damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;949%&lt;/span&gt; light damage to enemies in a line.",
+      "description3": "Deals light-based damage to enemies in a line.",
       "Sp": 8075,
       "SPLv2": 8075,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        854.0
+      ],
+      "modifier2": [
+        949.0
+      ]
     },
     "MinHp": 42,
     "MaxHp": 140,
@@ -7861,15 +8345,21 @@ const weapon =
     "skill": {
       "name": "Necro Volley",
       "icon": "Icon_Skill_017",
-      "Description1": "Deals 3 shots of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;284%&lt;/span&gt; shadow damage to enemies in a line.",
-      "Description2": "Deals 3 shots of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;316%&lt;/span&gt; shadow damage to enemies in a line.",
-      "Description3": "Deals shadow damage to enemies in a line.",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;284%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;316%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description3": "Deals shadow damage to enemies in a line.",
       "Sp": 7501,
       "SPLv2": 7501,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        852.0
+      ],
+      "modifier2": [
+        948.0
+      ]
     },
     "MinHp": 42,
     "MaxHp": 140,
@@ -7909,15 +8399,17 @@ const weapon =
     "skill": {
       "name": "Midair Buster",
       "icon": "Icon_Skill_028",
-      "Description1": "Deals 1 shot of '''769%''' damage to enemies in a line.",
-      "Description2": "Deals 1 shot of '''854%''' damage to enemies in a line.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 1 shot of '''769%''' damage to enemies in a line.",
+      "description2": "Deals 1 shot of '''854%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 8075,
       "SPLv2": 8075,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 34,
     "MaxHp": 115,
@@ -7939,15 +8431,17 @@ const weapon =
     "skill": {
       "name": "Star Volley",
       "icon": "Icon_Skill_017",
-      "Description1": "Deals 3 shots of '''256%''' damage to enemies in a line.",
-      "Description2": "Deals 3 shots of '''284%''' damage to enemies in a line.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 3 shots of '''256%''' damage to enemies in a line.",
+      "description2": "Deals 3 shots of '''284%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 7501,
       "SPLv2": 7501,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 34,
     "MaxHp": 115,
@@ -7969,15 +8463,17 @@ const weapon =
     "skill": {
       "name": "Chimera's Boost",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
-      "Description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
-      "Description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 36,
     "MaxHp": 121,
@@ -7999,15 +8495,21 @@ const weapon =
     "skill": {
       "name": "Sunrise Blast",
       "icon": "Icon_Skill_020",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;806%&lt;/span&gt; flame damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;895%&lt;/span&gt; flame damage to the target and nearby enemies.",
-      "Description3": "Deals flame damage to the target and enemies near it.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;806%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;895%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description3": "Deals flame damage to the target and enemies near it.",
       "Sp": 8355,
       "SPLv2": 8355,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -8060,15 +8562,21 @@ const weapon =
     "skill": {
       "name": "Ocean Blast",
       "icon": "Icon_Skill_020",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;806%&lt;/span&gt; water damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;895%&lt;/span&gt; water damage to the target and nearby enemies.",
-      "Description3": "Deals water damage to the target and enemies near it.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;806%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;895%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description3": "Deals water damage to the target and enemies near it.",
       "Sp": 8355,
       "SPLv2": 8355,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -8121,15 +8629,21 @@ const weapon =
     "skill": {
       "name": "Storm Discharge",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;806%&lt;/span&gt; wind damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;895%&lt;/span&gt; wind damage to surrounding enemies.",
-      "Description3": "Deals wind damage to enemies in a line.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;806%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;895%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description3": "Deals wind damage to enemies in a line.",
       "Sp": 8062,
       "SPLv2": 8062,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 54,
@@ -8182,15 +8696,21 @@ const weapon =
     "skill": {
       "name": "Electrical Discharge",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;806%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;806%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description3": "Deals light-based damage to enemies in a line.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;806%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;806%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to enemies in a line.",
       "Sp": 8062,
       "SPLv2": 8062,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        806.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 54,
@@ -8212,15 +8732,21 @@ const weapon =
     "skill": {
       "name": "Dark Discharge",
       "icon": "Icon_Skill_020",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;806%&lt;/span&gt; shadow damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;895%&lt;/span&gt; shadow damage to the target and nearby enemies.",
-      "Description3": "Deals shadow damage to the target and enemies near it.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;806%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;895%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description3": "Deals shadow damage to the target and enemies near it.",
       "Sp": 8355,
       "SPLv2": 8355,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -8291,15 +8817,17 @@ const weapon =
     "skill": {
       "name": "Sorcerer's Blast",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of '''725%''' damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of '''806%''' damage to surrounding enemies.",
-      "Description3": "Deals non-elemental damage to enemies in a line.",
+      "description1": "Deals 1 hit of '''725%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''806%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
       "Sp": 8062,
       "SPLv2": 8062,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 10,
     "MaxHp": 34,
@@ -8321,15 +8849,17 @@ const weapon =
     "skill": {
       "name": "Conchoidal Blast",
       "icon": "Icon_Skill_020",
-      "Description1": "Deals 1 hit of '''725%''' damage to the target and nearby enemies.",
-      "Description2": "Deals 1 hit of '''806%''' damage to the target and nearby enemies.",
-      "Description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "description1": "Deals 1 hit of '''725%''' damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of '''806%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
       "Sp": 8355,
       "SPLv2": 8355,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 10,
     "MaxHp": 36,
@@ -8403,15 +8933,21 @@ const weapon =
     "skill": {
       "name": "Firefiend's Discharge",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;886%&lt;/span&gt; flame damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;984%&lt;/span&gt; flame damage to surrounding enemies.",
-      "Description3": "Deals flame damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;886%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;984%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description3": "Deals flame damage to surrounding enemies.",
       "Sp": 8453,
       "SPLv2": 8453,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        886.0
+      ],
+      "modifier2": [
+        984.0
+      ]
     },
     "MinHp": 26,
     "MaxHp": 87,
@@ -8498,15 +9034,17 @@ const weapon =
     "skill": {
       "name": "Lachrymal Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''30%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 28,
     "MaxHp": 96,
@@ -8597,15 +9135,21 @@ const weapon =
     "skill": {
       "name": "Tempestuous Discharge",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;886%&lt;/span&gt; wind damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;984%&lt;/span&gt; wind damage to surrounding enemies.",
-      "Description3": "Deals wind damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;886%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;984%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description3": "Deals wind damage to surrounding enemies.",
       "Sp": 8453,
       "SPLv2": 8453,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        886.0
+      ],
+      "modifier2": [
+        984.0
+      ]
     },
     "MinHp": 26,
     "MaxHp": 87,
@@ -8658,15 +9202,17 @@ const weapon =
     "skill": {
       "name": "Conductive Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''30%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 28,
     "MaxHp": 96,
@@ -8688,15 +9234,21 @@ const weapon =
     "skill": {
       "name": "Accursed Discharge",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;886%&lt;/span&gt; shadow damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;984%&lt;/span&gt; shadow damage to surrounding enemies.",
-      "Description3": "Deals shadow damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;886%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;984%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description3": "Deals shadow damage to surrounding enemies.",
       "Sp": 8453,
       "SPLv2": 8453,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        886.0
+      ],
+      "modifier2": [
+        984.0
+      ]
     },
     "MinHp": 26,
     "MaxHp": 87,
@@ -8767,15 +9319,17 @@ const weapon =
     "skill": {
       "name": "Alchemic Discharge",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of '''797%''' damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of '''886%''' damage to surrounding enemies.",
-      "Description3": "Deals non-elemental damage to surrounding enemies.",
+      "description1": "Deals 1 hit of '''797%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''886%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
       "Sp": 8453,
       "SPLv2": 8453,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 20,
     "MaxHp": 67,
@@ -8797,15 +9351,17 @@ const weapon =
     "skill": {
       "name": "Moonlight's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
       "Sp": 7316,
       "SPLv2": 7316,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 22,
     "MaxHp": 74,
@@ -8879,15 +9435,17 @@ const weapon =
     "skill": {
       "name": "Grand Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 12668,
       "SPLv2": 12668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 45,
     "MaxHp": 152,
@@ -8943,15 +9501,21 @@ const weapon =
     "skill": {
       "name": "Monarch's Blast",
       "icon": "Icon_Skill_020",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;244%&lt;/span&gt; water damage to the target and nearby enemies.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;271%&lt;/span&gt; water damage to the target and nearby enemies.",
-      "Description3": "Deals water damage to the target and enemies near it.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;244%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;271%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description3": "Deals water damage to the target and enemies near it.",
       "Sp": 8757,
       "SPLv2": 8757,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        976.0
+      ],
+      "modifier2": [
+        1084.0
+      ]
     },
     "MinHp": 40,
     "MaxHp": 134,
@@ -9011,15 +9575,17 @@ const weapon =
     "skill": {
       "name": "Phytalmios's Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 12668,
       "SPLv2": 12668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 45,
     "MaxHp": 152,
@@ -9041,15 +9607,21 @@ const weapon =
     "skill": {
       "name": "Twilight Blast",
       "icon": "Icon_Skill_020",
-      "Description1": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;244%&lt;/span&gt; light damage to the target and nearby enemies.",
-      "Description2": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;271%&lt;/span&gt; light damage to the target and nearby enemies.",
-      "Description3": "Deals light-based damage to the target and enemies near it.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;244%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;271%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description3": "Deals light-based damage to the target and enemies near it.",
       "Sp": 8757,
       "SPLv2": 8757,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        976.0
+      ],
+      "modifier2": [
+        1084.0
+      ]
     },
     "MinHp": 40,
     "MaxHp": 134,
@@ -9071,15 +9643,17 @@ const weapon =
     "skill": {
       "name": "Persephone's Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 12668,
       "SPLv2": 12668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 45,
     "MaxHp": 152,
@@ -9119,15 +9693,17 @@ const weapon =
     "skill": {
       "name": "Welkin Blast",
       "icon": "Icon_Skill_020",
-      "Description1": "Deals 4 hits of '''220%''' damage to the target and nearby enemies.",
-      "Description2": "Deals 4 hits of '''244%''' damage to the target and nearby enemies.",
-      "Description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "description1": "Deals 4 hits of '''220%''' damage to the target and nearby enemies.",
+      "description2": "Deals 4 hits of '''244%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
       "Sp": 8757,
       "SPLv2": 8757,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 33,
     "MaxHp": 110,
@@ -9149,15 +9725,17 @@ const weapon =
     "skill": {
       "name": "Chaotic Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores the user's HP.",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
       "Sp": 12668,
       "SPLv2": 12668,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 37,
     "MaxHp": 125,
@@ -9179,15 +9757,21 @@ const weapon =
     "skill": {
       "name": "Flame Circle",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;562%&lt;/span&gt; flame damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;624%&lt;/span&gt; flame damage to surrounding enemies.",
-      "Description3": "Deals flame damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;562%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;624%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description3": "Deals flame damage to surrounding enemies.",
       "Sp": 13822,
       "SPLv2": 13822,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        562.0
+      ],
+      "modifier2": [
+        624.0
+      ]
     },
     "MinHp": 19,
     "MaxHp": 66,
@@ -9244,15 +9828,21 @@ const weapon =
     "skill": {
       "name": "Tidal Circle",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;562%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;624%&lt;/span&gt; water damage to surrounding enemies.",
-      "Description3": "Deals water damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;562%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;624%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
       "Sp": 13822,
       "SPLv2": 13822,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        562.0
+      ],
+      "modifier2": [
+        624.0
+      ]
     },
     "MinHp": 19,
     "MaxHp": 66,
@@ -9309,15 +9899,17 @@ const weapon =
     "skill": {
       "name": "Wind's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
       "Sp": 14632,
       "SPLv2": 14632,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 20,
     "MaxHp": 69,
@@ -9339,15 +9931,17 @@ const weapon =
     "skill": {
       "name": "Astro Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
       "Sp": 14632,
       "SPLv2": 14632,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 20,
     "MaxHp": 69,
@@ -9369,15 +9963,17 @@ const weapon =
     "skill": {
       "name": "Vampire's Treat",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 17,
     "MaxHp": 59,
@@ -9434,15 +10030,17 @@ const weapon =
     "skill": {
       "name": "Meggidoth's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''25%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
       "Sp": 14632,
       "SPLv2": 14632,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 20,
     "MaxHp": 69,
@@ -9482,15 +10080,17 @@ const weapon =
     "skill": {
       "name": "Ankh's Protection",
       "icon": "Icon_Skill_031",
-      "Description1": "Increases the user's defense by '''15%''' for 10 seconds.",
-      "Description2": "Increases the user's defense by '''20%''' for 10 seconds.",
-      "Description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "description1": "Increases the user's defense by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
       "Sp": 14632,
       "SPLv2": 14632,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 13,
     "MaxHp": 44,
@@ -9512,15 +10112,17 @@ const weapon =
     "skill": {
       "name": "Horned Circle",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of '''506%''' damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of '''562%''' damage to surrounding enemies.",
-      "Description3": "Deals non-elemental damage to surrounding enemies.",
+      "description1": "Deals 1 hit of '''506%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''562%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
       "Sp": 13822,
       "SPLv2": 13822,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 12,
     "MaxHp": 42,
@@ -9572,15 +10174,17 @@ const weapon =
     "skill": {
       "name": "Ark Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores HP to the team member most in need.",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to the team member most in need.",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 34,
     "MaxHp": 115,
@@ -9671,15 +10275,17 @@ const weapon =
     "skill": {
       "name": "Marine Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores HP to the team member most in need.",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to the team member most in need.",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 34,
     "MaxHp": 115,
@@ -9774,15 +10380,17 @@ const weapon =
     "skill": {
       "name": "Windeater's Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''30%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''35%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
       "Sp": 6645,
       "SPLv2": 6645,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 32,
     "MaxHp": 107,
@@ -9838,15 +10446,17 @@ const weapon =
     "skill": {
       "name": "Tonitrus's Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''30%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''35%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
       "Sp": 6645,
       "SPLv2": 6645,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 32,
     "MaxHp": 107,
@@ -9937,15 +10547,17 @@ const weapon =
     "skill": {
       "name": "Force of Insanity",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''30%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''35%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
       "Sp": 6645,
       "SPLv2": 6645,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 32,
     "MaxHp": 107,
@@ -9985,15 +10597,17 @@ const weapon =
     "skill": {
       "name": "Fortuitous Strength",
       "icon": "Icon_Skill_030",
-      "Description1": "Increases the user's strength by '''25%''' for 5 seconds.",
-      "Description2": "Increases the user's strength by '''30%''' for 5 seconds.",
-      "Description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "description1": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
       "Sp": 6645,
       "SPLv2": 6645,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 24,
     "MaxHp": 82,
@@ -10015,15 +10629,17 @@ const weapon =
     "skill": {
       "name": "Beautiful Healing",
       "icon": "Icon_Skill_029",
-      "Description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
-      "Description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
-      "Description3": "Restores HP to the team member most in need.",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to the team member most in need.",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 26,
     "MaxHp": 89,
@@ -10101,15 +10717,17 @@ const weapon =
     "skill": {
       "name": "Red Emperor's Spirit",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
-      "Description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
-      "Description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
+      "description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
+      "description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 53,
     "MaxHp": 178,
@@ -10165,15 +10783,17 @@ const weapon =
     "skill": {
       "name": "Bracing Spirit",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
-      "Description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
-      "Description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
+      "description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
+      "description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 53,
     "MaxHp": 178,
@@ -10233,15 +10853,17 @@ const weapon =
     "skill": {
       "name": "Ancient Mage's Spirit",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
-      "Description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
-      "Description3": "Deals wind damage to surrounding enemies.",
+      "description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
+      "description3": "Deals wind damage to surrounding enemies.",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 53,
     "MaxHp": 178,
@@ -10297,15 +10919,21 @@ const weapon =
     "skill": {
       "name": "Judgment Circle",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;680%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;755%&lt;/span&gt; light damage to surrounding enemies.",
-      "Description3": "Deals light-based damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;680%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;755%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to surrounding enemies.",
       "Sp": 15205,
       "SPLv2": 15205,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        680.0
+      ],
+      "modifier2": [
+        755.0
+      ]
     },
     "MinHp": 49,
     "MaxHp": 165,
@@ -10361,15 +10989,21 @@ const weapon =
     "skill": {
       "name": "Herald's Circle",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;680%&lt;/span&gt; shadow damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;755%&lt;/span&gt; shadow damage to surrounding enemies.",
-      "Description3": "Deals shadow damage to surrounding enemies.",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;680%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;755%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description3": "Deals shadow damage to surrounding enemies.",
       "Sp": 15205,
       "SPLv2": 15205,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        680.0
+      ],
+      "modifier2": [
+        755.0
+      ]
     },
     "MinHp": 49,
     "MaxHp": 165,
@@ -10409,15 +11043,17 @@ const weapon =
     "skill": {
       "name": "Rainbow Spirit",
       "icon": "Icon_Skill_032",
-      "Description1": "Increases the potency of the user's recovery skills by '''10%''' for 5 seconds.",
-      "Description2": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
-      "Description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
+      "description1": "Increases the potency of the user's recovery skills by '''10%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
       "Sp": 17748,
       "SPLv2": 17748,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 43,
     "MaxHp": 146,
@@ -10439,15 +11075,17 @@ const weapon =
     "skill": {
       "name": "Ethereal Circle",
       "icon": "Icon_Skill_018",
-      "Description1": "Deals 1 hit of '''612%''' damage to surrounding enemies.",
-      "Description2": "Deals 1 hit of '''680%''' damage to surrounding enemies.",
-      "Description3": "Deals non-elemental damage to surrounding enemies.",
+      "description1": "Deals 1 hit of '''612%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''680%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
       "Sp": 15205,
       "SPLv2": 15205,
       "SpRegen": 0,
-      "HideLevel3": false,
-      "IsAffectedByTension": false,
-      "iframe": 1.0
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
     },
     "MinHp": 40,
     "MaxHp": 135,
