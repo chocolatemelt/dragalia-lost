@@ -5,7 +5,7 @@ FILE_NAME = 'dragon'
 def set_dragon():
     table = 'Dragons'
     fields = 'BaseId,Name,NameJP,Rarity,ElementalType,' + \
-        'MinHp,MaxHp,MinAtk,MaxAtk,' + \
+        'MinHp,MaxHp,MinAtk,MaxAtk,SkillName,' + \
         'Abilities11,Abilities12,Abilities21,Abilities22,' + \
         'IsPlayable'
     group = 'BaseId'
@@ -13,6 +13,8 @@ def set_dragon():
     parse_int = ['MinHp', 'MaxHp', 'MinAtk', 'MaxAtk']
 
     raw_data = main.get_data(table, fields, group)
+    abilities = main.set_abilities()
+    skills = main.set_skills()
 
     names = main.load_name(FILE_NAME)
     o_len = len(names)
@@ -32,6 +34,7 @@ def set_dragon():
                 'name': name,
                 'element': item['ElementalType'],
                 'rarity': item['Rarity'],
+                'skill': skills.get(item['SkillName'])
             }
 
             for k in parse_int:
@@ -42,9 +45,10 @@ def set_dragon():
             res_V = {}
 
             for a in ['Abilities11', 'Abilities12', 'Abilities21', 'Abilities22']:
-                ability = abilities.get(item[a], '')
+                ability = abilities.get(item[a])
                 if ability:
-                    new_item[a.lower()] = ability['Might']
+                    # new_item[a.lower()] = ability['Might']
+                    new_item[a.lower()] = ability
                     level = a[-1]
                     if 'HP' in ability:
                         HP_V['incHP' + level] = ability['HP']
@@ -77,5 +81,5 @@ def set_dragon():
 
 
 if __name__ == '__main__':
-    abilities = main.set_abilities()
+    print(__file__)
     set_dragon()

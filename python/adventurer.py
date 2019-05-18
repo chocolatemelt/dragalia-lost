@@ -25,7 +25,7 @@ def set_adventurer():
     fields = 'Id,VariationId,Name,NameJP,WeaponType,Rarity,ElementalType,' + \
         'MinHp3,MinHp4,MinHp5,MaxHp,PlusHp0,PlusHp1,PlusHp2,PlusHp3,PlusHp4,McFullBonusHp5,' + \
         'MinAtk3,MinAtk4,MinAtk5,MaxAtk,PlusAtk0,PlusAtk1,PlusAtk2,PlusAtk3,PlusAtk4,McFullBonusAtk5,' + \
-        'Abilities11,Abilities12,Abilities21,Abilities22,Abilities31,Abilities32,' + \
+        'Skill1Name,Skill2Name,Abilities11,Abilities12,Abilities21,Abilities22,Abilities31,Abilities32,' + \
         'DefCoef,IsPlayable'
     group = 'Id,VariationId'
     parse_int = [
@@ -35,6 +35,9 @@ def set_adventurer():
     ]
 
     raw_data = main.get_data(table, fields, group)
+
+    abilities = main.set_abilities()
+    skills = main.set_skills()
 
     names = main.load_name(FILE_NAME)
     o_len = len(names)
@@ -54,7 +57,7 @@ def set_adventurer():
                 'name': name,
                 'weapon': weapon,
                 'element': item['ElementalType'],
-                'rarity': rarity,
+                'rarity': rarity
             }
 
             for k in parse_int:
@@ -62,10 +65,12 @@ def set_adventurer():
 
             inc_LV = {}
             inc_Value = {}
+
             for a in ['Abilities11', 'Abilities12', 'Abilities21', 'Abilities22', 'Abilities31', 'Abilities32']:
-                ability = abilities.get(item[a], '')
+                ability = abilities.get(item[a])
                 if ability:
-                    new_item[a.lower()] = ability['Might']
+                    # new_item[a.lower()] = ability['Might']
+                    new_item[a.lower()] = ability
 
                     level = a[-1]
 
@@ -78,6 +83,11 @@ def set_adventurer():
                         inc_LV['defLV'+level] = ABILITY_LEVEL.get(
                             rarity, ABILITY_LEVEL['res'])[a]
                         inc_Value['incDef' + level] = ability['def']
+
+            for s in ['Skill1Name', 'Skill2Name']:
+                skill = skills.get(item[s], {})
+                if skill:
+                    new_item[s[0:6].lower()] = skill
 
             new_item.update(inc_LV)
             new_item.update(inc_Value)
@@ -96,5 +106,4 @@ def set_adventurer():
 
 if __name__ == '__main__':
     print(__file__)
-    abilities = main.set_abilities()
     set_adventurer()

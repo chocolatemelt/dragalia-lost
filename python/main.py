@@ -48,7 +48,7 @@ def regex(details):
 
 def regex_HP_STR_Def_DragonRes(details=''):
     r = re.search(
-        r'(Flame|Water|Wind|Light|Shadow)?:?\s*' +
+        r'([a-zA-Z0-9]+)?:?\s*' +
         r'increases (strength|HP|defense|strength and HP) by (?:\'\'\')?(\d+)%(?:\'\'\')?' +
         r'(?:\.' +
         r'| and adds \'\'\'(\d+)%\'\'\' to (Flame|Water|Wind|Light|Shadow) resistance' +
@@ -56,9 +56,9 @@ def regex_HP_STR_Def_DragonRes(details=''):
     )
 
     if r:
-        element, field, v, res, resEle = r.groups()
+        req, field, v, res, resEle = r.groups()
         result = {}
-        result['reqEle'] = element or ''
+        result['req'] = req or ''
         result[ABBR_FIELDS[field]] = int(v)
 
         if resEle:
@@ -108,9 +108,9 @@ def regexRes(details=''):
     return {}
 
 
-def set_abilities():
-    table = 'Abilities'
-    fields = 'Id,Name,Details,PartyPowerWeight'
+def set_abilitylimitedgroup():
+    table = 'AbilityLimitedGroup'
+    fields = 'Id,IsEffectMix,MaxLimitedValue'
     group = 'Id'
 
     raw_data = get_data(table, fields, group)
@@ -118,12 +118,34 @@ def set_abilities():
     results = {}
     for i in raw_data:
         item = i['title']
+        new_item = {
+            'IsEffectMix': not bool(item['IsEffectMix']),
+            'MaxLimitedValue': int(item['MaxLimitedValue']) or 0
+        }
+        results[item['Id']] = new_item
+
+    return results
+
+
+def set_abilities():
+    table = 'Abilities'
+    fields = 'Id,Name,Details,PartyPowerWeight,AbilityLimitedGroupId1'
+    group = 'Id'
+
+    raw_data = get_data(table, fields, group)
+    ability_limit = set_abilitylimitedgroup()
+
+    results = {}
+    for i in raw_data:
+        item = i['title']
         details = item['Details']
 
         new_item = {
-            'Name': item['Name'],
-            'Details': details,
-            'Might': int(item['PartyPowerWeight']) or 0
+            'name': item['Name'],
+            'details': details,
+            'might': int(item['PartyPowerWeight']) or 0,
+            'limit': ability_limit[item['AbilityLimitedGroupId1']]
+            if item['AbilityLimitedGroupId1'] in ability_limit.keys() else {}
         }
 
         updates = regex(details)
@@ -136,9 +158,47 @@ def set_abilities():
     return results
 
 
+def set_skills():
+    table = 'Skills'
+    fields = 'Name,SkillLv1IconName,Description1,Description2,Description3,' \
+             'HideLevel3,Sp,SPLv2,SpRegen,IsAffectedByTension,IframeDuration'
+    group = 'Name'
+
+    parse_int = ['Sp', 'SPLv2', 'SpRegen']
+    parse_bool = ['HideLevel3', 'IsAffectedByTension']
+
+    raw_data = get_data(table, fields, group)
+
+    result = {}
+
+    for i in raw_data:
+        item = i['title']
+        if item['Name']:
+            pk = item['Name']
+
+            new_item = {
+                'name': item['Name'],
+                'icon': item['SkillLv1IconName'],
+                'Description1': item['Description1'],
+                'Description2': item['Description2'],
+                'Description3': item['Description3'],
+            }
+
+            for k in parse_int:
+                new_item[k] = int(item[k]) if item[k] != '' else 0
+
+            for k in parse_bool:
+                new_item[k] = not bool(item[k])
+
+            new_item['iframe'] = float(item['IframeDuration'][0:2])
+
+            result[pk] = new_item
+    return result
+
+
 def load_name(file):
     path = Path(__file__).resolve().parent / 'locales/{}.json'.format(file)
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         data = json.load(f)
 
     return data
@@ -193,7 +253,7 @@ def save_file(f_type, file, data):
         path = Path(__file__).resolve().parent.parent / \
             'src/locales/{}.js'.format(file)
 
-    with open(path, 'w') as f:
+    with open(path, 'w', encoding='utf-8') as f:
         if f_type != 'locales':
             f.write('const {} =\n '.format(file))
         json.dump(data, f, sort_keys=f_type == 'locales',

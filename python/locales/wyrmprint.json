@@ -1,4 +1,29 @@
 {
+  "400001": {
+    "en": "Ring of Exaltation",
+    "ja": "勇躍の指輪",
+    "zh": ""
+  },
+  "400002": {
+    "en": "Seafood Soup",
+    "ja": "シーフードスープ",
+    "zh": ""
+  },
+  "400003": {
+    "en": "Dragon Arcanum",
+    "ja": "ドラゴンの秘薬",
+    "zh": ""
+  },
+  "400004": {
+    "en": "Mana Fount",
+    "ja": "マナスポット",
+    "zh": ""
+  },
+  "400005": {
+    "en": "Old Harp",
+    "ja": "古びたハープ",
+    "zh": ""
+  },
   "400006": {
     "en": "Scorn the Destrier",
     "ja": "名馬スカービット",

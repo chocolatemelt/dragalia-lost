@@ -13,6 +13,7 @@ def set_wyrmprint():
     parse_int = ['MinHp', 'MaxHp', 'MinAtk', 'MaxAtk']
 
     raw_data = main.get_data(table, fields, group)
+    abilities = main.set_abilities()
 
     names = main.load_name(FILE_NAME)
     o_len = len(names)
@@ -24,7 +25,7 @@ def set_wyrmprint():
     for i in raw_data:
         item = i['title']
         rarity = int(item['Rarity'])
-        if item['BaseId'] and item['IsPlayable'] == '1' and rarity >= 3:
+        if item['BaseId'] and item['IsPlayable'] == '1':
             uid = '{}'.format(item['BaseId'])
             name = main.set_name(names, item, data_new)
 
@@ -41,9 +42,10 @@ def set_wyrmprint():
             for a in ['Abilities11', 'Abilities12', 'Abilities13',
                       'Abilities21', 'Abilities22', 'Abilities23',
                       'Abilities31', 'Abilities32', 'Abilities33']:
-                ability = abilities.get(item[a], '')
+                ability = abilities.get(item[a])
                 if ability:
-                    new_item[a.lower()] = ability['Might']
+                    # new_item[a.lower()] = ability['Might']
+                    new_item[a.lower()] = ability
 
                     level = a[-1]
 
@@ -79,5 +81,5 @@ def set_wyrmprint():
 
 
 if __name__ == '__main__':
-    abilities = main.set_abilities()
+    print(__file__)
     set_wyrmprint()
