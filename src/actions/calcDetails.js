@@ -378,6 +378,14 @@ const getMight = (statsKey, item) => {
   }
 };
 
+const getAbilityMight = (ability) => {
+  if (ability == 0){
+    return 0;
+  }
+  const { name, details, might, limit } = ability;
+  return might;
+}
+
 const getAdventurerMight = adventurer => {
   const { mana, ex, rarity } = adventurer;
 
@@ -391,7 +399,7 @@ const getAdventurerMight = adventurer => {
 
   const abilityMight = abilitySet.reduce((acc, k) => {
     if (adventurer[k]) {
-      return acc + adventurer[k];
+      return acc + getAbilityMight(adventurer[k]);
     }
 
     return acc;
@@ -407,7 +415,7 @@ const getWeaponMight = weapon => {
   // unbind === 4, skill LV2, else skill LV1
   let skillMight = 0;
   if (weapon.skill) skillMight = weapon.unbind === '4' ? mightDict.itemSkill['4'] : mightDict.itemSkill['0'];
-  return weapon.abilities11 + weapon.abilities21 + skillMight;
+  return getAbilityMight(weapon.abilities11) + getAbilityMight(weapon.abilities21) + skillMight;
 };
 
 const getWyrmprintMight = wyrmprint => {
@@ -425,18 +433,18 @@ const getWyrmprintMight = wyrmprint => {
   } = wyrmprint;
 
   if (unbind === '4') {
-    return abilities13 + abilities23 + abilities33;
+    return getAbilityMight(abilities13) + getAbilityMight(abilities23) + getAbilityMight(abilities33);
   } else if (wyrmprint.unbind * 1 >= 2) {
-    return abilities12 + abilities22 + abilities32;
+    return getAbilityMight(abilities12) + getAbilityMight(abilities22) + getAbilityMight(abilities32);
+  } else {
+    return getAbilityMight(abilities11) + getAbilityMight(abilities21) + getAbilityMight(abilities31);
   }
-
-  return abilities11 + abilities21 + abilities31;
 };
 
 const getDragonMight = dragon => {
   const bondBonus = dragon.bond * 10;
   if (dragon.unbind * 1 === 4) {
-    return dragon.abilities12 + dragon.abilities22 + bondBonus + mightDict.itemSkill['4'];
+    return getAbilityMight(dragon.abilities12) + getAbilityMight(dragon.abilities22) + bondBonus + mightDict.itemSkill['4'];
   }
-  return dragon.abilities11 + dragon.abilities21 + bondBonus + mightDict.itemSkill['0'];
+  return getAbilityMight(dragon.abilities11) + getAbilityMight(dragon.abilities21) + bondBonus + mightDict.itemSkill['0'];
 };

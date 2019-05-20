@@ -72,14 +72,14 @@ class StatsList extends React.Component {
             if (
               item1.MaxAtk +
                 item1.MaxHp +
-                item1.abilities12 +
-                item1.abilities22 +
-                item1.abilities32 >
+                item1.abilities12.might +
+                item1.abilities22.might +
+                item1.abilities32.might >
               item2.MaxAtk +
                 item2.MaxHp +
-                item2.abilities12 +
-                item2.abilities22 +
-                item2.abilities32
+                item2.abilities12.might +
+                item2.abilities22.might +
+                item2.abilities32.might
             ) {
               return -1;
             }
@@ -87,14 +87,14 @@ class StatsList extends React.Component {
             if (
               item1.MaxAtk +
                 item1.MaxHp +
-                item1.abilities12 +
-                item1.abilities22 +
-                item1.abilities32 <
+                item1.abilities12.might +
+                item1.abilities22.might +
+                item1.abilities32.might <
               item2.MaxAtk +
                 item2.MaxHp +
-                item2.abilities12 +
-                item2.abilities22 +
-                item2.abilities32
+                item2.abilities12.might +
+                item2.abilities22.might +
+                item2.abilities32.might
             ) {
               return 1;
             }

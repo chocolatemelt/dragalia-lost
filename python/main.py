@@ -46,19 +46,57 @@ def regex(details):
     return result
 
 
-def regex_HP_STR_Def_DragonRes(details=''):
-    r = re.search(
-        r'(Flame|Water|Wind|Light|Shadow)?:?\s*' +
+skill_pattern = re.compile(
+    r'([Dd]eals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+'
+    r'&lt;span style=&quot;color:#[a-zA-Z0-9]{6}; font-weight:bold;&quot;&gt;([\d.]+)%&lt;/span&gt;',
+    re.IGNORECASE
+)
+
+
+def regex_skill_modifier(details=''):
+    matched = skill_pattern.findall(details)
+    if len(matched) == 0:
+        return 0
+    mod_list = []
+    for r in matched:
+        prefix, hit, _, delayed_hit, modifier = r
+        if len(modifier) == 0:
+            continue
+        if not hit.isdigit():
+            if hit == 'two':
+                hit = 2
+            else:
+                hit = 1
+        else:
+            hit = int(hit)
+        if len(delayed_hit) > 0:
+            hit += int(delayed_hit[4])
+        if len(prefix) > 0:
+            mod_list.append(round(hit * float(modifier), 2))
+        else:
+            if len(mod_list) == 0:
+                print(details)
+                print(r)
+                print(mod_list)
+            mod_list[-1] += round(hit * float(modifier), 2)
+    return mod_list
+
+
+dragon_aura_pattern = re.compile(
+        r'([a-zA-Z0-9]+)?:?\s*' +
         r'increases (strength|HP|defense|strength and HP) by (?:\'\'\')?(\d+)%(?:\'\'\')?' +
         r'(?:\.' +
         r'| and adds \'\'\'(\d+)%\'\'\' to (Flame|Water|Wind|Light|Shadow) resistance' +
-        r'| when HP is| and)', details, re.IGNORECASE
-    )
+        r'| when HP is| and)', re.IGNORECASE)
+
+
+def regex_HP_STR_Def_DragonRes(details=''):
+    r = dragon_aura_pattern.search(details)
 
     if r:
-        element, field, v, res, resEle = r.groups()
+        req, field, v, res, resEle = r.groups()
         result = {}
-        result['reqEle'] = element or ''
+        result['req'] = req or ''
         result[ABBR_FIELDS[field]] = int(v)
 
         if resEle:
@@ -108,9 +146,9 @@ def regexRes(details=''):
     return {}
 
 
-def set_abilities():
-    table = 'Abilities'
-    fields = 'Id,Name,Details,PartyPowerWeight'
+def set_abilitylimitedgroup():
+    table = 'AbilityLimitedGroup'
+    fields = 'Id,IsEffectMix,MaxLimitedValue'
     group = 'Id'
 
     raw_data = get_data(table, fields, group)
@@ -118,12 +156,34 @@ def set_abilities():
     results = {}
     for i in raw_data:
         item = i['title']
+        new_item = {
+            'IsEffectMix': not bool(item['IsEffectMix']),
+            'MaxLimitedValue': int(item['MaxLimitedValue']) or 0
+        }
+        results[item['Id']] = new_item
+
+    return results
+
+
+def set_abilities():
+    table = 'Abilities'
+    fields = 'Id,Name,Details,PartyPowerWeight,AbilityLimitedGroupId1'
+    group = 'Id'
+
+    raw_data = get_data(table, fields, group)
+    ability_limit = set_abilitylimitedgroup()
+
+    results = {}
+    for i in raw_data:
+        item = i['title']
         details = item['Details']
 
         new_item = {
-            'Name': item['Name'],
-            'Details': details,
-            'Might': int(item['PartyPowerWeight']) or 0
+            'name': item['Name'],
+            'details': details,
+            'might': int(item['PartyPowerWeight']) or 0,
+            'limit': ability_limit[item['AbilityLimitedGroupId1']]
+            if item['AbilityLimitedGroupId1'] in ability_limit.keys() else 0
         }
 
         updates = regex(details)
@@ -136,9 +196,53 @@ def set_abilities():
     return results
 
 
+def set_skills():
+    table = 'Skills'
+    fields = 'Name,SkillLv1IconName,Description1,Description2,Description3,' \
+             'HideLevel3,Sp,SPLv2,SpRegen,IsAffectedByTension,IframeDuration'
+    group = 'Name'
+
+    parse_int = ['Sp', 'SPLv2', 'SpRegen']
+    parse_bool = ['HideLevel3', 'IsAffectedByTension']
+
+    raw_data = get_data(table, fields, group)
+
+    result = {}
+
+    for i in raw_data:
+        item = i['title']
+        if item['Name']:
+            pk = item['Name']
+
+            new_item = {
+                'name': item['Name'],
+                'icon': item['SkillLv1IconName'],
+                'description1': item['Description1'],
+                'description2': item['Description2'],
+                'description3': item['Description3'],
+            }
+
+            for k in parse_int:
+                new_item[k] = int(item[k]) if item[k] != '' else 0
+
+            for k in parse_bool:
+                new_item[k] = bool(item[k])
+
+            new_item['iframe'] = float(item['IframeDuration'][0:2])
+
+            parse_modifier = ['Description1', 'Description2', 'Description3']
+            if new_item['HideLevel3']:
+                parse_modifier = parse_modifier[0:2]
+            for d in parse_modifier:
+                new_item['modifier' + d[-1]] = regex_skill_modifier(item[d])
+
+            result[pk] = new_item
+    return result
+
+
 def load_name(file):
     path = Path(__file__).resolve().parent / 'locales/{}.json'.format(file)
-    with open(path) as f:
+    with open(path, encoding='utf-8') as f:
         data = json.load(f)
 
     return data
@@ -193,7 +297,7 @@ def save_file(f_type, file, data):
         path = Path(__file__).resolve().parent.parent / \
             'src/locales/{}.js'.format(file)
 
-    with open(path, 'w') as f:
+    with open(path, 'w', encoding='utf-8') as f:
         if f_type != 'locales':
             f.write('const {} =\n '.format(file))
         json.dump(data, f, sort_keys=f_type == 'locales',

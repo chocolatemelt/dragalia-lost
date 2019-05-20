@@ -10,11 +10,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Blazing Cleaver",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;614%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;682%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
+      "Sp": 7330,
+      "SPLv2": 7330,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -28,13 +46,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Physian's Bane +10%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301006_01_30201": {
     "id": "301006_01_30201",
@@ -46,11 +77,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Rain Slicer",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;307%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;341%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
+      "Sp": 7226,
+      "SPLv2": 7226,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -64,13 +113,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +10%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301063_01_30201": {
     "id": "301063_01_30201",
@@ -82,13 +144,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 38,
     "MinAtk": 40,
     "MaxAtk": 136,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Physian's Bane +10%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301035_01_30301": {
     "id": "301035_01_30301",
@@ -100,11 +175,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Grass Slash",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;307%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;341%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description3": "Deals wind damage to surrounding enemies.",
+      "Sp": 7226,
+      "SPLv2": 7226,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -118,11 +211,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Merciless Cleaver",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;614%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;682%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
+      "Sp": 7330,
+      "SPLv2": 7330,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -136,13 +247,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Physian's Bane +10%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301062_01_30401": {
     "id": "301062_01_30401",
@@ -154,13 +278,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 38,
     "MinAtk": 40,
     "MaxAtk": 136,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +10%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301008_01_30501": {
     "id": "301008_01_30501",
@@ -172,11 +309,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Bloody Cleaver",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;614%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;682%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
+      "Sp": 7330,
+      "SPLv2": 7330,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        614.0
+      ],
+      "modifier2": [
+        682.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -190,11 +345,11 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 25,
     "MaxAtk": 86,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -208,11 +363,25 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Ensorcelled Slash",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of '''276%''' damage to surrounding enemies.",
+      "description2": "Deals 2 hits of '''307%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
+      "Sp": 7226,
+      "SPLv2": 7226,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -226,11 +395,25 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Broad Cleaver",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 1 hit of '''553%''' damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of '''614%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 7330,
+      "SPLv2": 7330,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -244,12 +427,20 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 25,
     "MaxAtk": 86,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Undead's Bane +10%",
+      "details": "Increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "301052_01_39901": {
@@ -262,12 +453,20 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 23,
     "MinAtk": 26,
     "MaxAtk": 88,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Physian's Bane +10%",
+      "details": "Increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "301014_01_40101": {
@@ -280,11 +479,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Crimson Wave",
+      "icon": "Icon_Skill_006",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;338%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;375%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
+      "Sp": 7508,
+      "SPLv2": 7508,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        676.0
+      ],
+      "modifier2": [
+        750.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 92,
     "MinAtk": 108,
     "MaxAtk": 362,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -298,13 +515,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Physian's Bane +15%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301056_01_40101": {
     "id": "301056_01_40101",
@@ -316,13 +546,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 71,
     "MinAtk": 83,
     "MaxAtk": 278,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "301009_01_40201": {
     "id": "301009_01_40201",
@@ -334,11 +580,25 @@ const weapon =
     "weapon": "Sword",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Mercurial Recovery",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
+      "Sp": 14950,
+      "SPLv2": 14950,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 105,
     "MinAtk": 99,
     "MaxAtk": 333,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -352,13 +612,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +15%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301063_01_40201": {
     "id": "301063_01_40201",
@@ -370,13 +643,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 60,
     "MinAtk": 64,
     "MaxAtk": 216,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Physian's Bane +15%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301034_01_40301": {
     "id": "301034_01_40301",
@@ -388,11 +674,25 @@ const weapon =
     "weapon": "Sword",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Winged Recovery",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
+      "Sp": 14950,
+      "SPLv2": 14950,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 105,
     "MinAtk": 99,
     "MaxAtk": 333,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -406,13 +706,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 71,
     "MinAtk": 83,
     "MaxAtk": 278,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 20
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "301036_01_40401": {
     "id": "301036_01_40401",
@@ -424,11 +740,25 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Astral Radiance",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
+      "Sp": 14950,
+      "SPLv2": 14950,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 105,
     "MinAtk": 99,
     "MaxAtk": 333,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -442,13 +772,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 71,
     "MinAtk": 83,
     "MaxAtk": 278,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +25%",
+      "details": "If the user is attuned to Light:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Stunned Punisher +15%",
+      "details": "If the user is attuned to Light:  increases damage to stunned enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "301065_01_40401": {
     "id": "301065_01_40401",
@@ -460,13 +806,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Physian's Bane +15%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301062_01_40401": {
     "id": "301062_01_40401",
@@ -478,13 +837,26 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 60,
     "MinAtk": 64,
     "MaxAtk": 216,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +15%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "301011_01_40501": {
     "id": "301011_01_40501",
@@ -496,11 +868,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Dark Wave",
+      "icon": "Icon_Skill_006",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;338%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;375%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description3": "Deals shadow damage to enemies in a line.",
+      "Sp": 7508,
+      "SPLv2": 7508,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        676.0
+      ],
+      "modifier2": [
+        750.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 92,
     "MinAtk": 108,
     "MaxAtk": 362,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -514,11 +904,11 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 62,
     "MaxAtk": 208,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -532,11 +922,25 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Glorious Wave",
+      "icon": "Icon_Skill_006",
+      "description1": "Deals 2 hits of '''304%''' damage to enemies in a line.",
+      "description2": "Deals 2 hits of '''338%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 7508,
+      "SPLv2": 7508,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 21,
     "MaxHp": 71,
     "MinAtk": 83,
     "MaxAtk": 278,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -550,11 +954,25 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Gildan Recovery",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''15%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''12%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description2": "Restores the user's HP with '''18%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''15%''' [[Healing Formula|Regen Potency]] every 2.99 seconds.",
+      "description3": "Gradually recovers the user's HP for 15 seconds.",
+      "Sp": 14950,
+      "SPLv2": 14950,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 24,
     "MaxHp": 81,
     "MinAtk": 77,
     "MaxAtk": 257,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -568,12 +986,20 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 55,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "301032_01_50101": {
@@ -586,11 +1012,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Calamitous Cleaver",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;149%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;165%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
+      "Sp": 6847,
+      "SPLv2": 6847,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        745.0
+      ],
+      "modifier2": [
+        825.0
+      ]
+    },
     "MinHp": 42,
     "MaxHp": 143,
     "MinAtk": 166,
     "MaxAtk": 556,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -604,13 +1048,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 92,
     "MinAtk": 108,
     "MaxAtk": 362,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "301010_01_50201": {
     "id": "301010_01_50201",
@@ -622,11 +1082,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Eoantide Cleaver",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;149%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;165%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
+      "Sp": 6847,
+      "SPLv2": 6847,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        745.0
+      ],
+      "modifier2": [
+        825.0
+      ]
+    },
     "MinHp": 42,
     "MaxHp": 143,
     "MinAtk": 166,
     "MaxAtk": 556,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -640,11 +1118,25 @@ const weapon =
     "weapon": "Sword",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Heroic Epic",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''40%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 47,
     "MaxHp": 158,
     "MinAtk": 157,
     "MaxAtk": 524,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -658,13 +1150,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Wind",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 92,
     "MinAtk": 108,
     "MaxAtk": 362,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 20
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "301015_01_50401": {
     "id": "301015_01_50401",
@@ -676,11 +1184,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Zex's Waltz",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;149%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;165%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
+      "Sp": 6847,
+      "SPLv2": 6847,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        745.0
+      ],
+      "modifier2": [
+        825.0
+      ]
+    },
     "MinHp": 42,
     "MaxHp": 143,
     "MinAtk": 166,
     "MaxAtk": 556,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -694,13 +1220,29 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 92,
     "MinAtk": 108,
     "MaxAtk": 362,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +50%",
+      "details": "If the user is attuned to Light:  fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Stunned Punisher +15%",
+      "details": "If the user is attuned to Light:  increases damage to stunned enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "301081_01_50401": {
     "id": "301081_01_50401",
@@ -712,14 +1254,24 @@ const weapon =
     "weapon": "Sword",
     "element": "Light",
     "rarity": "5",
+    "skill": null,
     "MinHp": 30,
     "MaxHp": 101,
     "MinAtk": 108,
     "MaxAtk": 362,
-    "skill": false,
-    "abilities11": 80,
+    "abilities11": {
+      "name": "HP Below 50% = Strength +15%",
+      "details": "Increases strength by '''15%''' when HP is '''50%''' or below.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 15
+    },
     "abilities21": 0,
-    "reqEle": "",
+    "req": "",
     "incSTR": 15
   },
   "301037_01_50501": {
@@ -732,11 +1284,25 @@ const weapon =
     "weapon": "Sword",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Eternal Strife",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''40%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 47,
     "MaxHp": 158,
     "MinAtk": 157,
     "MaxAtk": 524,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -750,11 +1316,11 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 30,
     "MaxHp": 101,
     "MinAtk": 108,
     "MaxAtk": 362,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -768,11 +1334,25 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Noble Flash",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of '''134%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''149%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 6847,
+      "SPLv2": 6847,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 35,
     "MaxHp": 117,
     "MinAtk": 136,
     "MaxAtk": 456,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -786,11 +1366,25 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Rage and Retribution",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''40%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 38,
     "MaxHp": 129,
     "MinAtk": 129,
     "MaxAtk": 430,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -804,11 +1398,25 @@ const weapon =
     "weapon": "Sword",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Happiness Spike",
+      "icon": "Icon_Skill_014",
+      "description1": "Deals 1 hit '''668%''' damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of '''743%''' damage to the target and nearby enemies.",
+      "description3": "",
+      "Sp": 7773,
+      "SPLv2": 7773,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 106,
     "MinAtk": 105,
     "MaxAtk": 351,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -822,11 +1430,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Valkan Wave",
+      "icon": "Icon_Skill_008",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;790%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;878%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
+      "Sp": 7920,
+      "SPLv2": 7920,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        790.0
+      ],
+      "modifier2": [
+        878.0
+      ]
+    },
     "MinHp": 15,
     "MaxHp": 53,
     "MinAtk": 68,
     "MaxAtk": 229,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -840,13 +1466,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 9,
     "MaxHp": 33,
     "MinAtk": 43,
     "MaxAtk": 144,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Physian's Bane +10%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302007_01_30201": {
     "id": "302007_01_30201",
@@ -858,11 +1497,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Butterfly Strike",
+      "icon": "Icon_Skill_008",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;790%&lt;/span&gt; water damage to enemies in a line.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;878%&lt;/span&gt; water damage to enemies in a line.",
+      "description3": "Deals water damage to enemies directly ahead.",
+      "Sp": 7920,
+      "SPLv2": 7920,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        790.0
+      ],
+      "modifier2": [
+        878.0
+      ]
+    },
     "MinHp": 15,
     "MaxHp": 53,
     "MinAtk": 68,
     "MaxAtk": 229,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -876,13 +1533,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 35,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Physian's Bane +10%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302024_01_30301": {
     "id": "302024_01_30301",
@@ -894,11 +1564,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Commander's Blitz",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;264%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;293%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
+      "Sp": 7175,
+      "SPLv2": 7175,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        792.0
+      ],
+      "modifier2": [
+        879.0
+      ]
+    },
     "MinHp": 15,
     "MaxHp": 50,
     "MinAtk": 70,
     "MaxAtk": 236,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -912,11 +1600,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Chanzelian Strike",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;264%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;293%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
+      "Sp": 7175,
+      "SPLv2": 7175,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        792.0
+      ],
+      "modifier2": [
+        879.0
+      ]
+    },
     "MinHp": 15,
     "MaxHp": 50,
     "MinAtk": 70,
     "MaxAtk": 236,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -930,13 +1636,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 9,
     "MaxHp": 33,
     "MinAtk": 43,
     "MaxAtk": 144,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Physian's Bane +10%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302009_01_30501": {
     "id": "302009_01_30501",
@@ -948,11 +1667,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Sanguine Blitz",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;264%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;293%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies in a line.",
+      "Sp": 7175,
+      "SPLv2": 7175,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        792.0
+      ],
+      "modifier2": [
+        879.0
+      ]
+    },
     "MinHp": 15,
     "MaxHp": 50,
     "MinAtk": 70,
     "MaxAtk": 236,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -966,13 +1703,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Shadow",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 35,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +10%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302021_01_39901": {
     "id": "302021_01_39901",
@@ -984,11 +1734,11 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 20,
     "MinAtk": 28,
     "MaxAtk": 94,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1002,11 +1752,25 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Shamshir Strike",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 3 hits of '''238%''' damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of '''264%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 7175,
+      "SPLv2": 7175,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 9,
     "MaxHp": 32,
     "MinAtk": 44,
     "MaxAtk": 149,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1020,11 +1784,25 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Fusion Wave",
+      "icon": "Icon_Skill_008",
+      "description1": "Deals 1 hit of '''710%''' damage to enemies in a line.",
+      "description2": "Deals 1 hit of '''790%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 7920,
+      "SPLv2": 7920,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 9,
     "MaxHp": 33,
     "MinAtk": 43,
     "MaxAtk": 144,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1038,12 +1816,20 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 21,
     "MinAtk": 27,
     "MaxAtk": 91,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Physian's Bane +10%",
+      "details": "Increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "302055_01_39901": {
@@ -1056,12 +1842,20 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 22,
     "MinAtk": 26,
     "MaxAtk": 88,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Blinded Punisher +10%",
+      "details": "Increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities21": 0
   },
   "302015_01_40101": {
@@ -1074,11 +1868,25 @@ const weapon =
     "weapon": "Blade",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Flame's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 108,
     "MaxAtk": 361,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1092,13 +1900,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 15,
     "MaxHp": 50,
     "MinAtk": 70,
     "MaxAtk": 236,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Physian's Bane +15%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302045_01_40101": {
     "id": "302045_01_40101",
@@ -1110,13 +1931,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 62,
     "MinAtk": 88,
     "MaxAtk": 295,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "302022_01_40201": {
     "id": "302022_01_40201",
@@ -1128,11 +1965,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Whirlpool",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;869%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;966%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
+      "Sp": 8178,
+      "SPLv2": 8178,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        869.0
+      ],
+      "modifier2": [
+        966.0
+      ]
+    },
     "MinHp": 24,
     "MaxHp": 81,
     "MinAtk": 114,
     "MaxAtk": 383,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1146,13 +2001,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 55,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Physian's Bane +15%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302058_01_40201": {
     "id": "302058_01_40201",
@@ -1164,14 +2032,32 @@ const weapon =
     "weapon": "Blade",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 20,
     "MaxHp": 69,
     "MinAtk": 83,
     "MaxAtk": 278,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +15%",
+      "details": "If the user is attuned to Water: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Water) High Brunhilda's Bane",
+      "details": "If the user is attuned to Water:  increases damage to High Brunhilda by 20%.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "req": "Water",
     "incDef": 15
   },
   "302011_01_40301": {
@@ -1184,11 +2070,25 @@ const weapon =
     "weapon": "Blade",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Tempest's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%'''  for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 108,
     "MaxAtk": 361,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1202,13 +2102,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 19,
     "MaxHp": 66,
     "MinAtk": 85,
     "MaxAtk": 286,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 20
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "302026_01_40401": {
     "id": "302026_01_40401",
@@ -1220,11 +2136,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Thunderstorm",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;869%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;966%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to surrounding enemies.",
+      "Sp": 8178,
+      "SPLv2": 8178,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        869.0
+      ],
+      "modifier2": [
+        966.0
+      ]
+    },
     "MinHp": 24,
     "MaxHp": 81,
     "MinAtk": 114,
     "MaxAtk": 383,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1238,13 +2172,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 62,
     "MinAtk": 88,
     "MaxAtk": 295,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +25%",
+      "details": "If the user is attuned to Light:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Stunned Punisher +15%",
+      "details": "If the user is attuned to Light:  increases damage to stunned enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "302051_01_40401": {
     "id": "302051_01_40401",
@@ -1256,13 +2206,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 15,
     "MaxHp": 53,
     "MinAtk": 68,
     "MaxAtk": 229,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Physian's Bane +15%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302029_01_40501": {
     "id": "302029_01_40501",
@@ -1274,11 +2237,25 @@ const weapon =
     "weapon": "Blade",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Darkness's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 108,
     "MaxAtk": 361,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1292,13 +2269,26 @@ const weapon =
     "weapon": "Blade",
     "element": "Shadow",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 55,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +15%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "302012_01_49901": {
     "id": "302012_01_49901",
@@ -1310,11 +2300,11 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 14,
     "MaxHp": 48,
     "MinAtk": 68,
     "MaxAtk": 227,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1328,11 +2318,25 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Iron's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 20,
     "MaxHp": 69,
     "MinAtk": 83,
     "MaxAtk": 278,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1346,11 +2350,25 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Masamura's Slash",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 1 hit of '''782%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''869%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
+      "Sp": 8178,
+      "SPLv2": 8178,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 18,
     "MaxHp": 62,
     "MinAtk": 88,
     "MaxAtk": 295,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1364,12 +2382,20 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 14,
     "MaxHp": 48,
     "MinAtk": 68,
     "MaxAtk": 227,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "302056_01_49901": {
@@ -1382,14 +2408,24 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 15,
     "MaxHp": 53,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Full HP = Defense +15%",
+      "details": "Increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 15
+    },
     "abilities21": 0,
-    "reqEle": "",
+    "req": "",
     "incDef": 15
   },
   "302013_01_50101": {
@@ -1402,11 +2438,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Heaven's Flames",
+      "icon": "Icon_Skill_010",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;319%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;354%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
+      "Sp": 8030,
+      "SPLv2": 8030,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        957.0
+      ],
+      "modifier2": [
+        1062.0
+      ]
+    },
     "MinHp": 39,
     "MaxHp": 132,
     "MinAtk": 171,
     "MaxAtk": 572,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1420,13 +2474,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 92,
     "MinAtk": 105,
     "MaxAtk": 353,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "302010_01_50201": {
     "id": "302010_01_50201",
@@ -1438,11 +2508,25 @@ const weapon =
     "weapon": "Blade",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Maar's Recovery",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 12841,
+      "SPLv2": 12841,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 42,
     "MaxHp": 143,
     "MinAtk": 163,
     "MaxAtk": 544,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1456,14 +2540,32 @@ const weapon =
     "weapon": "Blade",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 108,
     "MaxAtk": 361,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 100,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +20%",
+      "details": "If the user is attuned to Water: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Water) High Brunhilda's Bane",
+      "details": "If the user is attuned to Water:  increases damage to High Brunhilda by 20%.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "req": "Water",
     "incDef": 20
   },
   "302023_01_50301": {
@@ -1476,11 +2578,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Verdant Wave",
+      "icon": "Icon_Skill_010",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;319%&lt;/span&gt; wind damage to enemies in a line.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;354%&lt;/span&gt; wind damage to enemies in a line.",
+      "description3": "Deals wind damage to enemies in a line.",
+      "Sp": 8030,
+      "SPLv2": 8030,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        957.0
+      ],
+      "modifier2": [
+        1062.0
+      ]
+    },
     "MinHp": 39,
     "MaxHp": 132,
     "MinAtk": 171,
     "MaxAtk": 572,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1494,13 +2614,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Wind",
     "rarity": "5",
+    "skill": null,
     "MinHp": 25,
     "MaxHp": 85,
     "MinAtk": 111,
     "MaxAtk": 372,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 20
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "302025_01_50401": {
     "id": "302025_01_50401",
@@ -1512,11 +2648,25 @@ const weapon =
     "weapon": "Blade",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Winged Blessing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 12841,
+      "SPLv2": 12841,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 42,
     "MaxHp": 143,
     "MinAtk": 163,
     "MaxAtk": 544,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1530,13 +2680,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Light",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 92,
     "MinAtk": 105,
     "MaxAtk": 353,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +50%",
+      "details": "If the user is attuned to Light:  fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Stunned Punisher +15%",
+      "details": "If the user is attuned to Light:  increases damage to stunned enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "302028_01_50501": {
     "id": "302028_01_50501",
@@ -1548,11 +2714,29 @@ const weapon =
     "weapon": "Blade",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Black Dance",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;192%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;213%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
+      "Sp": 7695,
+      "SPLv2": 7695,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        960.0
+      ],
+      "modifier2": [
+        1065.0
+      ]
+    },
     "MinHp": 37,
     "MaxHp": 125,
     "MinAtk": 177,
     "MaxAtk": 590,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1566,11 +2750,11 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 25,
     "MaxHp": 84,
     "MinAtk": 118,
     "MaxAtk": 395,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1584,11 +2768,25 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Shade's Flight",
+      "icon": "Icon_Skill_010",
+      "description1": "Deals 3 hits of '''287%''' damage to enemies in a line.",
+      "description2": "Deals 3 hits of '''319%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 8030,
+      "SPLv2": 8030,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 32,
     "MaxHp": 108,
     "MinAtk": 140,
     "MaxAtk": 469,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1602,11 +2800,25 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Souleater's Feast",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of '''173%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''192%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 7695,
+      "SPLv2": 7695,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 30,
     "MaxHp": 103,
     "MinAtk": 144,
     "MaxAtk": 483,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1620,11 +2832,25 @@ const weapon =
     "weapon": "Blade",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Swordsmith's Recovery",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 12841,
+      "SPLv2": 12841,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 35,
     "MaxHp": 117,
     "MinAtk": 133,
     "MaxAtk": 446,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1638,11 +2864,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Cruel Assault",
+      "icon": "Icon_Skill_002",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;305%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;339%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
+      "Sp": 7339,
+      "SPLv2": 7339,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        610.0
+      ],
+      "modifier2": [
+        678.0
+      ]
+    },
     "MinHp": 19,
     "MaxHp": 64,
     "MinAtk": 61,
     "MaxAtk": 205,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1656,13 +2900,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 38,
     "MinAtk": 39,
     "MaxAtk": 133,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303045_01_30101": {
     "id": "303045_01_30101",
@@ -1674,13 +2931,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 38,
     "MinAtk": 39,
     "MaxAtk": 133,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Physian's Bane +10%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303021_01_30201": {
     "id": "303021_01_30201",
@@ -1692,11 +2962,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Water Chain",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;152%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;169%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
+      "Sp": 6770,
+      "SPLv2": 6770,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        608.0
+      ],
+      "modifier2": [
+        676.0
+      ]
+    },
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 63,
     "MaxAtk": 212,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1710,13 +2998,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 38,
     "MinAtk": 39,
     "MaxAtk": 133,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303052_01_30201": {
     "id": "303052_01_30201",
@@ -1728,13 +3029,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 38,
     "MinAtk": 39,
     "MaxAtk": 133,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Physian's Bane +10%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303007_01_30301": {
     "id": "303007_01_30301",
@@ -1746,11 +3060,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Storm Chain",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;152%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;169%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
+      "Sp": 6770,
+      "SPLv2": 6770,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        608.0
+      ],
+      "modifier2": [
+        676.0
+      ]
+    },
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 63,
     "MaxAtk": 212,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1764,13 +3096,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Wind",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 41,
     "MaxAtk": 137,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303008_01_30401": {
     "id": "303008_01_30401",
@@ -1782,11 +3127,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Royal Assault",
+      "icon": "Icon_Skill_002",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;305%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;339%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
+      "Sp": 7339,
+      "SPLv2": 7339,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        610.0
+      ],
+      "modifier2": [
+        678.0
+      ]
+    },
     "MinHp": 19,
     "MaxHp": 64,
     "MinAtk": 61,
     "MaxAtk": 205,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1800,13 +3163,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 12,
     "MaxHp": 40,
     "MinAtk": 38,
     "MaxAtk": 129,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Physian's Bane +10%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303009_01_30501": {
     "id": "303009_01_30501",
@@ -1818,11 +3194,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Assassin Strike",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;152%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;169%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
+      "Sp": 6770,
+      "SPLv2": 6770,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        608.0
+      ],
+      "modifier2": [
+        676.0
+      ]
+    },
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 63,
     "MaxAtk": 212,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1836,11 +3230,11 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 25,
     "MaxAtk": 84,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1854,11 +3248,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Ancient Assault",
+      "icon": "Icon_Skill_002",
+      "description1": "Deals 2 hits of '''275%''' damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of '''305%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 7339,
+      "SPLv2": 7339,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 11,
     "MaxHp": 38,
     "MinAtk": 39,
     "MaxAtk": 133,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1872,11 +3280,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Lover's Strike",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 4 hits of '''137%''' damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of '''152%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 6770,
+      "SPLv2": 6770,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 12,
     "MaxHp": 40,
     "MinAtk": 38,
     "MaxAtk": 129,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1890,12 +3312,20 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 25,
     "MaxAtk": 84,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Thaumian's Bane +10%",
+      "details": "Increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "303044_01_39901": {
@@ -1908,12 +3338,20 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 25,
     "MaxAtk": 84,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Physian's Bane +10%",
+      "details": "Increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "303015_01_40101": {
@@ -1926,11 +3364,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Scarlet Spiral",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;167%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;186%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
+      "Sp": 7028,
+      "SPLv2": 7028,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        668.0
+      ],
+      "modifier2": [
+        744.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 93,
     "MinAtk": 106,
     "MaxAtk": 354,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -1944,13 +3400,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 65,
     "MaxAtk": 218,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303045_01_40101": {
     "id": "303045_01_40101",
@@ -1962,13 +3431,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 65,
     "MaxAtk": 218,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Physian's Bane +15%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303065_01_40101": {
     "id": "303065_01_40101",
@@ -1980,13 +3462,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 72,
     "MinAtk": 81,
     "MaxAtk": 273,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "303018_01_40201": {
     "id": "303018_01_40201",
@@ -1998,11 +3496,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Ultramarine Spin",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;167%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;186%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
+      "Sp": 7028,
+      "SPLv2": 7028,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        668.0
+      ],
+      "modifier2": [
+        744.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 93,
     "MinAtk": 106,
     "MaxAtk": 354,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2016,13 +3532,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 65,
     "MaxAtk": 218,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303051_01_40201": {
     "id": "303051_01_40201",
@@ -2034,14 +3563,32 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 72,
     "MinAtk": 81,
     "MaxAtk": 273,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +3%",
+      "details": "If the user is attuned to Water: increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "303052_01_40201": {
@@ -2054,13 +3601,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 63,
     "MaxAtk": 212,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Physian's Bane +15%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303058_01_40201": {
     "id": "303058_01_40201",
@@ -2072,14 +3632,32 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 22,
     "MaxHp": 75,
     "MinAtk": 79,
     "MaxAtk": 265,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +15%",
+      "details": "If the user is attuned to Water: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Water) High Brunhilda's Bane",
+      "details": "If the user is attuned to Water:  increases damage to High Brunhilda by 20%.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "req": "Water",
     "incDef": 15
   },
   "303029_01_40301": {
@@ -2092,11 +3670,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Queen's Recovery",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 15976,
+      "SPLv2": 15976,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 106,
     "MinAtk": 98,
     "MaxAtk": 327,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2110,13 +3702,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 65,
     "MaxAtk": 218,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303017_01_40401": {
     "id": "303017_01_40401",
@@ -2128,11 +3733,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Night Spiral",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;167%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;186%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
+      "Sp": 7028,
+      "SPLv2": 7028,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        668.0
+      ],
+      "modifier2": [
+        744.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 93,
     "MinAtk": 106,
     "MaxAtk": 354,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2146,13 +3769,26 @@ const weapon =
     "weapon": "Dagger",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 19,
     "MaxHp": 64,
     "MinAtk": 61,
     "MaxAtk": 205,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Physian's Bane +15%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "303011_01_40501": {
     "id": "303011_01_40501",
@@ -2164,11 +3800,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Avaricious Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 15976,
+      "SPLv2": 15976,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 106,
     "MinAtk": 98,
     "MaxAtk": 327,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2182,11 +3832,11 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 61,
     "MaxAtk": 204,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2200,11 +3850,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Fanged Recovery",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 15976,
+      "SPLv2": 15976,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 24,
     "MaxHp": 81,
     "MinAtk": 75,
     "MaxAtk": 252,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2218,11 +3882,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Dreamer's Spiral",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 4 hits of '''150%''' damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of '''167%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 7028,
+      "SPLv2": 7028,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 21,
     "MaxHp": 72,
     "MinAtk": 81,
     "MaxAtk": 273,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2236,12 +3914,20 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 55,
     "MinAtk": 63,
     "MaxAtk": 210,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Slayer's Strength +3%",
+      "details": "Increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
     "abilities21": 0
   },
   "303056_01_49901": {
@@ -2254,14 +3940,24 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 61,
     "MaxAtk": 204,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Full HP = Defense +15%",
+      "details": "Increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 15
+    },
     "abilities21": 0,
-    "reqEle": "",
+    "req": "",
     "incDef": 15
   },
   "303064_01_49901": {
@@ -2274,12 +3970,20 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 55,
     "MinAtk": 63,
     "MaxAtk": 210,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "303013_01_50101": {
@@ -2292,11 +3996,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Aeternal Assault",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;148%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;164%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
+      "Sp": 7323,
+      "SPLv2": 7323,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        740.0
+      ],
+      "modifier2": [
+        820.0
+      ]
+    },
     "MinHp": 43,
     "MaxHp": 144,
     "MinAtk": 163,
     "MaxAtk": 545,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2310,13 +4032,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 93,
     "MinAtk": 106,
     "MaxAtk": 354,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "303020_01_50201": {
     "id": "303020_01_50201",
@@ -2328,11 +4066,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Cobalt Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''40%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "Sp": 7103,
+      "SPLv2": 7103,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 45,
     "MaxHp": 152,
     "MinAtk": 158,
     "MaxAtk": 529,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2346,14 +4098,32 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 29,
     "MaxHp": 98,
     "MinAtk": 103,
     "MaxAtk": 344,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +4%",
+      "details": "If the user is attuned to Water: increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "303058_01_50201": {
@@ -2366,14 +4136,32 @@ const weapon =
     "weapon": "Dagger",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 29,
     "MaxHp": 98,
     "MinAtk": 103,
     "MaxAtk": 344,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 100,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +20%",
+      "details": "If the user is attuned to Water: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Water) High Brunhilda's Bane",
+      "details": "If the user is attuned to Water:  increases damage to High Brunhilda by 20%.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "req": "Water",
     "incDef": 20
   },
   "303028_01_50301": {
@@ -2386,11 +4174,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Saga of the Soul",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;148%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;164%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
+      "Sp": 7323,
+      "SPLv2": 7323,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        740.0
+      ],
+      "modifier2": [
+        820.0
+      ]
+    },
     "MinHp": 43,
     "MaxHp": 144,
     "MinAtk": 163,
     "MaxAtk": 545,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2404,11 +4210,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Sugaar's Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''40%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "Sp": 7103,
+      "SPLv2": 7103,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 45,
     "MaxHp": 152,
     "MinAtk": 158,
     "MaxAtk": 529,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2422,11 +4242,29 @@ const weapon =
     "weapon": "Dagger",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Unwavering Assault",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;148%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;164%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
+      "Sp": 7323,
+      "SPLv2": 7323,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        740.0
+      ],
+      "modifier2": [
+        820.0
+      ]
+    },
     "MinHp": 43,
     "MaxHp": 144,
     "MinAtk": 163,
     "MaxAtk": 545,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2440,11 +4278,11 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 30,
     "MaxHp": 102,
     "MinAtk": 106,
     "MaxAtk": 355,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2458,11 +4296,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Thorned Assault",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals 5 hits of '''133%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''148%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 7323,
+      "SPLv2": 7323,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 35,
     "MaxHp": 118,
     "MinAtk": 134,
     "MaxAtk": 447,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2476,11 +4328,25 @@ const weapon =
     "weapon": "Dagger",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Hedgehog's Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "Sp": 7103,
+      "SPLv2": 7103,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 37,
     "MaxHp": 124,
     "MinAtk": 130,
     "MaxAtk": 434,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2494,11 +4360,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Argent Impact",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;932%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;1036%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
+      "Sp": 8824,
+      "SPLv2": 8824,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 70,
     "MaxAtk": 234,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2512,11 +4396,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Torrential Impact",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;932%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;1036%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
+      "Sp": 8824,
+      "SPLv2": 8824,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 70,
     "MaxAtk": 234,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2530,13 +4432,26 @@ const weapon =
     "weapon": "Axe",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 12,
     "MaxHp": 41,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +10%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "304007_01_30301": {
     "id": "304007_01_30301",
@@ -2548,11 +4463,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Cyclonic Swing",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;466%&lt;/span&gt; wind damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;518%&lt;/span&gt; wind damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals wind damage to surrounding enemies and draws them toward the user.",
+      "Sp": 8603,
+      "SPLv2": 8603,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
+    },
     "MinHp": 19,
     "MaxHp": 65,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2566,11 +4499,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Flash Swing",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;466%&lt;/span&gt; light damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;518%&lt;/span&gt; light damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals light-based damage to surrounding enemies and draws them toward the user.",
+      "Sp": 8603,
+      "SPLv2": 8603,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
+    },
     "MinHp": 19,
     "MaxHp": 65,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2584,13 +4535,26 @@ const weapon =
     "weapon": "Axe",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 12,
     "MaxHp": 41,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +10%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "304009_01_30501": {
     "id": "304009_01_30501",
@@ -2602,11 +4566,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Reaving Swing",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;466%&lt;/span&gt; shadow damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;518%&lt;/span&gt; shadow damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals shadow damage to surrounding enemies and draws them toward the user.",
+      "Sp": 8603,
+      "SPLv2": 8603,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": [
+        932.0
+      ],
+      "modifier2": [
+        1036.0
+      ]
+    },
     "MinHp": 19,
     "MaxHp": 65,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2620,11 +4602,11 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 26,
     "MinAtk": 26,
     "MaxAtk": 87,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2638,11 +4620,25 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Ennobled Impact",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 1 hit of '''839%''' damage to enemies directly ahead.",
+      "description2": "Deals 1 hit of '''932%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 8824,
+      "SPLv2": 8824,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 44,
     "MaxAtk": 147,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2656,11 +4652,25 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Juggernaut's Swing",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of '''419%''' damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description2": "Deals 2 hits of '''466%''' damage to surrounding enemies and draws them toward the user for 0.5 seconds.",
+      "description3": "Deals non-elemental damage to surrounding enemies and draws them toward the user.",
+      "Sp": 8603,
+      "SPLv2": 8603,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 0.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 12,
     "MaxHp": 41,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2674,12 +4684,20 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 26,
     "MinAtk": 26,
     "MaxAtk": 87,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Undead's Bane +10%",
+      "details": "Increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "304010_01_40101": {
@@ -2692,11 +4710,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Crimson Swing",
+      "icon": "Icon_Skill_002",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;513%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;570%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "Deals flame damage to enemies directly ahead.",
+      "Sp": 9025,
+      "SPLv2": 9025,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1026.0
+      ],
+      "modifier2": [
+        1140.0
+      ]
+    },
     "MinHp": 28,
     "MaxHp": 95,
     "MinAtk": 114,
     "MaxAtk": 380,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2710,13 +4746,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 73,
     "MinAtk": 87,
     "MaxAtk": 292,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "304011_01_40201": {
     "id": "304011_01_40201",
@@ -2728,11 +4780,25 @@ const weapon =
     "weapon": "Axe",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Aqua Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 105,
     "MinAtk": 107,
     "MaxAtk": 357,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2746,14 +4812,32 @@ const weapon =
     "weapon": "Axe",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 24,
     "MaxHp": 81,
     "MinAtk": 82,
     "MaxAtk": 275,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +3%",
+      "details": "If the user is attuned to Water: increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "304052_01_40201": {
@@ -2766,13 +4850,26 @@ const weapon =
     "weapon": "Axe",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 19,
     "MaxHp": 65,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +15%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "304016_01_40301": {
     "id": "304016_01_40301",
@@ -2784,11 +4881,25 @@ const weapon =
     "weapon": "Axe",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Winged Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 105,
     "MinAtk": 107,
     "MaxAtk": 357,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2802,13 +4913,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 24,
     "MaxHp": 81,
     "MinAtk": 82,
     "MaxAtk": 275,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 20
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "304015_01_40401": {
     "id": "304015_01_40401",
@@ -2820,11 +4947,25 @@ const weapon =
     "weapon": "Axe",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Lightning's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 31,
     "MaxHp": 105,
     "MinAtk": 107,
     "MaxAtk": 357,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2838,13 +4979,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 73,
     "MinAtk": 87,
     "MaxAtk": 292,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +25%",
+      "details": "If the user is attuned to Light:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Stunned Punisher +15%",
+      "details": "If the user is attuned to Light:  increases damage to stunned enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "304053_01_40401": {
     "id": "304053_01_40401",
@@ -2856,13 +5013,26 @@ const weapon =
     "weapon": "Axe",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 19,
     "MaxHp": 65,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +15%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "304030_01_40501": {
     "id": "304030_01_40501",
@@ -2874,11 +5044,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Traitor Smiter",
+      "icon": "Icon_Skill_002",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;513%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;570%&lt;/span&gt; shadow damage to enemies directly ahead.",
+      "description3": "Deals shadow damage to enemies directly ahead.",
+      "Sp": 9025,
+      "SPLv2": 9025,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1026.0
+      ],
+      "modifier2": [
+        1140.0
+      ]
+    },
     "MinHp": 28,
     "MaxHp": 95,
     "MinAtk": 114,
     "MaxAtk": 380,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2892,11 +5080,11 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 62,
     "MinAtk": 63,
     "MaxAtk": 212,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2910,11 +5098,25 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Tyrant Swing",
+      "icon": "Icon_Skill_002",
+      "description1": "Deals 2 hits of '''462%''' damage to enemies directly ahead.",
+      "description2": "Deals 2 hits of '''513%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 9025,
+      "SPLv2": 9025,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 21,
     "MaxHp": 73,
     "MinAtk": 87,
     "MaxAtk": 292,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2928,11 +5130,25 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Memento's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 6678,
+      "SPLv2": 6678,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 24,
     "MaxHp": 81,
     "MinAtk": 82,
     "MaxAtk": 275,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -2946,12 +5162,20 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 67,
     "MaxAtk": 225,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "304047_01_49901": {
@@ -2964,12 +5188,20 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 67,
     "MaxAtk": 225,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Slayer's Strength +3%",
+      "details": "Increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
     "abilities21": 0
   },
   "304027_01_50101": {
@@ -2982,11 +5214,25 @@ const weapon =
     "weapon": "Axe",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Blazing Boost",
+      "icon": "Icon_Skill_032",
+      "description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Increases the user's critical damage by '''50%''' for 30 seconds.",
+      "Sp": 4711,
+      "SPLv2": 4711,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 46,
     "MaxHp": 155,
     "MinAtk": 170,
     "MaxAtk": 567,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3000,13 +5246,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 28,
     "MaxHp": 95,
     "MinAtk": 114,
     "MaxAtk": 380,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "304028_01_50201": {
     "id": "304028_01_50201",
@@ -3018,11 +5280,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Seadragon's Impact",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;376%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;418%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
+      "Sp": 9025,
+      "SPLv2": 9025,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1128.0
+      ],
+      "modifier2": [
+        1254.0
+      ]
+    },
     "MinHp": 44,
     "MaxHp": 147,
     "MinAtk": 175,
     "MaxAtk": 584,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3036,14 +5316,32 @@ const weapon =
     "weapon": "Axe",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 28,
     "MaxHp": 95,
     "MinAtk": 114,
     "MaxAtk": 380,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +4%",
+      "details": "If the user is attuned to Water: increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "304029_01_50301": {
@@ -3056,11 +5354,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Southern Impact",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;376%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;418%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
+      "Sp": 9025,
+      "SPLv2": 9025,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        1128.0
+      ],
+      "modifier2": [
+        1254.0
+      ]
+    },
     "MinHp": 44,
     "MaxHp": 147,
     "MinAtk": 175,
     "MaxAtk": 584,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3074,13 +5390,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Wind",
     "rarity": "5",
+    "skill": null,
     "MinHp": 31,
     "MaxHp": 105,
     "MinAtk": 107,
     "MaxAtk": 357,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 20
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "304013_01_50401": {
     "id": "304013_01_50401",
@@ -3092,11 +5424,25 @@ const weapon =
     "weapon": "Axe",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Radiant Boost",
+      "icon": "Icon_Skill_032",
+      "description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Deals light-based damage to enemies directly ahead.",
+      "Sp": 4711,
+      "SPLv2": 4711,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 44,
     "MaxHp": 147,
     "MinAtk": 175,
     "MaxAtk": 584,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3110,13 +5456,29 @@ const weapon =
     "weapon": "Axe",
     "element": "Light",
     "rarity": "5",
+    "skill": null,
     "MinHp": 28,
     "MaxHp": 95,
     "MinAtk": 114,
     "MaxAtk": 380,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +50%",
+      "details": "If the user is attuned to Light:  fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Stunned Punisher +15%",
+      "details": "If the user is attuned to Light:  increases damage to stunned enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "304014_01_50501": {
     "id": "304014_01_50501",
@@ -3128,11 +5490,25 @@ const weapon =
     "weapon": "Axe",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Primordial Boost",
+      "icon": "Icon_Skill_032",
+      "description1": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''50%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Adds '''50%''' to the modifier applied to the user's critical damage for 30 seconds.",
+      "Sp": 4711,
+      "SPLv2": 4711,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 46,
     "MaxHp": 155,
     "MinAtk": 170,
     "MaxAtk": 567,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3146,11 +5522,11 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 32,
     "MaxHp": 109,
     "MinAtk": 110,
     "MaxAtk": 368,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3164,11 +5540,25 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Executioner's Impact",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 3 hits of '''338%''' damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of '''376%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 9025,
+      "SPLv2": 9025,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 36,
     "MaxHp": 120,
     "MinAtk": 143,
     "MaxAtk": 479,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3182,11 +5572,25 @@ const weapon =
     "weapon": "Axe",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Halfling's Focus",
+      "icon": "Icon_Skill_032",
+      "description1": "Adds '''30%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description2": "Adds '''40%''' to the modifier applied to the user's critical damage for 20 seconds.",
+      "description3": "Adds '''50%''' to the modifier applied to the user's critical damage for 30 seconds.",
+      "Sp": 4711,
+      "SPLv2": 4711,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 38,
     "MaxHp": 127,
     "MinAtk": 139,
     "MaxAtk": 465,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3200,11 +5604,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Hero's Descent",
+      "icon": "Icon_Skill_019",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;685%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;761%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description3": "Deals flame damage to the target and enemies near it.",
+      "Sp": 7054,
+      "SPLv2": 7054,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        685.0
+      ],
+      "modifier2": [
+        761.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 68,
     "MaxAtk": 227,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3218,13 +5640,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 39,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305007_01_30201": {
     "id": "305007_01_30201",
@@ -3236,11 +5671,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Azure Whirlwind",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;343%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;381%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
+      "Sp": 7668,
+      "SPLv2": 7668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        686.0
+      ],
+      "modifier2": [
+        762.0
+      ]
+    },
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3254,13 +5707,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 39,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305060_01_30201": {
     "id": "305060_01_30201",
@@ -3272,13 +5738,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 39,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +10%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305017_01_30301": {
     "id": "305017_01_30301",
@@ -3290,11 +5769,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Gale's Descent",
+      "icon": "Icon_Skill_019",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;685%&lt;/span&gt; wind damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;761%&lt;/span&gt; wind damage to the target and nearby enemies.",
+      "description3": "Deals wind damage to the target and nearby enemies.",
+      "Sp": 7054,
+      "SPLv2": 7054,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        685.0
+      ],
+      "modifier2": [
+        761.0
+      ]
+    },
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 68,
     "MaxAtk": 227,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3308,13 +5805,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Wind",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 39,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305008_01_30401": {
     "id": "305008_01_30401",
@@ -3326,11 +5836,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Lunar Whirlwind",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;343%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;381%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to surrounding enemies.",
+      "Sp": 7668,
+      "SPLv2": 7668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        686.0
+      ],
+      "modifier2": [
+        762.0
+      ]
+    },
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3344,11 +5872,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Pumpkin Barrage",
+      "icon": "Icon_Skill_012",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;229%&lt;/span&gt;  light damage to enemies directly ahead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;254%&lt;/span&gt; light damage to enemies directly ahead.",
+      "description3": "",
+      "Sp": 7668,
+      "SPLv2": 7668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": [
+        687.0
+      ],
+      "modifier2": [
+        762.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 55,
     "MinAtk": 59,
     "MaxAtk": 198,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3362,13 +5908,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 35,
     "MinAtk": 37,
     "MaxAtk": 125,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +10%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305034_01_30501": {
     "id": "305034_01_30501",
@@ -3380,11 +5939,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Dark Whirlwind",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;343%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;381%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description3": "Deals shadow damage to surrounding enemies.",
+      "Sp": 7668,
+      "SPLv2": 7668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        686.0
+      ],
+      "modifier2": [
+        762.0
+      ]
+    },
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3398,13 +5975,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Shadow",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 39,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +10%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305039_01_39901": {
     "id": "305039_01_39901",
@@ -3416,11 +6006,11 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 26,
     "MaxAtk": 87,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3434,11 +6024,25 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Shattering Whirlwind",
+      "icon": "Icon_Skill_004",
+      "description1": "Deals 2 hits of '''309%''' damage to surrounding enemies.",
+      "description2": "Deals 2 hits of '''343%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
+      "Sp": 7668,
+      "SPLv2": 7668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 11,
     "MaxHp": 39,
     "MinAtk": 41,
     "MaxAtk": 139,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3452,11 +6056,25 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Spiralling Descent",
+      "icon": "Icon_Skill_019",
+      "description1": "Deals 1 hit of '''617%''' damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of '''685%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "Sp": 7054,
+      "SPLv2": 7054,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 42,
     "MaxAtk": 143,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3470,12 +6088,20 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 26,
     "MaxAtk": 87,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Thaumian's Bane +10%",
+      "details": "Increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "305049_01_39901": {
@@ -3488,12 +6114,20 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 26,
     "MaxAtk": 87,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Undead's Bane +10%",
+      "details": "Increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "305063_01_39901": {
@@ -3506,12 +6140,20 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 24,
     "MinAtk": 26,
     "MaxAtk": 87,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Blinded Punisher +10%",
+      "details": "Increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities21": 0
   },
   "305031_01_40101": {
@@ -3524,11 +6166,25 @@ const weapon =
     "weapon": "Lance",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Way of the Serpent",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "Sp": 5973,
+      "SPLv2": 5973,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 29,
     "MaxHp": 99,
     "MinAtk": 107,
     "MaxAtk": 358,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3542,13 +6198,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 68,
     "MaxAtk": 227,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305077_01_40101": {
     "id": "305077_01_40101",
@@ -3560,13 +6229,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 22,
     "MaxHp": 76,
     "MinAtk": 82,
     "MaxAtk": 276,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "305016_01_40201": {
     "id": "305016_01_40201",
@@ -3578,11 +6263,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Abyssal Barrage",
+      "icon": "Icon_Skill_012",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;151%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;168%&lt;/span&gt; water damage to enemies directly ahead.",
+      "description3": "Deals water damage to enemies directly ahead.",
+      "Sp": 7282,
+      "SPLv2": 7282,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": [
+        755.0
+      ],
+      "modifier2": [
+        840.0
+      ]
+    },
     "MinHp": 28,
     "MaxHp": 94,
     "MinAtk": 110,
     "MaxAtk": 369,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3596,13 +6299,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 58,
     "MinAtk": 68,
     "MaxAtk": 227,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305058_01_40201": {
     "id": "305058_01_40201",
@@ -3614,14 +6330,32 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 72,
     "MinAtk": 85,
     "MaxAtk": 284,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +3%",
+      "details": "If the user is attuned to Water: increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "305060_01_40201": {
@@ -3634,13 +6368,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +15%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305066_01_40201": {
     "id": "305066_01_40201",
@@ -3652,14 +6399,32 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 24,
     "MaxHp": 80,
     "MinAtk": 80,
     "MaxAtk": 267,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +15%",
+      "details": "If the user is attuned to Water: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Water) High Brunhilda's Bane",
+      "details": "If the user is attuned to Water:  increases damage to High Brunhilda by 20%.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "req": "Water",
     "incDef": 15
   },
   "305011_01_40301": {
@@ -3672,11 +6437,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Tempest Barrage",
+      "icon": "Icon_Skill_012",
+      "description1": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;151%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;168%&lt;/span&gt; wind damage to enemies directly ahead.",
+      "description3": "Deals wind damage to enemies directly ahead.",
+      "Sp": 7282,
+      "SPLv2": 7282,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": [
+        755.0
+      ],
+      "modifier2": [
+        840.0
+      ]
+    },
     "MinHp": 28,
     "MaxHp": 94,
     "MinAtk": 110,
     "MaxAtk": 369,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3690,13 +6473,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305012_01_40401": {
     "id": "305012_01_40401",
@@ -3708,11 +6504,25 @@ const weapon =
     "weapon": "Lance",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Thunder's Focus",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "Sp": 5973,
+      "SPLv2": 5973,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 29,
     "MaxHp": 99,
     "MinAtk": 107,
     "MaxAtk": 358,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3726,13 +6536,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +15%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305035_01_40501": {
     "id": "305035_01_40501",
@@ -3744,11 +6567,25 @@ const weapon =
     "weapon": "Lance",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Hellish Focus",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "Sp": 5973,
+      "SPLv2": 5973,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 29,
     "MaxHp": 99,
     "MinAtk": 107,
     "MaxAtk": 358,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3762,13 +6599,26 @@ const weapon =
     "weapon": "Lance",
     "element": "Shadow",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 66,
     "MaxAtk": 220,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +15%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "305029_01_49901": {
     "id": "305029_01_49901",
@@ -3780,11 +6630,11 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 63,
     "MaxAtk": 212,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3798,11 +6648,25 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Sharp Focus",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''10%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''30%''' for 30 seconds.",
+      "Sp": 5973,
+      "SPLv2": 5973,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 22,
     "MaxHp": 76,
     "MinAtk": 82,
     "MaxAtk": 276,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3816,11 +6680,25 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Ironsides's Barrage",
+      "icon": "Icon_Skill_012",
+      "description1": "Deals 5 hits of '''136%''' damage to enemies directly ahead.",
+      "description2": "Deals 5 hits of '''151%''' damage to enemies directly ahead.",
+      "description3": "Deals non-elemental damage to enemies directly ahead.",
+      "Sp": 7282,
+      "SPLv2": 7282,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 21,
     "MaxHp": 72,
     "MinAtk": 85,
     "MaxAtk": 284,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3834,12 +6712,20 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 65,
     "MaxAtk": 219,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Slayer's Strength +3%",
+      "details": "Increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
     "abilities21": 0
   },
   "305064_01_49901": {
@@ -3852,14 +6738,24 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 62,
     "MinAtk": 61,
     "MaxAtk": 206,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Full HP = Defense +15%",
+      "details": "Increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 15
+    },
     "abilities21": 0,
-    "reqEle": "",
+    "req": "",
     "incDef": 15
   },
   "305076_01_49901": {
@@ -3872,12 +6768,20 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 63,
     "MaxAtk": 212,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "305030_01_50101": {
@@ -3890,11 +6794,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Calamitous Descent",
+      "icon": "Icon_Skill_019",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;415%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;461%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description3": "Deals flame damage to the target and enemies near it.",
+      "Sp": 8111,
+      "SPLv2": 8111,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        830.0
+      ],
+      "modifier2": [
+        922.0
+      ]
+    },
     "MinHp": 43,
     "MaxHp": 145,
     "MinAtk": 170,
     "MaxAtk": 567,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3908,13 +6830,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 29,
     "MaxHp": 99,
     "MinAtk": 107,
     "MaxAtk": 358,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "305014_01_50201": {
     "id": "305014_01_50201",
@@ -3926,11 +6864,25 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Ocean's Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to surrounding teammates.",
+      "Sp": 14410,
+      "SPLv2": 14410,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 49,
     "MaxHp": 165,
     "MinAtk": 156,
     "MaxAtk": 523,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -3944,14 +6896,32 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 32,
     "MaxHp": 107,
     "MinAtk": 102,
     "MaxAtk": 340,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +4%",
+      "details": "If the user is attuned to Water: increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "305066_01_50201": {
@@ -3964,14 +6934,32 @@ const weapon =
     "weapon": "Lance",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 31,
     "MaxHp": 104,
     "MinAtk": 104,
     "MaxAtk": 347,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 100,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +20%",
+      "details": "If the user is attuned to Water: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Water) High Brunhilda's Bane",
+      "details": "If the user is attuned to Water:  increases damage to High Brunhilda by 20%.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "req": "Water",
     "incDef": 20
   },
   "305032_01_50301": {
@@ -3984,11 +6972,25 @@ const weapon =
     "weapon": "Lance",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Northern Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to surrounding teammates.",
+      "Sp": 14410,
+      "SPLv2": 14410,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 49,
     "MaxHp": 165,
     "MinAtk": 156,
     "MaxAtk": 523,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4002,11 +7004,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Thunder's Descent",
+      "icon": "Icon_Skill_019",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;415%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;461%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description3": "Deals light-based damage to the target and enemies near it.",
+      "Sp": 8111,
+      "SPLv2": 8111,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        830.0
+      ],
+      "modifier2": [
+        922.0
+      ]
+    },
     "MinHp": 43,
     "MaxHp": 145,
     "MinAtk": 170,
     "MaxAtk": 567,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4020,11 +7040,29 @@ const weapon =
     "weapon": "Lance",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Heaven's Mistletoe",
+      "icon": "Icon_Skill_019",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;415%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;461%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description3": "Deals shadow damage to the target and enemies near it.",
+      "Sp": 8111,
+      "SPLv2": 8111,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        830.0
+      ],
+      "modifier2": [
+        922.0
+      ]
+    },
     "MinHp": 43,
     "MaxHp": 145,
     "MinAtk": 170,
     "MaxAtk": 567,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4038,11 +7076,11 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 30,
     "MaxHp": 103,
     "MinAtk": 110,
     "MaxAtk": 369,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4056,11 +7094,25 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Explosive Descent",
+      "icon": "Icon_Skill_019",
+      "description1": "Deals 2 hits of '''373%''' damage to the target and nearby enemies.",
+      "description2": "Deals 2 hits of '''415%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "Sp": 8111,
+      "SPLv2": 8111,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 35,
     "MaxHp": 119,
     "MinAtk": 139,
     "MaxAtk": 465,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4074,11 +7126,25 @@ const weapon =
     "weapon": "Lance",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Accursed Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to surrounding teammates with '''54%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to surrounding teammates with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to surrounding teammates.",
+      "Sp": 14410,
+      "SPLv2": 14410,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 40,
     "MaxHp": 135,
     "MinAtk": 128,
     "MaxAtk": 429,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4092,11 +7158,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Flare Volley",
+      "icon": "Icon_Skill_017",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;235%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;261%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
+      "Sp": 7185,
+      "SPLv2": 7185,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        705.0
+      ],
+      "modifier2": [
+        783.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4110,13 +7194,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 39,
     "MaxAtk": 131,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306007_01_30201": {
     "id": "306007_01_30201",
@@ -4128,11 +7225,25 @@ const weapon =
     "weapon": "Bow",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Tidal Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''15%''' for 30 seconds.",
+      "Sp": 6151,
+      "SPLv2": 6151,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 62,
     "MaxAtk": 207,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4146,13 +7257,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 39,
     "MaxAtk": 131,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306050_01_30201": {
     "id": "306050_01_30201",
@@ -4164,13 +7288,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 39,
     "MaxAtk": 131,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +10%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306003_01_30301": {
     "id": "306003_01_30301",
@@ -4182,11 +7319,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Wind Volley",
+      "icon": "Icon_Skill_017",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;235%&lt;/span&gt; wind damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;261%&lt;/span&gt; wind damage to enemies in a line.",
+      "description3": "Deals wind damage to enemies in a line.",
+      "Sp": 7185,
+      "SPLv2": 7185,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        705.0
+      ],
+      "modifier2": [
+        783.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4200,13 +7355,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Wind",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 39,
     "MaxAtk": 131,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306009_01_30401": {
     "id": "306009_01_30401",
@@ -4218,11 +7386,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Galvanic Volley",
+      "icon": "Icon_Skill_017",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;235%&lt;/span&gt; light damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;261%&lt;/span&gt; light damage to enemies in a line.",
+      "description3": "Deals light-based damage to enemies in a line.",
+      "Sp": 7185,
+      "SPLv2": 7185,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        705.0
+      ],
+      "modifier2": [
+        783.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4236,13 +7422,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 35,
     "MinAtk": 40,
     "MaxAtk": 135,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +10%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306018_01_30501": {
     "id": "306018_01_30501",
@@ -4254,11 +7453,25 @@ const weapon =
     "weapon": "Bow",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Cimmerian Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''15%''' for 30 seconds.",
+      "Sp": 6151,
+      "SPLv2": 6151,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 62,
     "MaxAtk": 207,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4272,13 +7485,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Shadow",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 39,
     "MaxAtk": 131,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +10%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306026_01_39901": {
     "id": "306026_01_39901",
@@ -4290,11 +7516,11 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 23,
     "MinAtk": 24,
     "MaxAtk": 82,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4308,11 +7534,25 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Mechanical Volley",
+      "icon": "Icon_Skill_017",
+      "description1": "Deals 3 shots of '''212%''' damage to enemies in a line.",
+      "description2": "Deals 3 shots of '''235%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 7185,
+      "SPLv2": 7185,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 10,
     "MaxHp": 35,
     "MinAtk": 40,
     "MaxAtk": 135,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4326,11 +7566,25 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Hunter's Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''20%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''15%''' for 30 seconds.",
+      "Sp": 6151,
+      "SPLv2": 6151,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 39,
     "MaxAtk": 131,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4344,12 +7598,20 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 23,
     "MinAtk": 24,
     "MaxAtk": 82,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Thaumian's Bane +10%",
+      "details": "Increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "306043_01_39901": {
@@ -4362,12 +7624,20 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 22,
     "MinAtk": 25,
     "MaxAtk": 85,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Undead's Bane +10%",
+      "details": "Increases damage to [[Class Banes|undead]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "306053_01_39901": {
@@ -4380,12 +7650,20 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 23,
     "MinAtk": 24,
     "MaxAtk": 82,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Blinded Punisher +10%",
+      "details": "Increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities21": 0
   },
   "306028_01_40101": {
@@ -4398,11 +7676,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Infernal Smash",
+      "icon": "Icon_Skill_028",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;777%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;863%&lt;/span&gt; flame damage to enemies in a line.",
+      "description3": "Deals flame damage to enemies in a line.",
+      "Sp": 7673,
+      "SPLv2": 7673,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        777.0
+      ],
+      "modifier2": [
+        863.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 104,
     "MaxAtk": 347,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4416,13 +7712,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306061_01_40101": {
     "id": "306061_01_40101",
@@ -4434,13 +7743,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 23,
     "MaxHp": 77,
     "MinAtk": 75,
     "MaxAtk": 252,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "306010_01_40201": {
     "id": "306010_01_40201",
@@ -4452,11 +7777,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Frost Smash",
+      "icon": "Icon_Skill_028",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;777%&lt;/span&gt; water damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;863%&lt;/span&gt; water damage to enemies in a line.",
+      "description3": "Deals water damage to enemies in a line.",
+      "Sp": 7673,
+      "SPLv2": 7673,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        777.0
+      ],
+      "modifier2": [
+        863.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 104,
     "MaxAtk": 347,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4470,13 +7813,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306050_01_40201": {
     "id": "306050_01_40201",
@@ -4488,13 +7844,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 62,
     "MaxAtk": 207,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Undead's Bane +15%",
+      "details": "If the user is attuned to Water: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Skill Resistance Penetrator",
+      "details": "If the user is attuned to Water:  completely negates skill resistance.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306008_01_40301": {
     "id": "306008_01_40301",
@@ -4506,11 +7875,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Gale Smash",
+      "icon": "Icon_Skill_028",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;777%&lt;/span&gt; wind damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;863%&lt;/span&gt; wind damage to enemies in a line.",
+      "description3": "Deals wind damage to enemies in a line.",
+      "Sp": 7673,
+      "SPLv2": 7673,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        777.0
+      ],
+      "modifier2": [
+        863.0
+      ]
+    },
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 104,
     "MaxAtk": 347,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4524,13 +7911,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 62,
     "MaxAtk": 207,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306037_01_40401": {
     "id": "306037_01_40401",
@@ -4542,11 +7942,25 @@ const weapon =
     "weapon": "Bow",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Holy Energy",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description2": "Increases max HP by '''20%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "Sp": 11213,
+      "SPLv2": 11213,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 30,
     "MaxHp": 103,
     "MinAtk": 96,
     "MaxAtk": 320,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4560,13 +7974,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 64,
     "MaxAtk": 214,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Light) Undead's Bane +15%",
+      "details": "If the user is attuned to Light: increases damage to [[Class Banes|undead]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Dull Res",
+      "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306016_01_40501": {
     "id": "306016_01_40501",
@@ -4578,11 +8005,25 @@ const weapon =
     "weapon": "Bow",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Macabre Energy",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description2": "Increases max HP by '''20%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "Sp": 11213,
+      "SPLv2": 11213,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 30,
     "MaxHp": 103,
     "MinAtk": 96,
     "MaxAtk": 320,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4596,13 +8037,26 @@ const weapon =
     "weapon": "Bow",
     "element": "Shadow",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 62,
     "MaxAtk": 207,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +15%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "306013_01_49901": {
     "id": "306013_01_49901",
@@ -4614,11 +8068,11 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 60,
     "MaxAtk": 200,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4632,11 +8086,25 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Faerie Smash",
+      "icon": "Icon_Skill_028",
+      "description1": "Deals 1 shot of '''699%''' damage to enemies in a line.",
+      "description2": "Deals 1 shot of '''777%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 7673,
+      "SPLv2": 7673,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 21,
     "MaxHp": 70,
     "MinAtk": 80,
     "MaxAtk": 267,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4650,11 +8118,25 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Duskhawk's Energy",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases max HP by '''10%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description2": "Increases max HP by '''15%''' for the remainder of the quest. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "description3": "Increases the user's HP by '''25%''' for 30 seconds. Once HP buffs reach the limit of '''30%''', an HP recovery effect is granted instead.",
+      "Sp": 11213,
+      "SPLv2": 11213,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 23,
     "MaxHp": 79,
     "MinAtk": 73,
     "MaxAtk": 246,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4668,12 +8150,20 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 18,
     "MaxHp": 61,
     "MinAtk": 57,
     "MaxAtk": 190,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "306027_01_50101": {
@@ -4686,11 +8176,25 @@ const weapon =
     "weapon": "Bow",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Lupine Vision",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 44,
     "MaxHp": 147,
     "MinAtk": 155,
     "MaxAtk": 518,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4704,13 +8208,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 30,
     "MaxHp": 100,
     "MinAtk": 98,
     "MaxAtk": 327,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "306029_01_50201": {
     "id": "306029_01_50201",
@@ -4722,11 +8242,25 @@ const weapon =
     "weapon": "Bow",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Peacock Shot",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 44,
     "MaxHp": 147,
     "MinAtk": 155,
     "MaxAtk": 518,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4740,11 +8274,25 @@ const weapon =
     "weapon": "Bow",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Pegasus Shot",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 44,
     "MaxHp": 147,
     "MinAtk": 155,
     "MaxAtk": 518,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4758,11 +8306,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Divine Thunder",
+      "icon": "Icon_Skill_028",
+      "description1": "Deals 1 shot of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;854%&lt;/span&gt; light damage to enemies in a line.",
+      "description2": "Deals 1 shot of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;949%&lt;/span&gt; light damage to enemies in a line.",
+      "description3": "Deals light-based damage to enemies in a line.",
+      "Sp": 8075,
+      "SPLv2": 8075,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        854.0
+      ],
+      "modifier2": [
+        949.0
+      ]
+    },
     "MinHp": 42,
     "MaxHp": 140,
     "MinAtk": 160,
     "MaxAtk": 534,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4776,11 +8342,29 @@ const weapon =
     "weapon": "Bow",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Necro Volley",
+      "icon": "Icon_Skill_017",
+      "description1": "Deals 3 shots of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;284%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description2": "Deals 3 shots of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;316%&lt;/span&gt; shadow damage to enemies in a line.",
+      "description3": "Deals shadow damage to enemies in a line.",
+      "Sp": 7501,
+      "SPLv2": 7501,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        852.0
+      ],
+      "modifier2": [
+        948.0
+      ]
+    },
     "MinHp": 42,
     "MaxHp": 140,
     "MinAtk": 160,
     "MaxAtk": 534,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4794,11 +8378,11 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 29,
     "MaxHp": 98,
     "MinAtk": 104,
     "MaxAtk": 347,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4812,11 +8396,25 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Midair Buster",
+      "icon": "Icon_Skill_028",
+      "description1": "Deals 1 shot of '''769%''' damage to enemies in a line.",
+      "description2": "Deals 1 shot of '''854%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 8075,
+      "SPLv2": 8075,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 131,
     "MaxAtk": 438,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4830,11 +8428,25 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Star Volley",
+      "icon": "Icon_Skill_017",
+      "description1": "Deals 3 shots of '''256%''' damage to enemies in a line.",
+      "description2": "Deals 3 shots of '''284%''' damage to enemies in a line.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 7501,
+      "SPLv2": 7501,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 131,
     "MaxAtk": 438,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4848,11 +8460,25 @@ const weapon =
     "weapon": "Bow",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Chimera's Boost",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the user's critical rate by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's critical rate by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's critical rate by '''40%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 36,
     "MaxHp": 121,
     "MinAtk": 127,
     "MaxAtk": 425,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4866,11 +8492,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Sunrise Blast",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;806%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;895%&lt;/span&gt; flame damage to the target and nearby enemies.",
+      "description3": "Deals flame damage to the target and enemies near it.",
+      "Sp": 8355,
+      "SPLv2": 8355,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4884,13 +8528,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307033_01_30201": {
     "id": "307033_01_30201",
@@ -4902,11 +8559,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Ocean Blast",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;806%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;895%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description3": "Deals water damage to the target and enemies near it.",
+      "Sp": 8355,
+      "SPLv2": 8355,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4920,13 +8595,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307007_01_30301": {
     "id": "307007_01_30301",
@@ -4938,11 +8626,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Storm Discharge",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;806%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;895%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description3": "Deals wind damage to enemies in a line.",
+      "Sp": 8062,
+      "SPLv2": 8062,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 54,
     "MinAtk": 68,
     "MaxAtk": 229,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4956,13 +8662,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Wind",
     "rarity": "3",
+    "skill": null,
     "MinHp": 11,
     "MaxHp": 37,
     "MinAtk": 40,
     "MaxAtk": 136,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307021_01_30401": {
     "id": "307021_01_30401",
@@ -4974,11 +8693,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Electrical Discharge",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;806%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;806%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to enemies in a line.",
+      "Sp": 8062,
+      "SPLv2": 8062,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        806.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 54,
     "MinAtk": 68,
     "MaxAtk": 229,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -4992,11 +8729,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Dark Discharge",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;806%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;895%&lt;/span&gt; shadow damage to the target and nearby enemies.",
+      "description3": "Deals shadow damage to the target and enemies near it.",
+      "Sp": 8355,
+      "SPLv2": 8355,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        806.0
+      ],
+      "modifier2": [
+        895.0
+      ]
+    },
     "MinHp": 16,
     "MaxHp": 56,
     "MinAtk": 66,
     "MaxAtk": 222,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5010,13 +8765,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Shadow",
     "rarity": "3",
+    "skill": null,
     "MinHp": 10,
     "MaxHp": 34,
     "MinAtk": 43,
     "MaxAtk": 144,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +10%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307042_01_39901": {
     "id": "307042_01_39901",
@@ -5028,11 +8796,11 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 21,
     "MinAtk": 27,
     "MaxAtk": 91,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5046,11 +8814,25 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Sorcerer's Blast",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of '''725%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''806%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to enemies in a line.",
+      "Sp": 8062,
+      "SPLv2": 8062,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 10,
     "MaxHp": 34,
     "MinAtk": 43,
     "MaxAtk": 144,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5064,11 +8846,25 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Conchoidal Blast",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 1 hit of '''725%''' damage to the target and nearby enemies.",
+      "description2": "Deals 1 hit of '''806%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "Sp": 8355,
+      "SPLv2": 8355,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 10,
     "MaxHp": 36,
     "MinAtk": 42,
     "MaxAtk": 140,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5082,12 +8878,20 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 22,
     "MinAtk": 26,
     "MaxAtk": 88,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Thaumian's Bane +10%",
+      "details": "Increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0
   },
   "307057_01_39901": {
@@ -5100,12 +8904,20 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 6,
     "MaxHp": 21,
     "MinAtk": 27,
     "MaxAtk": 91,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "Blinded Punisher +10%",
+      "details": "Increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities21": 0
   },
   "307016_01_40101": {
@@ -5118,11 +8930,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Firefiend's Discharge",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;886%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;984%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description3": "Deals flame damage to surrounding enemies.",
+      "Sp": 8453,
+      "SPLv2": 8453,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        886.0
+      ],
+      "modifier2": [
+        984.0
+      ]
+    },
     "MinHp": 26,
     "MaxHp": 87,
     "MinAtk": 111,
     "MaxAtk": 372,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5136,13 +8966,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 54,
     "MinAtk": 68,
     "MaxAtk": 229,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Flame: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Dragon Delay Res",
+      "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307066_01_40101": {
     "id": "307066_01_40101",
@@ -5154,13 +8997,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 22,
     "MaxHp": 74,
     "MinAtk": 81,
     "MaxAtk": 270,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "307036_01_40201": {
     "id": "307036_01_40201",
@@ -5172,11 +9031,25 @@ const weapon =
     "weapon": "Wand",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Lachrymal Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 28,
     "MaxHp": 96,
     "MinAtk": 105,
     "MaxAtk": 351,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5190,13 +9063,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 64,
     "MaxAtk": 216,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Water) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Water:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Dull Res",
+      "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307055_01_40201": {
     "id": "307055_01_40201",
@@ -5208,14 +9094,32 @@ const weapon =
     "weapon": "Wand",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 22,
     "MaxHp": 74,
     "MinAtk": 81,
     "MaxAtk": 270,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +3%",
+      "details": "If the user is attuned to Water: increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "307018_01_40301": {
@@ -5228,11 +9132,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Tempestuous Discharge",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;886%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;984%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description3": "Deals wind damage to surrounding enemies.",
+      "Sp": 8453,
+      "SPLv2": 8453,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        886.0
+      ],
+      "modifier2": [
+        984.0
+      ]
+    },
     "MinHp": 26,
     "MaxHp": 87,
     "MinAtk": 111,
     "MaxAtk": 372,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5246,13 +9168,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 64,
     "MaxAtk": 216,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Wind) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Wind: increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Copy Punisher",
+      "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307010_01_40401": {
     "id": "307010_01_40401",
@@ -5264,11 +9199,25 @@ const weapon =
     "weapon": "Wand",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Conductive Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''30%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 28,
     "MaxHp": 96,
     "MinAtk": 105,
     "MaxAtk": 351,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5282,11 +9231,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Accursed Discharge",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;886%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;984%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description3": "Deals shadow damage to surrounding enemies.",
+      "Sp": 8453,
+      "SPLv2": 8453,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        886.0
+      ],
+      "modifier2": [
+        984.0
+      ]
+    },
     "MinHp": 26,
     "MaxHp": 87,
     "MinAtk": 111,
     "MaxAtk": 372,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5300,13 +9267,26 @@ const weapon =
     "weapon": "Wand",
     "element": "Shadow",
     "rarity": "4",
+    "skill": null,
     "MinHp": 16,
     "MaxHp": 54,
     "MinAtk": 68,
     "MaxAtk": 229,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Shadow) Blinded Punisher +15%",
+      "details": "If the user is attuned to Shadow: increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Dull Res",
+      "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    }
   },
   "307012_01_49901": {
     "id": "307012_01_49901",
@@ -5318,11 +9298,11 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 15,
     "MaxHp": 51,
     "MinAtk": 66,
     "MaxAtk": 221,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5336,11 +9316,25 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Alchemic Discharge",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of '''797%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''886%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
+      "Sp": 8453,
+      "SPLv2": 8453,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 20,
     "MaxHp": 67,
     "MinAtk": 86,
     "MaxAtk": 287,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5354,11 +9348,25 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Moonlight's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''30%''' for 30 seconds.",
+      "Sp": 7316,
+      "SPLv2": 7316,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 22,
     "MaxHp": 74,
     "MinAtk": 81,
     "MaxAtk": 270,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5372,12 +9380,20 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 62,
     "MaxAtk": 208,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Slayer's Strength +3%",
+      "details": "Increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
     "abilities21": 0
   },
   "307065_01_49901": {
@@ -5390,12 +9406,20 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 17,
     "MaxHp": 57,
     "MinAtk": 62,
     "MaxAtk": 208,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "307015_01_50101": {
@@ -5408,11 +9432,25 @@ const weapon =
     "weapon": "Wand",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Grand Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 12668,
+      "SPLv2": 12668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 45,
     "MaxHp": 152,
     "MinAtk": 158,
     "MaxAtk": 528,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5426,13 +9464,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 28,
     "MaxHp": 96,
     "MinAtk": 105,
     "MaxAtk": 351,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 100
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) High Midgardsormr's Bane",
+      "details": "If the user is attuned to Flame: increases damage to High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   "307032_01_50201": {
     "id": "307032_01_50201",
@@ -5444,11 +9498,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Monarch's Blast",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;244%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;271%&lt;/span&gt; water damage to the target and nearby enemies.",
+      "description3": "Deals water damage to the target and enemies near it.",
+      "Sp": 8757,
+      "SPLv2": 8757,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        976.0
+      ],
+      "modifier2": [
+        1084.0
+      ]
+    },
     "MinHp": 40,
     "MaxHp": 134,
     "MinAtk": 171,
     "MaxAtk": 573,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5462,14 +9534,32 @@ const weapon =
     "weapon": "Wand",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 26,
     "MaxHp": 87,
     "MinAtk": 111,
     "MaxAtk": 372,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Slayer's Strength +4%",
+      "details": "If the user is attuned to Water: increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "(Water) HP 70% = Strength +5%",
+      "details": "If the user is attuned to Water: increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "STR": 5
+    },
+    "req": "Water",
     "incSTR": 5
   },
   "307014_01_50301": {
@@ -5482,11 +9572,25 @@ const weapon =
     "weapon": "Wand",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Phytalmios's Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 12668,
+      "SPLv2": 12668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 45,
     "MaxHp": 152,
     "MinAtk": 158,
     "MaxAtk": 528,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5500,11 +9604,29 @@ const weapon =
     "weapon": "Wand",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Twilight Blast",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;244%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;271%&lt;/span&gt; light damage to the target and nearby enemies.",
+      "description3": "Deals light-based damage to the target and enemies near it.",
+      "Sp": 8757,
+      "SPLv2": 8757,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        976.0
+      ],
+      "modifier2": [
+        1084.0
+      ]
+    },
     "MinHp": 40,
     "MaxHp": 134,
     "MinAtk": 171,
     "MaxAtk": 573,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5518,11 +9640,25 @@ const weapon =
     "weapon": "Wand",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Persephone's Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 12668,
+      "SPLv2": 12668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 45,
     "MaxHp": 152,
     "MinAtk": 158,
     "MaxAtk": 528,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5536,11 +9672,11 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 27,
     "MaxHp": 90,
     "MinAtk": 115,
     "MaxAtk": 384,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5554,11 +9690,25 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Welkin Blast",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 4 hits of '''220%''' damage to the target and nearby enemies.",
+      "description2": "Deals 4 hits of '''244%''' damage to the target and nearby enemies.",
+      "description3": "Deals non-elemental damage to the target and nearby enemies.",
+      "Sp": 8757,
+      "SPLv2": 8757,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 33,
     "MaxHp": 110,
     "MinAtk": 141,
     "MaxAtk": 470,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5572,11 +9722,25 @@ const weapon =
     "weapon": "Wand",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Chaotic Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores the user's HP with '''72%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores the user's HP with '''90%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores the user's HP.",
+      "Sp": 12668,
+      "SPLv2": 12668,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 37,
     "MaxHp": 125,
     "MinAtk": 129,
     "MaxAtk": 433,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5590,11 +9754,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Flame",
     "rarity": "3",
+    "skill": {
+      "name": "Flame Circle",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;562%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;624%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description3": "Deals flame damage to surrounding enemies.",
+      "Sp": 13822,
+      "SPLv2": 13822,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        562.0
+      ],
+      "modifier2": [
+        624.0
+      ]
+    },
     "MinHp": 19,
     "MaxHp": 66,
     "MinAtk": 61,
     "MaxAtk": 205,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5608,14 +9790,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Flame",
     "rarity": "3",
+    "skill": null,
     "MinHp": 12,
     "MaxHp": 42,
     "MinAtk": 38,
     "MaxAtk": 129,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50,
-    "reqEle": "Flame",
+    "abilities11": {
+      "name": "(Flame) HP 70% = Defense +3%",
+      "details": "If the user is attuned to Flame: increases defense by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 3
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    },
+    "req": "Flame",
     "incDef": 3
   },
   "308007_01_30201": {
@@ -5628,11 +9825,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Water",
     "rarity": "3",
+    "skill": {
+      "name": "Tidal Circle",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;562%&lt;/span&gt; water damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#007cff; font-weight:bold;&quot;&gt;624%&lt;/span&gt; water damage to surrounding enemies.",
+      "description3": "Deals water damage to surrounding enemies.",
+      "Sp": 13822,
+      "SPLv2": 13822,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        562.0
+      ],
+      "modifier2": [
+        624.0
+      ]
+    },
     "MinHp": 19,
     "MaxHp": 66,
     "MinAtk": 61,
     "MaxAtk": 205,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5646,14 +9861,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Water",
     "rarity": "3",
+    "skill": null,
     "MinHp": 13,
     "MaxHp": 45,
     "MinAtk": 36,
     "MaxAtk": 123,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) HP 70% = Defense +3%",
+      "details": "If the user is attuned to Water: increases defense by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 3
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    },
+    "req": "Water",
     "incDef": 3
   },
   "308008_01_30301": {
@@ -5666,11 +9896,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Wind",
     "rarity": "3",
+    "skill": {
+      "name": "Wind's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "Sp": 14632,
+      "SPLv2": 14632,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 20,
     "MaxHp": 69,
     "MinAtk": 59,
     "MaxAtk": 199,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5684,11 +9928,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Astro Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "Sp": 14632,
+      "SPLv2": 14632,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 20,
     "MaxHp": 69,
     "MinAtk": 59,
     "MaxAtk": 199,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5702,11 +9960,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "3",
+    "skill": {
+      "name": "Vampire's Treat",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 17,
     "MaxHp": 59,
     "MinAtk": 55,
     "MaxAtk": 185,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5720,14 +9992,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "3",
+    "skill": null,
     "MinHp": 13,
     "MaxHp": 45,
     "MinAtk": 36,
     "MaxAtk": 123,
-    "skill": false,
-    "abilities11": 20,
-    "abilities21": 50,
-    "reqEle": "Light",
+    "abilities11": {
+      "name": "(Light) HP 70% = Defense +3%",
+      "details": "If the user is attuned to Light: increases defense by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Light",
+      "def": 3
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    },
+    "req": "Light",
     "incDef": 3
   },
   "308020_01_30501": {
@@ -5740,11 +10027,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Shadow",
     "rarity": "3",
+    "skill": {
+      "name": "Meggidoth's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''25%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "Sp": 14632,
+      "SPLv2": 14632,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 20,
     "MaxHp": 69,
     "MinAtk": 59,
     "MaxAtk": 199,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5758,11 +10059,11 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 8,
     "MaxHp": 28,
     "MinAtk": 23,
     "MaxAtk": 77,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5776,11 +10077,25 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Ankh's Protection",
+      "icon": "Icon_Skill_031",
+      "description1": "Increases the user's defense by '''15%''' for 10 seconds.",
+      "description2": "Increases the user's defense by '''20%''' for 10 seconds.",
+      "description3": "Increases the user's defense by '''20%''' for 30 seconds.",
+      "Sp": 14632,
+      "SPLv2": 14632,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 13,
     "MaxHp": 44,
     "MinAtk": 37,
     "MaxAtk": 125,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5794,11 +10109,25 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "3",
+    "skill": {
+      "name": "Horned Circle",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of '''506%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''562%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
+      "Sp": 13822,
+      "SPLv2": 13822,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 12,
     "MaxHp": 42,
     "MinAtk": 38,
     "MaxAtk": 129,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5812,14 +10141,24 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "3",
+    "skill": null,
     "MinHp": 7,
     "MaxHp": 26,
     "MinAtk": 24,
     "MaxAtk": 81,
-    "skill": false,
-    "abilities11": 20,
+    "abilities11": {
+      "name": "HP 70% = Defense +3%",
+      "details": "Increases defense by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 3
+    },
     "abilities21": 0,
-    "reqEle": "",
+    "req": "",
     "incDef": 3
   },
   "308021_01_40101": {
@@ -5832,11 +10171,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Flame",
     "rarity": "4",
+    "skill": {
+      "name": "Ark Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to the team member most in need.",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 95,
     "MaxAtk": 317,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5850,14 +10203,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 71,
     "MinAtk": 58,
     "MaxAtk": 195,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50,
-    "reqEle": "Flame",
+    "abilities11": {
+      "name": "(Flame) HP 70% = Defense +5%",
+      "details": "If the user is attuned to Flame: increases defense by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 5
+    },
+    "abilities21": {
+      "name": "(Flame) Dull Res",
+      "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": {}
+    },
+    "req": "Flame",
     "incDef": 5
   },
   "308044_01_40101": {
@@ -5870,13 +10238,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Flame",
     "rarity": "4",
+    "skill": null,
     "MinHp": 26,
     "MaxHp": 89,
     "MinAtk": 73,
     "MaxAtk": 244,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Skill Prep +25%",
+      "details": "If the user is attuned to Flame:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Skill Haste +4%",
+      "details": "If the user is attuned to Flame:  increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    }
   },
   "308022_01_40201": {
     "id": "308022_01_40201",
@@ -5888,11 +10272,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Water",
     "rarity": "4",
+    "skill": {
+      "name": "Marine Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to the team member most in need.",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 95,
     "MaxAtk": 317,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5906,14 +10304,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 71,
     "MinAtk": 58,
     "MaxAtk": 195,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) HP 70% = Defense +5%",
+      "details": "If the user is attuned to Water: increases defense by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 5
+    },
+    "abilities21": {
+      "name": "(Water) Scorching Air Res",
+      "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
+      "might": 50,
+      "limit": {}
+    },
+    "req": "Water",
     "incDef": 5
   },
   "308055_01_40201": {
@@ -5926,14 +10339,32 @@ const weapon =
     "weapon": "Staff",
     "element": "Water",
     "rarity": "4",
+    "skill": null,
     "MinHp": 26,
     "MaxHp": 89,
     "MinAtk": 73,
     "MaxAtk": 244,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +15%",
+      "details": "If the user is attuned to Water: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Water) Skill Haste +4%",
+      "details": "If the user is attuned to Water:  increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Water",
     "incDef": 15
   },
   "308033_01_40301": {
@@ -5946,11 +10377,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Wind",
     "rarity": "4",
+    "skill": {
+      "name": "Windeater's Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "Sp": 6645,
+      "SPLv2": 6645,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 32,
     "MaxHp": 107,
     "MinAtk": 99,
     "MaxAtk": 333,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -5964,13 +10409,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Wind",
     "rarity": "4",
+    "skill": null,
     "MinHp": 26,
     "MaxHp": 89,
     "MinAtk": 73,
     "MaxAtk": 244,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) HP 70% = Healing +8%",
+      "details": "If the user is attuned to Wind: increases the potency of recovery skills by '''8%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    }
   },
   "308018_01_40401": {
     "id": "308018_01_40401",
@@ -5982,11 +10443,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "4",
+    "skill": {
+      "name": "Tonitrus's Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "Sp": 6645,
+      "SPLv2": 6645,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 32,
     "MaxHp": 107,
     "MinAtk": 99,
     "MaxAtk": 333,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6000,13 +10475,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 26,
     "MaxHp": 89,
     "MinAtk": 73,
     "MaxAtk": 244,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +25%",
+      "details": "If the user is attuned to Light:  fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Recovery Potency +5%",
+      "details": "If the user is attuned to Light:  increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    }
   },
   "308050_01_40401": {
     "id": "308050_01_40401",
@@ -6018,14 +10509,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "4",
+    "skill": null,
     "MinHp": 21,
     "MaxHp": 71,
     "MinAtk": 58,
     "MaxAtk": 195,
-    "skill": false,
-    "abilities11": 40,
-    "abilities21": 50,
-    "reqEle": "Light",
+    "abilities11": {
+      "name": "(Light) HP 70% = Defense +5%",
+      "details": "If the user is attuned to Light: increases defense by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Light",
+      "def": 5
+    },
+    "abilities21": {
+      "name": "(Light) Fury Penetrator",
+      "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": {}
+    },
+    "req": "Light",
     "incDef": 5
   },
   "308019_01_40501": {
@@ -6038,11 +10544,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Shadow",
     "rarity": "4",
+    "skill": {
+      "name": "Force of Insanity",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''35%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "Sp": 6645,
+      "SPLv2": 6645,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 32,
     "MaxHp": 107,
     "MinAtk": 99,
     "MaxAtk": 333,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6056,11 +10576,11 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 20,
     "MaxHp": 68,
     "MinAtk": 56,
     "MaxAtk": 188,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6074,11 +10594,25 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Fortuitous Strength",
+      "icon": "Icon_Skill_030",
+      "description1": "Increases the user's strength by '''25%''' for 5 seconds.",
+      "description2": "Increases the user's strength by '''30%''' for 5 seconds.",
+      "description3": "Increases the user's strength by '''25%''' for 30 seconds.",
+      "Sp": 6645,
+      "SPLv2": 6645,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 24,
     "MaxHp": 82,
     "MinAtk": 77,
     "MaxAtk": 257,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6092,11 +10626,25 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "4",
+    "skill": {
+      "name": "Beautiful Healing",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to the team member most in need with '''180%''' [[Healing Formula|Recovery Potency]].",
+      "description2": "Restores HP to the team member most in need with '''207%''' [[Healing Formula|Recovery Potency]].",
+      "description3": "Restores HP to the team member most in need.",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 26,
     "MaxHp": 89,
     "MinAtk": 73,
     "MaxAtk": 244,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6110,12 +10658,20 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 20,
     "MaxHp": 68,
     "MinAtk": 56,
     "MaxAtk": 188,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0
   },
   "308053_01_49901": {
@@ -6128,14 +10684,24 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "4",
+    "skill": null,
     "MinHp": 20,
     "MaxHp": 68,
     "MinAtk": 56,
     "MaxAtk": 188,
-    "skill": false,
-    "abilities11": 40,
+    "abilities11": {
+      "name": "Full HP = Defense +15%",
+      "details": "Increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 15
+    },
     "abilities21": 0,
-    "reqEle": "",
+    "req": "",
     "incDef": 15
   },
   "308031_01_50101": {
@@ -6148,11 +10714,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Flame",
     "rarity": "5",
+    "skill": {
+      "name": "Red Emperor's Spirit",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
+      "description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 53,
     "MaxHp": 178,
     "MinAtk": 146,
     "MaxAtk": 487,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6166,13 +10746,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Flame",
     "rarity": "5",
+    "skill": null,
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 95,
     "MaxAtk": 317,
-    "skill": false,
-    "abilities11": 50,
-    "abilities21": 50
+    "abilities11": {
+      "name": "(Flame) Skill Prep +50%",
+      "details": "If the user is attuned to Flame: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Skill Haste +4%",
+      "details": "If the user is attuned to Flame:  increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    }
   },
   "308011_01_50201": {
     "id": "308011_01_50201",
@@ -6184,11 +10780,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Water",
     "rarity": "5",
+    "skill": {
+      "name": "Bracing Spirit",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
+      "description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 53,
     "MaxHp": 178,
     "MinAtk": 146,
     "MaxAtk": 487,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6202,14 +10812,32 @@ const weapon =
     "weapon": "Staff",
     "element": "Water",
     "rarity": "5",
+    "skill": null,
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 95,
     "MaxAtk": 317,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 50,
-    "reqEle": "Water",
+    "abilities11": {
+      "name": "(Water) Full HP = Defense +20%",
+      "details": "If the user is attuned to Water: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Water",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Water) Skill Haste +4%",
+      "details": "If the user is attuned to Water:  increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Water",
     "incDef": 20
   },
   "308032_01_50301": {
@@ -6222,11 +10850,25 @@ const weapon =
     "weapon": "Staff",
     "element": "Wind",
     "rarity": "5",
+    "skill": {
+      "name": "Ancient Mage's Spirit",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''20%''' for 5 seconds.",
+      "description3": "Deals wind damage to surrounding enemies.",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 53,
     "MaxHp": 178,
     "MinAtk": 146,
     "MaxAtk": 487,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6240,13 +10882,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Wind",
     "rarity": "5",
+    "skill": null,
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 95,
     "MaxAtk": 317,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) HP 70% = Healing +8%",
+      "details": "If the user is attuned to Wind: increases the potency of recovery skills by '''8%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    }
   },
   "308014_01_50401": {
     "id": "308014_01_50401",
@@ -6258,11 +10916,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "5",
+    "skill": {
+      "name": "Judgment Circle",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;680%&lt;/span&gt; light damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#bba500; font-weight:bold;&quot;&gt;755%&lt;/span&gt; light damage to surrounding enemies.",
+      "description3": "Deals light-based damage to surrounding enemies.",
+      "Sp": 15205,
+      "SPLv2": 15205,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        680.0
+      ],
+      "modifier2": [
+        755.0
+      ]
+    },
     "MinHp": 49,
     "MaxHp": 165,
     "MinAtk": 153,
     "MaxAtk": 513,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6276,13 +10952,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Light",
     "rarity": "5",
+    "skill": null,
     "MinHp": 34,
     "MaxHp": 115,
     "MinAtk": 95,
     "MaxAtk": 317,
-    "skill": false,
-    "abilities11": 60,
-    "abilities21": 40
+    "abilities11": {
+      "name": "(Light) Skill Prep +50%",
+      "details": "If the user is attuned to Light:  fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Recovery Potency +5%",
+      "details": "If the user is attuned to Light:  increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    }
   },
   "308015_01_50501": {
     "id": "308015_01_50501",
@@ -6294,11 +10986,29 @@ const weapon =
     "weapon": "Staff",
     "element": "Shadow",
     "rarity": "5",
+    "skill": {
+      "name": "Herald's Circle",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;680%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#521bce; font-weight:bold;&quot;&gt;755%&lt;/span&gt; shadow damage to surrounding enemies.",
+      "description3": "Deals shadow damage to surrounding enemies.",
+      "Sp": 15205,
+      "SPLv2": 15205,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": [
+        680.0
+      ],
+      "modifier2": [
+        755.0
+      ]
+    },
     "MinHp": 49,
     "MaxHp": 165,
     "MinAtk": 153,
     "MaxAtk": 513,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6312,11 +11022,11 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "5",
+    "skill": null,
     "MinHp": 35,
     "MaxHp": 119,
     "MinAtk": 98,
     "MaxAtk": 327,
-    "skill": false,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6330,11 +11040,25 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Rainbow Spirit",
+      "icon": "Icon_Skill_032",
+      "description1": "Increases the potency of the user's recovery skills by '''10%''' for 5 seconds.",
+      "description2": "Increases the potency of the user's recovery skills by '''15%''' for 5 seconds.",
+      "description3": "Increases the potency of the user's recovery skills by '''30%''' for 30 seconds.",
+      "Sp": 17748,
+      "SPLv2": 17748,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 43,
     "MaxHp": 146,
     "MinAtk": 120,
     "MaxAtk": 400,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   },
@@ -6348,11 +11072,25 @@ const weapon =
     "weapon": "Staff",
     "element": "None",
     "rarity": "5",
+    "skill": {
+      "name": "Ethereal Circle",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 1 hit of '''612%''' damage to surrounding enemies.",
+      "description2": "Deals 1 hit of '''680%''' damage to surrounding enemies.",
+      "description3": "Deals non-elemental damage to surrounding enemies.",
+      "Sp": 15205,
+      "SPLv2": 15205,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier1": 0,
+      "modifier2": 0
+    },
     "MinHp": 40,
     "MaxHp": 135,
     "MinAtk": 126,
     "MaxAtk": 421,
-    "skill": true,
     "abilities11": 0,
     "abilities21": 0
   }

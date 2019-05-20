@@ -1,6 +1,236 @@
 const wyrmprint =
  [
   {
+    "id": "400001",
+    "name": {
+      "en": "Ring of Exaltation",
+      "ja": "勇躍の指輪",
+      "zh": "Ring of Exaltation"
+    },
+    "rarity": "2",
+    "MinHp": 26,
+    "MaxHp": 178,
+    "MinAtk": 9,
+    "MaxAtk": 62,
+    "abilities11": {
+      "name": "Critical Rate +2%",
+      "details": "Increases critical rate by '''2%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Critical Rate +3%",
+      "details": "Increases critical rate by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Critical Rate +4%",
+      "details": "Increases critical rate by '''4%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": 0,
+    "abilities22": 0,
+    "abilities23": 0,
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0
+  },
+  {
+    "id": "400002",
+    "name": {
+      "en": "Seafood Soup",
+      "ja": "シーフードスープ",
+      "zh": "Seafood Soup"
+    },
+    "rarity": "2",
+    "MinHp": 26,
+    "MaxHp": 178,
+    "MinAtk": 9,
+    "MaxAtk": 62,
+    "abilities11": {
+      "name": "Skill Prep +8%",
+      "details": "Fills '''8%''' of skill gauges at the start of quests.",
+      "might": 5,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": 0,
+    "abilities22": 0,
+    "abilities23": 0,
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0
+  },
+  {
+    "id": "400003",
+    "name": {
+      "en": "Dragon Arcanum",
+      "ja": "ドラゴンの秘薬",
+      "zh": "Dragon Arcanum"
+    },
+    "rarity": "2",
+    "MinHp": 26,
+    "MaxHp": 178,
+    "MinAtk": 9,
+    "MaxAtk": 62,
+    "abilities11": {
+      "name": "Shapeshift Prep +5%",
+      "details": "Fills '''5%''' of the dragon gauge at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities12": {
+      "name": "Shapeshift Prep +8%",
+      "details": "Fills '''8%''' of the dragon gauge at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities13": {
+      "name": "Shapeshift Prep +10%",
+      "details": "Fills '''10%''' of the dragon gauge at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities21": 0,
+    "abilities22": 0,
+    "abilities23": 0,
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0
+  },
+  {
+    "id": "400004",
+    "name": {
+      "en": "Mana Fount",
+      "ja": "マナスポット",
+      "zh": "Mana Fount"
+    },
+    "rarity": "2",
+    "MinHp": 26,
+    "MaxHp": 177,
+    "MinAtk": 9,
+    "MaxAtk": 63,
+    "abilities11": {
+      "name": "Skill Damage +5%",
+      "details": "Increases attack skill damage by '''5%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": 0,
+    "abilities22": 0,
+    "abilities23": 0,
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0
+  },
+  {
+    "id": "400005",
+    "name": {
+      "en": "Old Harp",
+      "ja": "古びたハープ",
+      "zh": "Old Harp"
+    },
+    "rarity": "2",
+    "MinHp": 27,
+    "MaxHp": 182,
+    "MinAtk": 8,
+    "MaxAtk": 58,
+    "abilities11": {
+      "name": "Recovery Potency +2%",
+      "details": "Increases the potency of recovery skills by '''2%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +3%",
+      "details": "Increases the potency of recovery skills by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": 0,
+    "abilities22": 0,
+    "abilities23": 0,
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0
+  },
+  {
     "id": "400006",
     "name": {
       "en": "Scorn the Destrier",
@@ -12,9 +242,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Broken Punisher +10%",
+      "details": "Increases damage to enemies in break state by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "Broken Punisher +15%",
+      "details": "Increases damage to enemies in break state by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "Broken Punisher +20%",
+      "details": "Increases damage to enemies in break state by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -34,9 +288,33 @@ const wyrmprint =
     "MaxHp": 73,
     "MinAtk": 3,
     "MaxAtk": 23,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Recovery Potency +3%",
+      "details": "Increases the potency of recovery skills by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -56,9 +334,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 30,
+    "abilities11": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -78,9 +380,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Buff Time +10%",
+      "details": "Increases duration of buff skills by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "Buff Time +15%",
+      "details": "Increases duration of buff skills by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "Buff Time +20%",
+      "details": "Increases duration of buff skills by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -100,9 +426,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Force Strike +10%",
+      "details": "Increases force strike damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities12": {
+      "name": "Force Strike +20%",
+      "details": "Increases force strike damage by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities13": {
+      "name": "Force Strike +30%",
+      "details": "Increases force strike damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -122,9 +472,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Critical Damage +8%",
+      "details": "Adds '''8%''' to the modifier applied to critical damage.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Critical Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to critical damage.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Critical Damage +13%",
+      "details": "Adds '''13%''' to the modifier applied to critical damage.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -144,9 +518,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Critical Rate +3%",
+      "details": "Increases critical rate by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Critical Rate +4%",
+      "details": "Increases critical rate by '''4%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Critical Rate +5%",
+      "details": "Increases critical rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -166,9 +564,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Blindness Res +15%",
+      "details": "Reduces susceptibility to blindness by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Blindness Res +20%",
+      "details": "Reduces susceptibility to blindness by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Blindness Res +25%",
+      "details": "Reduces susceptibility to blindness by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -188,9 +610,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Paralysis Res +15%",
+      "details": "Reduces susceptibility to paralysis by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Paralysis Res +20%",
+      "details": "Reduces susceptibility to paralysis by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Paralysis Res +25%",
+      "details": "Reduces susceptibility to paralysis by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -210,9 +656,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Bog Res +15%",
+      "details": "Reduces susceptibility to bog by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Bog Res +20%",
+      "details": "Reduces susceptibility to bog by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Bog Res +25%",
+      "details": "Reduces susceptibility to bog by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -232,9 +702,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 10,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Shapeshift Prep +8%",
+      "details": "Fills '''8%''' of the dragon gauge at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities12": {
+      "name": "Shapeshift Prep +9%",
+      "details": "Fills '''9%''' of the dragon gauge at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities13": {
+      "name": "Shapeshift Prep +10%",
+      "details": "Fills '''10%''' of the dragon gauge at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -254,9 +748,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 30,
-    "abilities12": 50,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Skill Haste +3%",
+      "details": "Increases skill gauge fill rate by '''3%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Skill Haste +4%",
+      "details": "Increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Skill Haste +5%",
+      "details": "Increases skill gauge fill rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -276,9 +794,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Last Defense +30%",
+      "details": "Buffs defense by '''30%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Last Defense +40%",
+      "details": "Buffs defense by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Last Defense +50%",
+      "details": "Buffs defense by '''50%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -298,9 +840,33 @@ const wyrmprint =
     "MaxHp": 73,
     "MinAtk": 3,
     "MaxAtk": 23,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Recovery Potency +3%",
+      "details": "Increases the potency of recovery skills by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -320,9 +886,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Burn Res +15%",
+      "details": "Reduces susceptibility to burning by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Burn Res +20%",
+      "details": "Reduces susceptibility to burning by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Burn Res +25%",
+      "details": "Reduces susceptibility to burning by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -342,9 +932,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 80,
+    "abilities11": {
+      "name": "Critical Damage +8%",
+      "details": "Adds '''8%''' to the modifier applied to critical damage.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Critical Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to critical damage.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Critical Damage +15%",
+      "details": "Adds '''15%''' to the modifier applied to critical damage.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -364,9 +978,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Gauge Inhibitor +15%",
+      "details": "Slows the rate the mode gauge increases by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities12": {
+      "name": "Gauge Inhibitor +20%",
+      "details": "Slows the rate the mode gauge increases by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities13": {
+      "name": "Gauge Inhibitor +25%",
+      "details": "Slows the rate the mode gauge increases by '''25%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -386,9 +1024,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Slayer's Strength +2%",
+      "details": "Increases strength by '''2%''' for every five enemies defeated (up to five times per quest).",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities12": {
+      "name": "Slayer's Strength +3%",
+      "details": "Increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities13": {
+      "name": "Slayer's Strength +4%",
+      "details": "Increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -408,9 +1070,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -430,9 +1116,39 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Full HP = Strength +5%",
+      "details": "Increases strength by '''5%''' when HP is '''full'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 5
+    },
+    "abilities12": {
+      "name": "Full HP = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities13": {
+      "name": "Full HP = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 10
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -455,9 +1171,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Stun Res +15%",
+      "details": "Reduces susceptibility to stun by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Stun Res +20%",
+      "details": "Reduces susceptibility to stun by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Stun Res +25%",
+      "details": "Reduces susceptibility to stun by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -477,9 +1217,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "Slayer's Strength +2%",
+      "details": "Increases strength by '''2%''' for every five enemies defeated (up to five times per quest).",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities12": {
+      "name": "Slayer's Strength +3%",
+      "details": "Increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities13": {
+      "name": "Slayer's Strength +4%",
+      "details": "Increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -499,9 +1263,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Poison Res +15%",
+      "details": "Reduces susceptibility to poison by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Poison Res +20%",
+      "details": "Reduces susceptibility to poison by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Poison Res +25%",
+      "details": "Reduces susceptibility to poison by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -521,9 +1309,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 30,
+    "abilities11": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -543,9 +1355,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Freeze Res +15%",
+      "details": "Reduces susceptibility to freezing by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Freeze Res +20%",
+      "details": "Reduces susceptibility to freezing by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Freeze Res +25%",
+      "details": "Reduces susceptibility to freezing by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -565,12 +1401,60 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
+    "abilities11": {
+      "name": "Curse Res +15%",
+      "details": "Reduces susceptibility to curses by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Curse Res +20%",
+      "details": "Reduces susceptibility to curses by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Curse Res +25%",
+      "details": "Reduces susceptibility to curses by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Snack-o'-Lanterns +25%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities22": {
+      "name": "Snack-o'-Lanterns +50%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities23": {
+      "name": "Snack-o'-Lanterns +50%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -587,12 +1471,60 @@ const wyrmprint =
     "MaxHp": 140,
     "MinAtk": 7,
     "MaxAtk": 52,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Critical Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to critical damage.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Critical Damage +13%",
+      "details": "Adds '''13%''' to the modifier applied to critical damage.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Critical Damage +15%",
+      "details": "Adds '''15%''' to the modifier applied to critical damage.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -609,12 +1541,60 @@ const wyrmprint =
     "MaxHp": 145,
     "MinAtk": 7,
     "MaxAtk": 47,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 30,
+    "abilities11": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -631,12 +1611,60 @@ const wyrmprint =
     "MaxHp": 141,
     "MinAtk": 7,
     "MaxAtk": 51,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 30,
+    "abilities11": {
+      "name": "Broken Punisher +15%",
+      "details": "Increases damage to enemies in break state by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "Broken Punisher +20%",
+      "details": "Increases damage to enemies in break state by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "Broken Punisher +25%",
+      "details": "Increases damage to enemies in break state by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities21": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -653,12 +1681,66 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Bog Res +20%",
+      "details": "Reduces susceptibility to bog by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Bog Res +25%",
+      "details": "Reduces susceptibility to bog by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Bog Res +50%",
+      "details": "Reduces susceptibility to bog by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Water Res +3%",
+      "details": "Reduces water damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Water Res +5%",
+      "details": "Reduces water damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Water Res +8%",
+      "details": "Reduces water damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -679,12 +1761,66 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Burn Res +20%",
+      "details": "Reduces susceptibility to burning by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Burn Res +25%",
+      "details": "Reduces susceptibility to burning by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Burn Res +50%",
+      "details": "Reduces susceptibility to burning by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Flame Res +3%",
+      "details": "Reduces flame damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Flame Res +5%",
+      "details": "Reduces flame damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Flame Res +8%",
+      "details": "Reduces flame damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -705,12 +1841,66 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Stun Res +20%",
+      "details": "Reduces susceptibility to stun by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Stun Res +25%",
+      "details": "Reduces susceptibility to stun by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Stun Res +50%",
+      "details": "Reduces susceptibility to stun by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Wind Res +3%",
+      "details": "Reduces wind damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Wind Res +5%",
+      "details": "Reduces wind damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Wind Res +8%",
+      "details": "Reduces wind damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -731,12 +1921,66 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Paralysis Res +20%",
+      "details": "Reduces susceptibility to paralysis by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Paralysis Res +25%",
+      "details": "Reduces susceptibility to paralysis by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Paralysis Res +50%",
+      "details": "Reduces susceptibility to paralysis by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Light Res +3%",
+      "details": "Reduces light damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Light Res +5%",
+      "details": "Reduces light damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Light Res +8%",
+      "details": "Reduces light damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -757,12 +2001,66 @@ const wyrmprint =
     "MaxHp": 146,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Overdrive Punisher +5%",
+      "details": "Increases damage to enemies in overdrive state by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Overdrive Punisher +8%",
+      "details": "Increases damage to enemies in overdrive state by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Overdrive Punisher +10%",
+      "details": "Increases damage to enemies in overdrive state by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Shadow Res +3%",
+      "details": "Reduces shadow damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Shadow Res +5%",
+      "details": "Reduces shadow damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Shadow Res +8%",
+      "details": "Reduces shadow damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -783,12 +2081,60 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 6,
     "MaxAtk": 41,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 10,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Curse Res +20%",
+      "details": "Reduces susceptibility to curses by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Curse Res +25%",
+      "details": "Reduces susceptibility to curses by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Curse Res +50%",
+      "details": "Reduces susceptibility to curses by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Shapeshift Prep +8%",
+      "details": "Fills '''8%''' of the dragon gauge at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities22": {
+      "name": "Shapeshift Prep +9%",
+      "details": "Fills '''9%''' of the dragon gauge at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities23": {
+      "name": "Shapeshift Prep +10%",
+      "details": "Fills '''10%''' of the dragon gauge at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -805,12 +2151,66 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Poison Res +20%",
+      "details": "Reduces susceptibility to poison by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Poison Res +25%",
+      "details": "Reduces susceptibility to poison by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Poison Res +50%",
+      "details": "Reduces susceptibility to poison by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Water Res +3%",
+      "details": "Reduces water damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Water Res +5%",
+      "details": "Reduces water damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Water Res +8%",
+      "details": "Reduces water damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -831,12 +2231,60 @@ const wyrmprint =
     "MaxHp": 150,
     "MinAtk": 6,
     "MaxAtk": 42,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Poison Res +15%",
+      "details": "Reduces susceptibility to poison by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Poison Res +20%",
+      "details": "Reduces susceptibility to poison by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Poison Res +25%",
+      "details": "Reduces susceptibility to poison by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -853,12 +2301,60 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 6,
     "MaxAtk": 41,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Last Defense +40%",
+      "details": "Buffs defense by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Last Defense +50%",
+      "details": "Buffs defense by '''50%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Last Defense +60%",
+      "details": "Buffs defense by '''60%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Recovery Potency +3%",
+      "details": "Increases the potency of recovery skills by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities22": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities23": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -875,12 +2371,60 @@ const wyrmprint =
     "MaxHp": 141,
     "MinAtk": 7,
     "MaxAtk": 51,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Critical Rate +4%",
+      "details": "Increases critical rate by '''4%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Critical Rate +5%",
+      "details": "Increases critical rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Critical Rate +6%",
+      "details": "Increases critical rate by '''6%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Broken Punisher +10%",
+      "details": "Increases damage to enemies in break state by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities22": {
+      "name": "Broken Punisher +15%",
+      "details": "Increases damage to enemies in break state by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities23": {
+      "name": "Broken Punisher +20%",
+      "details": "Increases damage to enemies in break state by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -897,12 +2441,60 @@ const wyrmprint =
     "MaxHp": 140,
     "MinAtk": 7,
     "MaxAtk": 52,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Last Offense +20%",
+      "details": "Buffs strength by '''20%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities12": {
+      "name": "Last Offense +30%",
+      "details": "Buffs strength by '''30%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities13": {
+      "name": "Last Offense +40%",
+      "details": "Buffs strength by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -919,12 +2511,66 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 40,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Full HP = Defense +15%",
+      "details": "Increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 15
+    },
+    "abilities12": {
+      "name": "Full HP = Defense +18%",
+      "details": "Increases defense by '''18%''' when HP is '''full'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 18
+    },
+    "abilities13": {
+      "name": "Full HP = Defense +20%",
+      "details": "Increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "Poison Res +15%",
+      "details": "Reduces susceptibility to poison by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Poison Res +20%",
+      "details": "Reduces susceptibility to poison by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Poison Res +25%",
+      "details": "Reduces susceptibility to poison by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -944,12 +2590,60 @@ const wyrmprint =
     "MaxHp": 146,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Full HP = Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Full HP = Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Full HP = Skill Damage +35%",
+      "details": "Increases attack skill damage by '''35%''' when HP is '''full'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Paralysis Res +15%",
+      "details": "Reduces susceptibility to paralysis by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Paralysis Res +20%",
+      "details": "Reduces susceptibility to paralysis by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Paralysis Res +25%",
+      "details": "Reduces susceptibility to paralysis by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -966,12 +2660,60 @@ const wyrmprint =
     "MaxHp": 146,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Strength Doublebuff +5%",
+      "details": "Increases strength by '''5%''' for 15 seconds each time a defense up buff is received.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Strength Doublebuff +8%",
+      "details": "Increases strength by '''8%''' for 15 seconds each time a defense up buff is received.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Strength Doublebuff +10%",
+      "details": "Increases strength by '''10%''' for 15 seconds each time a defense up buff is received.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Stun Res +15%",
+      "details": "Reduces susceptibility to stun by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Stun Res +20%",
+      "details": "Reduces susceptibility to stun by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Stun Res +25%",
+      "details": "Reduces susceptibility to stun by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -988,12 +2730,66 @@ const wyrmprint =
     "MaxHp": 147,
     "MinAtk": 6,
     "MaxAtk": 45,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Flurry Devastation +5%",
+      "details": "Increases critical rate by '''5%''' when the combo count is 15 or higher.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Flurry Devastation +8%",
+      "details": "Increases critical rate by '''8%''' when the combo count is 15 or higher.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Flurry Devastation +10%",
+      "details": "Increases critical rate by '''10%''' when the combo count is 15 or higher.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Light Res +3%",
+      "details": "Reduces light damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Light Res +5%",
+      "details": "Reduces light damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Light Res +8%",
+      "details": "Reduces light damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1014,12 +2810,60 @@ const wyrmprint =
     "MaxHp": 140,
     "MinAtk": 7,
     "MaxAtk": 52,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Striker's Strength +3%",
+      "details": "Increases strength by '''3%''' for every three enemies defeated with force strikes (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities12": {
+      "name": "Striker's Strength +4%",
+      "details": "Increases strength by '''4%''' for every three enemies defeated with force strikes (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities13": {
+      "name": "Striker's Strength +5%",
+      "details": "Increases strength by '''5%''' for every three enemies defeated with force strikes (up to five times per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1036,12 +2880,66 @@ const wyrmprint =
     "MaxHp": 187,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 50,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +13%",
+      "details": "Increases the potency of recovery skills by '''13%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Full HP = Defense +15%",
+      "details": "Increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 15
+    },
+    "abilities22": {
+      "name": "Full HP = Defense +18%",
+      "details": "Increases defense by '''18%''' when HP is '''full'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 18
+    },
+    "abilities23": {
+      "name": "Full HP = Defense +20%",
+      "details": "Increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 20
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1061,15 +2959,87 @@ const wyrmprint =
     "MaxHp": 122,
     "MinAtk": 4,
     "MaxAtk": 33,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 30,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Burn Res +15%",
+      "details": "Reduces susceptibility to burning by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Burn Res +20%",
+      "details": "Reduces susceptibility to burning by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Burn Res +25%",
+      "details": "Reduces susceptibility to burning by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities31": {
+      "name": "Phraeganoth's Bane +20%",
+      "details": "Increases damage to Phraeganoth by '''20%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities32": {
+      "name": "Phraeganoth's Bane +25%",
+      "details": "Increases damage to Phraeganoth by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities33": {
+      "name": "Phraeganoth's Bane +25%",
+      "details": "Increases damage to Phraeganoth by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    }
   },
   {
     "id": "400054",
@@ -1083,12 +3053,60 @@ const wyrmprint =
     "MaxHp": 145,
     "MinAtk": 7,
     "MaxAtk": 47,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 30,
-    "abilities22": 50,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Skill Haste +3%",
+      "details": "Increases skill gauge fill rate by '''3%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "Skill Haste +4%",
+      "details": "Increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "Skill Haste +5%",
+      "details": "Increases skill gauge fill rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1105,12 +3123,66 @@ const wyrmprint =
     "MaxHp": 127,
     "MinAtk": 4,
     "MaxAtk": 30,
-    "abilities11": 30,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 30,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Midgardsormr Res +15%",
+      "details": "Reduces damage taken from Midgardsormr by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Midgardsormr Res +18%",
+      "details": "Reduces damage taken from Midgardsormr  by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Midgardsormr Res +20%",
+      "details": "Reduces damage taken from Midgardsormr by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "Wind Res +3%",
+      "details": "Reduces wind damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Wind Res +4%",
+      "details": "Reduces wind damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 4
+    },
+    "abilities23": {
+      "name": "Wind Res +5%",
+      "details": "Reduces wind damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 5
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1131,12 +3203,66 @@ const wyrmprint =
     "MaxHp": 127,
     "MinAtk": 4,
     "MaxAtk": 30,
-    "abilities11": 30,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 30,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Mercury Res +15%",
+      "details": "Reduces damage taken from Mercury by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Mercury Res +18%",
+      "details": "Reduces damage taken from Mercury by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Mercury Res +20%",
+      "details": "Reduces damage taken from Mercury by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "Water Res +3%",
+      "details": "Reduces water damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Water Res +4%",
+      "details": "Reduces water damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 4
+    },
+    "abilities23": {
+      "name": "Water Res +5%",
+      "details": "Reduces water damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 5
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1157,12 +3283,66 @@ const wyrmprint =
     "MaxHp": 127,
     "MinAtk": 4,
     "MaxAtk": 30,
-    "abilities11": 30,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 30,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Brunhilda Res +15%",
+      "details": "Reduces damage taken from Brunhilda by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Brunhilda Res +18%",
+      "details": "Reduces damage taken from Brunhilda by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Brunhilda Res +20%",
+      "details": "Reduces damage taken from Brunhilda by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "Flame Res +3%",
+      "details": "Reduces flame damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Flame Res +4%",
+      "details": "Reduces flame damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 4
+    },
+    "abilities23": {
+      "name": "Flame Res +5%",
+      "details": "Reduces flame damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 5
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1183,12 +3363,66 @@ const wyrmprint =
     "MaxHp": 127,
     "MinAtk": 4,
     "MaxAtk": 30,
-    "abilities11": 30,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 30,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Jupiter Res +15%",
+      "details": "Reduces damage taken from Jupiter by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Jupiter Res +18%",
+      "details": "Reduces damage taken from Jupiter by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Jupiter Res +20%",
+      "details": "Reduces damage taken from Jupiter by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "Light Res +3%",
+      "details": "Reduces light damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Light Res +4%",
+      "details": "Reduces light damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 4
+    },
+    "abilities23": {
+      "name": "Light Res +5%",
+      "details": "Reduces light damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 5
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1209,12 +3443,66 @@ const wyrmprint =
     "MaxHp": 127,
     "MinAtk": 4,
     "MaxAtk": 30,
-    "abilities11": 30,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 30,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Zodiark Res +15%",
+      "details": "Reduces damage taken from Zodiark by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Zodiark Res +18%",
+      "details": "Reduces damage taken from Zodiark by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Zodiark Res +20%",
+      "details": "Reduces damage taken from Zodiark by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "Shadow Res +3%",
+      "details": "Reduces shadow damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Shadow Res +4%",
+      "details": "Reduces shadow damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 4
+    },
+    "abilities23": {
+      "name": "Shadow Res +5%",
+      "details": "Reduces shadow damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 5
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1235,12 +3523,60 @@ const wyrmprint =
     "MaxHp": 140,
     "MinAtk": 7,
     "MaxAtk": 52,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Force Strike +20%",
+      "details": "Increases force strike damage by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities12": {
+      "name": "Force Strike +30%",
+      "details": "Increases force strike damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities13": {
+      "name": "Force Strike +40%",
+      "details": "Increases force strike damage by '''40%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities21": {
+      "name": "Critical Damage +8%",
+      "details": "Adds '''8%''' to the modifier applied to critical damage.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities22": {
+      "name": "Critical Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to critical damage.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities23": {
+      "name": "Critical Damage +13%",
+      "details": "Adds '''13%''' to the modifier applied to critical damage.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1257,15 +3593,87 @@ const wyrmprint =
     "MaxHp": 150,
     "MinAtk": 6,
     "MaxAtk": 42,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Blindness Res +20%",
+      "details": "Reduces susceptibility to blindness by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Blindness Res +25%",
+      "details": "Reduces susceptibility to blindness by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Blindness Res +50%",
+      "details": "Reduces susceptibility to blindness by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities31": {
+      "name": "Snack-o'-Lanterns +25%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities32": {
+      "name": "Snack-o'-Lanterns +50%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities33": {
+      "name": "Snack-o'-Lanterns +50%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    }
   },
   {
     "id": "400062",
@@ -1279,12 +3687,60 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 65,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Strength Doublebuff +5%",
+      "details": "Increases strength by '''5%''' for 15 seconds each time a defense up buff is received.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "Strength Doublebuff +8%",
+      "details": "Increases strength by '''8%''' for 15 seconds each time a defense up buff is received.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "Strength Doublebuff +10%",
+      "details": "Increases strength by '''10%''' for 15 seconds each time a defense up buff is received.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1301,12 +3757,66 @@ const wyrmprint =
     "MaxHp": 183,
     "MinAtk": 8,
     "MaxAtk": 57,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Flurry Strength +13%",
+      "details": "Increases strength by '''13%''' when the combo count is 15 or higher.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Flurry Strength +15%",
+      "details": "Increases strength by '''15%''' when the combo count is 15 or higher.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Flurry Strength +20%",
+      "details": "Increases strength by '''20%''' when the combo count is 15 or higher.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Wind Res +5%",
+      "details": "Reduces wind damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 5
+    },
+    "abilities22": {
+      "name": "Wind Res +8%",
+      "details": "Reduces wind damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 8
+    },
+    "abilities23": {
+      "name": "Wind Res +10%",
+      "details": "Reduces wind damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 10
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1327,12 +3837,66 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 65,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Full HP = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 10
+    },
+    "abilities12": {
+      "name": "Full HP = Strength +13%",
+      "details": "Increases strength by '''13%''' when HP is '''full'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 13
+    },
+    "abilities13": {
+      "name": "Full HP = Strength +15%",
+      "details": "Increases strength by '''15%''' when HP is '''full'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 15
+    },
+    "abilities21": {
+      "name": "Critical Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to critical damage.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities22": {
+      "name": "Critical Damage +13%",
+      "details": "Adds '''13%''' to the modifier applied to critical damage.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities23": {
+      "name": "Critical Damage +15%",
+      "details": "Adds '''15%''' to the modifier applied to critical damage.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1352,12 +3916,60 @@ const wyrmprint =
     "MaxHp": 177,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 20,
-    "abilities22": 30,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Broken Punisher +20%",
+      "details": "Increases damage to enemies in break state by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "Broken Punisher +25%",
+      "details": "Increases damage to enemies in break state by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "Broken Punisher +30%",
+      "details": "Increases damage to enemies in break state by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities21": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1374,12 +3986,60 @@ const wyrmprint =
     "MaxHp": 187,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Full HP = Healing +13%",
+      "details": "Increases the potency of recovery skills by '''13%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Full HP = Healing +15%",
+      "details": "Increases the potency of recovery skills by '''15%''' when HP is '''full'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Full HP = Healing +20%",
+      "details": "Increases the potency of recovery skills by '''20%''' when HP is '''full'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Curse Res +20%",
+      "details": "Reduces susceptibility to curses by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Curse Res +25%",
+      "details": "Reduces susceptibility to curses by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Curse Res +50%",
+      "details": "Reduces susceptibility to curses by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1396,12 +4056,66 @@ const wyrmprint =
     "MaxHp": 184,
     "MinAtk": 8,
     "MaxAtk": 56,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Dragon Time +10%",
+      "details": "Extends shapeshift time by '''10%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Dragon Time +15%",
+      "details": "Extends shapeshift time by '''15%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Dragon Time +20%",
+      "details": "Extends shapeshift time by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Flame Res +5%",
+      "details": "Reduces flame damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 5
+    },
+    "abilities22": {
+      "name": "Flame Res +8%",
+      "details": "Reduces flame damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 8
+    },
+    "abilities23": {
+      "name": "Flame Res +10%",
+      "details": "Reduces flame damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 10
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1422,12 +4136,66 @@ const wyrmprint =
     "MaxHp": 183,
     "MinAtk": 8,
     "MaxAtk": 57,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Light Res +5%",
+      "details": "Reduces light damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 5
+    },
+    "abilities22": {
+      "name": "Light Res +8%",
+      "details": "Reduces light damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 8
+    },
+    "abilities23": {
+      "name": "Light Res +10%",
+      "details": "Reduces light damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 10
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1448,12 +4216,60 @@ const wyrmprint =
     "MaxHp": 141,
     "MinAtk": 7,
     "MaxAtk": 51,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 30,
-    "abilities22": 50,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Full HP = Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Full HP = Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Full HP = Skill Damage +35%",
+      "details": "Increases attack skill damage by '''35%''' when HP is '''full'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Skill Haste +3%",
+      "details": "Increases skill gauge fill rate by '''3%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "Skill Haste +4%",
+      "details": "Increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "Skill Haste +5%",
+      "details": "Increases skill gauge fill rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1470,12 +4286,60 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "HP 70% = Critical Rate +6%",
+      "details": "Increases critical rate by '''6%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "HP 70% = Critical Rate +8%",
+      "details": "Increases critical rate by '''8%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "HP 70% = Critical Rate +10%",
+      "details": "Increases critical rate by '''10%''' when HP is '''70%''' or above.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Critical Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to critical damage.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities22": {
+      "name": "Critical Damage +13%",
+      "details": "Adds '''13%''' to the modifier applied to critical damage.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities23": {
+      "name": "Critical Damage +15%",
+      "details": "Adds '''15%''' to the modifier applied to critical damage.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1492,12 +4356,60 @@ const wyrmprint =
     "MaxHp": 183,
     "MinAtk": 8,
     "MaxAtk": 57,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Force Strike +30%",
+      "details": "Increases force strike damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities12": {
+      "name": "Force Strike +40%",
+      "details": "Increases force strike damage by '''40%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities13": {
+      "name": "Force Strike +50%",
+      "details": "Increases force strike damage by '''50%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities21": {
+      "name": "Freeze Res +20%",
+      "details": "Reduces susceptibility to freezing by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Freeze Res +25%",
+      "details": "Reduces susceptibility to freezing by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Freeze Res +50%",
+      "details": "Reduces susceptibility to freezing by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1514,15 +4426,97 @@ const wyrmprint =
     "MaxHp": 165,
     "MinAtk": 5,
     "MaxAtk": 39,
-    "abilities11": 100,
-    "abilities12": 100,
-    "abilities13": 100,
-    "abilities21": 30,
-    "abilities22": 50,
-    "abilities23": 60,
-    "abilities31": 20,
-    "abilities32": 30,
-    "abilities33": 40,
+    "abilities11": {
+      "name": "High Midgardsormr Res +20%",
+      "details": "Reduces damage taken from High Midgardsormr by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hms",
+      "counter": 20
+    },
+    "abilities12": {
+      "name": "High Midgardsormr Res +23%",
+      "details": "Reduces damage taken from High Midgardsormr  by '''23%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "High Midgardsormr Res +25%",
+      "details": "Reduces damage taken from High Midgardsormr by '''25%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hms",
+      "counter": 25
+    },
+    "abilities21": {
+      "name": "Midgardsormr Res +15%",
+      "details": "Reduces damage taken from Midgardsormr by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities22": {
+      "name": "Midgardsormr Res +18%",
+      "details": "Reduces damage taken from Midgardsormr  by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities23": {
+      "name": "Midgardsormr Res +20%",
+      "details": "Reduces damage taken from Midgardsormr by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities31": {
+      "name": "Wind Res +3%",
+      "details": "Reduces wind damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 3
+    },
+    "abilities32": {
+      "name": "Wind Res +4%",
+      "details": "Reduces wind damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 4
+    },
+    "abilities33": {
+      "name": "Wind Res +5%",
+      "details": "Reduces wind damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 5
+    },
     "dungeon": "hms",
     "counter1": 20,
     "counter3": 25,
@@ -1543,12 +4537,60 @@ const wyrmprint =
     "MaxHp": 187,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "HP 70% = Healing +10%",
+      "details": "Increases the potency of recovery skills by '''10%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "HP 70% = Healing +13%",
+      "details": "Increases the potency of recovery skills by '''13%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "HP 70% = Healing +15%",
+      "details": "Increases the potency of recovery skills by '''15%''' when HP is '''70%''' or above.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Last Defense +30%",
+      "details": "Buffs defense by '''30%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Last Defense +40%",
+      "details": "Buffs defense by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Last Defense +50%",
+      "details": "Buffs defense by '''50%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1565,12 +4607,60 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 65,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Last Offense +30%",
+      "details": "Buffs strength by '''30%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities12": {
+      "name": "Last Offense +40%",
+      "details": "Buffs strength by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities13": {
+      "name": "Last Offense +50%",
+      "details": "Buffs strength by '''50%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1587,12 +4677,72 @@ const wyrmprint =
     "MaxHp": 183,
     "MinAtk": 8,
     "MaxAtk": 57,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "HP 70% = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities12": {
+      "name": "HP 70% = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 10
+    },
+    "abilities13": {
+      "name": "HP 70% = Strength +13%",
+      "details": "Increases strength by '''13%''' when HP is '''70%''' or above.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 13
+    },
+    "abilities21": {
+      "name": "Flame Res +5%",
+      "details": "Reduces flame damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 5
+    },
+    "abilities22": {
+      "name": "Flame Res +8%",
+      "details": "Reduces flame damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 8
+    },
+    "abilities23": {
+      "name": "Flame Res +10%",
+      "details": "Reduces flame damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 10
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1616,15 +4766,87 @@ const wyrmprint =
     "MaxHp": 183,
     "MinAtk": 8,
     "MaxAtk": 57,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Full HP = Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Full HP = Skill Damage +35%",
+      "details": "Increases attack skill damage by '''35%''' when HP is '''full'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Full HP = Skill Damage +40%",
+      "details": "Increases attack skill damage by '''40%''' when HP is '''full'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Blindness Res +20%",
+      "details": "Reduces susceptibility to blindness by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Blindness Res +25%",
+      "details": "Reduces susceptibility to blindness by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Blindness Res +50%",
+      "details": "Reduces susceptibility to blindness by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities31": {
+      "name": "Tricker Treats +50%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities32": {
+      "name": "Tricker Treats +100%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities33": {
+      "name": "Tricker Treats +100%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    }
   },
   {
     "id": "400078",
@@ -1638,15 +4860,93 @@ const wyrmprint =
     "MaxHp": 184,
     "MinAtk": 8,
     "MaxAtk": 56,
-    "abilities11": 30,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +50%",
+      "details": "Fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Shadow Res +5%",
+      "details": "Reduces shadow damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 5
+    },
+    "abilities22": {
+      "name": "Shadow Res +8%",
+      "details": "Reduces shadow damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 8
+    },
+    "abilities23": {
+      "name": "Shadow Res +10%",
+      "details": "Reduces shadow damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 10
+    },
+    "abilities31": {
+      "name": "Tricker Treats +50%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities32": {
+      "name": "Tricker Treats +100%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities33": {
+      "name": "Tricker Treats +100%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "resEle": "Shadow",
     "incRes1": 5,
     "incRes2": 8,
@@ -1664,12 +4964,60 @@ const wyrmprint =
     "MaxHp": 180,
     "MinAtk": 9,
     "MaxAtk": 60,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +13%",
+      "details": "Increases the potency of recovery skills by '''13%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Slayer's Strength +3%",
+      "details": "Increases strength by '''3%''' for every five enemies defeated (up to five times per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities22": {
+      "name": "Slayer's Strength +4%",
+      "details": "Increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities23": {
+      "name": "Slayer's Strength +5%",
+      "details": "Increases strength by '''5%''' for every five enemies defeated (up to five times per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1686,12 +5034,60 @@ const wyrmprint =
     "MaxHp": 195,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 80,
-    "abilities22": 100,
-    "abilities23": 100,
+    "abilities11": {
+      "name": "(Shadow) Affliction Guard I",
+      "details": "If the user is attuned to Shadow: resists [[afflictions]] '''once''' per quest.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities12": {
+      "name": "(Shadow) Affliction Guard II",
+      "details": "If the user is attuned to Shadow: resists [[afflictions]] up to '''two times''' per quest.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities13": {
+      "name": "(Shadow) Affliction Guard III",
+      "details": "If the user is attuned to Shadow: resists [[afflictions]] up to '''three times''' per quest.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Paralysis Res +25%",
+      "details": "If the user is attuned to Shadow: reduces susceptibility to paralysis by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "(Shadow) Paralysis Res +50%",
+      "details": "If the user is attuned to Shadow: reduces susceptibility to [[Afflictions|paralysis]] by '''50%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "(Shadow) Paralysis Res +75%",
+      "details": "If the user is attuned to Shadow: reduces susceptibility to paralysis by '''75%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1708,15 +5104,87 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 8,
     "MaxAtk": 54,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Snack-o'-Lanterns +25%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities22": {
+      "name": "Snack-o'-Lanterns +50%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities23": {
+      "name": "Snack-o'-Lanterns +50%",
+      "details": "Increases Snack-o'-Lantern intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities31": {
+      "name": "Tricker Treats +25%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities32": {
+      "name": "Tricker Treats +50%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities33": {
+      "name": "Tricker Treats +50%",
+      "details": "Increases Tricker Treat intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    }
   },
   {
     "id": "400090",
@@ -1730,15 +5198,93 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "Poison Res +20%",
+      "details": "Reduces susceptibility to poison by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Poison Res +25%",
+      "details": "Reduces susceptibility to poison by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Poison Res +50%",
+      "details": "Reduces susceptibility to poison by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Shadow Res +3%",
+      "details": "Reduces shadow damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Shadow Res +5%",
+      "details": "Reduces shadow damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Shadow Res +8%",
+      "details": "Reduces shadow damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 8
+    },
+    "abilities31": {
+      "name": "Tent Canvas +50%",
+      "details": "Increases tent canvas intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities32": {
+      "name": "Tent Canvas +75%",
+      "details": "Increases tent canvas intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities33": {
+      "name": "Tent Canvas +75%",
+      "details": "Increases tent canvas intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
     "resEle": "Shadow",
     "incRes1": 3,
     "incRes2": 5,
@@ -1756,15 +5302,93 @@ const wyrmprint =
     "MaxHp": 189,
     "MinAtk": 7,
     "MaxAtk": 51,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "HP 70% = Defense +8%",
+      "details": "Increases defense by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 8
+    },
+    "abilities12": {
+      "name": "HP 70% = Defense +10%",
+      "details": "Increases defense by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 10
+    },
+    "abilities13": {
+      "name": "HP 70% = Defense +13%",
+      "details": "Increases defense by '''13%''' when HP is '''70%''' or above.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 13
+    },
+    "abilities21": {
+      "name": "Healing Doublebuff I",
+      "details": "Grants an HP regen buff healing you for '''1%''' Max HP every 3.9 seconds for 20 seconds each time a defense up buff is received.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities22": {
+      "name": "Healing Doublebuff II",
+      "details": "Grants an HP regen buff healing you for '''2%''' Max HP every 3.9 seconds for 20 seconds each time a defense up buff is received.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities23": {
+      "name": "Healing Doublebuff III",
+      "details": "Grants an HP regen buff healing you for '''3%''' Max HP every 3.9 seconds for 20 seconds each time a defense up buff is received.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities31": {
+      "name": "Holiday Cheer +100%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Holiday Cheer +150%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Holiday Cheer +150%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
     "incDef1": 8,
     "incDef2": 10,
     "incDef3": 13
@@ -1781,9 +5405,33 @@ const wyrmprint =
     "MaxHp": 178,
     "MinAtk": 9,
     "MaxAtk": 62,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
+    "abilities11": {
+      "name": "Skill Prep +50%",
+      "details": "Fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +75%",
+      "details": "Fills '''75%''' of skill gauges at the start of quests.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +100%",
+      "details": "Fills '''100%''' of skill gauges at the start of quests.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -1803,12 +5451,60 @@ const wyrmprint =
     "MaxHp": 141,
     "MinAtk": 7,
     "MaxAtk": 51,
-    "abilities11": 20,
-    "abilities12": 30,
-    "abilities13": 40,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Recovery Potency +3%",
+      "details": "Increases the potency of recovery skills by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities22": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities23": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -1825,12 +5521,66 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Skill Haste +5%",
+      "details": "Increases skill gauge fill rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Skill Haste +6%",
+      "details": "Increases skill gauge fill rate by '''6%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Skill Haste +8%",
+      "details": "Increases skill gauge fill rate by '''8%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "HP 70% = Strength +5%",
+      "details": "Increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 5
+    },
+    "abilities22": {
+      "name": "HP 70% = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities23": {
+      "name": "HP 70% = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 10
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -1850,9 +5600,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 6,
     "MaxAtk": 41,
-    "abilities11": 50,
-    "abilities12": 60,
-    "abilities13": 80,
+    "abilities11": {
+      "name": "Sleep Res +40%",
+      "details": "Reduces susceptibility to sleep by '''40%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Sleep Res +50%",
+      "details": "Reduces susceptibility to sleep by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Sleep Res +75%",
+      "details": "Reduces susceptibility to sleep by '''75%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -1872,9 +5646,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Sleep Res +15%",
+      "details": "Reduces susceptibility to sleep by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Sleep Res +20%",
+      "details": "Reduces susceptibility to sleep by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Sleep Res +25%",
+      "details": "Reduces susceptibility to sleep by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -1894,15 +5692,93 @@ const wyrmprint =
     "MaxHp": 122,
     "MinAtk": 5,
     "MaxAtk": 34,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "Sleep Res +15%",
+      "details": "Reduces susceptibility to sleep by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Sleep Res +20%",
+      "details": "Reduces susceptibility to sleep by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Sleep Res +25%",
+      "details": "Reduces susceptibility to sleep by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "HP 70% = Strength +3%",
+      "details": "Increases strength by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 3
+    },
+    "abilities22": {
+      "name": "HP 70% = Strength +5%",
+      "details": "Increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 5
+    },
+    "abilities23": {
+      "name": "HP 70% = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities31": {
+      "name": "Hypnos's Bane +30%",
+      "details": "Increases damage to Hypnos by '''30%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 35
+      }
+    },
+    "abilities32": {
+      "name": "Hypnos's Bane +35%",
+      "details": "Increases damage to Hypnos by '''35%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 35
+      }
+    },
+    "abilities33": {
+      "name": "Hypnos's Bane +35%",
+      "details": "Increases damage to Hypnos by '''35%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 35
+      }
+    },
     "incSTR1": 3,
     "incSTR2": 5,
     "incSTR3": 8
@@ -1919,15 +5795,93 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 30,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +50%",
+      "details": "Fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Full HP = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities22": {
+      "name": "Full HP = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 10
+    },
+    "abilities23": {
+      "name": "Full HP = Strength +13%",
+      "details": "Increases strength by '''13%''' when HP is '''full'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 13
+    },
+    "abilities31": {
+      "name": "Divine Gales +100%",
+      "details": "Increases divine gale intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Divine Gales +150%",
+      "details": "Increases divine gale intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Divine Gales +150%",
+      "details": "Increases divine gale intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
     "incSTR1": 8,
     "incSTR2": 10,
     "incSTR3": 13
@@ -1944,15 +5898,87 @@ const wyrmprint =
     "MaxHp": 177,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 50,
-    "abilities22": 60,
-    "abilities23": 80,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Broken Punisher +20%",
+      "details": "Increases damage to enemies in break state by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "Broken Punisher +25%",
+      "details": "Increases damage to enemies in break state by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "Broken Punisher +30%",
+      "details": "Increases damage to enemies in break state by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities21": {
+      "name": "Dragon Time +8%",
+      "details": "Extends shapeshift time by '''8%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities22": {
+      "name": "Dragon Time +10%",
+      "details": "Extends shapeshift time by '''10%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities23": {
+      "name": "Dragon Time +15%",
+      "details": "Extends shapeshift time by '''15%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities31": {
+      "name": "Divine Gales +100%",
+      "details": "Increases divine gale intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Divine Gales +150%",
+      "details": "Increases divine gale intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Divine Gales +150%",
+      "details": "Increases divine gale intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    }
   },
   {
     "id": "400105",
@@ -1966,15 +5992,87 @@ const wyrmprint =
     "MaxHp": 140,
     "MinAtk": 7,
     "MaxAtk": 52,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Force Strike +20%",
+      "details": "Increases force strike damage by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities12": {
+      "name": "Force Strike +30%",
+      "details": "Increases force strike damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities13": {
+      "name": "Force Strike +40%",
+      "details": "Increases force strike damage by '''40%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities31": {
+      "name": "Windwhistle Grass +50%",
+      "details": "Increases windwhistle grass intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities32": {
+      "name": "Windwhistle Grass +75%",
+      "details": "Increases wind whistle grass intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities33": {
+      "name": "Windwhistle Grass +75%",
+      "details": "Increases wind whistle grass intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    }
   },
   {
     "id": "400106",
@@ -1988,12 +6086,66 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
+    "abilities11": {
+      "name": "Full HP = Defense +13%",
+      "details": "Increases defense by '''13%''' when HP is '''full'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 13
+    },
+    "abilities12": {
+      "name": "Full HP = Defense +15%",
+      "details": "Increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 15
+    },
+    "abilities13": {
+      "name": "Full HP = Defense +20%",
+      "details": "Increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "Windwhistle Grass +50%",
+      "details": "Increases windwhistle grass intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities22": {
+      "name": "Windwhistle Grass +75%",
+      "details": "Increases wind whistle grass intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities23": {
+      "name": "Windwhistle Grass +75%",
+      "details": "Increases wind whistle grass intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -2013,15 +6165,87 @@ const wyrmprint =
     "MaxHp": 155,
     "MinAtk": 7,
     "MaxAtk": 49,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +13%",
+      "details": "Increases the potency of recovery skills by '''13%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Windwhistle Grass +25%",
+      "details": "Increases windwhistle grass intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities22": {
+      "name": "Windwhistle Grass +50%",
+      "details": "Increases windwhistle grass intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities23": {
+      "name": "Windwhistle Grass +50%",
+      "details": "Increases windwhistle grass intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities31": {
+      "name": "Divine Gales +25%",
+      "details": "Increases divine gale intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Divine Gales +50%",
+      "details": "Increases divine gale intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Divine Gales +50%",
+      "details": "Increases divine gale intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    }
   },
   {
     "id": "400108",
@@ -2035,15 +6259,99 @@ const wyrmprint =
     "MaxHp": 165,
     "MinAtk": 5,
     "MaxAtk": 39,
-    "abilities11": 100,
-    "abilities12": 100,
-    "abilities13": 100,
-    "abilities21": 30,
-    "abilities22": 50,
-    "abilities23": 60,
-    "abilities31": 20,
-    "abilities32": 30,
-    "abilities33": 40,
+    "abilities11": {
+      "name": "High Mercury Res +20%",
+      "details": "Reduces damage taken from High Mercury by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hmc",
+      "counter": 20
+    },
+    "abilities12": {
+      "name": "High Mercury Res +23%",
+      "details": "Reduces damage taken from High Mercury by '''23%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hmc",
+      "counter": 23
+    },
+    "abilities13": {
+      "name": "High Mercury Res +25%",
+      "details": "Reduces damage taken from High Mercury by '''25%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hmc",
+      "counter": 25
+    },
+    "abilities21": {
+      "name": "Mercury Res +15%",
+      "details": "Reduces damage taken from Mercury by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities22": {
+      "name": "Mercury Res +18%",
+      "details": "Reduces damage taken from Mercury by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities23": {
+      "name": "Mercury Res +20%",
+      "details": "Reduces damage taken from Mercury by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities31": {
+      "name": "Water Res +3%",
+      "details": "Reduces water damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 3
+    },
+    "abilities32": {
+      "name": "Water Res +4%",
+      "details": "Reduces water damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 4
+    },
+    "abilities33": {
+      "name": "Water Res +5%",
+      "details": "Reduces water damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Water",
+      "res": 5
+    },
     "dungeon": "hmc",
     "counter1": 20,
     "counter2": 23,
@@ -2065,12 +6373,60 @@ const wyrmprint =
     "MaxHp": 177,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "HP 70% = Critical Rate +5%",
+      "details": "Increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "HP 70% = Critical Rate +6%",
+      "details": "Increases critical rate by '''6%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "HP 70% = Critical Rate +8%",
+      "details": "Increases critical rate by '''8%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2087,12 +6443,60 @@ const wyrmprint =
     "MaxHp": 195,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 60,
-    "abilities12": 65,
-    "abilities13": 70,
-    "abilities21": 40,
-    "abilities22": 45,
-    "abilities23": 50,
+    "abilities11": {
+      "name": "Curse Res +50%",
+      "details": "Reduces susceptibility to curses by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Curse Res +55%",
+      "details": "Reduces susceptibility to curses by '''55%'''.",
+      "might": 65,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Curse Res +60%",
+      "details": "Reduces susceptibility to curses by '''60%'''.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Curse Res +25%",
+      "details": "If the user is attuned to Light: reduces susceptibility to curses by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "(Light) Curse Res +35%",
+      "details": "If the user is attuned to Light:  reduces susceptibility to curses by '''35%'''.",
+      "might": 45,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "(Light) Curse Res +40%",
+      "details": "If the user is attuned to Light: reduces susceptibility to curses by '''40%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2109,12 +6513,66 @@ const wyrmprint =
     "MaxHp": 147,
     "MinAtk": 6,
     "MaxAtk": 45,
-    "abilities11": 40,
-    "abilities12": 40,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "(Light) Critical Rate +5%",
+      "details": "If the user is attuned to Light: increases critical rate by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "(Light) Critical Rate +6%",
+      "details": "If the user is attuned to Light: increases critical rate by '''6%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "(Light) Critical Rate +8%",
+      "details": "If the user is attuned to Light:  increases critical rate by '''8%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Shadow Res +3%",
+      "details": "Reduces shadow damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 3
+    },
+    "abilities22": {
+      "name": "Shadow Res +5%",
+      "details": "Reduces shadow damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 5
+    },
+    "abilities23": {
+      "name": "Shadow Res +8%",
+      "details": "Reduces shadow damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 8
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -2135,9 +6593,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 30,
-    "abilities12": 50,
-    "abilities13": 60,
+    "abilities11": {
+      "name": "(Light) Skill Haste +4%",
+      "details": "If the user is attuned to Light: increases skill gauge fill rate by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "(Light) Skill Haste +5%",
+      "details": "If the user is attuned to Light: increases skill gauge fill rate by '''5%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "(Light) Skill Haste +6%",
+      "details": "If the user is attuned to Light:  increases skill gauge fill rate by '''6%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2157,12 +6639,60 @@ const wyrmprint =
     "MaxHp": 123,
     "MinAtk": 4,
     "MaxAtk": 33,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Curse Res +15%",
+      "details": "Reduces susceptibility to curses by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Curse Res +20%",
+      "details": "Reduces susceptibility to curses by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Curse Res +25%",
+      "details": "Reduces susceptibility to curses by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Last Recovery I",
+      "details": "Grants an HP regen buff healing you for '''8%''' Max HP every 3.9 seconds for 20 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 4
+      }
+    },
+    "abilities22": {
+      "name": "Last Recovery II",
+      "details": "Grants an HP regen buff healing you for '''10%''' Max HP every 3.9 seconds for 20 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 4
+      }
+    },
+    "abilities23": {
+      "name": "Last Recovery III",
+      "details": "Grants an HP regen buff healing you for '''12%''' Max HP every 3.9 seconds for 20 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 4
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2179,15 +6709,87 @@ const wyrmprint =
     "MaxHp": 177,
     "MinAtk": 9,
     "MaxAtk": 63,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Critical Damage +13%",
+      "details": "Adds '''13%''' to the modifier applied to critical damage.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities12": {
+      "name": "Critical Damage +15%",
+      "details": "Adds '''15%''' to the modifier applied to critical damage.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities13": {
+      "name": "Critical Damage +20%",
+      "details": "Adds '''20%''' to the modifier applied to critical damage.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Water) Flurry Devastation +8%",
+      "details": "If the user is attuned to Water: increases critical rate by '''8%''' when the combo count is 15 or higher.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "(Water) Flurry Devastation +10%",
+      "details": "If the user is attuned to Water: increases critical rate by '''10%''' when the combo count is 15 or higher.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "(Water) Flurry Devastation +12%",
+      "details": "If the user is attuned to Water: increases critical rate by '''12%''' when the combo count is 15 or higher.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities31": {
+      "name": "Holiday Cheer +100%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Holiday Cheer +150%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Holiday Cheer +150%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    }
   },
   {
     "id": "400116",
@@ -2201,15 +6803,87 @@ const wyrmprint =
     "MaxHp": 150,
     "MinAtk": 6,
     "MaxAtk": 42,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Stun Res +20%",
+      "details": "Reduces susceptibility to stun by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Stun Res +25%",
+      "details": "Reduces susceptibility to stun by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Stun Res +50%",
+      "details": "Reduces susceptibility to stun by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities31": {
+      "name": "Astral Ornament +50%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities32": {
+      "name": "Astral Ornament +75%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities33": {
+      "name": "Astral Ornament +75%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    }
   },
   {
     "id": "400117",
@@ -2223,12 +6897,60 @@ const wyrmprint =
     "MaxHp": 73,
     "MinAtk": 3,
     "MaxAtk": 23,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
+    "abilities11": {
+      "name": "Recovery Potency +3%",
+      "details": "Increases the potency of recovery skills by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Astral Ornament +50%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities22": {
+      "name": "Astral Ornament +75%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities23": {
+      "name": "Astral Ornament +75%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2245,15 +6967,87 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 30,
-    "abilities12": 40,
-    "abilities13": 60,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +50%",
+      "details": "Fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Astral Ornament +25%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities22": {
+      "name": "Astral Ornament +50%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities23": {
+      "name": "Astral Ornament +50%",
+      "details": "Increases Astral Ornaments intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities31": {
+      "name": "Holiday Cheer +25%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Holiday Cheer +50%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Holiday Cheer +50%",
+      "details": "Increases Holiday Cheer intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    }
   },
   {
     "id": "400119",
@@ -2267,15 +7061,93 @@ const wyrmprint =
     "MaxHp": 142,
     "MinAtk": 7,
     "MaxAtk": 50,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "Strength Doublebuff +5%",
+      "details": "Increases strength by '''5%''' for 15 seconds each time a defense up buff is received.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Strength Doublebuff +8%",
+      "details": "Increases strength by '''8%''' for 15 seconds each time a defense up buff is received.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Strength Doublebuff +10%",
+      "details": "Increases strength by '''10%''' for 15 seconds each time a defense up buff is received.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "HP 70% = Strength +3%",
+      "details": "Increases strength by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 3
+    },
+    "abilities22": {
+      "name": "HP 70% = Strength +5%",
+      "details": "Increases strength by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 5
+    },
+    "abilities23": {
+      "name": "HP 70% = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities31": {
+      "name": "Forbidden Knowledge +50%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Forbidden Knowledge +100%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Forbidden Knowledge +100%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
     "incSTR1": 3,
     "incSTR2": 5,
     "incSTR3": 8
@@ -2292,15 +7164,99 @@ const wyrmprint =
     "MaxHp": 165,
     "MinAtk": 5,
     "MaxAtk": 39,
-    "abilities11": 60,
-    "abilities12": 100,
-    "abilities13": 100,
-    "abilities21": 30,
-    "abilities22": 50,
-    "abilities23": 60,
-    "abilities31": 20,
-    "abilities32": 30,
-    "abilities33": 40,
+    "abilities11": {
+      "name": "High Brunhilda Res +20%",
+      "details": "Reduces damage taken from High Brunhilda by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hbh",
+      "counter": 20
+    },
+    "abilities12": {
+      "name": "High Brunhilda Res +23%",
+      "details": "Reduces damage taken from High Brunhilda by '''23%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hbh",
+      "counter": 23
+    },
+    "abilities13": {
+      "name": "High Brunhilda Res +25%",
+      "details": "Reduces damage taken from High Brunhilda by '''25%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      },
+      "dungeon": "hbh",
+      "counter": 25
+    },
+    "abilities21": {
+      "name": "Brunhilda Res +15%",
+      "details": "Reduces damage taken from Brunhilda by '''15%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities22": {
+      "name": "Brunhilda Res +18%",
+      "details": "Reduces damage taken from Brunhilda by '''18%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities23": {
+      "name": "Brunhilda Res +20%",
+      "details": "Reduces damage taken from Brunhilda by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities31": {
+      "name": "Flame Res +3%",
+      "details": "Reduces flame damage taken by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 3
+    },
+    "abilities32": {
+      "name": "Flame Res +4%",
+      "details": "Reduces flame damage taken by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 4
+    },
+    "abilities33": {
+      "name": "Flame Res +5%",
+      "details": "Reduces flame damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Flame",
+      "res": 5
+    },
     "dungeon": "hbh",
     "counter1": 20,
     "counter2": 23,
@@ -2322,9 +7278,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 100,
-    "abilities12": 100,
-    "abilities13": 100,
+    "abilities11": {
+      "name": "Happy Dragonyule!",
+      "details": "Increases player EXP intake for clearing quests by '''10%'''. This ability does not stack with other similar abilities; the highest value will be applied.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities12": {
+      "name": "Happy Dragonyule!",
+      "details": "Increases player EXP intake for clearing quests by '''10%'''. This ability does not stack with other similar abilities; the highest value will be applied.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities13": {
+      "name": "Happy Dragonyule!",
+      "details": "Increases player EXP intake for clearing quests by '''10%'''. This ability does not stack with other similar abilities; the highest value will be applied.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2344,12 +7324,66 @@ const wyrmprint =
     "MaxHp": 195,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 80,
-    "abilities22": 100,
-    "abilities23": 100,
+    "abilities11": {
+      "name": "Light Res +8%",
+      "details": "Reduces light damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 8
+    },
+    "abilities12": {
+      "name": "Light Res +10%",
+      "details": "Reduces light damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 10
+    },
+    "abilities13": {
+      "name": "Light Res +13%",
+      "details": "Reduces light damage taken by '''13%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Light",
+      "res": 13
+    },
+    "abilities21": {
+      "name": "(Shadow) Paralysis Res +25%",
+      "details": "If the user is attuned to Shadow: reduces susceptibility to paralysis by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "(Shadow) Paralysis Res +40%",
+      "details": "If the user is attuned to Shadow: reduces susceptibility to paralysis by '''40%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "(Shadow) Paralysis Res +65%",
+      "details": "If the user is attuned to Shadow: reduces susceptibility to paralysis by '''65%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -2370,12 +7404,60 @@ const wyrmprint =
     "MaxHp": 177,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 50,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Skill Haste +4%",
+      "details": "Increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "Skill Haste +5%",
+      "details": "Increases skill gauge fill rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "Skill Haste +6%",
+      "details": "Increases skill gauge fill rate by '''6%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2392,12 +7474,60 @@ const wyrmprint =
     "MaxHp": 141,
     "MinAtk": 7,
     "MaxAtk": 51,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Last Offense +20%",
+      "details": "Buffs strength by '''20%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities12": {
+      "name": "Last Offense +30%",
+      "details": "Buffs strength by '''30%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities13": {
+      "name": "Last Offense +40%",
+      "details": "Buffs strength by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities21": {
+      "name": "Critical Rate +3%",
+      "details": "Increases critical rate by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "Critical Rate +4%",
+      "details": "Increases critical rate by '''4%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "Critical Rate +5%",
+      "details": "Increases critical rate by '''5%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2414,12 +7544,60 @@ const wyrmprint =
     "MaxHp": 122,
     "MinAtk": 4,
     "MaxAtk": 33,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "Paralysis Res +15%",
+      "details": "Reduces susceptibility to paralysis by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Paralysis Res +20%",
+      "details": "Reduces susceptibility to paralysis by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Paralysis Res +25%",
+      "details": "Reduces susceptibility to paralysis by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Shadow) Buff Time +15%",
+      "details": "If the user is attuned to Shadow: increases duration of buff skills by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities22": {
+      "name": "(Shadow) Buff Time +20%",
+      "details": "If the user is attuned to Shadow: increases duration of buff skills by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities23": {
+      "name": "(Shadow) Buff Time +25%",
+      "details": "If the user is attuned to Shadow: increases duration of buff skills by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2436,15 +7614,93 @@ const wyrmprint =
     "MaxHp": 183,
     "MinAtk": 8,
     "MaxAtk": 57,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "(Lance) Skill Damage +30%",
+      "details": "If the user wields a Lance: increases attack skill damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "(Lance) Skill Damage +35%",
+      "details": "If the user wields a Lance: increases attack skill damage by '''35%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "(Lance) Skill Damage +40%",
+      "details": "If the user wields a Lance: increases attack skill damage by '''40%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Shadow Res +5%",
+      "details": "Reduces shadow damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 5
+    },
+    "abilities22": {
+      "name": "Shadow Res +8%",
+      "details": "Reduces shadow damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 8
+    },
+    "abilities23": {
+      "name": "Shadow Res +10%",
+      "details": "Reduces shadow damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 10
+    },
+    "abilities31": {
+      "name": "Renown +100%",
+      "details": "Increases renown intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Renown +150%",
+      "details": "Increases renown intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Renown +150%",
+      "details": "Increases renown intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
     "resEle": "Shadow",
     "incRes1": 5,
     "incRes2": 8,
@@ -2462,15 +7718,87 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 65,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Force Strike +30%",
+      "details": "Increases force strike damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities12": {
+      "name": "Force Strike +40%",
+      "details": "Increases force strike damage by '''40%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities13": {
+      "name": "Force Strike +50%",
+      "details": "Increases force strike damage by '''50%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities21": {
+      "name": "Critical Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to critical damage.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities22": {
+      "name": "Critical Damage +13%",
+      "details": "Adds '''13%''' to the modifier applied to critical damage.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities23": {
+      "name": "Critical Damage +15%",
+      "details": "Adds '''15%''' to the modifier applied to critical damage.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities31": {
+      "name": "Renown +100%",
+      "details": "Increases renown intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Renown +150%",
+      "details": "Increases renown intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Renown +150%",
+      "details": "Increases renown intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    }
   },
   {
     "id": "400130",
@@ -2484,12 +7812,60 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 30,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
+    "abilities11": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Tent Canvas +50%",
+      "details": "Increases tent canvas intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities22": {
+      "name": "Tent Canvas +75%",
+      "details": "Increases tent canvas intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities23": {
+      "name": "Tent Canvas +75%",
+      "details": "Increases tent canvas intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2506,15 +7882,93 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 8,
     "MaxAtk": 54,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "HP 70% = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities12": {
+      "name": "HP 70% = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 10
+    },
+    "abilities13": {
+      "name": "HP 70% = Strength +13%",
+      "details": "Increases strength by '''13%''' when HP is '''70%''' or above.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 13
+    },
+    "abilities21": {
+      "name": "Tent Canvas +25%",
+      "details": "Increases tent canvas intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities22": {
+      "name": "Tent Canvas +50%",
+      "details": "Increases tent canvas intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities23": {
+      "name": "Tent Canvas +50%",
+      "details": "Increases tent canvas intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities31": {
+      "name": "Renown +25%",
+      "details": "Increases renown intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Renown +50%",
+      "details": "Increases renown intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Renown +50%",
+      "details": "Increases renown intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
     "incSTR1": 8,
     "incSTR2": 10,
     "incSTR3": 13
@@ -2531,12 +7985,60 @@ const wyrmprint =
     "MaxHp": 141,
     "MinAtk": 7,
     "MaxAtk": 51,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 60,
-    "abilities22": 60,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Force Strike +20%",
+      "details": "Increases force strike damage by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities12": {
+      "name": "Force Strike +30%",
+      "details": "Increases force strike damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities13": {
+      "name": "Force Strike +40%",
+      "details": "Increases force strike damage by '''40%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 50
+      }
+    },
+    "abilities21": {
+      "name": "Striking Haste +6%",
+      "details": "Increases skill gauge fill rate by '''6%''' when the user's force strikes connect.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "Striking Haste +8%",
+      "details": "Increases skill gauge fill rate by '''8%''' when the user's force strikes connect.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "Striking Haste +10%",
+      "details": "Increases skill gauge fill rate by '''10%''' when the user's force strikes connect.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2553,9 +8055,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 20,
-    "abilities12": 40,
-    "abilities13": 20,
+    "abilities11": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "(Wind) Broken Punisher +20%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "(Wind) Broken Punisher +25%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''25%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2575,9 +8101,33 @@ const wyrmprint =
     "MaxHp": 123,
     "MinAtk": 4,
     "MaxAtk": 33,
-    "abilities11": 50,
-    "abilities12": 60,
-    "abilities13": 80,
+    "abilities11": {
+      "name": "Bog Res +40%",
+      "details": "Reduces susceptibility to bog by '''40%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Bog Res +50%",
+      "details": "Reduces susceptibility to bog by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Bog Res +75%",
+      "details": "Reduces susceptibility to bog by '''75%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2597,12 +8147,60 @@ const wyrmprint =
     "MaxHp": 195,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 70,
+    "abilities11": {
+      "name": "(Flame) Affliction Guard I",
+      "details": "If the user is attuned to Flame: resists afflictions '''once''' per quest.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities12": {
+      "name": "(Flame) Affliction Guard II",
+      "details": "If the user is attuned to Flame: resists afflictions up to '''two''' times per quest.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities13": {
+      "name": "(Flame) Affliction Guard III",
+      "details": "If the user is attuned to Flame:  resists afflictions up to '''three''' times per quest.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities21": {
+      "name": "Shield Prep I",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''10%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities22": {
+      "name": "Shield Prep II",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''20%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities23": {
+      "name": "Shield Prep III",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''30%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2619,9 +8217,33 @@ const wyrmprint =
     "MaxHp": 142,
     "MinAtk": 7,
     "MaxAtk": 50,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 70,
+    "abilities11": {
+      "name": "Dragon Damage +6%",
+      "details": "Adds '''6%''' to the modifier applied to damage when in dragon form.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "Dragon Damage +10%",
+      "details": "Adds '''10%''' to the modifier applied to damage when in dragon form.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "Dragon Damage +14%",
+      "details": "Adds '''14%''' to the modifier applied to damage when in dragon form.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2641,9 +8263,33 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 30,
+    "abilities11": {
+      "name": "Skill Prep +10%",
+      "details": "Fills '''10%''' of skill gauges at the start of quests.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2663,9 +8309,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 60,
-    "abilities12": 70,
-    "abilities13": 80,
+    "abilities11": {
+      "name": "Energy Prep I",
+      "details": "Increases the user's energy level by '''one''' stage at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 1
+      }
+    },
+    "abilities12": {
+      "name": "Energy Prep III",
+      "details": "Increases the user's energy level by '''three''' stages at the start of quests.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 1
+      }
+    },
+    "abilities13": {
+      "name": "Energy Prep V",
+      "details": "'''Energizes''' the user at the start of quests.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 1
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2685,9 +8355,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 100,
-    "abilities12": 100,
-    "abilities13": 100,
+    "abilities11": {
+      "name": "Loving Heart",
+      "details": "Increases player EXP intake for clearing quests by '''10%'''. This ability does not stack with other similar abilities; the highest value will be applied.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities12": {
+      "name": "Loving Heart",
+      "details": "Increases player EXP intake for clearing quests by '''10%'''. This ability does not stack with other similar abilities; the highest value will be applied.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
+    "abilities13": {
+      "name": "Loving Heart",
+      "details": "Increases player EXP intake for clearing quests by '''10%'''. This ability does not stack with other similar abilities; the highest value will be applied.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 10
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2707,9 +8401,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 8,
     "MaxAtk": 54,
-    "abilities11": 80,
-    "abilities12": 80,
-    "abilities13": 100,
+    "abilities11": {
+      "name": "Last Offense +40%",
+      "details": "Buffs strength by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities12": {
+      "name": "Last Offense +40%",
+      "details": "Buffs strength by '''40%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
+    "abilities13": {
+      "name": "Last Offense +50%",
+      "details": "Buffs strength by '''50%''' for 15 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 60
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2729,9 +8447,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 8,
     "MaxAtk": 54,
-    "abilities11": 80,
-    "abilities12": 80,
-    "abilities13": 100,
+    "abilities11": {
+      "name": "Broken Punisher +25%",
+      "details": "Increases damage to enemies in break state by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "Broken Punisher +25%",
+      "details": "Increases damage to enemies in break state by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "Broken Punisher +30%",
+      "details": "Increases damage to enemies in break state by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2751,9 +8493,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 8,
     "MaxAtk": 54,
-    "abilities11": 80,
-    "abilities12": 80,
-    "abilities13": 80,
+    "abilities11": {
+      "name": "Burning Punisher +25%",
+      "details": "Increases damage to burning enemies by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities12": {
+      "name": "Burning Punisher +25%",
+      "details": "Increases damage to burning enemies by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
+    "abilities13": {
+      "name": "Burning Punisher +30%",
+      "details": "Increases damage to burning enemies by '''30%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2773,9 +8539,33 @@ const wyrmprint =
     "MaxHp": 155,
     "MinAtk": 7,
     "MaxAtk": 49,
-    "abilities11": 80,
-    "abilities12": 80,
-    "abilities13": 100,
+    "abilities11": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Recovery Potency +10%",
+      "details": "Increases the potency of recovery skills by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Recovery Potency +13%",
+      "details": "Increases the potency of recovery skills by '''13%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2795,9 +8585,33 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 80,
-    "abilities12": 80,
-    "abilities13": 100,
+    "abilities11": {
+      "name": "(Flame) Skill Haste +8%",
+      "details": "If the user is attuned to Flame: Increases skill gauge fill rate by '''8%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "(Flame) Skill Haste +8%",
+      "details": "If the user is attuned to Flame: Increases skill gauge fill rate by '''8%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "(Flame) Skill Haste +10%",
+      "details": "If the user is attuned to Flame: Increases skill gauge fill rate by '''10%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2817,12 +8631,66 @@ const wyrmprint =
     "MaxHp": 195,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
+    "abilities11": {
+      "name": "(Light) Affliction Guard I",
+      "details": "If the user is attuned to Light:  resists afflictions '''once''' per quest.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities12": {
+      "name": "(Light) Affliction Guard II",
+      "details": "If the user is attuned to Light:  resists afflictions up to '''two''' times per quest.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities13": {
+      "name": "(Light) Affliction Guard III",
+      "details": "If the user is attuned to Light:  resists afflictions up to '''three''' times per quest.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities21": {
+      "name": "Shadow Res +5%",
+      "details": "Reduces shadow damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 5
+    },
+    "abilities22": {
+      "name": "Shadow Res +8%",
+      "details": "Reduces shadow damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 8
+    },
+    "abilities23": {
+      "name": "Shadow Res +10%",
+      "details": "Reduces shadow damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Shadow",
+      "res": 10
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -2843,9 +8711,33 @@ const wyrmprint =
     "MaxHp": 76,
     "MinAtk": 3,
     "MaxAtk": 20,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
+    "abilities11": {
+      "name": "Bog Res +15%",
+      "details": "Reduces susceptibility to bog by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Bog Res +20%",
+      "details": "Reduces susceptibility to bog by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Bog Res +25%",
+      "details": "Reduces susceptibility to bog by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
@@ -2865,12 +8757,60 @@ const wyrmprint =
     "MaxHp": 122,
     "MinAtk": 4,
     "MaxAtk": 33,
-    "abilities11": 10,
-    "abilities12": 20,
-    "abilities13": 40,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "Poison Res +15%",
+      "details": "Reduces susceptibility to poison by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Poison Res +20%",
+      "details": "Reduces susceptibility to poison by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Poison Res +25%",
+      "details": "Reduces susceptibility to poison by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "Recovery Potency +3%",
+      "details": "Increases the potency of recovery skills by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities22": {
+      "name": "Recovery Potency +5%",
+      "details": "Increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities23": {
+      "name": "Recovery Potency +8%",
+      "details": "Increases the potency of recovery skills by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2887,12 +8827,60 @@ const wyrmprint =
     "MaxHp": 195,
     "MinAtk": 6,
     "MaxAtk": 46,
-    "abilities11": 60,
-    "abilities12": 65,
-    "abilities13": 70,
-    "abilities21": 40,
-    "abilities22": 45,
-    "abilities23": 50,
+    "abilities11": {
+      "name": "Bog Res +50%",
+      "details": "Reduces susceptibility to bog by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities12": {
+      "name": "Bog Res +55%",
+      "details": "Reduces susceptibility to [[Afflictions|bog]] by '''55%'''.",
+      "might": 65,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities13": {
+      "name": "Bog Res +60%",
+      "details": "Reduces susceptibility to bog by '''60%'''.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Bog Res +25%",
+      "details": "If the user is attuned to Wind: reduces susceptibility to [[Afflictions|bog]] by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "(Wind) Bog Res +35%",
+      "details": "If the user is attuned to Wind: reduces susceptibility to [[Afflictions|bog]] by '''35%'''.",
+      "might": 45,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "(Wind) Bog Res +40%",
+      "details": "If the user is attuned to Wind: reduces susceptibility to [[Afflictions|bog]] by '''40%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2909,15 +8897,87 @@ const wyrmprint =
     "MaxHp": 187,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 70,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Last Recovery II",
+      "details": "Grants an HP regen buff healing you for '''10%''' Max HP every 3.9 seconds for 20 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 4
+      }
+    },
+    "abilities12": {
+      "name": "Last Recovery III",
+      "details": "Grants an HP regen buff healing you for '''12%''' Max HP every 3.9 seconds for 20 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 4
+      }
+    },
+    "abilities13": {
+      "name": "Last Recovery IV",
+      "details": "Grants an HP regen buff healing you for '''14%''' Max HP every 3.9 seconds for 20 seconds when HP drops to '''30%''' (once per quest).",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 4
+      }
+    },
+    "abilities21": {
+      "name": "Shield Prep I",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''10%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities22": {
+      "name": "Shield Prep II",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''20%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities23": {
+      "name": "Shield Prep III",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''30%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities31": {
+      "name": "Forbidden Knowledge +100%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''100%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities32": {
+      "name": "Forbidden Knowledge +150%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities33": {
+      "name": "Forbidden Knowledge +150%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''150%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    }
   },
   {
     "id": "400156",
@@ -2931,12 +8991,60 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 80,
-    "abilities12": 80,
-    "abilities13": 60,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
+    "abilities11": {
+      "name": "(Shadow) Skill Haste +4%",
+      "details": "If the user is attuned to shadow: increases skill gauge fill rate by '''4%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "(Shadow) Skill Haste +5%",
+      "details": "If the user is attuned to shadow: increases skill gauge fill rate by '''5%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "(Shadow) Skill Haste +6%",
+      "details": "If the user is attuned to shadow: increases skill gauge fill rate by '''6%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Arcane Tomes +50%",
+      "details": "Increases Arcane Tomes intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities22": {
+      "name": "Arcane Tomes +75%",
+      "details": "Increases Arcane Tomes intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities23": {
+      "name": "Arcane Tomes +75%",
+      "details": "Increases Arcane Tomes intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2953,15 +9061,87 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 8,
     "MaxAtk": 54,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "Skill Damage +25%",
+      "details": "Increases attack skill damage by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "Skill Damage +30%",
+      "details": "Increases attack skill damage by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Forbidden Knowledge +25%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities22": {
+      "name": "Forbidden Knowledge +50%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities23": {
+      "name": "Forbidden Knowledge +50%",
+      "details": "Increases forbidden knowledge intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 150
+      }
+    },
+    "abilities31": {
+      "name": "Arcane Tomes +25%",
+      "details": "Increases Arcane Tomes intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities32": {
+      "name": "Arcane Tomes +50%",
+      "details": "Increases Arcane Tomes intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    },
+    "abilities33": {
+      "name": "Arcane Tomes +50%",
+      "details": "Increases Arcane Tomes intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 75
+      }
+    }
   },
   {
     "id": "400163",
@@ -2975,12 +9155,60 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 80,
-    "abilities12": 100,
-    "abilities13": 100,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
+    "abilities11": {
+      "name": "(Axe) Critical Rate +10%",
+      "details": "If the user wields an Axe: increases critical rate by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "(Axe) Critical Rate +12%",
+      "details": "If the user wields an Axe: increases critical rate by '''12%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "(Axe) Critical Rate +14%",
+      "details": "If the user wields an Axe: increases critical rate by '''14%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Skill Damage +10%",
+      "details": "Increases attack skill damage by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities22": {
+      "name": "Skill Damage +15%",
+      "details": "Increases attack skill damage by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities23": {
+      "name": "Skill Damage +20%",
+      "details": "Increases attack skill damage by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -2997,12 +9225,60 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 65,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 60,
-    "abilities22": 80,
-    "abilities23": 100,
+    "abilities11": {
+      "name": "(Sword) Skill Damage +30%",
+      "details": "If the user wields a Sword: increases attack skill damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "(Sword) Skill Damage +35%",
+      "details": "If the user wields a Sword: increases attack skill damage by '''35%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "(Sword) Skill Damage +40%",
+      "details": "If the user wields a Sword: increases attack skill damage by '''40%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Dragon's Claws I",
+      "details": "Each shapeshift increases strength for the remainder  of the quest (up to three times per quest). On first shapeshift strength is increased by '''4%''' in total. On second shapeshift strength is increased by '''10%''' in total. On third shapeshift strength is increased by '''20%''' in total.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities22": {
+      "name": "Dragon's Claws II",
+      "details": "Each shapeshift increases strength for the remainder  of the quest (up to three times per quest).  On first shapeshift strength is increased by '''5%''' in total. On second shapeshift strength is increased by '''13%''' in total. On third shapeshift strength is increased by '''25%''' in total.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities23": {
+      "name": "Dragon's Claws III",
+      "details": "Each shapeshift increases strength for the remainder  of the quest (up to three times per quest). On first shapeshift strength is increased by '''6%''' in total. On second shapeshift strength is increased by '''15%''' in total. On third shapeshift strength is increased by '''30%''' in total.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -3019,15 +9295,87 @@ const wyrmprint =
     "MaxHp": 177,
     "MinAtk": 9,
     "MaxAtk": 64,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 60,
-    "abilities22": 60,
-    "abilities23": 70,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "(Bow) Skill Damage +30%",
+      "details": "If the user wields a Bow: increases attack skill damage by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities12": {
+      "name": "(Bow) Skill Damage +35%",
+      "details": "If the user wields a Bow: increases attack skill damage by '''35%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities13": {
+      "name": "(Bow) Skill Damage +40%",
+      "details": "If the user wields a Bow: increases attack skill damage by '''40%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      }
+    },
+    "abilities21": {
+      "name": "Striking Haste +8%",
+      "details": "Increases skill gauge fill rate by '''8%''' when the user's force strikes connect.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities22": {
+      "name": "Striking Haste +10%",
+      "details": "Increases skill gauge fill rate by '''10%''' when the user's force strikes connect.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities23": {
+      "name": "Striking Haste +12%",
+      "details": "Increases skill gauge fill rate by '''12%''' when the user's force strikes connect.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities31": {
+      "name": "Eggsploration Points +100%",
+      "details": "Increases eggsploration point intake for clearing quests by 100%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    },
+    "abilities32": {
+      "name": "Eggsploration Points +150%",
+      "details": "Increases eggsploration point intake for clearing quests by 150%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    },
+    "abilities33": {
+      "name": "Eggsploration Points +150%",
+      "details": "Increases eggsploration point intake for clearing quests by 150%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    }
   },
   {
     "id": "400174",
@@ -3041,15 +9389,93 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 80,
-    "abilities21": 10,
-    "abilities22": 20,
-    "abilities23": 40,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "HP 70% = Defense +5%",
+      "details": "Increases defense by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 5
+    },
+    "abilities12": {
+      "name": "HP 70% = Defense +8%",
+      "details": "Increases defense by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 8
+    },
+    "abilities13": {
+      "name": "HP 70% = Defense +10%",
+      "details": "Increases defense by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 10
+    },
+    "abilities21": {
+      "name": "Stun Res +15%",
+      "details": "Reduces susceptibility to stun by '''15%'''.",
+      "might": 10,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Stun Res +20%",
+      "details": "Reduces susceptibility to stun by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Stun Res +25%",
+      "details": "Reduces susceptibility to stun by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities31": {
+      "name": "Eggsploration Points +50%",
+      "details": "Increases eggsploration point intake for clearing quests by 50%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    },
+    "abilities32": {
+      "name": "Eggsploration Points +100%",
+      "details": "Increases eggsploration point intake for clearing quests by 100%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    },
+    "abilities33": {
+      "name": "Eggsploration Points +100%",
+      "details": "Increases eggsploration point intake for clearing quests by 100%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    },
     "incDef1": 5,
     "incDef2": 8,
     "incDef3": 10
@@ -3066,12 +9492,60 @@ const wyrmprint =
     "MaxHp": 71,
     "MinAtk": 3,
     "MaxAtk": 25,
-    "abilities11": 50,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
+    "abilities11": {
+      "name": "(Water) Skill Haste +4%",
+      "details": "If the user is attuned to Water:  increases skill gauge fill rate by '''4%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities12": {
+      "name": "(Water) Skill Haste +5%",
+      "details": "If the user is attuned to Water:  increases skill gauge fill rate by '''5%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities13": {
+      "name": "(Water) Skill Haste +6%",
+      "details": "If the user is attuned to Water:  increases skill gauge fill rate by '''6%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "abilities21": {
+      "name": "Papier-Mâché +50%",
+      "details": "Increases papier-mâché intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 125
+      }
+    },
+    "abilities22": {
+      "name": "Papier-Mâché +75%",
+      "details": "Increases papier-mâché intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 125
+      }
+    },
+    "abilities23": {
+      "name": "Papier-Mâché +75%",
+      "details": "Increases papier-mâché intake for clearing quests by '''75%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 125
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -3088,15 +9562,87 @@ const wyrmprint =
     "MaxHp": 151,
     "MinAtk": 7,
     "MaxAtk": 53,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Gauge Accelerator +25%",
+      "details": "Speeds the rate the mode gauge decreases by '''25%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 35
+      }
+    },
+    "abilities12": {
+      "name": "Gauge Accelerator +30%",
+      "details": "Speeds the rate the mode gauge decreases by '''30%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 35
+      }
+    },
+    "abilities13": {
+      "name": "Gauge Accelerator +35%",
+      "details": "Speeds the rate the mode gauge decreases by '''35%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 35
+      }
+    },
+    "abilities21": {
+      "name": "Papier-Mâché +25%",
+      "details": "Increases papier-mâché intake for clearing quests by '''25%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 125
+      }
+    },
+    "abilities22": {
+      "name": "Papier-Mâché +50%",
+      "details": "Increases papier-mâché intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 125
+      }
+    },
+    "abilities23": {
+      "name": "Papier-Mâché +50%",
+      "details": "Increases papier-mâché intake for clearing quests by '''50%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 125
+      }
+    },
+    "abilities31": {
+      "name": "Eggsploration Points +25%",
+      "details": "Increases eggsploration point intake for clearing quests by 25%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    },
+    "abilities32": {
+      "name": "Eggsploration Points +50%",
+      "details": "Increases eggsploration point intake for clearing quests by 50%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    },
+    "abilities33": {
+      "name": "Eggsploration Points +50%",
+      "details": "Increases eggsploration point intake for clearing quests by 50%.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 250
+      }
+    }
   },
   {
     "id": "400277",
@@ -3110,15 +9656,87 @@ const wyrmprint =
     "MaxHp": 176,
     "MinAtk": 9,
     "MaxAtk": 65,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 40,
-    "abilities22": 60,
-    "abilities23": 80,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
+    "abilities11": {
+      "name": "Slayer's Strength +4%",
+      "details": "Increases strength by '''4%''' for every five enemies defeated (up to five times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities12": {
+      "name": "Slayer's Strength +5%",
+      "details": "Increases strength by '''5%''' for every five enemies defeated (up to five times per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities13": {
+      "name": "Slayer's Strength +6%",
+      "details": "Increases strength by '''6%''' for every five enemies defeated (up to five times per quest).",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 6
+      }
+    },
+    "abilities21": {
+      "name": "Healing Doublebuff I",
+      "details": "Grants an HP regen buff healing you for '''1%''' Max HP every 3.9 seconds for 20 seconds each time a defense up buff is received.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities22": {
+      "name": "Healing Doublebuff II",
+      "details": "Grants an HP regen buff healing you for '''2%''' Max HP every 3.9 seconds for 20 seconds each time a defense up buff is received.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities23": {
+      "name": "Healing Doublebuff III",
+      "details": "Grants an HP regen buff healing you for '''3%''' Max HP every 3.9 seconds for 20 seconds each time a defense up buff is received.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities31": {
+      "name": "Valor +30%",
+      "details": "Increases valor intake for clearing quests by '''30%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities32": {
+      "name": "Valor +45%",
+      "details": "Increases valor intake for clearing quests by '''45%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities33": {
+      "name": "Valor +60%",
+      "details": "Increases valor intake for clearing quests by '''60%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    }
   },
   {
     "id": "400279",
@@ -3132,12 +9750,60 @@ const wyrmprint =
     "MaxHp": 53,
     "MinAtk": 2,
     "MaxAtk": 19,
-    "abilities11": 40,
-    "abilities12": 50,
-    "abilities13": 60,
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
+    "abilities11": {
+      "name": "Dragon Time +5%",
+      "details": "Extends shapeshift time by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities12": {
+      "name": "Dragon Time +8%",
+      "details": "Extends shapeshift time by '''8%'''.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities13": {
+      "name": "Dragon Time +10%",
+      "details": "Extends shapeshift time by '''10%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "Valor +10%",
+      "details": "Increases valor intake for clearing quests by '''10%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Valor +15%",
+      "details": "Increases valor intake for clearing quests by '''15%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Valor +20%",
+      "details": "Increases valor intake for clearing quests by '''20%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0
@@ -3154,12 +9820,66 @@ const wyrmprint =
     "MaxHp": 150,
     "MinAtk": 8,
     "MaxAtk": 54,
-    "abilities11": 60,
-    "abilities12": 80,
-    "abilities13": 100,
-    "abilities21": 20,
-    "abilities22": 30,
-    "abilities23": 40,
+    "abilities11": {
+      "name": "HP 70% = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 8
+    },
+    "abilities12": {
+      "name": "HP 70% = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 10
+    },
+    "abilities13": {
+      "name": "HP 70% = Strength +13%",
+      "details": "Increases strength by '''13%''' when HP is '''70%''' or above.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "STR": 13
+    },
+    "abilities21": {
+      "name": "Skill Prep +15%",
+      "details": "Fills '''15%''' of skill gauges at the start of quests.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities22": {
+      "name": "Skill Prep +20%",
+      "details": "Fills '''20%''' of skill gauges at the start of quests.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities23": {
+      "name": "Skill Prep +25%",
+      "details": "Fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
@@ -3179,15 +9899,93 @@ const wyrmprint =
     "MaxHp": 156,
     "MinAtk": 5,
     "MaxAtk": 37,
-    "abilities11": 40,
-    "abilities12": 60,
-    "abilities13": 70,
-    "abilities21": 20,
-    "abilities22": 40,
-    "abilities23": 60,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0,
+    "abilities11": {
+      "name": "Shield Prep I",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''10%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities12": {
+      "name": "Shield Prep II",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''20%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities13": {
+      "name": "Shield Prep III",
+      "details": "Grants the user a one-use shield that nullifies damage less than '''30%''' of their maximum HP at the start of quests. This does not stack with any other shields.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 3
+      }
+    },
+    "abilities21": {
+      "name": "HP 70% = Defense +3%",
+      "details": "Increases defense by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 3
+    },
+    "abilities22": {
+      "name": "HP 70% = Defense +5%",
+      "details": "Increases defense by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 5
+    },
+    "abilities23": {
+      "name": "HP 70% = Defense +8%",
+      "details": "Increases defense by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "",
+      "def": 8
+    },
+    "abilities31": {
+      "name": "Valor +20%",
+      "details": "Increases valor intake for clearing quests by '''20%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities32": {
+      "name": "Valor +30%",
+      "details": "Increases valor intake for clearing quests by '''30%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities33": {
+      "name": "Valor +40%",
+      "details": "Increases valor intake for clearing quests by '''40%'''.",
+      "might": 0,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
     "incDef1": 3,
     "incDef2": 5,
     "incDef3": 8

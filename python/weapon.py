@@ -11,6 +11,8 @@ def set_weapon():
     parse_int = ['MinHp', 'MaxHp', 'MinAtk', 'MaxAtk']
 
     raw_data = main.get_data(table, fields, group)
+    abilities = main.set_abilities()
+    skills = main.set_skills()
 
     names = main.load_name(FILE_NAME)
     o_len = len(names)
@@ -31,24 +33,27 @@ def set_weapon():
                 'weapon': item['Type'],
                 'element': item['ElementalType'],
                 'rarity': item['Rarity'],
+                # 'skill': item['SkillName']
+                'skill': skills.get(item['SkillName'])
             }
 
             for k in parse_int:
                 new_item[k] = int(item[k])
 
-            new_item['skill'] = item['SkillName'] != ''
+            # new_item['skill'] = item['SkillName'] != ''
 
             special = {}
             for a in ['Abilities11', 'Abilities21']:
-                ability = abilities.get(item[a], '')
+                ability = abilities.get(item[a])
                 if ability:
-                    new_item[a.lower()] = ability['Might']
+                    # new_item[a.lower()] = ability['might']
+                    new_item[a.lower()] = ability
 
                     if 'STR' in ability:
-                        special['reqEle'] = ability['reqEle']
+                        special['req'] = ability['req']
                         special['incSTR'] = ability['STR']
                     elif 'def' in ability:
-                        special['reqEle'] = ability['reqEle']
+                        special['req'] = ability['req']
                         special['incDef'] = ability['def']
                 else:
                     new_item[a.lower()] = 0
@@ -68,5 +73,4 @@ def set_weapon():
 
 if __name__ == '__main__':
     print(__file__)
-    abilities = main.set_abilities()
     set_weapon()
