@@ -518,25 +518,25 @@ const adventurer =
       "name": "Experience's Boon I",
       "details": "Grants the user an Attack Gauge and a Burst Gauge. The Attack Gauge fills when regular attacks connect with enemies, while the Burst Gauge is filled when force strikes successfully connect. &lt;br&gt;\nThe user's defense is increased by '''5%''' for 1 completely filled gauge and '''10%''' if both gauges are completely filled. &lt;br&gt;\nAny filled gauges are consumed when using the [[Cyclone Blade]] skill, increasing its power by '''15%''' for 1 completely filled gauge and '''50%''' if both gauges are completely filled.",
       "might": 80,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "Experience's Boon II",
       "details": "Grants the user an Attack Gauge and a Burst Gauge. The Attack Gauge fills when regular attacks connect with enemies, while the Burst Gauge is filled when force strikes successfully connect.  &lt;br&gt;\nThe user's defense is increased by '''8%''' for 1 completely filled gauge and '''15%''' if both gauges are completely filled. &lt;br&gt;\nAny filled gauges are consumed when using the [[Cyclone Blade]] skill, increasing its power by '''20%''' for 1 completely filled gauge and '''80%''' if both gauges are completely filled.",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Relentless Spirit I",
       "details": "Reduces susceptibility to freeze and bog by '''50%'''.",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities22": {
       "name": "Relentless Spirit II",
       "details": "Reduces susceptibility to freeze and bog by '''100%'''.",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "abilities31": {
       "name": "Skill Damage +25%",
@@ -781,13 +781,13 @@ const adventurer =
       "name": "35 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 35-hit combo.",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities32": {
       "name": "30 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 30-hit combo.",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "skill1": {
       "name": "Starlit Gift",
@@ -1120,25 +1120,25 @@ const adventurer =
       "name": "Sylvan Strength I",
       "details": "Increases the user's strength by '''2%''' and critical rate by '''1%''' for 15 seconds for every 25-hit combo.",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "Sylvan Strength II",
       "details": "Increases the user's strength by '''2%''' and critical rate by '''1%''' for 15 seconds for every 20-hit combo.",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Woodland Blessing I",
       "details": "Reduces susceptibility to stun and sleep by '''50%'''.",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities22": {
       "name": "Woodland Blessing II",
       "details": "Reduces susceptibility to stun and sleep by '''100%'''.",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "abilities31": {
       "name": "Buff Time +25%",
@@ -2538,13 +2538,13 @@ const adventurer =
       "name": "40 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 40-hit combo.",
       "might": 60,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "35 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 35-hit combo.",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Stun Res +50%",
@@ -8751,13 +8751,13 @@ const adventurer =
       "name": "Paralysis = User Strength +10%",
       "details": "Buffs the user's strength by '''10%''' for 10 seconds upon successfully [[Afflictions|paralyzing]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 60,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "Paralysis = User Strength +10%",
       "details": "Buffs the user's strength by '''15%''' for 10 seconds upon successfully [[Afflictions|paralyzing]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 80,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Curse Res +50%",
@@ -8859,13 +8859,13 @@ const adventurer =
       "name": "Blindness = Team Strength +8%",
       "details": "Buffs the entire team's strength by '''8%''' for 10 seconds upon successfully [[Afflictions|blinding]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 60,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "Blindness = Team Strength +10%",
       "details": "Buffs the entire team's strength by '''10%''' for 10 seconds upon successfully [[Afflictions|blinding]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 80,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Blindness Res +50%",
@@ -10668,13 +10668,13 @@ const adventurer =
       "name": "Electrically Charged I",
       "details": "Increases strength by '''20%''' when electrified.",
       "might": 80,
-      "limit": {}
+      "limit": 0
     },
     "abilities32": {
       "name": "Electrically Charged II",
       "details": "Increases strength by '''25%''' when electrified.",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "skill1": {
       "name": "Lightning Burst",
@@ -11354,13 +11354,13 @@ const adventurer =
       "name": "Last Boost I",
       "details": "Fills '''50%''' of the entire team's skill gauges when the user's HP drops to '''30%''' (once per quest). This does not fill the skill gauges of dragons.",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "Last Boost II",
       "details": "Fills '''100%''' of the entire team's skill gauges when the user's HP drops to '''30%''' (once per quest). This does not fill the skill gauges of dragons.",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Stun Res +50%",
@@ -13357,13 +13357,13 @@ const adventurer =
       "name": "Last Bravery I",
       "details": "Increases the entire team's strength by '''20%''' and defense by '''30%''' for 15 seconds when the user's HP drops to '''30%''' (once per quest).",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "Last Bravery II",
       "details": "Increases the entire team's strength by '''30%''' and defense by '''40%''' for 15 seconds when the user's HP drops to '''30%''' (once per quest).",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Burn Res +50%",
@@ -13478,13 +13478,13 @@ const adventurer =
       "name": "Last Destruction I",
       "details": "Increases the damage of the next attack skill used by each team member by '''30%''' when the user's HP drops to '''30%''' (once per quest).",
       "might": 70,
-      "limit": {}
+      "limit": 0
     },
     "abilities12": {
       "name": "Last Destruction II",
       "details": "Increases the damage of the next attack skill used by each team member by '''40%''' when the user's HP drops to '''30%''' (once per quest).",
       "might": 100,
-      "limit": {}
+      "limit": 0
     },
     "abilities21": {
       "name": "Paralysis Res +50%",

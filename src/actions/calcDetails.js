@@ -1,11 +1,236 @@
 /* eslint-disable no-unused-vars */
-import { mightDict, dungeonInfo, elements, values } from 'data';
+import { mightDict, dungeonInfo, elements, values } from '../data';
 import { getLimit, getHalidomSectionKey } from './selectors';
 
 const MAX_WYRMPRINT_STR = 20;
 const MAX_WYRMPRINT_DEF = 20;
 const MAX_WYRMPRINT_RES = 15;
 const MAX_WYRMPRINT_COUNTER = 25;
+
+const getAbilityMight = ability => {
+  if (ability === 0) {
+    return 0;
+  }
+  const { name, details, might, limit } = ability;
+  return might;
+};
+
+const getAdventurerMight = adventurer => {
+  const { mana, ex, rarity } = adventurer;
+
+  const skillMight = mightDict.adventurerSkill[mana];
+
+  // Euden: 100001_01
+  const abilitySet =
+    adventurer.rarity === '5' || adventurer.id === '100001_01'
+      ? mightDict.adventurerAbility['5'][mana]
+      : mightDict.adventurerAbility.res[mana];
+
+  const abilityMight = abilitySet.reduce((acc, k) => {
+    if (adventurer[k]) {
+      return acc + getAbilityMight(adventurer[k]);
+    }
+
+    return acc;
+  }, 0);
+
+  // TODO pleaaaaase clean this up dear lord
+  const fsMight =
+    mana * 1 >= 40
+      ? mightDict.fs['40']
+      : mana * 1 >= 10
+      ? mightDict.fs['10']
+      : 0;
+  const exMight = mightDict.ex[rarity][ex];
+
+  return skillMight + abilityMight + fsMight + exMight;
+};
+
+const getWeaponMight = weapon => {
+  // unbind === 4, skill LV2, else skill LV1
+  let skillMight = 0;
+  if (weapon.skill)
+    skillMight =
+      weapon.unbind === '4'
+        ? mightDict.itemSkill['4']
+        : mightDict.itemSkill['0'];
+  return (
+    getAbilityMight(weapon.abilities11) +
+    getAbilityMight(weapon.abilities21) +
+    skillMight
+  );
+};
+
+const getWyrmprintMight = wyrmprint => {
+  const {
+    unbind,
+    abilities11,
+    abilities12,
+    abilities13,
+    abilities21,
+    abilities22,
+    abilities23,
+    abilities31,
+    abilities32,
+    abilities33,
+  } = wyrmprint;
+
+  if (unbind === '4') {
+    return (
+      getAbilityMight(abilities13) +
+      getAbilityMight(abilities23) +
+      getAbilityMight(abilities33)
+    );
+  }
+  if (wyrmprint.unbind * 1 >= 2) {
+    return (
+      getAbilityMight(abilities12) +
+      getAbilityMight(abilities22) +
+      getAbilityMight(abilities32)
+    );
+  }
+  return (
+    getAbilityMight(abilities11) +
+    getAbilityMight(abilities21) +
+    getAbilityMight(abilities31)
+  );
+};
+
+const getDragonMight = dragon => {
+  const bondBonus = dragon.bond * 10;
+  if (dragon.unbind * 1 === 4) {
+    return (
+      getAbilityMight(dragon.abilities12) +
+      getAbilityMight(dragon.abilities22) +
+      bondBonus +
+      mightDict.itemSkill['4']
+    );
+  }
+  return (
+    getAbilityMight(dragon.abilities11) +
+    getAbilityMight(dragon.abilities21) +
+    bondBonus +
+    mightDict.itemSkill['0']
+  );
+};
+
+export const calcSection = section => {
+  if (!section) {
+    return { HP: 0, STR: 0 };
+  }
+
+  let HP;
+  let STR;
+  HP = 0;
+  STR = 0;
+  Object.keys(section).forEach(itemKey => {
+    const { type, level } = section[itemKey];
+    const value = values[type][level];
+    HP += value.HP;
+    STR += value.STR;
+  });
+
+  return { HP, STR };
+};
+const getMCBonus = (adventurer, key, mana) => {
+  const index = ['50', '45', '40', '30', '20', '10', '0'].indexOf(mana);
+  const statArray = [
+    adventurer[`McFullBonus${key}5`],
+    adventurer[`Plus${key}4`],
+    adventurer[`Plus${key}3`],
+    adventurer[`Plus${key}2`],
+    adventurer[`Plus${key}1`],
+    adventurer[`Plus${key}0`],
+    0,
+  ];
+
+  return statArray.slice(index).reduce((acc, cur) => acc + cur, 0);
+};
+
+const getMight = (statsKey, item) => {
+  switch (statsKey) {
+    case 'adventurer':
+      return getAdventurerMight(item);
+    case 'weapon':
+      return getWeaponMight(item);
+    case 'wyrmprint1':
+    case 'wyrmprint2':
+      return getWyrmprintMight(item);
+    case 'dragon':
+      return getDragonMight(item);
+    default:
+      return 0;
+  }
+};
+
+export const calcDetails = (statsKey, item, sameEle = false) => {
+  let HP;
+  let STR;
+  let might;
+  HP = 0;
+  STR = 0;
+  might = 0;
+  if (item) {
+    const { level, mana, rarity, curRarity } = item;
+    const temp = statsKey === 'adventurer' ? '5' : rarity;
+    const MAX_LEVEL = getLimit(statsKey, temp);
+
+    if (level * 1 === MAX_LEVEL) {
+      HP = item.MaxHp;
+      STR = item.MaxAtk;
+    } else {
+      let baseHP;
+      let baseSTR;
+      let stepHP;
+      let stepSTR;
+      if (statsKey === 'adventurer') {
+        baseHP = item[`MinHp${curRarity}`];
+        baseSTR = item[`MinAtk${curRarity}`];
+        stepHP = 'MinHp5';
+        stepSTR = 'MinAtk5';
+      } else {
+        baseHP = item.MinHp;
+        baseSTR = item.MinAtk;
+        stepHP = 'MinHp';
+        stepSTR = 'MinAtk';
+      }
+
+      if (level * 1 === 1) {
+        HP = baseHP;
+        STR = baseSTR;
+      } else {
+        HP =
+          baseHP +
+          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxHp - item[stepHP]);
+        STR =
+          baseSTR +
+          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxAtk - item[stepSTR]);
+      }
+    }
+
+    if (statsKey === 'adventurer') {
+      HP += getMCBonus(item, 'Hp', mana);
+      STR += getMCBonus(item, 'Atk', mana);
+    }
+
+    HP = Math.ceil(HP);
+    STR = Math.ceil(STR);
+
+    if (sameEle) {
+      // adventurer equipt same element weapon || dragon has 1.5 bonus
+      HP = Math.ceil(HP * 1.5);
+      STR = Math.ceil(STR * 1.5);
+    }
+
+    might = HP + STR + getMight(statsKey, item);
+  }
+
+  return {
+    HP,
+    STR,
+    might,
+  };
+};
 
 export const getDetails = (stats, halidom) => {
   // getDetails uses with stats.adventurer exists, so no need recheck here.
@@ -75,8 +300,8 @@ export const getDetails = (stats, halidom) => {
 
   // calc ability
   // Version 1.7.1, details calc item STR ability, shows in ability section
-  let totalIncHP, totalIncSTR;
-  totalIncHP = totalIncSTR = 0;
+  let totalIncHP = 0;
+  let totalIncSTR = 0;
   // adventurer's STR ability
   if (adventurer.incSTR1) {
     if (adventurer.incSTR2 && adventurer.mana * 1 >= adventurer.STRLV2) {
@@ -98,8 +323,8 @@ export const getDetails = (stats, halidom) => {
   // wyrmprint's STR ability
   // TODO: in game bug, when wear two MUB wyrmprints will exceed the MAX_WYRMPRINT_STR limit
   let wSTR = 0;
-  let w1MUB, w2MUB;
-  w1MUB = w2MUB = false;
+  let w1MUB = false;
+  let w2MUB = false;
   if (wyrmprint1 && wyrmprint1.incSTR1) {
     let stage = 1;
     const unbind = wyrmprint1.unbind * 1;
@@ -307,229 +532,4 @@ export const getDamage = (stats, state) => {
   const min = Math.floor(base * 0.95);
 
   return { max, min, textArea };
-};
-
-export const calcSection = section => {
-  if (!section) {
-    return { HP: 0, STR: 0 };
-  }
-
-  let HP;
-  let STR;
-  HP = 0;
-  STR = 0;
-  Object.keys(section).forEach(itemKey => {
-    const { type, level } = section[itemKey];
-    const value = values[type][level];
-    HP += value.HP;
-    STR += value.STR;
-  });
-
-  return { HP, STR };
-};
-
-export const calcDetails = (statsKey, item, sameEle = false) => {
-  let HP;
-  let STR;
-  let might;
-  HP = 0;
-  STR = 0;
-  might = 0;
-  if (item) {
-    const { level, mana, rarity, curRarity } = item;
-    const temp = statsKey === 'adventurer' ? '5' : rarity;
-    const MAX_LEVEL = getLimit(statsKey, temp);
-
-    if (level * 1 === MAX_LEVEL) {
-      HP = item.MaxHp;
-      STR = item.MaxAtk;
-    } else {
-      let base_HP;
-      let base_STR;
-      let stepHP;
-      let stepSTR;
-      if (statsKey === 'adventurer') {
-        base_HP = item['MinHp' + curRarity];
-        base_STR = item['MinAtk' + curRarity];
-        stepHP = 'MinHp5';
-        stepSTR = 'MinAtk5';
-      } else {
-        base_HP = item.MinHp;
-        base_STR = item.MinAtk;
-        stepHP = 'MinHp';
-        stepSTR = 'MinAtk';
-      }
-
-      if (level * 1 === 1) {
-        HP = base_HP;
-        STR = base_STR;
-      } else {
-        HP =
-          base_HP +
-          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxHp - item[stepHP]);
-        STR =
-          base_STR +
-          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxAtk - item[stepSTR]);
-      }
-    }
-
-    if (statsKey === 'adventurer') {
-      HP += getMCBonus(item, 'Hp', mana);
-      STR += getMCBonus(item, 'Atk', mana);
-    }
-
-    HP = Math.ceil(HP);
-    STR = Math.ceil(STR);
-
-    if (sameEle) {
-      // adventurer equipt same element weapon || dragon has 1.5 bonus
-      HP = Math.ceil(HP * 1.5);
-      STR = Math.ceil(STR * 1.5);
-    }
-
-    might = HP + STR + getMight(statsKey, item);
-  }
-
-  return {
-    HP,
-    STR,
-    might,
-  };
-};
-
-const getMCBonus = (adventurer, key, mana) => {
-  const index = ['50', '45', '40', '30', '20', '10', '0'].indexOf(mana);
-  const statArray = [
-    adventurer[`McFullBonus${key}5`],
-    adventurer[`Plus${key}4`],
-    adventurer[`Plus${key}3`],
-    adventurer[`Plus${key}2`],
-    adventurer[`Plus${key}1`],
-    adventurer[`Plus${key}0`],
-    0,
-  ];
-
-  return statArray.slice(index).reduce((acc, cur) => acc + cur, 0);
-};
-
-const getMight = (statsKey, item) => {
-  switch (statsKey) {
-    case 'adventurer':
-      return getAdventurerMight(item);
-    case 'weapon':
-      return getWeaponMight(item);
-    case 'wyrmprint1':
-    case 'wyrmprint2':
-      return getWyrmprintMight(item);
-    case 'dragon':
-      return getDragonMight(item);
-    default:
-      return 0;
-  }
-};
-
-const getAbilityMight = ability => {
-  if (ability === 0) {
-    return 0;
-  }
-  const { name, details, might, limit } = ability;
-  return might;
-};
-
-const getAdventurerMight = adventurer => {
-  const { mana, ex, rarity } = adventurer;
-
-  const skillMight = mightDict.adventurerSkill[mana];
-
-  // Euden: 100001_01
-  const abilitySet =
-    adventurer.rarity === '5' || adventurer.id === '100001_01'
-      ? mightDict.adventurerAbility['5'][mana]
-      : mightDict.adventurerAbility.res[mana];
-
-  const abilityMight = abilitySet.reduce((acc, k) => {
-    if (adventurer[k]) {
-      return acc + getAbilityMight(adventurer[k]);
-    }
-
-    return acc;
-  }, 0);
-
-  const fsMight =
-    mana * 1 >= 40
-      ? mightDict.fs['40']
-      : mana * 1 >= 10
-      ? mightDict.fs['10']
-      : 0;
-  const exMight = mightDict.ex[rarity][ex];
-
-  return skillMight + abilityMight + fsMight + exMight;
-};
-
-const getWeaponMight = weapon => {
-  // unbind === 4, skill LV2, else skill LV1
-  let skillMight = 0;
-  if (weapon.skill)
-    skillMight =
-      weapon.unbind === '4'
-        ? mightDict.itemSkill['4']
-        : mightDict.itemSkill['0'];
-  return (
-    getAbilityMight(weapon.abilities11) +
-    getAbilityMight(weapon.abilities21) +
-    skillMight
-  );
-};
-
-const getWyrmprintMight = wyrmprint => {
-  const {
-    unbind,
-    abilities11,
-    abilities12,
-    abilities13,
-    abilities21,
-    abilities22,
-    abilities23,
-    abilities31,
-    abilities32,
-    abilities33,
-  } = wyrmprint;
-
-  if (unbind === '4') {
-    return (
-      getAbilityMight(abilities13) +
-      getAbilityMight(abilities23) +
-      getAbilityMight(abilities33)
-    );
-  }
-  if (wyrmprint.unbind * 1 >= 2) {
-    return (
-      getAbilityMight(abilities12) +
-      getAbilityMight(abilities22) +
-      getAbilityMight(abilities32)
-    );
-  }
-  return (
-    getAbilityMight(abilities11) +
-    getAbilityMight(abilities21) +
-    getAbilityMight(abilities31)
-  );
-};
-
-const getDragonMight = dragon => {
-  const bondBonus = dragon.bond * 10;
-  if (dragon.unbind * 1 === 4) {
-    return (
-      getAbilityMight(dragon.abilities12) +
-      getAbilityMight(dragon.abilities22) +
-      bondBonus +
-      mightDict.itemSkill['4']
-    );
-  }
-  return (
-    getAbilityMight(dragon.abilities11) +
-    getAbilityMight(dragon.abilities21) +
-    bondBonus +
-    mightDict.itemSkill['0']
-  );
 };

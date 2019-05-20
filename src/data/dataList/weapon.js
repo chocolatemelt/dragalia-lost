@@ -64,7 +64,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -131,7 +131,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -162,7 +162,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -265,7 +265,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -296,7 +296,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -533,7 +533,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -630,7 +630,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -661,7 +661,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -824,7 +824,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -855,7 +855,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -1484,7 +1484,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -1551,7 +1551,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -1654,7 +1654,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -1721,7 +1721,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -1918,7 +1918,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -2019,7 +2019,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -2224,7 +2224,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -2287,7 +2287,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -2918,7 +2918,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -2949,7 +2949,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3016,7 +3016,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3047,7 +3047,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3114,7 +3114,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3181,7 +3181,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3418,7 +3418,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3449,7 +3449,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3550,7 +3550,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3619,7 +3619,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3720,7 +3720,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -3787,7 +3787,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -4450,7 +4450,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -4553,7 +4553,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -4868,7 +4868,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -5031,7 +5031,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -5658,7 +5658,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -5725,7 +5725,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -5756,7 +5756,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -5823,7 +5823,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -5926,7 +5926,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -5993,7 +5993,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -6216,7 +6216,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -6317,7 +6317,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -6386,7 +6386,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -6491,7 +6491,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -6554,7 +6554,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -6617,7 +6617,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7212,7 +7212,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7275,7 +7275,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7306,7 +7306,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7373,7 +7373,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7440,7 +7440,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7503,7 +7503,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7730,7 +7730,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7831,7 +7831,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7862,7 +7862,7 @@ const weapon =
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7929,7 +7929,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -7992,7 +7992,7 @@ const weapon =
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -8055,7 +8055,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -8546,7 +8546,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -8613,7 +8613,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -8680,7 +8680,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -8783,7 +8783,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -8984,7 +8984,7 @@ const weapon =
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -9081,7 +9081,7 @@ const weapon =
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -9186,7 +9186,7 @@ const weapon =
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -9285,7 +9285,7 @@ const weapon =
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     }
   },
   {
@@ -9810,7 +9810,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     },
     "req": "Flame",
     "incDef": 3
@@ -9881,7 +9881,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     },
     "req": "Water",
     "incDef": 3
@@ -10012,7 +10012,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     },
     "req": "Light",
     "incDef": 3
@@ -10223,7 +10223,7 @@ const weapon =
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": {}
+      "limit": 0
     },
     "req": "Flame",
     "incDef": 5
@@ -10324,7 +10324,7 @@ const weapon =
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     },
     "req": "Water",
     "incDef": 5
@@ -10529,7 +10529,7 @@ const weapon =
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": {}
+      "limit": 0
     },
     "req": "Light",
     "incDef": 5

@@ -1,4 +1,4 @@
-import { Donation, StatsCalc } from 'views';
+import { Donation, StatsCalc } from '../views';
 
 const routers = [
   {

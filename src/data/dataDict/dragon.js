@@ -36,7 +36,7 @@ const dragon =
       "name": "(Wind) HP &amp; Strength +8%",
       "details": "If the user is attuned to Wind: increases strength and HP by '''8%'''.",
       "might": 30,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "Hybrid": 8
     },
@@ -44,7 +44,7 @@ const dragon =
       "name": "(Wind) HP &amp; Strength +10%",
       "details": "If the user is attuned to Wind: increases strength and HP by '''10%'''.",
       "might": 50,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "Hybrid": 10
     },
@@ -213,7 +213,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +8%",
       "details": "If the user is attuned to Light: increases strength and HP by '''8%'''.",
       "might": 30,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 8
     },
@@ -221,7 +221,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +10%",
       "details": "If the user is attuned to Light: increases strength and HP by '''10%'''.",
       "might": 50,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 10
     },
@@ -447,7 +447,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +15%",
       "details": "If the user is attuned to Water: increases strength and HP by '''15%'''.",
       "might": 60,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 15
     },
@@ -455,7 +455,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +20%",
       "details": "If the user is attuned to Water: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 20
     },
@@ -807,7 +807,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +15%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''15%'''.",
       "might": 60,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 15
     },
@@ -815,7 +815,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +20%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 20
     },
@@ -1045,7 +1045,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +20%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 20
     },
@@ -1053,7 +1053,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +30%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''30%'''.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 30
     },
@@ -1283,7 +1283,7 @@ const dragon =
       "name": "(Flame) HP &amp; Strength +5%",
       "details": "If the user is attuned to Flame: increases strength and HP by '''5%'''.",
       "might": 20,
-      "limit": {},
+      "limit": 0,
       "req": "Flame",
       "Hybrid": 5
     },
@@ -1291,7 +1291,7 @@ const dragon =
       "name": "(Flame) HP &amp; Strength +8%",
       "details": "If the user is attuned to Flame: increases strength and HP by '''8%'''.",
       "might": 30,
-      "limit": {},
+      "limit": 0,
       "req": "Flame",
       "Hybrid": 8
     },
@@ -1399,7 +1399,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +20%",
       "details": "If the user is attuned to Water: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 20
     },
@@ -1407,7 +1407,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +30%",
       "details": "If the user is attuned to Water: increases strength and HP by '''30%'''.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 30
     },
@@ -1592,7 +1592,7 @@ const dragon =
       "name": "(Wind) HP &amp; Strength +20%",
       "details": "If the user is attuned to Wind: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "Hybrid": 20
     },
@@ -1600,7 +1600,7 @@ const dragon =
       "name": "(Wind) HP &amp; Strength +30%",
       "details": "If the user is attuned to Wind: increases strength and HP by '''30%'''.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "Hybrid": 30
     },
@@ -1663,7 +1663,7 @@ const dragon =
       "name": "(Flame) HP &amp; Strength +20%",
       "details": "If the user is attuned to Flame: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Flame",
       "Hybrid": 20
     },
@@ -1671,7 +1671,7 @@ const dragon =
       "name": "(Flame) HP &amp; Strength +30%",
       "details": "If the user is attuned to Flame: increases strength and HP by '''30%'''.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Flame",
       "Hybrid": 30
     },
@@ -1734,7 +1734,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +20%",
       "details": "If the user is attuned to Water: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 20
     },
@@ -1742,7 +1742,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +30%",
       "details": "If the user is attuned to Water: increases strength and HP by '''30%'''.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 30
     },
@@ -1805,7 +1805,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +20%",
       "details": "If the user is attuned to Light: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 20
     },
@@ -1813,7 +1813,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +30%",
       "details": "If the user is attuned to Light: increases strength and HP by '''30%'''.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 30
     },
@@ -1998,7 +1998,7 @@ const dragon =
       "name": "(Light) Strength &amp; Shadow Res I",
       "details": "If the user is attuned to Light: increases strength by '''35%''' and adds '''15%''' to shadow resistance.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "STR": 35,
       "resEle": "Shadow",
@@ -2008,7 +2008,7 @@ const dragon =
       "name": "(Light) Strength &amp; Shadow Res II",
       "details": "If the user is attuned to Light: increases strength by '''50%''' and adds '''15%''' to shadow resistance.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "STR": 50,
       "resEle": "Shadow",
@@ -2254,7 +2254,7 @@ const dragon =
       "name": "(Flame) Strength &amp; Wind Res I",
       "details": "If the user is attuned to Flame: increases strength by '''35%''' and adds '''15%''' to wind resistance.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Flame",
       "STR": 35,
       "resEle": "Wind",
@@ -2264,7 +2264,7 @@ const dragon =
       "name": "(Flame) Strength &amp; Wind Res II",
       "details": "If the user is attuned to Flame: increases strength by '''50%''' and adds '''15%''' to wind resistance.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Flame",
       "STR": 50,
       "resEle": "Wind",
@@ -2921,7 +2921,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +5%",
       "details": "If the user is attuned to Water: increases strength and HP by '''5%'''.",
       "might": 20,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 5
     },
@@ -2929,7 +2929,7 @@ const dragon =
       "name": "(Water) HP &amp; Strength +8%",
       "details": "If the user is attuned to Water: increases strength and HP by '''8%'''.",
       "might": 30,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "Hybrid": 8
     },
@@ -2972,7 +2972,7 @@ const dragon =
       "name": "(Wind) HP &amp; Strength +5%",
       "details": "If the user is attuned to Wind: increases strength and HP by '''5%'''.",
       "might": 20,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "Hybrid": 5
     },
@@ -2980,7 +2980,7 @@ const dragon =
       "name": "(Wind) HP &amp; Strength +8%",
       "details": "If the user is attuned to Wind: increases strength and HP by '''8%'''.",
       "might": 30,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "Hybrid": 8
     },
@@ -3023,7 +3023,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +5%",
       "details": "If the user is attuned to Light: increases strength and HP by '''5%'''.",
       "might": 20,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 5
     },
@@ -3031,7 +3031,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +8%",
       "details": "If the user is attuned to Light: increases strength and HP by '''8%'''.",
       "might": 30,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 8
     },
@@ -3078,7 +3078,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +5%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''5%'''.",
       "might": 20,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 5
     },
@@ -3086,7 +3086,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +8%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''8%'''.",
       "might": 30,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 8
     },
@@ -3133,7 +3133,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +10%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''10%'''.",
       "might": 50,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 10
     },
@@ -3141,7 +3141,7 @@ const dragon =
       "name": "(Shadow) HP &amp; Strength +15%",
       "details": "If the user is attuned to Shadow: increases strength and HP by '''15%'''.",
       "might": 60,
-      "limit": {},
+      "limit": 0,
       "req": "Shadow",
       "Hybrid": 15
     },
@@ -3188,7 +3188,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +15%",
       "details": "If the user is attuned to Light: increases strength and HP by '''15%'''.",
       "might": 60,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 15
     },
@@ -3196,7 +3196,7 @@ const dragon =
       "name": "(Light) HP &amp; Strength +20%",
       "details": "If the user is attuned to Light: increases strength and HP by '''20%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Light",
       "Hybrid": 20
     },
@@ -3243,7 +3243,7 @@ const dragon =
       "name": "Dragonyule Blessing I",
       "details": "If the user is attuned to Water: increases strength by '''30%''' and critical rate by '''15%'''.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "STR": 30
     },
@@ -3251,7 +3251,7 @@ const dragon =
       "name": "Dragonyule Blessing II",
       "details": "If the user is attuned to Water: increases strength by '''45%''' and critical rate by '''20%'''.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Water",
       "STR": 45
     },
@@ -3473,7 +3473,7 @@ const dragon =
       "name": "(Wind) Strength &amp; Critical Damage I",
       "details": "If the user is attuned to Wind: increases strength by '''30%''' and adds '''50%''' to the modifier applied to critical damage.",
       "might": 70,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "STR": 30
     },
@@ -3481,7 +3481,7 @@ const dragon =
       "name": "(Wind) Strength &amp; Critical Damage II",
       "details": "If the user is attuned to Wind: increases strength by '''45%''' and adds '''55%''' to the modifier applied to critical damage.",
       "might": 100,
-      "limit": {},
+      "limit": 0,
       "req": "Wind",
       "STR": 45
     },
