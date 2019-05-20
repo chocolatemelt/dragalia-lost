@@ -324,7 +324,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 29,
     "MaxHp": 299,
@@ -2107,7 +2107,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 37,
     "MaxHp": 377,
@@ -2998,7 +2998,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 187,
@@ -3048,7 +3048,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 187,
@@ -3098,7 +3098,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 188,
@@ -3439,7 +3439,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 22,
     "MaxHp": 223,
@@ -3690,7 +3690,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 20,
     "MaxHp": 209,
@@ -3742,7 +3742,7 @@ const dragon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 20,
     "MaxHp": 209,
@@ -3794,7 +3794,7 @@ const dragon =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": 0
+      "modifier": null
     },
     "MinHp": 22,
     "MaxHp": 229,

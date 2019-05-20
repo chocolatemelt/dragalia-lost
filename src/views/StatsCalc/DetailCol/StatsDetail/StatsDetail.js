@@ -70,7 +70,7 @@ class StatsDetail extends React.Component {
       enemyMax = enemyDamage.max;
       enemyMin = enemyDamage.min;
       enemyTextArea = enemyDamage.textArea;
-      adventurerTextArea = getAdventurerDamage(stats, this.state.STR);
+      adventurerTextArea = getAdventurerDamage(stats, details.total.STR);
     }
 
     return (
@@ -104,12 +104,6 @@ class StatsDetail extends React.Component {
                   <td>{details.total.STR}</td>
                   <td>{details.total.might}</td>
                 </tr>
-                <tr>
-                  <td>{translate('total', lang)}</td>
-                  <td>{details.total.HP}</td>
-                  <td>{details.total.STR}</td>
-                  <td>{details.total.might}</td>
-                </tr>
                 {
                 adventurerTextArea.map((content, i) => {
                   return (
@@ -117,6 +111,7 @@ class StatsDetail extends React.Component {
                       <td>{content[0]}</td>
                       <td>{content[1]}</td>
                       <td>{content[2]}</td>
+                      <td>{content[3]}</td>
                     </tr>
                   );
                 })}

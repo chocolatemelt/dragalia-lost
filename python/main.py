@@ -47,7 +47,7 @@ def regex(details):
 
 
 skill_pattern = re.compile(
-    r'([Dd]eals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+'
+    r'(Stance.*?|upgraded.*?|Phase.*?)?([Dd]eals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+'
     r'&lt;span style=&quot;color:#[a-zA-Z0-9]{6}; font-weight:bold;&quot;&gt;([\d.]+)%&lt;/span&gt;',
     re.IGNORECASE
 )
@@ -59,7 +59,7 @@ def regex_skill_modifier(details=''):
         return 0
     mod_list = []
     for r in matched:
-        prefix, hit, _, delayed_hit, modifier = r
+        upgrade, deals, hit, _, delayed_hit, modifier = r
         if len(modifier) == 0:
             continue
         if not hit.isdigit():
@@ -71,7 +71,8 @@ def regex_skill_modifier(details=''):
             hit = int(hit)
         if len(delayed_hit) > 0:
             hit += int(delayed_hit[4])
-        if len(prefix) > 0:
+        # mod_list.append(round(hit * float(modifier), 2))
+        if len(deals) > 0 or len(upgrade) > 0:
             mod_list.append(round(hit * float(modifier), 2))
         else:
             if len(mod_list) == 0:
@@ -238,7 +239,7 @@ def set_skills():
             for d in parse_modifier:
                 mod = regex_skill_modifier(item[d])
                 if mod == 0:
-                    new_item['modifier'] = 0
+                    new_item['modifier'] = None
                     break
                 new_item['modifier']['lvl' + d[-1]] = mod
 
