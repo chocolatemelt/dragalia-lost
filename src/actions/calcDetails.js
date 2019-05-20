@@ -13,8 +13,18 @@ export const getDetails = (stats, halidom) => {
 
   const { adventurer, wyrmprint1, wyrmprint2, dragon } = stats;
 
-  let HP, STR, might, totalHP, totalSTR, totalMight;
-  HP = STR = might = totalHP = totalSTR = totalMight = 0;
+  let HP;
+  let STR;
+  let might;
+  let totalHP;
+  let totalSTR;
+  let totalMight;
+  HP = 0;
+  STR = 0;
+  might = 0;
+  totalHP = 0;
+  totalSTR = 0;
+  totalMight = 0;
 
   // calc adventurer, weapon, wyrmprint, dragon
   Object.keys(stats).forEach(statsKey => {
@@ -37,7 +47,8 @@ export const getDetails = (stats, halidom) => {
   const weapon = calcSection(halidom.weapon[keys.weapon]);
   const fafnir = calcSection(halidom.dragon[keys.dragon]);
 
-  // TODO due to in game bug, fafnir statue bonus doesn't calc correctly, so keep the same as in game with wrong value.
+  // TODO due to in game bug, fafnir statue bonus doesn't calc correctly,
+  // so keep the same as in game with wrong value.
   const fakeDragonValue = calcDetails('dragon', stats.dragon);
   HP =
     Math.ceil(details.adventurer.HP * (element.HP + weapon.HP) * 0.01) +
@@ -76,7 +87,11 @@ export const getDetails = (stats, halidom) => {
   }
 
   // weapon's STR ability
-  if (stats.weapon && stats.weapon.incSTR && adventurer.element.indexOf(stats.weapon.reqEle) !== -1) {
+  if (
+    stats.weapon &&
+    stats.weapon.incSTR &&
+    adventurer.element.indexOf(stats.weapon.reqEle) !== -1
+  ) {
     totalIncSTR += stats.weapon.incSTR;
   }
 
@@ -161,14 +176,23 @@ export const getDamage = (stats, state) => {
   }
 
   // weapon Def
-  if (weapon && weapon.incDef && adventurer.element.indexOf(weapon.reqEle) !== -1) {
+  if (
+    weapon &&
+    weapon.incDef &&
+    adventurer.element.indexOf(weapon.reqEle) !== -1
+  ) {
     tDef += weapon.incDef;
     textArea.push(`weapon,def,${weapon.incDef}`);
   }
 
   const info = dungeonInfo[dungeon];
-  let wDef, wCounter, wRes, level;
-  wDef = wCounter = wRes = 0;
+  let wDef;
+  let wCounter;
+  let wRes;
+  let level;
+  wDef = 0;
+  wCounter = 0;
+  wRes = 0;
 
   if (wyrmprint1) {
     let stage = 1;
@@ -214,7 +238,9 @@ export const getDamage = (stats, state) => {
       wDef += temp;
 
       if (wDef > MAX_WYRMPRINT_DEF) {
-        textArea.push(`wyrmprint2,def,${temp} -> ${MAX_WYRMPRINT_DEF - wDef + temp}`);
+        textArea.push(
+          `wyrmprint2,def,${temp} -> ${MAX_WYRMPRINT_DEF - wDef + temp}`
+        );
         wDef = MAX_WYRMPRINT_DEF;
       } else {
         textArea.push(`wyrmprint2,def,${temp}`);
@@ -226,7 +252,11 @@ export const getDamage = (stats, state) => {
       wCounter += temp;
 
       if (wCounter > MAX_WYRMPRINT_COUNTER) {
-        textArea.push(`wyrmprint2,counter,${temp} -> ${MAX_WYRMPRINT_COUNTER - wCounter + temp}`);
+        textArea.push(
+          `wyrmprint2,counter,${temp} -> ${MAX_WYRMPRINT_COUNTER -
+            wCounter +
+            temp}`
+        );
         wCounter = MAX_WYRMPRINT_COUNTER;
       } else {
         textArea.push(`wyrmprint2,counter,${temp}`);
@@ -237,7 +267,9 @@ export const getDamage = (stats, state) => {
       temp = wyrmprint2[`incRes${stage}`] || wyrmprint2[`incRes${stage - 1}`];
       wRes += temp;
       if (wRes > MAX_WYRMPRINT_RES) {
-        textArea.push(`wyrmprint2,res,${temp} -> ${MAX_WYRMPRINT_RES - wRes + temp}`);
+        textArea.push(
+          `wyrmprint2,res,${temp} -> ${MAX_WYRMPRINT_RES - wRes + temp}`
+        );
         wRes = MAX_WYRMPRINT_RES;
       } else {
         textArea.push(`wyrmprint2,res,${temp}`);
@@ -263,7 +295,12 @@ export const getDamage = (stats, state) => {
   }
 
   const base =
-    ((5 / 3) * info.STR * info.mult * eleModifier * (1 - tCounter * 0.01) * (1 - tRes * 0.01)) /
+    ((5 / 3) *
+      info.STR *
+      info.mult *
+      eleModifier *
+      (1 - tCounter * 0.01) *
+      (1 - tRes * 0.01)) /
     (adventurer.DefCoef * (1 + tDef * 0.01));
 
   const max = Math.floor(base * 1.05);
@@ -277,8 +314,10 @@ export const calcSection = section => {
     return { HP: 0, STR: 0 };
   }
 
-  let HP, STR;
-  HP = STR = 0;
+  let HP;
+  let STR;
+  HP = 0;
+  STR = 0;
   Object.keys(section).forEach(itemKey => {
     const { type, level } = section[itemKey];
     const value = values[type][level];
@@ -290,8 +329,12 @@ export const calcSection = section => {
 };
 
 export const calcDetails = (statsKey, item, sameEle = false) => {
-  let HP, STR, might;
-  HP = STR = might = 0;
+  let HP;
+  let STR;
+  let might;
+  HP = 0;
+  STR = 0;
+  might = 0;
   if (item) {
     const { level, mana, rarity, curRarity } = item;
     const temp = statsKey === 'adventurer' ? '5' : rarity;
@@ -301,7 +344,10 @@ export const calcDetails = (statsKey, item, sameEle = false) => {
       HP = item.MaxHp;
       STR = item.MaxAtk;
     } else {
-      let base_HP, base_STR, stepHP, stepSTR;
+      let base_HP;
+      let base_STR;
+      let stepHP;
+      let stepSTR;
       if (statsKey === 'adventurer') {
         base_HP = item['MinHp' + curRarity];
         base_STR = item['MinAtk' + curRarity];
@@ -318,8 +364,12 @@ export const calcDetails = (statsKey, item, sameEle = false) => {
         HP = base_HP;
         STR = base_STR;
       } else {
-        HP = base_HP + ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxHp - item[stepHP]);
-        STR = base_STR + ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxAtk - item[stepSTR]);
+        HP =
+          base_HP +
+          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxHp - item[stepHP]);
+        STR =
+          base_STR +
+          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxAtk - item[stepSTR]);
       }
     }
 
@@ -378,13 +428,13 @@ const getMight = (statsKey, item) => {
   }
 };
 
-const getAbilityMight = (ability) => {
-  if (ability == 0){
+const getAbilityMight = ability => {
+  if (ability === 0) {
     return 0;
   }
   const { name, details, might, limit } = ability;
   return might;
-}
+};
 
 const getAdventurerMight = adventurer => {
   const { mana, ex, rarity } = adventurer;
@@ -405,7 +455,12 @@ const getAdventurerMight = adventurer => {
     return acc;
   }, 0);
 
-  const fsMight = mana * 1 >= 40 ? mightDict.fs['40'] : mana * 1 >= 10 ? mightDict.fs['10'] : 0;
+  const fsMight =
+    mana * 1 >= 40
+      ? mightDict.fs['40']
+      : mana * 1 >= 10
+      ? mightDict.fs['10']
+      : 0;
   const exMight = mightDict.ex[rarity][ex];
 
   return skillMight + abilityMight + fsMight + exMight;
@@ -414,8 +469,16 @@ const getAdventurerMight = adventurer => {
 const getWeaponMight = weapon => {
   // unbind === 4, skill LV2, else skill LV1
   let skillMight = 0;
-  if (weapon.skill) skillMight = weapon.unbind === '4' ? mightDict.itemSkill['4'] : mightDict.itemSkill['0'];
-  return getAbilityMight(weapon.abilities11) + getAbilityMight(weapon.abilities21) + skillMight;
+  if (weapon.skill)
+    skillMight =
+      weapon.unbind === '4'
+        ? mightDict.itemSkill['4']
+        : mightDict.itemSkill['0'];
+  return (
+    getAbilityMight(weapon.abilities11) +
+    getAbilityMight(weapon.abilities21) +
+    skillMight
+  );
 };
 
 const getWyrmprintMight = wyrmprint => {
@@ -433,18 +496,40 @@ const getWyrmprintMight = wyrmprint => {
   } = wyrmprint;
 
   if (unbind === '4') {
-    return getAbilityMight(abilities13) + getAbilityMight(abilities23) + getAbilityMight(abilities33);
-  } else if (wyrmprint.unbind * 1 >= 2) {
-    return getAbilityMight(abilities12) + getAbilityMight(abilities22) + getAbilityMight(abilities32);
-  } else {
-    return getAbilityMight(abilities11) + getAbilityMight(abilities21) + getAbilityMight(abilities31);
+    return (
+      getAbilityMight(abilities13) +
+      getAbilityMight(abilities23) +
+      getAbilityMight(abilities33)
+    );
   }
+  if (wyrmprint.unbind * 1 >= 2) {
+    return (
+      getAbilityMight(abilities12) +
+      getAbilityMight(abilities22) +
+      getAbilityMight(abilities32)
+    );
+  }
+  return (
+    getAbilityMight(abilities11) +
+    getAbilityMight(abilities21) +
+    getAbilityMight(abilities31)
+  );
 };
 
 const getDragonMight = dragon => {
   const bondBonus = dragon.bond * 10;
   if (dragon.unbind * 1 === 4) {
-    return getAbilityMight(dragon.abilities12) + getAbilityMight(dragon.abilities22) + bondBonus + mightDict.itemSkill['4'];
+    return (
+      getAbilityMight(dragon.abilities12) +
+      getAbilityMight(dragon.abilities22) +
+      bondBonus +
+      mightDict.itemSkill['4']
+    );
   }
-  return getAbilityMight(dragon.abilities11) + getAbilityMight(dragon.abilities21) + bondBonus + mightDict.itemSkill['0'];
+  return (
+    getAbilityMight(dragon.abilities11) +
+    getAbilityMight(dragon.abilities21) +
+    bondBonus +
+    mightDict.itemSkill['0']
+  );
 };
