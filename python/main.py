@@ -79,6 +79,7 @@ def regex_skill_modifier(details=''):
                 print(r)
                 print(mod_list)
             mod_list[-1] += round(hit * float(modifier), 2)
+
     return mod_list
 
 
@@ -230,11 +231,16 @@ def set_skills():
 
             new_item['iframe'] = float(item['IframeDuration'][0:2])
 
+            new_item['modifier'] = {}
             parse_modifier = ['Description1', 'Description2', 'Description3']
             if new_item['HideLevel3']:
                 parse_modifier = parse_modifier[0:2]
             for d in parse_modifier:
-                new_item['modifier' + d[-1]] = regex_skill_modifier(item[d])
+                mod = regex_skill_modifier(item[d])
+                if mod == 0:
+                    new_item['modifier'] = 0
+                    break
+                new_item['modifier']['lvl' + d[-1]] = mod
 
             result[pk] = new_item
     return result
