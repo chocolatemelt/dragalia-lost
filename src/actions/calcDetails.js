@@ -374,14 +374,40 @@ export const getDetails = (stats, halidom) => {
   return details;
 };
 
-
-export const calcDamage = (resist, str, baseMod, critMod, skillDmgMod, passiveMod, elementMod, def=10, defMod=1) => {
-  console.log(resist, str, baseMod, critMod, skillDmgMod, passiveMod, elementMod)
-  let baseDmg = (5 * (1-resist) * str * (baseMod/100) * critMod * skillDmgMod * passiveMod * elementMod) / (3 * def * defMod)
-  console.log(baseDmg)
+export const calcDamage = (
+  resist,
+  str,
+  baseMod,
+  critMod,
+  skillDmgMod,
+  passiveMod,
+  elementMod,
+  def = 10,
+  defMod = 1
+) => {
+  console.log(
+    resist,
+    str,
+    baseMod,
+    critMod,
+    skillDmgMod,
+    passiveMod,
+    elementMod
+  );
+  const baseDmg =
+    (5 *
+      (1 - resist) *
+      str *
+      (baseMod / 100) *
+      critMod *
+      skillDmgMod *
+      passiveMod *
+      elementMod) /
+    (3 * def * defMod);
+  console.log(baseDmg);
   // return [Math.floor(baseDmg * 0.95), baseDmg, Math.floor(baseDmg * 1.05)]
-  return Math.floor(baseDmg)
-}
+  return Math.floor(baseDmg);
+};
 
 export const getAdventurerDamage = (stats, str) => {
   const { adventurer, weapon, dragon } = stats;
@@ -389,29 +415,36 @@ export const getAdventurerDamage = (stats, str) => {
   // Formula: (5/3) * (1-damage res) * (str) * (mod) * (crit mod) * (skill damage) * (punisher) * (elemental) * (dragon) / (defense) * (defense mod)
   // assume def = 10
   // round down
-  let textArea = [];
-  let resist, critMod, skillDmgMod, passiveMod, elementMod;
-  resist = 0; // elemental resist
-  critMod = 1; // crit modifier, 1.7 by default (?)
-  skillDmgMod = 1; // +skill damage%
-  passiveMod = 1; // punisher/bane/etc
-  elementMod = 1; // 1.5 for elemental advantage, 0.5 disadvantage
+  const textArea = [];
+  const resist = 0; // elemental resist
+  const critMod = 1; // crit modifier, 1.7 by default (?)
+  const skillDmgMod = 1; // +skill damage%
+  const passiveMod = 1; // punisher/bane/etc
+  const elementMod = 1; // 1.5 for elemental advantage, 0.5 disadvantage
 
   // TODO: Adventurer Combo FS Dash - data is not in a cargo table
   // TODO: Adventurer Skill
-  let advSkills = [adventurer.skill1, adventurer.skill2];
-  textArea.push(['Adv. Skill','Level', 'Modifier','Damage']);
+  const advSkills = [adventurer.skill1, adventurer.skill2];
+  textArea.push(['Adv. Skill', 'Level', 'Modifier', 'Damage']);
   advSkills.forEach((skill, idx) => {
-    if (skill.modifier){
-      Object.keys(skill.modifier).forEach((lvl) => {
-        let modList = skill.modifier[lvl]
+    if (skill.modifier) {
+      Object.keys(skill.modifier).forEach(lvl => {
+        const modList = skill.modifier[lvl];
         modList.forEach(baseMod => {
-          let dmg = calcDamage(resist, str, baseMod, critMod, skillDmgMod, passiveMod, elementMod);
-          textArea.push([skill.name,lvl,baseMod,dmg])
+          const dmg = calcDamage(
+            resist,
+            str,
+            baseMod,
+            critMod,
+            skillDmgMod,
+            passiveMod,
+            elementMod
+          );
+          textArea.push([skill.name, lvl, baseMod, dmg]);
         });
       });
-    }else{
-      textArea.push([skill.name,'N/A','N/A','N/A'])  
+    } else {
+      textArea.push([skill.name, 'N/A', 'N/A', 'N/A']);
     }
   });
   // TODO: Weapon Skill
@@ -421,7 +454,7 @@ export const getAdventurerDamage = (stats, str) => {
   // const min = Math.floor(base * 0.95);
 
   return textArea;
-}
+};
 
 export const getEnemyDamage = (stats, state) => {
   // getEnemyDamage uses with stats.adventurer exists, so no need recheck here.
