@@ -14,7 +14,8 @@ const selectFocus = (_, action, stats) => {
       weapon: adventurer.weapon,
       element: adventurer.element,
     };
-  } else if (statsKey === 'adventurer' && weapon) {
+  }
+  if (statsKey === 'adventurer' && weapon) {
     return {
       ...INIT_FILTERS,
       weapon: weapon.weapon,

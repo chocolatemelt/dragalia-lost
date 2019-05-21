@@ -1,5 +1,5 @@
+import { facilities } from '../data';
 import { state } from '../store';
-import { facilities } from 'data';
 import { actionTypes, getField, loadState } from '../actions';
 import filterReducer from './filterReducer';
 import statsReducer from './statsReducer';
@@ -24,7 +24,8 @@ const simcReducer = (simc, action) => {
 const panelReducer = (panel, action) => {
   if (action.type === actionTypes.SELECT_FOCUS) {
     return '0';
-  } else if (action.type === actionTypes.SELECT_PANEL) {
+  }
+  if (action.type === actionTypes.SELECT_PANEL) {
     return action.panel;
   }
 
@@ -36,8 +37,8 @@ const rootReducer = (
   action
 ) => {
   if (action.type === actionTypes.RESET) {
-    const halidom = loadState('calcHalidom') || facilities;
-    return { ...state, halidom };
+    const newHalidom = loadState('calcHalidom') || facilities;
+    return { ...state, newHalidom };
   }
 
   const newFocus = focusReducer(focusKey, action);
