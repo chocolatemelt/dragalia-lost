@@ -33,13 +33,12 @@ const getAdventurerMight = adventurer => {
     return acc;
   }, 0);
 
-  // TODO pleaaaaase clean this up dear lord
-  const fsMight =
-    mana * 1 >= 40
-      ? mightDict.fs['40']
-      : mana * 1 >= 10
-      ? mightDict.fs['10']
-      : 0;
+  let fsMight = 0;
+  if (mana >= 40) {
+    fsMight = mightDict.fs['40'];
+  } else if (mana >= 10) {
+    fsMight = mightDict.fs['10'];
+  }
   const exMight = mightDict.ex[rarity][ex];
 
   return skillMight + abilityMight + fsMight + exMight;
@@ -425,7 +424,6 @@ export const getAdventurerDamage = (stats, str) => {
   // TODO: Adventurer Combo FS Dash - data is not in a cargo table
   // TODO: Adventurer Skill
   const advSkills = [adventurer.skill1, adventurer.skill2];
-  textArea.push(['Adv. Skill', 'Level', 'Modifier', 'Damage']);
   advSkills.forEach((skill, idx) => {
     if (skill.modifier) {
       Object.keys(skill.modifier).forEach(lvl => {
