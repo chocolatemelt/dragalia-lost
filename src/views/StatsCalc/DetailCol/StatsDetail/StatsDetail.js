@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 import {
@@ -89,13 +88,15 @@ class StatsDetail extends React.Component {
         {adventurer && (
           <Fragment>
             <table id="stats-detail" className="gutter">
-              <tbody>
+              <thead>
                 <tr>
                   <th>{name}</th>
                   <th>{translate('HP', lang)}</th>
                   <th>{translate('STR', lang)}</th>
                   <th>{translate('might', lang)}</th>
                 </tr>
+              </thead>
+              <tbody>
                 {expand &&
                   rows.map(row => {
                     const { HP, STR, might } = details[row];
@@ -115,18 +116,33 @@ class StatsDetail extends React.Component {
                   <td>{details.total.STR}</td>
                   <td>{details.total.might}</td>
                 </tr>
-                {adventurerTextArea.map((content, i) => {
-                  return (
-                    <tr key={i}>
-                      <td>{content[0]}</td>
-                      <td>{content[1]}</td>
-                      <td>{content[2]}</td>
-                      <td>{content[3]}</td>
-                    </tr>
-                  );
-                })}
               </tbody>
             </table>
+
+            {expand && (
+              <table id="calc-detail" className="gutter">
+                <thead>
+                  <tr>
+                    <th>{translate('Skill', lang)}</th>
+                    <th>{translate('Level', lang)}</th>
+                    <th>{translate('Damage Mod', lang)}</th>
+                    <th>{translate('Calculated', lang)}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {adventurerTextArea.map(data => {
+                    return (
+                      <tr key={data[0] + data[1]}>
+                        <td>{data[0]}</td>
+                        <td>{data[1]}</td>
+                        <td>{data[2]}</td>
+                        <td>{data[3]}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            )}
 
             {!expand && (
               <Fragment>

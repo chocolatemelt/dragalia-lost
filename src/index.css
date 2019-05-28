@@ -115,11 +115,14 @@ td {
   text-align: center;
 }
 
-#stats-detail tr:nth-child(1),
-#stats-detail tr:last-child {
+#stats-detail thead tr:first-child,
+#stats-detail thead tr:last-child,
+#calc-detail thead tr:first-child {
   border-bottom: medium solid #eec2a2;
 }
-#stats-detail tr:last-child {
+
+#stats-detail tr:last-child,
+#calc-detail thead tr:first-child {
   border-top: medium solid #eec2a2;
 }
 
