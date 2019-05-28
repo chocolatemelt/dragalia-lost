@@ -1,10 +1,13 @@
 <h1 align="center">
   <br>
-  <a href="https://junlico.github.io/dragalia-lost/"><img src="https://i.imgur.com/OXeiQNA.png" alt="Stats Calculator"></a>
+  <a href="https://chocolatemelt.github.io/dragalia-lost/"><img src="https://i.imgur.com/OXeiQNA.png" alt="Stats Calculator"></a>
   <br>
   Dragalia Lost Stats Calculator
   <br>
 </h1>
+
+## Foreword
+This is a fork off of the original [Dragalia Lost Stats Calculator](https://junlico.github.io/dragalia-lost/), currently actively developed and maintained by kev (yours truly) and big friend chu2. The primary difference is the addition of various damage calculations absent from the original calculator.
 
 ## Table of Contents
 
@@ -26,7 +29,7 @@ This instruction will get you a copy of the project and running on your local ma
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/junlico/dragalia-lost.git
+$ git clone https://github.com/chocolatemelt/dragalia-lost.git
 
 # Go into the repository
 $ cd dragalia-lost
@@ -56,6 +59,7 @@ $ ./publish.js
 - [Material-UI](https://github.com/mui-org/material-ui)
 
 ## Support
+Donate to Junlico! He was the original creator after all, and this is simply a branch with extra features using his very permissive MIT License.
 
 <a href="https://www.patreon.com/junlico">
 	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
