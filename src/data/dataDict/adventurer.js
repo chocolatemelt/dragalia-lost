@@ -1104,6 +1104,108 @@ const adventurer =
     "incSTR1": 10,
     "incSTR2": 13
   },
+  "100010_04": {
+    "id": "100010_04",
+    "name": {
+      "en": "Mym",
+      "ja": "ムム",
+      "zh": "Mym"
+    },
+    "weapon": "Lance",
+    "element": "Flame",
+    "rarity": "5",
+    "MinHp3": 44,
+    "MinHp4": 54,
+    "MinHp5": 63,
+    "MaxHp": 448,
+    "PlusHp0": 52,
+    "PlusHp1": 60,
+    "PlusHp2": 72,
+    "PlusHp3": 60,
+    "PlusHp4": 30,
+    "McFullBonusHp5": 27,
+    "MinAtk3": 30,
+    "MinAtk4": 37,
+    "MinAtk5": 43,
+    "MaxAtk": 305,
+    "PlusAtk0": 35,
+    "PlusAtk1": 41,
+    "PlusAtk2": 49,
+    "PlusAtk3": 41,
+    "PlusAtk4": 20,
+    "McFullBonusAtk5": 19,
+    "DefCoef": 10,
+    "abilities11": {
+      "name": "Flamewyrm's Nature I",
+      "details": "Reduces susceptibility to burning by '''100%'''. When shapeshifting for the first time, [[Gala Mym|Mym]] will transform into [[Brunhilda]] regardless of what dragon she is equipped with, and her strength will increase by '''15%''' for the remainder of the quest. The second time onwards, she will transform into [[High Brunhilda]] instead, and her attack rate while shapeshifted will increase by '''15%'''.",
+      "might": 70,
+      "limit": 0
+    },
+    "abilities12": {
+      "name": "Flamewyrm's Nature II",
+      "details": "Reduces susceptibility to burning by '''100%'''. When shapeshifting for the first time, [[Gala Mym|Mym]] will transform into [[Brunhilda]] regardless of what dragon she is equipped with, her strength will increase by '''15%''' for the remainder of the quest, and the skill [[Flames of Passion]] will be powered up for the remainder of the quest. The second time onwards, she will transform into [[High Brunhilda]] instead, and her attack rate while shapeshifted will increase by '''15%'''.",
+      "might": 100,
+      "limit": 0
+    },
+    "abilities21": {
+      "name": "Flamewyrm's Defiance I",
+      "details": "Reduces susceptibility to stun by '''50%'''. When [[Gala Mym|Mym]] is hit by an attack that would have stunned her, the skill gauge for the [[Dragon Claw]] skill fills by '''25%'''. After activating, this gauge-filling effect will not activate again for 15 seconds.",
+      "might": 70,
+      "limit": 0
+    },
+    "abilities22": {
+      "name": "Flamewyrm's Defiance II",
+      "details": "Reduces susceptibility to stun by '''100%'''. When [[Gala Mym|Mym]] is hit by an attack that would have stunned her, the skill gauge for the [[Dragon Claw]] skill fills by '''50%'''. After activating, this gauge-filling effect will not activate again for 15 seconds.",
+      "might": 100,
+      "limit": 0
+    },
+    "abilities31": {
+      "name": "Dragon Time +15%",
+      "details": "Extends shapeshift time by '''15%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities32": {
+      "name": "Dragon Time +20%",
+      "details": "Extends shapeshift time by '''20%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "skill1": {
+      "name": "Dragon Claw",
+      "icon": "Icon_Skill_003",
+      "description1": "Deals flame damage to enemies directly ahead, and raises the dragon gauge if the attack connects.",
+      "description2": "Deals flame damage to enemies directly ahead, and raises the dragon gauge if the attack connects.",
+      "description3": "Deals flame damage to enemies directly ahead, and raises the dragon gauge if the attack connects.",
+      "Sp": 2914,
+      "SPLv2": 2914,
+      "SpRegen": 0,
+      "HideLevel3": false,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": null
+    },
+    "skill2": {
+      "name": "Flames of Passion",
+      "icon": "Icon_Skill_025",
+      "description1": "Deals flame damage to enemies in a line.",
+      "description2": "Deals flame damage to enemies in a line.",
+      "description3": "",
+      "Sp": 5736,
+      "SPLv2": 5736,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": null
+    }
+  },
   "100029_02": {
     "id": "100029_02",
     "name": {
@@ -13015,7 +13117,7 @@ const adventurer =
       "description2": "Increases the entire team's critical rate by '''8%''' and adds '''40%''' to the modifier applied to critical damage for 10 seconds.",
       "description3": "",
       "Sp": 3909,
-      "SPLv2": 4648,
+      "SPLv2": 3909,
       "SpRegen": 0,
       "HideLevel3": true,
       "IsAffectedByTension": true,
@@ -13263,8 +13365,8 @@ const adventurer =
     "skill2": {
       "name": "Inspiriting Scent",
       "icon": "Icon_Skill_032",
-      "description1": "Increases the entire team's skill gauge fill rate by '''15%''' for 15 seconds, and applies one of the following at random: Increases strength by '''15%''' for '''15''' seconds Increases defense by '''15%''' for '''15''' seconds Increases max HP by '''10%''' for the remainder of the quest.",
-      "description2": "Increases the entire team's skill gauge fill rate by '''20%''' for 15 seconds, and applies one of the following at random: Increases strength by '''20%''' for '''15''' seconds Increases defense by '''20%''' for '''15''' seconds Increases max HP by '''15%''' for the remainder of the quest.",
+      "description1": "Increases the entire team's skill gauge fill rate by '''15%''' for 15 seconds, and applies one of the following at random:&lt;br /&gt;Increases strength by '''15%''' for '''15''' seconds&lt;br /&gt;Increases defense by '''15%''' for '''15''' seconds&lt;br /&gt;Increases max HP by '''10%''' for the remainder of the quest.",
+      "description2": "Increases the entire team's skill gauge fill rate by '''20%''' for 15 seconds, and applies one of the following at random:&lt;br /&gt;Increases strength by '''20%''' for '''15''' seconds&lt;br /&gt;Increases defense by '''20%''' for '''15''' seconds&lt;br /&gt;Increases max HP by '''15%''' for the remainder of the quest.",
       "description3": "",
       "Sp": 12000,
       "SPLv2": 12000,

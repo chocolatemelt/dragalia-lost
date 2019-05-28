@@ -207,6 +207,37 @@ const weapon =
     "abilities11": 0,
     "abilities21": 0
   },
+  "301064_01_30301": {
+    "id": "301064_01_30301",
+    "name": {
+      "en": "Wind Ingot",
+      "ja": "Wind Ingot",
+      "zh": "Wind Ingot"
+    },
+    "weapon": "Sword",
+    "element": "Wind",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 10,
+    "MaxHp": 36,
+    "MinAtk": 42,
+    "MaxAtk": 140,
+    "abilities11": {
+      "name": "(Wind) Physian's Bane +10%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Fury Penetrator",
+      "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
+    }
+  },
   "301007_01_30401": {
     "id": "301007_01_30401",
     "name": {
@@ -736,6 +767,37 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 30
       }
+    }
+  },
+  "301064_01_40301": {
+    "id": "301064_01_40301",
+    "name": {
+      "en": "Tornado Ingot",
+      "ja": "Tornado Ingot",
+      "zh": "Tornado Ingot"
+    },
+    "weapon": "Sword",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 17,
+    "MaxHp": 57,
+    "MinAtk": 66,
+    "MaxAtk": 222,
+    "abilities11": {
+      "name": "(Wind) Physian's Bane +15%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Fury Penetrator",
+      "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
     }
   },
   "301036_01_40401": {
@@ -1497,6 +1559,44 @@ const weapon =
       "limit": 0
     }
   },
+  "302071_01_30101": {
+    "id": "302071_01_30101",
+    "name": {
+      "en": "Balefire Blade",
+      "ja": "Balefire Blade",
+      "zh": "Balefire Blade"
+    },
+    "weapon": "Blade",
+    "element": "Flame",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 9,
+    "MaxHp": 32,
+    "MinAtk": 44,
+    "MaxAtk": 149,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +10%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
+  },
   "302007_01_30201": {
     "id": "302007_01_30201",
     "name": {
@@ -1603,6 +1703,37 @@ const weapon =
     "MaxAtk": 236,
     "abilities11": 0,
     "abilities21": 0
+  },
+  "302050_01_30301": {
+    "id": "302050_01_30301",
+    "name": {
+      "en": "Verdantbreeze Cutter",
+      "ja": "Verdantbreeze Cutter",
+      "zh": "Verdantbreeze Cutter"
+    },
+    "weapon": "Blade",
+    "element": "Wind",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 9,
+    "MaxHp": 33,
+    "MinAtk": 43,
+    "MaxAtk": 144,
+    "abilities11": {
+      "name": "(Wind) Physian's Bane +10%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Fury Penetrator",
+      "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
+    }
   },
   "302027_01_30401": {
     "id": "302027_01_30401",
@@ -1970,6 +2101,82 @@ const weapon =
       }
     }
   },
+  "302057_01_40101": {
+    "id": "302057_01_40101",
+    "name": {
+      "en": "Hellfire Judgment",
+      "ja": "Hellfire Judgment",
+      "zh": "Hellfire Judgment"
+    },
+    "weapon": "Blade",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 18,
+    "MaxHp": 62,
+    "MinAtk": 88,
+    "MaxAtk": 295,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +15%",
+      "details": "If the user is attuned to Flame: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 15
+  },
+  "302071_01_40101": {
+    "id": "302071_01_40101",
+    "name": {
+      "en": "Balefire Votive",
+      "ja": "Balefire Votive",
+      "zh": "Balefire Votive"
+    },
+    "weapon": "Blade",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 15,
+    "MaxHp": 50,
+    "MinAtk": 70,
+    "MaxAtk": 236,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +15%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
+  },
   "302022_01_40201": {
     "id": "302022_01_40201",
     "name": {
@@ -2140,6 +2347,37 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 30
       }
+    }
+  },
+  "302050_01_40301": {
+    "id": "302050_01_40301",
+    "name": {
+      "en": "Verdurewind Cutter",
+      "ja": "Verdurewind Cutter",
+      "zh": "Verdurewind Cutter"
+    },
+    "weapon": "Blade",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 15,
+    "MaxHp": 53,
+    "MinAtk": 68,
+    "MaxAtk": 229,
+    "abilities11": {
+      "name": "(Wind) Physian's Bane +15%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Fury Penetrator",
+      "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
     }
   },
   "302026_01_40401": {
@@ -2514,6 +2752,44 @@ const weapon =
         "MaxLimitedValue": 25
       }
     }
+  },
+  "302057_01_50101": {
+    "id": "302057_01_50101",
+    "name": {
+      "en": "Ogreslayer Judgment",
+      "ja": "Ogreslayer Judgment",
+      "zh": "Ogreslayer Judgment"
+    },
+    "weapon": "Blade",
+    "element": "Flame",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 24,
+    "MaxHp": 81,
+    "MinAtk": 114,
+    "MaxAtk": 383,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +20%",
+      "details": "If the user is attuned to Flame: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 20
   },
   "302010_01_50201": {
     "id": "302010_01_50201",
@@ -3139,6 +3415,37 @@ const weapon =
       "limit": 0
     }
   },
+  "303053_01_30301": {
+    "id": "303053_01_30301",
+    "name": {
+      "en": "Breezy Big Boy",
+      "ja": "Breezy Big Boy",
+      "zh": "Breezy Big Boy"
+    },
+    "weapon": "Dagger",
+    "element": "Wind",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 12,
+    "MaxHp": 40,
+    "MinAtk": 38,
+    "MaxAtk": 129,
+    "abilities11": {
+      "name": "(Wind) Physian's Bane +10%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|physians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Fury Penetrator",
+      "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
+    }
+  },
   "303008_01_30401": {
     "id": "303008_01_30401",
     "name": {
@@ -3204,6 +3511,37 @@ const weapon =
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
+    }
+  },
+  "303062_01_30401": {
+    "id": "303062_01_30401",
+    "name": {
+      "en": "Radiant Bolete Dagger",
+      "ja": "Radiant Bolete Dagger",
+      "zh": "Radiant Bolete Dagger"
+    },
+    "weapon": "Dagger",
+    "element": "Light",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 11,
+    "MaxHp": 38,
+    "MinAtk": 39,
+    "MaxAtk": 133,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
       "limit": 0
     }
@@ -3512,6 +3850,44 @@ const weapon =
       }
     }
   },
+  "303057_01_40101": {
+    "id": "303057_01_40101",
+    "name": {
+      "en": "Flame Sting",
+      "ja": "Flame Sting",
+      "zh": "Flame Sting"
+    },
+    "weapon": "Dagger",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 22,
+    "MaxHp": 75,
+    "MinAtk": 79,
+    "MaxAtk": 265,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +15%",
+      "details": "If the user is attuned to Flame: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 15
+  },
   "303018_01_40201": {
     "id": "303018_01_40201",
     "name": {
@@ -3750,6 +4126,71 @@ const weapon =
       "limit": 0
     }
   },
+  "303053_01_40301": {
+    "id": "303053_01_40301",
+    "name": {
+      "en": "Big Boy of Fortitude",
+      "ja": "Big Boy of Fortitude",
+      "zh": "Big Boy of Fortitude"
+    },
+    "weapon": "Dagger",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 19,
+    "MaxHp": 64,
+    "MinAtk": 61,
+    "MaxAtk": 205,
+    "abilities11": {
+      "name": "(Wind) Physian's Bane +15%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|physians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Fury Penetrator",
+      "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
+    }
+  },
+  "303066_01_40301": {
+    "id": "303066_01_40301",
+    "name": {
+      "en": "Aero Agony",
+      "ja": "Aero Agony",
+      "zh": "Aero Agony"
+    },
+    "weapon": "Dagger",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 21,
+    "MaxHp": 72,
+    "MinAtk": 81,
+    "MaxAtk": 273,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
+  },
   "303017_01_40401": {
     "id": "303017_01_40401",
     "name": {
@@ -3815,6 +4256,37 @@ const weapon =
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
+      "might": 50,
+      "limit": 0
+    }
+  },
+  "303062_01_40401": {
+    "id": "303062_01_40401",
+    "name": {
+      "en": "Luminous Morel Dagger",
+      "ja": "Luminous Morel Dagger",
+      "zh": "Luminous Morel Dagger"
+    },
+    "weapon": "Dagger",
+    "element": "Light",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 18,
+    "MaxHp": 61,
+    "MinAtk": 63,
+    "MaxAtk": 212,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Light:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
       "limit": 0
     }
@@ -4084,6 +4556,44 @@ const weapon =
       }
     }
   },
+  "303057_01_50101": {
+    "id": "303057_01_50101",
+    "name": {
+      "en": "Searing Stinger",
+      "ja": "Searing Stinger",
+      "zh": "Searing Stinger"
+    },
+    "weapon": "Dagger",
+    "element": "Flame",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 29,
+    "MaxHp": 98,
+    "MinAtk": 103,
+    "MaxAtk": 344,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +20%",
+      "details": "If the user is attuned to Flame: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 20
+  },
   "303020_01_50201": {
     "id": "303020_01_50201",
     "name": {
@@ -4228,6 +4738,40 @@ const weapon =
     "MaxAtk": 545,
     "abilities11": 0,
     "abilities21": 0
+  },
+  "303066_01_50301": {
+    "id": "303066_01_50301",
+    "name": {
+      "en": "Turbulent Agony",
+      "ja": "Turbulent Agony",
+      "zh": "Turbulent Agony"
+    },
+    "weapon": "Dagger",
+    "element": "Wind",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 27,
+    "MaxHp": 93,
+    "MinAtk": 106,
+    "MaxAtk": 354,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "303030_01_50401": {
     "id": "303030_01_50401",
@@ -5697,6 +6241,44 @@ const weapon =
       "limit": 0
     }
   },
+  "305080_01_30101": {
+    "id": "305080_01_30101",
+    "name": {
+      "en": "Soulfire Spear",
+      "ja": "Soulfire Spear",
+      "zh": "Soulfire Spear"
+    },
+    "weapon": "Lance",
+    "element": "Flame",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 11,
+    "MaxHp": 39,
+    "MinAtk": 41,
+    "MaxAtk": 139,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +10%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
+  },
   "305007_01_30201": {
     "id": "305007_01_30201",
     "name": {
@@ -5969,6 +6551,37 @@ const weapon =
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": 0
+    }
+  },
+  "305070_01_30401": {
+    "id": "305070_01_30401",
+    "name": {
+      "en": "Lightspore Lance",
+      "ja": "Lightspore Lance",
+      "zh": "Lightspore Lance"
+    },
+    "weapon": "Lance",
+    "element": "Light",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 10,
+    "MaxHp": 35,
+    "MinAtk": 37,
+    "MaxAtk": 125,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
       "limit": 0
     }
@@ -6296,6 +6909,82 @@ const weapon =
       }
     }
   },
+  "305065_01_40101": {
+    "id": "305065_01_40101",
+    "name": {
+      "en": "Reisel, the Solar Flare",
+      "ja": "Reisel, the Solar Flare",
+      "zh": "Reisel, the Solar Flare"
+    },
+    "weapon": "Lance",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 21,
+    "MaxHp": 72,
+    "MinAtk": 85,
+    "MaxAtk": 284,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +15%",
+      "details": "If the user is attuned to Flame: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 15
+  },
+  "305080_01_40101": {
+    "id": "305080_01_40101",
+    "name": {
+      "en": "Spiritflame Spear",
+      "ja": "Spiritflame Spear",
+      "zh": "Spiritflame Spear"
+    },
+    "weapon": "Lance",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 18,
+    "MaxHp": 61,
+    "MinAtk": 66,
+    "MaxAtk": 220,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +15%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
+  },
   "305016_01_40201": {
     "id": "305016_01_40201",
     "name": {
@@ -6541,6 +7230,40 @@ const weapon =
       "limit": 0
     }
   },
+  "305078_01_40301": {
+    "id": "305078_01_40301",
+    "name": {
+      "en": "Stormsiege Lance",
+      "ja": "Stormsiege Lance",
+      "zh": "Stormsiege Lance"
+    },
+    "weapon": "Lance",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 24,
+    "MaxHp": 80,
+    "MinAtk": 80,
+    "MaxAtk": 267,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
+  },
   "305012_01_40401": {
     "id": "305012_01_40401",
     "name": {
@@ -6599,6 +7322,37 @@ const weapon =
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": 0
+    }
+  },
+  "305070_01_40401": {
+    "id": "305070_01_40401",
+    "name": {
+      "en": "Shinespore Lance",
+      "ja": "Shinespore Lance",
+      "zh": "Shinespore Lance"
+    },
+    "weapon": "Lance",
+    "element": "Light",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 18,
+    "MaxHp": 61,
+    "MinAtk": 66,
+    "MaxAtk": 220,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Light:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
       "limit": 0
     }
@@ -6899,6 +7653,44 @@ const weapon =
       }
     }
   },
+  "305065_01_50101": {
+    "id": "305065_01_50101",
+    "name": {
+      "en": "Reiselfeld, the Solar Spray",
+      "ja": "Reiselfeld, the Solar Spray",
+      "zh": "Reiselfeld, the Solar Spray"
+    },
+    "weapon": "Lance",
+    "element": "Flame",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 28,
+    "MaxHp": 94,
+    "MinAtk": 110,
+    "MaxAtk": 369,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +20%",
+      "details": "If the user is attuned to Flame: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 20
+  },
   "305014_01_50201": {
     "id": "305014_01_50201",
     "name": {
@@ -7036,6 +7828,40 @@ const weapon =
     "MaxAtk": 523,
     "abilities11": 0,
     "abilities21": 0
+  },
+  "305078_01_50301": {
+    "id": "305078_01_50301",
+    "name": {
+      "en": "Stormpiercer Lance",
+      "ja": "Stormpiercer Lance",
+      "zh": "Stormpiercer Lance"
+    },
+    "weapon": "Lance",
+    "element": "Wind",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 31,
+    "MaxHp": 104,
+    "MinAtk": 104,
+    "MaxAtk": 347,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
   },
   "305033_01_50401": {
     "id": "305033_01_50401",
@@ -7261,6 +8087,44 @@ const weapon =
       "might": 50,
       "limit": 0
     }
+  },
+  "306066_01_30101": {
+    "id": "306066_01_30101",
+    "name": {
+      "en": "Flickertorch Bow",
+      "ja": "Flickertorch Bow",
+      "zh": "Flickertorch Bow"
+    },
+    "weapon": "Bow",
+    "element": "Flame",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 11,
+    "MaxHp": 39,
+    "MinAtk": 38,
+    "MaxAtk": 127,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +10%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
   },
   "306007_01_30201": {
     "id": "306007_01_30201",
@@ -7489,6 +8353,37 @@ const weapon =
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": 0
+    }
+  },
+  "306054_01_30401": {
+    "id": "306054_01_30401",
+    "name": {
+      "en": "Flashfungus",
+      "ja": "Flashfungus",
+      "zh": "Flashfungus"
+    },
+    "weapon": "Bow",
+    "element": "Light",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 10,
+    "MaxHp": 35,
+    "MinAtk": 40,
+    "MaxAtk": 135,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
       "limit": 0
     }
@@ -7816,6 +8711,44 @@ const weapon =
       }
     }
   },
+  "306066_01_40101": {
+    "id": "306066_01_40101",
+    "name": {
+      "en": "Wispfire Bow",
+      "ja": "Wispfire Bow",
+      "zh": "Wispfire Bow"
+    },
+    "weapon": "Bow",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 18,
+    "MaxHp": 62,
+    "MinAtk": 60,
+    "MaxAtk": 201,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +15%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
+  },
   "306010_01_40201": {
     "id": "306010_01_40201",
     "name": {
@@ -7985,6 +8918,40 @@ const weapon =
       "limit": 0
     }
   },
+  "306062_01_40301": {
+    "id": "306062_01_40301",
+    "name": {
+      "en": "Wind, the Dustwhirler",
+      "ja": "Wind, the Dustwhirler",
+      "zh": "Wind, the Dustwhirler"
+    },
+    "weapon": "Bow",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 21,
+    "MaxHp": 73,
+    "MinAtk": 77,
+    "MaxAtk": 259,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
+  },
   "306037_01_40401": {
     "id": "306037_01_40401",
     "name": {
@@ -8043,6 +9010,37 @@ const weapon =
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
+      "might": 50,
+      "limit": 0
+    }
+  },
+  "306054_01_40401": {
+    "id": "306054_01_40401",
+    "name": {
+      "en": "Glowfungus",
+      "ja": "Glowfungus",
+      "zh": "Glowfungus"
+    },
+    "weapon": "Bow",
+    "element": "Light",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 16,
+    "MaxHp": 56,
+    "MinAtk": 64,
+    "MaxAtk": 214,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Light:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
       "limit": 0
     }
@@ -8342,6 +9340,40 @@ const weapon =
     "abilities11": 0,
     "abilities21": 0
   },
+  "306062_01_50301": {
+    "id": "306062_01_50301",
+    "name": {
+      "en": "Windhoze, the Dustblaster",
+      "ja": "Windhoze, the Dustblaster",
+      "zh": "Windhoze, the Dustblaster"
+    },
+    "weapon": "Bow",
+    "element": "Wind",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 28,
+    "MaxHp": 95,
+    "MinAtk": 101,
+    "MaxAtk": 337,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
+  },
   "306031_01_50401": {
     "id": "306031_01_50401",
     "name": {
@@ -8598,6 +9630,44 @@ const weapon =
       "limit": 0
     }
   },
+  "307072_01_30101": {
+    "id": "307072_01_30101",
+    "name": {
+      "en": "Heatshimmer Wand",
+      "ja": "Heatshimmer Wand",
+      "zh": "Heatshimmer Wand"
+    },
+    "weapon": "Wand",
+    "element": "Flame",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 11,
+    "MaxHp": 38,
+    "MinAtk": 39,
+    "MaxAtk": 133,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +10%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
+  },
   "307033_01_30201": {
     "id": "307033_01_30201",
     "name": {
@@ -8773,6 +9843,37 @@ const weapon =
     "MaxAtk": 229,
     "abilities11": 0,
     "abilities21": 0
+  },
+  "307059_01_30401": {
+    "id": "307059_01_30401",
+    "name": {
+      "en": "The Panic",
+      "ja": "The Panic",
+      "zh": "The Panic"
+    },
+    "weapon": "Wand",
+    "element": "Light",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 11,
+    "MaxHp": 37,
+    "MinAtk": 40,
+    "MaxAtk": 136,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +10%",
+      "details": "If the user is attuned to Wind:  increases damage to [[Class Banes|thaumians]] by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
+      "might": 50,
+      "limit": 0
+    }
   },
   "307008_01_30501": {
     "id": "307008_01_30501",
@@ -9078,6 +10179,44 @@ const weapon =
       }
     }
   },
+  "307072_01_40101": {
+    "id": "307072_01_40101",
+    "name": {
+      "en": "Brightshimmer Wand",
+      "ja": "Brightshimmer Wand",
+      "zh": "Brightshimmer Wand"
+    },
+    "weapon": "Wand",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 18,
+    "MaxHp": 61,
+    "MinAtk": 63,
+    "MaxAtk": 211,
+    "abilities11": {
+      "name": "(Flame) Blinded Punisher +15%",
+      "details": "If the user is attuned to Flame:  increases damage to blinded enemies by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 25
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Full HP = Strength +8%",
+      "details": "If the user is attuned to Flame: increases strength by '''8%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 8
+    },
+    "req": "Flame",
+    "incSTR": 8
+  },
   "307036_01_40201": {
     "id": "307036_01_40201",
     "name": {
@@ -9247,6 +10386,40 @@ const weapon =
       "limit": 0
     }
   },
+  "307067_01_40301": {
+    "id": "307067_01_40301",
+    "name": {
+      "en": "Scepter of the Gale",
+      "ja": "Scepter of the Gale",
+      "zh": "Scepter of the Gale"
+    },
+    "weapon": "Wand",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 20,
+    "MaxHp": 67,
+    "MinAtk": 86,
+    "MaxAtk": 287,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +25%",
+      "details": "If the user is attuned to Wind: fills '''25%''' of skill gauges at the start of quests.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
+  },
   "307010_01_40401": {
     "id": "307010_01_40401",
     "name": {
@@ -9277,6 +10450,37 @@ const weapon =
     "MaxAtk": 351,
     "abilities11": 0,
     "abilities21": 0
+  },
+  "307059_01_40401": {
+    "id": "307059_01_40401",
+    "name": {
+      "en": "The Madness",
+      "ja": "The Madness",
+      "zh": "The Madness"
+    },
+    "weapon": "Wand",
+    "element": "Light",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 17,
+    "MaxHp": 59,
+    "MinAtk": 64,
+    "MaxAtk": 216,
+    "abilities11": {
+      "name": "(Light) Thaumian's Bane +15%",
+      "details": "If the user is attuned to Light:  increases damage to [[Class Banes|thaumians]] by '''15%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Light) Copy Punisher",
+      "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
+      "might": 50,
+      "limit": 0
+    }
   },
   "307011_01_40501": {
     "id": "307011_01_40501",
@@ -9651,6 +10855,40 @@ const weapon =
     "abilities11": 0,
     "abilities21": 0
   },
+  "307067_01_50301": {
+    "id": "307067_01_50301",
+    "name": {
+      "en": "Scepter of the Maelstrom",
+      "ja": "Scepter of the Maelstrom",
+      "zh": "Scepter of the Maelstrom"
+    },
+    "weapon": "Wand",
+    "element": "Wind",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 26,
+    "MaxHp": 87,
+    "MinAtk": 111,
+    "MaxAtk": 372,
+    "abilities11": {
+      "name": "(Wind) Skill Prep +50%",
+      "details": "If the user is attuned to Wind: fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      }
+    },
+    "abilities21": {
+      "name": "(Wind) Broken Punisher +15%",
+      "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''15%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      }
+    }
+  },
   "307034_01_50401": {
     "id": "307034_01_50401",
     "name": {
@@ -9976,6 +11214,44 @@ const weapon =
     "MaxAtk": 199,
     "abilities11": 0,
     "abilities21": 0
+  },
+  "308049_01_30301": {
+    "id": "308049_01_30301",
+    "name": {
+      "en": "Squallchant",
+      "ja": "Squallchant",
+      "zh": "Squallchant"
+    },
+    "weapon": "Staff",
+    "element": "Wind",
+    "rarity": "3",
+    "skill": null,
+    "MinHp": 13,
+    "MaxHp": 45,
+    "MinAtk": 36,
+    "MaxAtk": 123,
+    "abilities11": {
+      "name": "(Wind) HP 70% = Defense +3%",
+      "details": "If the user is attuned to Wind:  increases defense by '''3%''' when HP is '''70%''' or above.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Wind",
+      "def": 3
+    },
+    "abilities21": {
+      "name": "(Wind) Recovery Potency +5%",
+      "details": "If the user is attuned to Wind:  increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "req": "Wind",
+    "incDef": 3
   },
   "308009_01_30401": {
     "id": "308009_01_30401",
@@ -10315,6 +11591,44 @@ const weapon =
       }
     }
   },
+  "308054_01_40101": {
+    "id": "308054_01_40101",
+    "name": {
+      "en": "Ignis Core",
+      "ja": "Ignis Core",
+      "zh": "Ignis Core"
+    },
+    "weapon": "Staff",
+    "element": "Flame",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 25,
+    "MaxHp": 86,
+    "MinAtk": 74,
+    "MaxAtk": 249,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +15%",
+      "details": "If the user is attuned to Flame: increases defense by '''15%''' when HP is '''full'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 15
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 15
+  },
   "308022_01_40201": {
     "id": "308022_01_40201",
     "name": {
@@ -10483,6 +11797,44 @@ const weapon =
         "MaxLimitedValue": 20
       }
     }
+  },
+  "308049_01_40301": {
+    "id": "308049_01_40301",
+    "name": {
+      "en": "Stormchant",
+      "ja": "Stormchant",
+      "zh": "Stormchant"
+    },
+    "weapon": "Staff",
+    "element": "Wind",
+    "rarity": "4",
+    "skill": null,
+    "MinHp": 21,
+    "MaxHp": 71,
+    "MinAtk": 58,
+    "MaxAtk": 195,
+    "abilities11": {
+      "name": "(Wind) HP 70% = Defense +5%",
+      "details": "If the user is attuned to Wind:  increases defense by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Wind",
+      "def": 5
+    },
+    "abilities21": {
+      "name": "(Wind) Recovery Potency +5%",
+      "details": "If the user is attuned to Wind:  increases the potency of recovery skills by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      }
+    },
+    "req": "Wind",
+    "incDef": 5
   },
   "308018_01_40401": {
     "id": "308018_01_40401",
@@ -10815,6 +12167,44 @@ const weapon =
         "MaxLimitedValue": 15
       }
     }
+  },
+  "308054_01_50101": {
+    "id": "308054_01_50101",
+    "name": {
+      "en": "Igniflare Core",
+      "ja": "Igniflare Core",
+      "zh": "Igniflare Core"
+    },
+    "weapon": "Staff",
+    "element": "Flame",
+    "rarity": "5",
+    "skill": null,
+    "MinHp": 33,
+    "MaxHp": 112,
+    "MinAtk": 96,
+    "MaxAtk": 323,
+    "abilities11": {
+      "name": "(Flame) Full HP = Defense +20%",
+      "details": "If the user is attuned to Flame: increases defense by '''20%''' when HP is '''full'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "def": 20
+    },
+    "abilities21": {
+      "name": "(Flame) HP 70% = Critical Rate +5%",
+      "details": "If the user is attuned to Flame: increases critical rate by '''5%''' when HP is '''70%''' or above.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      }
+    },
+    "req": "Flame",
+    "incDef": 20
   },
   "308011_01_50201": {
     "id": "308011_01_50201",
