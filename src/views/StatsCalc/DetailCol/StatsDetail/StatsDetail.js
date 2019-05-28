@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 import { exValues } from 'data';
-import { translate, getDetails, getDamage } from 'actions';
+import { translate, getDetails, getEnemyDamage, getAdventurerDamage} from 'actions';
 import { withTheme } from 'components';
 import DungeonSelect from './DungeonSelect';
 import DungeonSettings from './DungeonSettings';
@@ -57,7 +57,7 @@ class StatsDetail extends React.Component {
     const { lang, expand, stats, halidom } = this.props;
     const { adventurer } = stats;
     let name, details;
-    let max, min, totalHP, textArea;
+    let enemyMax, enemyMin, totalHP, enemyTextArea, adventurerTextArea;
     if (adventurer) {
       name = adventurer ? adventurer.name[lang] : '';
       details = getDetails(stats, halidom);
@@ -66,10 +66,11 @@ class StatsDetail extends React.Component {
       totalHP = Math.ceil(
         trueBaseHP * (1 + this.state.HP * 0.01) * (1 + this.state.exHP * 0.01)
       );
-      const damage = getDamage(stats, this.state);
-      max = damage.max;
-      min = damage.min;
-      textArea = damage.textArea;
+      const enemyDamage = getEnemyDamage(stats, this.state);
+      enemyMax = enemyDamage.max;
+      enemyMin = enemyDamage.min;
+      enemyTextArea = enemyDamage.textArea;
+      adventurerTextArea = getAdventurerDamage(stats, details.total.STR);
     }
 
     return (
@@ -103,6 +104,17 @@ class StatsDetail extends React.Component {
                   <td>{details.total.STR}</td>
                   <td>{details.total.might}</td>
                 </tr>
+                {
+                adventurerTextArea.map((content, i) => {
+                  return (
+                    <tr key={i}>
+                      <td>{content[0]}</td>
+                      <td>{content[1]}</td>
+                      <td>{content[2]}</td>
+                      <td>{content[3]}</td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
 
@@ -111,10 +123,10 @@ class StatsDetail extends React.Component {
                 <DungeonSelect dungeon={dungeon} onChange={this.onChange} />
                 <DungeonSettings onChange={this.onChange} {...res} />
                 <DungeonDamage
-                  min={min}
-                  max={max}
+                  min={enemyMin}
+                  max={enemyMax}
                   HP={totalHP}
-                  textArea={textArea}
+                  textArea={enemyTextArea}
                 />
               </Fragment>
             )}

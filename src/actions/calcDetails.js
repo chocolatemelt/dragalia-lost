@@ -11,8 +11,7 @@ const getAbilityMight = ability => {
   if (ability === 0) {
     return 0;
   }
-  const { name, details, might, limit } = ability;
-  return might;
+  return ability.might;
 };
 
 const getAdventurerMight = adventurer => {
@@ -375,8 +374,90 @@ export const getDetails = (stats, halidom) => {
   return details;
 };
 
-export const getDamage = (stats, state) => {
-  // getDamage uses with stats.adventurer exists, so no need recheck here.
+export const calcDamage = (
+  resist,
+  str,
+  baseMod,
+  critMod,
+  skillDmgMod,
+  passiveMod,
+  elementMod,
+  def = 10,
+  defMod = 1
+) => {
+  console.log(
+    resist,
+    str,
+    baseMod,
+    critMod,
+    skillDmgMod,
+    passiveMod,
+    elementMod
+  );
+  const baseDmg =
+    (5 *
+      (1 - resist) *
+      str *
+      (baseMod / 100) *
+      critMod *
+      skillDmgMod *
+      passiveMod *
+      elementMod) /
+    (3 * def * defMod);
+  console.log(baseDmg);
+  // return [Math.floor(baseDmg * 0.95), baseDmg, Math.floor(baseDmg * 1.05)]
+  return Math.floor(baseDmg);
+};
+
+export const getAdventurerDamage = (stats, str) => {
+  const { adventurer, weapon, dragon } = stats;
+  // TODO: calculate skill damage
+  // Formula: (5/3) * (1-damage res) * (str) * (mod) * (crit mod) * (skill damage) * (punisher) * (elemental) * (dragon) / (defense) * (defense mod)
+  // assume def = 10
+  // round down
+  const textArea = [];
+  const resist = 0; // elemental resist
+  const critMod = 1; // crit modifier, 1.7 by default (?)
+  const skillDmgMod = 1; // +skill damage%
+  const passiveMod = 1; // punisher/bane/etc
+  const elementMod = 1; // 1.5 for elemental advantage, 0.5 disadvantage
+
+  // TODO: Adventurer Combo FS Dash - data is not in a cargo table
+  // TODO: Adventurer Skill
+  const advSkills = [adventurer.skill1, adventurer.skill2];
+  textArea.push(['Adv. Skill', 'Level', 'Modifier', 'Damage']);
+  advSkills.forEach((skill, idx) => {
+    if (skill.modifier) {
+      Object.keys(skill.modifier).forEach(lvl => {
+        const modList = skill.modifier[lvl];
+        modList.forEach(baseMod => {
+          const dmg = calcDamage(
+            resist,
+            str,
+            baseMod,
+            critMod,
+            skillDmgMod,
+            passiveMod,
+            elementMod
+          );
+          textArea.push([skill.name, lvl, baseMod, dmg]);
+        });
+      });
+    } else {
+      textArea.push([skill.name, 'N/A', 'N/A', 'N/A']);
+    }
+  });
+  // TODO: Weapon Skill
+  // TODO: Dragon Combo - data is not in a cargo table
+  // TODO: Dragon Skill
+  // const max = Math.floor(base * 1.05);
+  // const min = Math.floor(base * 0.95);
+
+  return textArea;
+};
+
+export const getEnemyDamage = (stats, state) => {
+  // getEnemyDamage uses with stats.adventurer exists, so no need recheck here.
   const { adventurer, weapon, wyrmprint1, wyrmprint2, dragon } = stats;
   const textArea = [];
 

@@ -97,12 +97,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        608.0
-      ],
-      "modifier2": [
-        676.0
-      ]
+      "modifier": {
+        "lvl1": [
+          608.0
+        ],
+        "lvl2": [
+          676.0
+        ]
+      }
     },
     "skill2": {
       "name": "Exalted Fire",
@@ -116,12 +118,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        608.0
-      ],
-      "modifier2": [
-        638.0
-      ]
+      "modifier": {
+        "lvl1": [
+          608.0
+        ],
+        "lvl2": [
+          638.0
+        ]
+      }
     }
   },
   {
@@ -212,9 +216,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Hallowed Waters",
@@ -228,12 +230,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        679.0
-      ],
-      "modifier2": [
-        754.0
-      ]
+      "modifier": {
+        "lvl1": [
+          679.0
+        ],
+        "lvl2": [
+          754.0
+        ]
+      }
     }
   },
   {
@@ -333,21 +337,23 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier1": [
-        651.0,
-        651.0,
-        651.0
-      ],
-      "modifier2": [
-        728.0,
-        728.0,
-        728.0
-      ],
-      "modifier3": [
-        805.0,
-        805.0,
-        805.0
-      ]
+      "modifier": {
+        "lvl1": [
+          651.0,
+          651.0,
+          651.0
+        ],
+        "lvl2": [
+          728.0,
+          728.0,
+          728.0
+        ],
+        "lvl3": [
+          805.0,
+          805.0,
+          805.0
+        ]
+      }
     },
     "skill2": {
       "name": "Mischief Maker",
@@ -361,12 +367,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        750.0
-      ],
-      "modifier2": [
-        830.0
-      ]
+      "modifier": {
+        "lvl1": [
+          750.0
+        ],
+        "lvl2": [
+          830.0
+        ]
+      }
     }
   },
   {
@@ -457,15 +465,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        924.0
-      ],
-      "modifier2": [
-        1028.0
-      ],
-      "modifier3": [
-        1140.0
-      ]
+      "modifier": {
+        "lvl1": [
+          924.0
+        ],
+        "lvl2": [
+          1028.0
+        ],
+        "lvl3": [
+          1140.0
+        ]
+      }
     },
     "skill2": {
       "name": "Storm Wall",
@@ -479,8 +489,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -568,15 +577,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier1": [
-        672.0
-      ],
-      "modifier2": [
-        744.0
-      ],
-      "modifier3": [
-        828.0
-      ]
+      "modifier": {
+        "lvl1": [
+          672.0
+        ],
+        "lvl2": [
+          744.0
+        ],
+        "lvl3": [
+          828.0
+        ]
+      }
     },
     "skill2": {
       "name": "Wind Tactics",
@@ -590,8 +601,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -684,9 +694,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Ancient Aegis",
@@ -700,8 +708,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "defLV1": 45,
     "incDef1": 8
@@ -801,21 +808,23 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        660.0,
-        660.0,
-        660.0
-      ],
-      "modifier2": [
-        693.0,
-        693.0,
-        693.0
-      ],
-      "modifier3": [
-        737.0,
-        737.0,
-        737.0
-      ]
+      "modifier": {
+        "lvl1": [
+          660.0,
+          660.0,
+          660.0
+        ],
+        "lvl2": [
+          693.0,
+          693.0,
+          693.0
+        ],
+        "lvl3": [
+          737.0,
+          737.0,
+          737.0
+        ]
+      }
     },
     "skill2": {
       "name": "Empyrean Grace",
@@ -829,12 +838,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        665.0
-      ],
-      "modifier2": [
-        740.0
-      ]
+      "modifier": {
+        "lvl1": [
+          665.0
+        ],
+        "lvl2": [
+          740.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -929,15 +940,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        604.0
-      ],
-      "modifier2": [
-        636.0
-      ],
-      "modifier3": [
-        664.0
-      ]
+      "modifier": {
+        "lvl1": [
+          604.0
+        ],
+        "lvl2": [
+          636.0
+        ],
+        "lvl3": [
+          664.0
+        ]
+      }
     },
     "skill2": {
       "name": "Silent Reaper",
@@ -951,12 +964,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier1": [
-        1635.0
-      ],
-      "modifier2": [
-        1812.0
-      ]
+      "modifier": {
+        "lvl1": [
+          1635.0
+        ],
+        "lvl2": [
+          1812.0
+        ]
+      }
     }
   },
   {
@@ -1051,15 +1066,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        734.0
-      ],
-      "modifier3": [
-        771.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          734.0
+        ],
+        "lvl3": [
+          771.0
+        ]
+      }
     },
     "skill2": {
       "name": "Bolt of Light",
@@ -1073,12 +1090,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        777.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          777.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -1170,12 +1189,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier1": [
-        769.0
-      ],
-      "modifier2": [
-        854.0
-      ]
+      "modifier": {
+        "lvl1": [
+          769.0
+        ],
+        "lvl2": [
+          854.0
+        ]
+      }
     },
     "skill2": {
       "name": "Cheerful Assist",
@@ -1189,8 +1210,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -1281,15 +1301,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        618.0
-      ],
-      "modifier2": [
-        687.0
-      ],
-      "modifier3": [
-        762.0
-      ]
+      "modifier": {
+        "lvl1": [
+          618.0
+        ],
+        "lvl2": [
+          687.0
+        ],
+        "lvl3": [
+          762.0
+        ]
+      }
     },
     "skill2": {
       "name": "Blazing Rondel",
@@ -1303,12 +1325,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        618.0
-      ],
-      "modifier2": [
-        686.0
-      ]
+      "modifier": {
+        "lvl1": [
+          618.0
+        ],
+        "lvl2": [
+          686.0
+        ]
+      }
     }
   },
   {
@@ -1399,15 +1423,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        711.0
-      ],
-      "modifier2": [
-        790.0
-      ],
-      "modifier3": [
-        878.0
-      ]
+      "modifier": {
+        "lvl1": [
+          711.0
+        ],
+        "lvl2": [
+          790.0
+        ],
+        "lvl3": [
+          878.0
+        ]
+      }
     },
     "skill2": {
       "name": "Foliage Flare",
@@ -1421,12 +1447,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        711.0
-      ],
-      "modifier2": [
-        790.0
-      ]
+      "modifier": {
+        "lvl1": [
+          711.0
+        ],
+        "lvl2": [
+          790.0
+        ]
+      }
     }
   },
   {
@@ -1517,15 +1545,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        636.0
-      ],
-      "modifier2": [
-        705.0
-      ],
-      "modifier3": [
-        786.0
-      ]
+      "modifier": {
+        "lvl1": [
+          636.0
+        ],
+        "lvl2": [
+          705.0
+        ],
+        "lvl3": [
+          786.0
+        ]
+      }
     },
     "skill2": {
       "name": "Burning Arrow",
@@ -1539,12 +1569,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        635.0
-      ],
-      "modifier2": [
-        667.0
-      ]
+      "modifier": {
+        "lvl1": [
+          635.0
+        ],
+        "lvl2": [
+          667.0
+        ]
+      }
     }
   },
   {
@@ -1635,15 +1667,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        725.0
-      ],
-      "modifier2": [
-        805.0
-      ],
-      "modifier3": [
-        895.0
-      ]
+      "modifier": {
+        "lvl1": [
+          725.0
+        ],
+        "lvl2": [
+          805.0
+        ],
+        "lvl3": [
+          895.0
+        ]
+      }
     },
     "skill2": {
       "name": "Pyreblossom",
@@ -1657,12 +1691,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        725.0
-      ],
-      "modifier2": [
-        805.0
-      ]
+      "modifier": {
+        "lvl1": [
+          725.0
+        ],
+        "lvl2": [
+          805.0
+        ]
+      }
     }
   },
   {
@@ -1753,15 +1789,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        549.0
-      ],
-      "modifier2": [
-        609.0
-      ],
-      "modifier3": [
-        678.0
-      ]
+      "modifier": {
+        "lvl1": [
+          549.0
+        ],
+        "lvl2": [
+          609.0
+        ],
+        "lvl3": [
+          678.0
+        ]
+      }
     },
     "skill2": {
       "name": "Subterfuge",
@@ -1775,12 +1813,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        550.0
-      ],
-      "modifier2": [
-        576.0
-      ]
+      "modifier": {
+        "lvl1": [
+          550.0
+        ],
+        "lvl2": [
+          576.0
+        ]
+      }
     }
   },
   {
@@ -1871,9 +1911,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Red Hot Jackpot",
@@ -1887,12 +1925,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        506.0
-      ],
-      "modifier2": [
-        562.0
-      ]
+      "modifier": {
+        "lvl1": [
+          506.0
+        ],
+        "lvl2": [
+          562.0
+        ]
+      }
     }
   },
   {
@@ -1983,15 +2023,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        924.0
-      ],
-      "modifier2": [
-        1026.0
-      ],
-      "modifier3": [
-        1140.0
-      ]
+      "modifier": {
+        "lvl1": [
+          924.0
+        ],
+        "lvl2": [
+          1026.0
+        ],
+        "lvl3": [
+          1140.0
+        ]
+      }
     },
     "skill2": {
       "name": "Crimson Impact",
@@ -2005,12 +2047,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        924.0
-      ],
-      "modifier2": [
-        970.0
-      ]
+      "modifier": {
+        "lvl1": [
+          924.0
+        ],
+        "lvl2": [
+          970.0
+        ]
+      }
     }
   },
   {
@@ -2103,15 +2147,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        608.0
-      ],
-      "modifier2": [
-        676.0
-      ],
-      "modifier3": [
-        750.0
-      ]
+      "modifier": {
+        "lvl1": [
+          608.0
+        ],
+        "lvl2": [
+          676.0
+        ],
+        "lvl3": [
+          750.0
+        ]
+      }
     },
     "skill2": {
       "name": "Soul Ignition",
@@ -2125,8 +2171,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "STRLV1": 45,
     "incSTR1": 8
@@ -2223,9 +2268,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Blundering Bomber",
@@ -2239,12 +2282,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        798.0
-      ],
-      "modifier2": [
-        886.0
-      ]
+      "modifier": {
+        "lvl1": [
+          798.0
+        ],
+        "lvl2": [
+          886.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -2348,21 +2393,23 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        862.0,
-        861.0,
-        864.0
-      ],
-      "modifier2": [
-        958.0,
-        957.0,
-        959.0
-      ],
-      "modifier3": [
-        1064.0,
-        1062.0,
-        1064.0
-      ]
+      "modifier": {
+        "lvl1": [
+          862.0,
+          861.0,
+          864.0
+        ],
+        "lvl2": [
+          958.0,
+          957.0,
+          959.0
+        ],
+        "lvl3": [
+          1064.0,
+          1062.0,
+          1064.0
+        ]
+      }
     },
     "skill2": {
       "name": "Kindled Heart",
@@ -2376,8 +2423,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -2477,15 +2523,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier1": [
-        663.0
-      ],
-      "modifier2": [
-        735.0
-      ],
-      "modifier3": [
-        820.0
-      ]
+      "modifier": {
+        "lvl1": [
+          663.0
+        ],
+        "lvl2": [
+          735.0
+        ],
+        "lvl3": [
+          820.0
+        ]
+      }
     },
     "skill2": {
       "name": "Brilliant Inferno",
@@ -2499,8 +2547,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -2585,15 +2632,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        696.0
-      ],
-      "modifier2": [
-        728.0
-      ],
-      "modifier3": [
-        768.0
-      ]
+      "modifier": {
+        "lvl1": [
+          696.0
+        ],
+        "lvl2": [
+          728.0
+        ],
+        "lvl3": [
+          768.0
+        ]
+      }
     },
     "skill2": {
       "name": "Piercing Rose",
@@ -2607,12 +2656,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        716.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          716.0
+        ]
+      }
     }
   },
   {
@@ -2703,15 +2754,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        839.0
-      ],
-      "modifier2": [
-        933.0
-      ],
-      "modifier3": [
-        1036.0
-      ]
+      "modifier": {
+        "lvl1": [
+          839.0
+        ],
+        "lvl2": [
+          933.0
+        ],
+        "lvl3": [
+          1036.0
+        ]
+      }
     },
     "skill2": {
       "name": "Full Woodcutter",
@@ -2725,12 +2778,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        839.0
-      ],
-      "modifier2": [
-        933.0
-      ]
+      "modifier": {
+        "lvl1": [
+          839.0
+        ],
+        "lvl2": [
+          933.0
+        ]
+      }
     }
   },
   {
@@ -2821,15 +2876,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        636.0
-      ],
-      "modifier2": [
-        705.0
-      ],
-      "modifier3": [
-        786.0
-      ]
+      "modifier": {
+        "lvl1": [
+          636.0
+        ],
+        "lvl2": [
+          705.0
+        ],
+        "lvl3": [
+          786.0
+        ]
+      }
     },
     "skill2": {
       "name": "Cascade Shot",
@@ -2843,12 +2900,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        635.0
-      ],
-      "modifier2": [
-        667.0
-      ]
+      "modifier": {
+        "lvl1": [
+          635.0
+        ],
+        "lvl2": [
+          667.0
+        ]
+      }
     }
   },
   {
@@ -2939,9 +2998,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Holy Wreath",
@@ -2955,12 +3012,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        618.0
-      ],
-      "modifier2": [
-        686.0
-      ]
+      "modifier": {
+        "lvl1": [
+          618.0
+        ],
+        "lvl2": [
+          686.0
+        ]
+      }
     }
   },
   {
@@ -3055,15 +3114,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        614.0
-      ],
-      "modifier3": [
-        682.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          614.0
+        ],
+        "lvl3": [
+          682.0
+        ]
+      }
     },
     "skill2": {
       "name": "Zardin's Wrath",
@@ -3077,12 +3138,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        614.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          614.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -3186,15 +3249,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        861.0
-      ],
-      "modifier2": [
-        903.0
-      ],
-      "modifier3": [
-        948.0
-      ]
+      "modifier": {
+        "lvl1": [
+          861.0
+        ],
+        "lvl2": [
+          903.0
+        ],
+        "lvl3": [
+          948.0
+        ]
+      }
     },
     "skill2": {
       "name": "Stunning Visage",
@@ -3208,8 +3273,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -3300,15 +3364,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        711.0
-      ],
-      "modifier2": [
-        790.0
-      ],
-      "modifier3": [
-        878.0
-      ]
+      "modifier": {
+        "lvl1": [
+          711.0
+        ],
+        "lvl2": [
+          790.0
+        ],
+        "lvl3": [
+          878.0
+        ]
+      }
     },
     "skill2": {
       "name": "Yasha's Brand",
@@ -3322,8 +3388,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -3418,9 +3483,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Holy Water (Skill)",
@@ -3434,8 +3497,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "defLV1": 10,
     "defLV2": 30,
@@ -3530,15 +3592,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        880.0
-      ],
-      "modifier2": [
-        978.0
-      ],
-      "modifier3": [
-        1086.0
-      ]
+      "modifier": {
+        "lvl1": [
+          880.0
+        ],
+        "lvl2": [
+          978.0
+        ],
+        "lvl3": [
+          1086.0
+        ]
+      }
     },
     "skill2": {
       "name": "Black Flag",
@@ -3552,12 +3616,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        924.0
-      ],
-      "modifier2": [
-        1028.0
-      ]
+      "modifier": {
+        "lvl1": [
+          924.0
+        ],
+        "lvl2": [
+          1028.0
+        ]
+      }
     }
   },
   {
@@ -3648,9 +3714,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Seafarer's Pride",
@@ -3664,8 +3728,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -3756,15 +3819,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        604.0
-      ],
-      "modifier2": [
-        668.0
-      ],
-      "modifier3": [
-        744.0
-      ]
+      "modifier": {
+        "lvl1": [
+          604.0
+        ],
+        "lvl2": [
+          668.0
+        ],
+        "lvl3": [
+          744.0
+        ]
+      }
     },
     "skill2": {
       "name": "Terpsichore",
@@ -3778,12 +3843,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        548.0
-      ],
-      "modifier2": [
-        576.0
-      ]
+      "modifier": {
+        "lvl1": [
+          548.0
+        ],
+        "lvl2": [
+          576.0
+        ]
+      }
     }
   },
   {
@@ -3883,15 +3950,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 4.0,
-      "modifier1": [
-        744.0
-      ],
-      "modifier2": [
-        828.0
-      ],
-      "modifier3": [
-        920.0
-      ]
+      "modifier": {
+        "lvl1": [
+          744.0
+        ],
+        "lvl2": [
+          828.0
+        ],
+        "lvl3": [
+          920.0
+        ]
+      }
     },
     "skill2": {
       "name": "Guardian's Fury",
@@ -3905,8 +3974,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -4006,15 +4074,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        668.0
-      ],
-      "modifier2": [
-        743.0
-      ],
-      "modifier3": [
-        825.0
-      ]
+      "modifier": {
+        "lvl1": [
+          668.0
+        ],
+        "lvl2": [
+          743.0
+        ],
+        "lvl3": [
+          825.0
+        ]
+      }
     },
     "skill2": {
       "name": "Royal Maelstrom",
@@ -4028,12 +4098,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        669.0
-      ],
-      "modifier2": [
-        744.0
-      ]
+      "modifier": {
+        "lvl1": [
+          669.0
+        ],
+        "lvl2": [
+          744.0
+        ]
+      }
     }
   },
   {
@@ -4124,15 +4196,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        798.0
-      ],
-      "modifier2": [
-        836.0
-      ],
-      "modifier3": [
-        878.0
-      ]
+      "modifier": {
+        "lvl1": [
+          798.0
+        ],
+        "lvl2": [
+          836.0
+        ],
+        "lvl3": [
+          878.0
+        ]
+      }
     },
     "skill2": {
       "name": "Monarch's Boon",
@@ -4146,8 +4220,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -4238,15 +4311,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        839.0
-      ],
-      "modifier2": [
-        933.0
-      ],
-      "modifier3": [
-        1036.0
-      ]
+      "modifier": {
+        "lvl1": [
+          839.0
+        ],
+        "lvl2": [
+          933.0
+        ],
+        "lvl3": [
+          1036.0
+        ]
+      }
     },
     "skill2": {
       "name": "Cyclone Axe",
@@ -4260,12 +4335,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        840.0
-      ],
-      "modifier2": [
-        932.0
-      ]
+      "modifier": {
+        "lvl1": [
+          840.0
+        ],
+        "lvl2": [
+          932.0
+        ]
+      }
     }
   },
   {
@@ -4356,9 +4433,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Angry Gale",
@@ -4372,12 +4447,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        506.0
-      ],
-      "modifier2": [
-        562.0
-      ]
+      "modifier": {
+        "lvl1": [
+          506.0
+        ],
+        "lvl2": [
+          562.0
+        ]
+      }
     }
   },
   {
@@ -4468,15 +4545,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        725.0
-      ],
-      "modifier2": [
-        805.0
-      ],
-      "modifier3": [
-        895.0
-      ]
+      "modifier": {
+        "lvl1": [
+          725.0
+        ],
+        "lvl2": [
+          805.0
+        ],
+        "lvl3": [
+          895.0
+        ]
+      }
     },
     "skill2": {
       "name": "Storm Spell",
@@ -4490,12 +4569,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        725.0
-      ],
-      "modifier2": [
-        805.0
-      ]
+      "modifier": {
+        "lvl1": [
+          725.0
+        ],
+        "lvl2": [
+          805.0
+        ]
+      }
     }
   },
   {
@@ -4586,15 +4667,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        548.0
-      ],
-      "modifier2": [
-        608.0
-      ],
-      "modifier3": [
-        676.0
-      ]
+      "modifier": {
+        "lvl1": [
+          548.0
+        ],
+        "lvl2": [
+          608.0
+        ],
+        "lvl3": [
+          676.0
+        ]
+      }
     },
     "skill2": {
       "name": "Windwhistler",
@@ -4608,12 +4691,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        550.0
-      ],
-      "modifier2": [
-        576.0
-      ]
+      "modifier": {
+        "lvl1": [
+          550.0
+        ],
+        "lvl2": [
+          576.0
+        ]
+      }
     }
   },
   {
@@ -4704,9 +4789,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Tyro's Gyre",
@@ -4720,12 +4803,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        714.0
-      ],
-      "modifier2": [
-        792.0
-      ]
+      "modifier": {
+        "lvl1": [
+          714.0
+        ],
+        "lvl2": [
+          792.0
+        ]
+      }
     }
   },
   {
@@ -4820,15 +4905,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        636.0
-      ],
-      "modifier2": [
-        705.0
-      ],
-      "modifier3": [
-        786.0
-      ]
+      "modifier": {
+        "lvl1": [
+          636.0
+        ],
+        "lvl2": [
+          705.0
+        ],
+        "lvl3": [
+          786.0
+        ]
+      }
     },
     "skill2": {
       "name": "Lovelorn Arrow",
@@ -4842,12 +4929,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        635.0
-      ],
-      "modifier2": [
-        667.0
-      ]
+      "modifier": {
+        "lvl1": [
+          635.0
+        ],
+        "lvl2": [
+          667.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -4942,15 +5031,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        679.0
-      ],
-      "modifier2": [
-        754.0
-      ],
-      "modifier3": [
-        838.0
-      ]
+      "modifier": {
+        "lvl1": [
+          679.0
+        ],
+        "lvl2": [
+          754.0
+        ],
+        "lvl3": [
+          838.0
+        ]
+      }
     },
     "skill2": {
       "name": "Valhallan Ballad",
@@ -4964,8 +5055,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -5056,15 +5146,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        782.0
-      ],
-      "modifier2": [
-        822.0
-      ],
-      "modifier3": [
-        864.0
-      ]
+      "modifier": {
+        "lvl1": [
+          782.0
+        ],
+        "lvl2": [
+          822.0
+        ],
+        "lvl3": [
+          864.0
+        ]
+      }
     },
     "skill2": {
       "name": "Force of the Wind",
@@ -5078,8 +5170,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -5170,15 +5261,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        734.0
-      ],
-      "modifier3": [
-        771.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          734.0
+        ],
+        "lvl3": [
+          771.0
+        ]
+      }
     },
     "skill2": {
       "name": "Vendetta Arrow",
@@ -5192,12 +5285,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        734.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          734.0
+        ]
+      }
     }
   },
   {
@@ -5297,15 +5392,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        876.0
-      ],
-      "modifier2": [
-        924.0
-      ],
-      "modifier3": [
-        966.0
-      ]
+      "modifier": {
+        "lvl1": [
+          876.0
+        ],
+        "lvl2": [
+          924.0
+        ],
+        "lvl3": [
+          966.0
+        ]
+      }
     },
     "skill2": {
       "name": "Not One Step Closer!",
@@ -5319,12 +5416,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        876.0
-      ],
-      "modifier2": [
-        976.0
-      ]
+      "modifier": {
+        "lvl1": [
+          876.0
+        ],
+        "lvl2": [
+          976.0
+        ]
+      }
     }
   },
   {
@@ -5419,15 +5518,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        839.0
-      ],
-      "modifier2": [
-        933.0
-      ],
-      "modifier3": [
-        1036.0
-      ]
+      "modifier": {
+        "lvl1": [
+          839.0
+        ],
+        "lvl2": [
+          933.0
+        ],
+        "lvl3": [
+          1036.0
+        ]
+      }
     },
     "skill2": {
       "name": "Shining Vanguard",
@@ -5441,12 +5542,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        840.0
-      ],
-      "modifier2": [
-        932.0
-      ]
+      "modifier": {
+        "lvl1": [
+          840.0
+        ],
+        "lvl2": [
+          932.0
+        ]
+      }
     },
     "defLV1": 10,
     "defLV2": 30,
@@ -5545,15 +5648,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        618.0
-      ],
-      "modifier2": [
-        686.0
-      ],
-      "modifier3": [
-        762.0
-      ]
+      "modifier": {
+        "lvl1": [
+          618.0
+        ],
+        "lvl2": [
+          686.0
+        ],
+        "lvl3": [
+          762.0
+        ]
+      }
     },
     "skill2": {
       "name": "Pride of the Forge",
@@ -5567,8 +5672,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "defLV1": 10,
     "defLV2": 30,
@@ -5663,15 +5767,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        580.0
-      ],
-      "modifier3": [
-        610.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          580.0
+        ],
+        "lvl3": [
+          610.0
+        ]
+      }
     },
     "skill2": {
       "name": "Alberian Majesty",
@@ -5685,12 +5791,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        614.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          614.0
+        ]
+      }
     }
   },
   {
@@ -5781,12 +5889,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        636.0
-      ],
-      "modifier2": [
-        705.0
-      ]
+      "modifier": {
+        "lvl1": [
+          636.0
+        ],
+        "lvl2": [
+          705.0
+        ]
+      }
     },
     "skill2": {
       "name": "Provocative Shot",
@@ -5800,12 +5910,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        635.0
-      ],
-      "modifier2": [
-        667.0
-      ]
+      "modifier": {
+        "lvl1": [
+          635.0
+        ],
+        "lvl2": [
+          667.0
+        ]
+      }
     }
   },
   {
@@ -5896,15 +6008,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        549.0
-      ],
-      "modifier2": [
-        609.0
-      ],
-      "modifier3": [
-        678.0
-      ]
+      "modifier": {
+        "lvl1": [
+          549.0
+        ],
+        "lvl2": [
+          609.0
+        ],
+        "lvl3": [
+          678.0
+        ]
+      }
     },
     "skill2": {
       "name": "Hungry Fang",
@@ -5918,12 +6032,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        550.0
-      ],
-      "modifier2": [
-        576.0
-      ]
+      "modifier": {
+        "lvl1": [
+          550.0
+        ],
+        "lvl2": [
+          576.0
+        ]
+      }
     }
   },
   {
@@ -6014,9 +6130,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Blessed Wall",
@@ -6030,8 +6144,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -6122,9 +6235,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Lotus Lance",
@@ -6138,12 +6249,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        680.0
-      ],
-      "modifier2": [
-        755.0
-      ]
+      "modifier": {
+        "lvl1": [
+          680.0
+        ],
+        "lvl2": [
+          755.0
+        ]
+      }
     }
   },
   {
@@ -6234,15 +6347,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        734.0
-      ],
-      "modifier3": [
-        771.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          734.0
+        ],
+        "lvl3": [
+          771.0
+        ]
+      }
     },
     "skill2": {
       "name": "Critter Slayer",
@@ -6256,12 +6371,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        734.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          734.0
+        ]
+      }
     }
   },
   {
@@ -6352,15 +6469,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        798.0
-      ],
-      "modifier2": [
-        886.0
-      ],
-      "modifier3": [
-        984.0
-      ]
+      "modifier": {
+        "lvl1": [
+          798.0
+        ],
+        "lvl2": [
+          886.0
+        ],
+        "lvl3": [
+          984.0
+        ]
+      }
     },
     "skill2": {
       "name": "Hallowed Raiments",
@@ -6374,8 +6493,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -6475,15 +6593,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        1016.0
-      ],
-      "modifier2": [
-        1128.0
-      ],
-      "modifier3": [
-        1254.0
-      ]
+      "modifier": {
+        "lvl1": [
+          1016.0
+        ],
+        "lvl2": [
+          1128.0
+        ],
+        "lvl3": [
+          1254.0
+        ]
+      }
     },
     "skill2": {
       "name": "Glorious Guard",
@@ -6497,8 +6617,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -6598,9 +6717,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Sacred Guardian",
@@ -6614,8 +6731,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -6715,9 +6831,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Holy Protection",
@@ -6731,8 +6845,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -6823,15 +6936,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        714.0
-      ],
-      "modifier2": [
-        792.0
-      ],
-      "modifier3": [
-        879.0
-      ]
+      "modifier": {
+        "lvl1": [
+          714.0
+        ],
+        "lvl2": [
+          792.0
+        ],
+        "lvl3": [
+          879.0
+        ]
+      }
     },
     "skill2": {
       "name": "Evilsbane",
@@ -6845,12 +6960,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        711.0
-      ],
-      "modifier2": [
-        790.0
-      ]
+      "modifier": {
+        "lvl1": [
+          711.0
+        ],
+        "lvl2": [
+          790.0
+        ]
+      }
     }
   },
   {
@@ -6941,15 +7058,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        840.0
-      ],
-      "modifier2": [
-        932.0
-      ],
-      "modifier3": [
-        1036.0
-      ]
+      "modifier": {
+        "lvl1": [
+          840.0
+        ],
+        "lvl2": [
+          932.0
+        ],
+        "lvl3": [
+          1036.0
+        ]
+      }
     },
     "skill2": {
       "name": "Wild Strike",
@@ -6963,12 +7082,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        839.0
-      ],
-      "modifier2": [
-        933.0
-      ]
+      "modifier": {
+        "lvl1": [
+          839.0
+        ],
+        "lvl2": [
+          933.0
+        ]
+      }
     }
   },
   {
@@ -7063,15 +7184,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        614.0
-      ],
-      "modifier3": [
-        682.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          614.0
+        ],
+        "lvl3": [
+          682.0
+        ]
+      }
     },
     "skill2": {
       "name": "Shadowpiercer",
@@ -7085,12 +7208,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        614.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          614.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -7185,15 +7310,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        725.0
-      ],
-      "modifier2": [
-        805.0
-      ],
-      "modifier3": [
-        895.0
-      ]
+      "modifier": {
+        "lvl1": [
+          725.0
+        ],
+        "lvl2": [
+          805.0
+        ],
+        "lvl3": [
+          895.0
+        ]
+      }
     },
     "skill2": {
       "name": "Dark Abyss",
@@ -7207,12 +7334,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        725.0
-      ],
-      "modifier2": [
-        805.0
-      ]
+      "modifier": {
+        "lvl1": [
+          725.0
+        ],
+        "lvl2": [
+          805.0
+        ]
+      }
     }
   },
   {
@@ -7305,9 +7434,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Bitter Trick",
@@ -7321,12 +7448,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        555.0
-      ],
-      "modifier2": [
-        617.0
-      ]
+      "modifier": {
+        "lvl1": [
+          555.0
+        ],
+        "lvl2": [
+          617.0
+        ]
+      }
     },
     "STRLV1": 45,
     "incSTR1": 10
@@ -7419,15 +7548,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        548.0
-      ],
-      "modifier2": [
-        608.0
-      ],
-      "modifier3": [
-        676.0
-      ]
+      "modifier": {
+        "lvl1": [
+          548.0
+        ],
+        "lvl2": [
+          608.0
+        ],
+        "lvl3": [
+          676.0
+        ]
+      }
     },
     "skill2": {
       "name": "Lethal Edge",
@@ -7441,12 +7572,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        550.0
-      ],
-      "modifier2": [
-        576.0
-      ]
+      "modifier": {
+        "lvl1": [
+          550.0
+        ],
+        "lvl2": [
+          576.0
+        ]
+      }
     }
   },
   {
@@ -7537,9 +7670,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Butler's Guard",
@@ -7553,8 +7684,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -7649,12 +7779,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        714.0
-      ],
-      "modifier2": [
-        792.0
-      ]
+      "modifier": {
+        "lvl1": [
+          714.0
+        ],
+        "lvl2": [
+          792.0
+        ]
+      }
     },
     "skill2": {
       "name": "Nightmare Waltz",
@@ -7668,12 +7800,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        711.0
-      ],
-      "modifier2": [
-        747.0
-      ]
+      "modifier": {
+        "lvl1": [
+          711.0
+        ],
+        "lvl2": [
+          747.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -7768,12 +7902,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        608.0
-      ],
-      "modifier2": [
-        638.0
-      ]
+      "modifier": {
+        "lvl1": [
+          608.0
+        ],
+        "lvl2": [
+          638.0
+        ]
+      }
     },
     "skill2": {
       "name": "Living Fortress",
@@ -7787,8 +7923,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -7879,15 +8014,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        797.0
-      ],
-      "modifier2": [
-        886.0
-      ],
-      "modifier3": [
-        984.0
-      ]
+      "modifier": {
+        "lvl1": [
+          797.0
+        ],
+        "lvl2": [
+          886.0
+        ],
+        "lvl3": [
+          984.0
+        ]
+      }
     },
     "skill2": {
       "name": "Forbidden Sphere",
@@ -7901,12 +8038,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        798.0
-      ],
-      "modifier2": [
-        838.0
-      ]
+      "modifier": {
+        "lvl1": [
+          798.0
+        ],
+        "lvl2": [
+          838.0
+        ]
+      }
     }
   },
   {
@@ -7997,15 +8136,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        604.0
-      ],
-      "modifier2": [
-        636.0
-      ],
-      "modifier3": [
-        664.0
-      ]
+      "modifier": {
+        "lvl1": [
+          604.0
+        ],
+        "lvl2": [
+          636.0
+        ],
+        "lvl3": [
+          664.0
+        ]
+      }
     },
     "skill2": {
       "name": "Twilight Tryst",
@@ -8019,12 +8160,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        604.0
-      ],
-      "modifier2": [
-        668.0
-      ]
+      "modifier": {
+        "lvl1": [
+          604.0
+        ],
+        "lvl2": [
+          668.0
+        ]
+      }
     }
   },
   {
@@ -8115,15 +8258,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        580.0
-      ],
-      "modifier3": [
-        608.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          580.0
+        ],
+        "lvl3": [
+          608.0
+        ]
+      }
     },
     "skill2": {
       "name": "Sweet Protection",
@@ -8137,8 +8282,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -8238,17 +8382,19 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        768.0
-      ],
-      "modifier2": [
-        808.0,
-        1365.52
-      ],
-      "modifier3": [
-        848.0,
-        1475.52
-      ]
+      "modifier": {
+        "lvl1": [
+          768.0
+        ],
+        "lvl2": [
+          808.0,
+          1365.52
+        ],
+        "lvl3": [
+          848.0,
+          1475.52
+        ]
+      }
     },
     "skill2": {
       "name": "Twilight Oblivion",
@@ -8262,8 +8408,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -8354,15 +8499,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        777.0
-      ],
-      "modifier3": [
-        864.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          777.0
+        ],
+        "lvl3": [
+          864.0
+        ]
+      }
     },
     "skill2": {
       "name": "Special Delivery",
@@ -8376,8 +8523,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -8468,15 +8614,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        924.0
-      ],
-      "modifier2": [
-        970.0
-      ],
-      "modifier3": [
-        1018.0
-      ]
+      "modifier": {
+        "lvl1": [
+          924.0
+        ],
+        "lvl2": [
+          970.0
+        ],
+        "lvl3": [
+          1018.0
+        ]
+      }
     },
     "skill2": {
       "name": "Wild Instinct",
@@ -8490,8 +8638,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -8582,15 +8729,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        618.0
-      ],
-      "modifier2": [
-        648.0
-      ],
-      "modifier3": [
-        681.0
-      ]
+      "modifier": {
+        "lvl1": [
+          618.0
+        ],
+        "lvl2": [
+          648.0
+        ],
+        "lvl3": [
+          681.0
+        ]
+      }
     },
     "skill2": {
       "name": "Mercenary Guard",
@@ -8604,8 +8753,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -8696,9 +8844,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Guardian's Grace",
@@ -8712,8 +8858,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -8798,15 +8943,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        782.0
-      ],
-      "modifier2": [
-        822.0
-      ],
-      "modifier3": [
-        864.0
-      ]
+      "modifier": {
+        "lvl1": [
+          782.0
+        ],
+        "lvl2": [
+          822.0
+        ],
+        "lvl3": [
+          864.0
+        ]
+      }
     },
     "skill2": {
       "name": "Peerless Heart",
@@ -8820,8 +8967,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -8906,15 +9052,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        734.0
-      ],
-      "modifier3": [
-        771.0
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          734.0
+        ],
+        "lvl3": [
+          771.0
+        ]
+      }
     },
     "skill2": {
       "name": "Tragic Farce",
@@ -8928,12 +9076,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        699.0
-      ],
-      "modifier2": [
-        1793.4
-      ]
+      "modifier": {
+        "lvl1": [
+          699.0
+        ],
+        "lvl2": [
+          1793.4
+        ]
+      }
     }
   },
   {
@@ -9024,15 +9174,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        550.0
-      ],
-      "modifier2": [
-        610.0
-      ],
-      "modifier3": [
-        678.0
-      ]
+      "modifier": {
+        "lvl1": [
+          550.0
+        ],
+        "lvl2": [
+          610.0
+        ],
+        "lvl3": [
+          678.0
+        ]
+      }
     },
     "skill2": {
       "name": "Scheming Slice",
@@ -9046,8 +9198,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -9151,15 +9302,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        878.0
-      ],
-      "modifier2": [
-        922.0
-      ],
-      "modifier3": [
-        968.0
-      ]
+      "modifier": {
+        "lvl1": [
+          878.0
+        ],
+        "lvl2": [
+          922.0
+        ],
+        "lvl3": [
+          968.0
+        ]
+      }
     },
     "skill2": {
       "name": "Frozen Gale",
@@ -9173,12 +9326,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        877.0
-      ],
-      "modifier2": [
-        974.0
-      ]
+      "modifier": {
+        "lvl1": [
+          877.0
+        ],
+        "lvl2": [
+          974.0
+        ]
+      }
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -9273,15 +9428,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        606.0
-      ],
-      "modifier2": [
-        672.0
-      ],
-      "modifier3": [
-        744.0
-      ]
+      "modifier": {
+        "lvl1": [
+          606.0
+        ],
+        "lvl2": [
+          672.0
+        ],
+        "lvl3": [
+          744.0
+        ]
+      }
     },
     "skill2": {
       "name": "Triple Salchow",
@@ -9295,12 +9452,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        604.0
-      ],
-      "modifier2": [
-        636.0
-      ]
+      "modifier": {
+        "lvl1": [
+          604.0
+        ],
+        "lvl2": [
+          636.0
+        ]
+      }
     }
   },
   {
@@ -9391,15 +9550,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        617.0
-      ],
-      "modifier2": [
-        648.0
-      ],
-      "modifier3": [
-        680.0
-      ]
+      "modifier": {
+        "lvl1": [
+          617.0
+        ],
+        "lvl2": [
+          648.0
+        ],
+        "lvl3": [
+          680.0
+        ]
+      }
     },
     "skill2": {
       "name": "Bone Stinger",
@@ -9413,12 +9574,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        618.0
-      ],
-      "modifier2": [
-        687.0
-      ]
+      "modifier": {
+        "lvl1": [
+          618.0
+        ],
+        "lvl2": [
+          687.0
+        ]
+      }
     }
   },
   {
@@ -9511,15 +9674,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        784.0
-      ],
-      "modifier2": [
-        872.0
-      ],
-      "modifier3": [
-        968.0
-      ]
+      "modifier": {
+        "lvl1": [
+          784.0
+        ],
+        "lvl2": [
+          872.0
+        ],
+        "lvl3": [
+          968.0
+        ]
+      }
     },
     "skill2": {
       "name": "Winter's Blade",
@@ -9533,8 +9698,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "STRLV1": 45,
     "incSTR1": 8
@@ -9636,15 +9800,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        768.0
-      ],
-      "modifier2": [
-        808.0
-      ],
-      "modifier3": [
-        848.0
-      ]
+      "modifier": {
+        "lvl1": [
+          768.0
+        ],
+        "lvl2": [
+          808.0
+        ],
+        "lvl3": [
+          848.0
+        ]
+      }
     },
     "skill2": {
       "name": "Arrow Shower",
@@ -9658,12 +9824,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        768.0
-      ],
-      "modifier2": [
-        807.0
-      ]
+      "modifier": {
+        "lvl1": [
+          768.0
+        ],
+        "lvl2": [
+          807.0
+        ]
+      }
     }
   },
   {
@@ -9754,9 +9922,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Winds, Protect Us!",
@@ -9770,8 +9936,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -9862,15 +10027,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        840.0
-      ],
-      "modifier2": [
-        932.0
-      ],
-      "modifier3": [
-        1036.0
-      ]
+      "modifier": {
+        "lvl1": [
+          840.0
+        ],
+        "lvl2": [
+          932.0
+        ],
+        "lvl3": [
+          1036.0
+        ]
+      }
     },
     "skill2": {
       "name": "Indomitable Will",
@@ -9884,8 +10051,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -9976,15 +10142,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        608.0
-      ],
-      "modifier2": [
-        676.0
-      ],
-      "modifier3": [
-        750.0
-      ]
+      "modifier": {
+        "lvl1": [
+          608.0
+        ],
+        "lvl2": [
+          676.0
+        ],
+        "lvl3": [
+          750.0
+        ]
+      }
     },
     "skill2": {
       "name": "Safeguard Surge",
@@ -9998,8 +10166,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -10099,15 +10266,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        552.0
-      ],
-      "modifier2": [
-        612.0
-      ],
-      "modifier3": [
-        680.0
-      ]
+      "modifier": {
+        "lvl1": [
+          552.0
+        ],
+        "lvl2": [
+          612.0
+        ],
+        "lvl3": [
+          680.0
+        ]
+      }
     },
     "skill2": {
       "name": "Radiant Bauble",
@@ -10121,8 +10290,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -10222,15 +10390,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        769.0
-      ],
-      "modifier2": [
-        807.0
-      ],
-      "modifier3": [
-        848.0
-      ]
+      "modifier": {
+        "lvl1": [
+          769.0
+        ],
+        "lvl2": [
+          807.0
+        ],
+        "lvl3": [
+          848.0
+        ]
+      }
     },
     "skill2": {
       "name": "Hunter's Creed",
@@ -10244,8 +10414,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -10345,15 +10514,20 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        2535.0
-      ],
-      "modifier2": [
-        2655.0
-      ],
-      "modifier3": [
-        2790.0
-      ]
+      "modifier": {
+        "lvl1": [
+          1014.0,
+          1521.0
+        ],
+        "lvl2": [
+          1062.0,
+          1593.0
+        ],
+        "lvl3": [
+          1116.0,
+          1674.0
+        ]
+      }
     },
     "skill2": {
       "name": "Heaven's Breath",
@@ -10367,8 +10541,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -10459,9 +10632,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Time's Respite",
@@ -10475,8 +10646,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -10567,15 +10737,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        606.0
-      ],
-      "modifier2": [
-        672.0
-      ],
-      "modifier3": [
-        744.0
-      ]
+      "modifier": {
+        "lvl1": [
+          606.0
+        ],
+        "lvl2": [
+          672.0
+        ],
+        "lvl3": [
+          744.0
+        ]
+      }
     },
     "skill2": {
       "name": "Molten Flare",
@@ -10589,12 +10761,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        604.0
-      ],
-      "modifier2": [
-        668.0
-      ]
+      "modifier": {
+        "lvl1": [
+          604.0
+        ],
+        "lvl2": [
+          668.0
+        ]
+      }
     }
   },
   {
@@ -10688,15 +10862,20 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        2072.0
-      ],
-      "modifier2": [
-        2302.0
-      ],
-      "modifier3": [
-        2561.0
-      ]
+      "modifier": {
+        "lvl1": [
+          668.0,
+          1404.0
+        ],
+        "lvl2": [
+          743.0,
+          1559.0
+        ],
+        "lvl3": [
+          825.0,
+          1736.0
+        ]
+      }
     },
     "skill2": {
       "name": "Thunderous Impulse",
@@ -10710,8 +10889,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -10811,21 +10989,23 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        748.0,
-        758.0,
-        993.0
-      ],
-      "modifier2": [
-        785.0,
-        796.0,
-        1041.0
-      ],
-      "modifier3": [
-        824.0,
-        834.0,
-        1092.0
-      ]
+      "modifier": {
+        "lvl1": [
+          748.0,
+          758.0,
+          993.0
+        ],
+        "lvl2": [
+          785.0,
+          796.0,
+          1041.0
+        ],
+        "lvl3": [
+          824.0,
+          834.0,
+          1092.0
+        ]
+      }
     },
     "skill2": {
       "name": "Smiles on Parade",
@@ -10839,12 +11019,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier1": [
-        746.66
-      ],
-      "modifier2": [
-        829.62
-      ]
+      "modifier": {
+        "lvl1": [
+          746.66
+        ],
+        "lvl2": [
+          829.62
+        ]
+      }
     }
   },
   {
@@ -10935,15 +11117,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        604.0
-      ],
-      "modifier2": [
-        636.0
-      ],
-      "modifier3": [
-        668.0
-      ]
+      "modifier": {
+        "lvl1": [
+          604.0
+        ],
+        "lvl2": [
+          636.0
+        ],
+        "lvl3": [
+          668.0
+        ]
+      }
     },
     "skill2": {
       "name": "Dazzling Show",
@@ -10957,8 +11141,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -11049,9 +11232,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Cleansing Dance",
@@ -11065,8 +11246,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -11166,15 +11346,20 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        1032.0
-      ],
-      "modifier2": [
-        1144.0
-      ],
-      "modifier3": [
-        1272.0
-      ]
+      "modifier": {
+        "lvl1": [
+          516.0,
+          516.0
+        ],
+        "lvl2": [
+          572.0,
+          572.0
+        ],
+        "lvl3": [
+          636.0,
+          636.0
+        ]
+      }
     },
     "skill2": {
       "name": "Abyssal Connection",
@@ -11188,8 +11373,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -11289,15 +11473,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        1015.0
-      ],
-      "modifier2": [
-        1067.0
-      ],
-      "modifier3": [
-        1121.0
-      ]
+      "modifier": {
+        "lvl1": [
+          1015.0
+        ],
+        "lvl2": [
+          1067.0
+        ],
+        "lvl3": [
+          1121.0
+        ]
+      }
     },
     "skill2": {
       "name": "Merciless Blow",
@@ -11311,12 +11497,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        1014.0
-      ],
-      "modifier2": [
-        1128.0
-      ]
+      "modifier": {
+        "lvl1": [
+          1014.0
+        ],
+        "lvl2": [
+          1128.0
+        ]
+      }
     }
   },
   {
@@ -11410,15 +11598,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        672.0
-      ],
-      "modifier2": [
-        744.0
-      ],
-      "modifier3": [
-        824.0
-      ]
+      "modifier": {
+        "lvl1": [
+          672.0
+        ],
+        "lvl2": [
+          744.0
+        ],
+        "lvl3": [
+          824.0
+        ]
+      }
     },
     "skill2": {
       "name": "Fire Emblem",
@@ -11432,12 +11622,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        616.0
-      ],
-      "modifier2": [
-        685.0
-      ]
+      "modifier": {
+        "lvl1": [
+          616.0
+        ],
+        "lvl2": [
+          685.0
+        ]
+      }
     }
   },
   {
@@ -11532,12 +11724,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": [
-        548.0
-      ],
-      "modifier2": [
-        574.0
-      ]
+      "modifier": {
+        "lvl1": [
+          548.0
+        ],
+        "lvl2": [
+          574.0
+        ]
+      }
     },
     "skill2": {
       "name": "Freedom Ring",
@@ -11551,8 +11745,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "STRLV1": 10,
     "STRLV2": 30,
@@ -11651,15 +11844,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        679.0
-      ],
-      "modifier2": [
-        754.0
-      ],
-      "modifier3": [
-        838.0
-      ]
+      "modifier": {
+        "lvl1": [
+          679.0
+        ],
+        "lvl2": [
+          754.0
+        ],
+        "lvl3": [
+          838.0
+        ]
+      }
     },
     "skill2": {
       "name": "Cheer up, chums!",
@@ -11673,8 +11868,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "defLV1": 10,
     "defLV2": 30,
@@ -11769,9 +11963,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Virtuoso Anthem",
@@ -11785,8 +11977,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -11877,9 +12068,7 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0,
-      "modifier3": 0
+      "modifier": null
     },
     "skill2": {
       "name": "Agitato Assault",
@@ -11893,8 +12082,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -11994,15 +12182,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier1": [
-        876.0
-      ],
-      "modifier2": [
-        921.0
-      ],
-      "modifier3": [
-        966.0
-      ]
+      "modifier": {
+        "lvl1": [
+          876.0
+        ],
+        "lvl2": [
+          921.0
+        ],
+        "lvl3": [
+          966.0
+        ]
+      }
     },
     "skill2": {
       "name": "Crescendo Chorus",
@@ -12016,8 +12206,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12108,15 +12297,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        784.0
-      ],
-      "modifier2": [
-        820.0
-      ],
-      "modifier3": [
-        864.0
-      ]
+      "modifier": {
+        "lvl1": [
+          784.0
+        ],
+        "lvl2": [
+          820.0
+        ],
+        "lvl3": [
+          864.0
+        ]
+      }
     },
     "skill2": {
       "name": "Dignified Soul",
@@ -12130,8 +12321,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12222,15 +12412,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        924.0
-      ],
-      "modifier2": [
-        968.0
-      ],
-      "modifier3": [
-        1020.0
-      ]
+      "modifier": {
+        "lvl1": [
+          924.0
+        ],
+        "lvl2": [
+          968.0
+        ],
+        "lvl3": [
+          1020.0
+        ]
+      }
     },
     "skill2": {
       "name": "Blooming Cradle",
@@ -12244,8 +12436,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12336,15 +12527,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        680.0
-      ],
-      "modifier2": [
-        710.0
-      ],
-      "modifier3": [
-        750.0
-      ]
+      "modifier": {
+        "lvl1": [
+          680.0
+        ],
+        "lvl2": [
+          710.0
+        ],
+        "lvl3": [
+          750.0
+        ]
+      }
     },
     "skill2": {
       "name": "Perennial Grace",
@@ -12358,8 +12551,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12459,15 +12651,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        864.0
-      ],
-      "modifier2": [
-        904.0
-      ],
-      "modifier3": [
-        952.0
-      ]
+      "modifier": {
+        "lvl1": [
+          864.0
+        ],
+        "lvl2": [
+          904.0
+        ],
+        "lvl3": [
+          952.0
+        ]
+      }
     },
     "skill2": {
       "name": "Blade Formation",
@@ -12481,8 +12675,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12573,15 +12766,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        452.0
-      ],
-      "modifier2": [
-        501.0
-      ],
-      "modifier3": [
-        558.0
-      ]
+      "modifier": {
+        "lvl1": [
+          452.0
+        ],
+        "lvl2": [
+          501.0
+        ],
+        "lvl3": [
+          558.0
+        ]
+      }
     },
     "skill2": {
       "name": "Crackling Pyroblossom",
@@ -12595,8 +12790,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12687,15 +12881,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        608.0
-      ],
-      "modifier2": [
-        676.0
-      ],
-      "modifier3": [
-        752.0
-      ]
+      "modifier": {
+        "lvl1": [
+          608.0
+        ],
+        "lvl2": [
+          676.0
+        ],
+        "lvl3": [
+          752.0
+        ]
+      }
     },
     "skill2": {
       "name": "Keen Blade",
@@ -12709,8 +12905,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12801,15 +12996,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        725.0
-      ],
-      "modifier2": [
-        805.0
-      ],
-      "modifier3": [
-        895.0
-      ]
+      "modifier": {
+        "lvl1": [
+          725.0
+        ],
+        "lvl2": [
+          805.0
+        ],
+        "lvl3": [
+          895.0
+        ]
+      }
     },
     "skill2": {
       "name": "Tactical Analysis",
@@ -12823,8 +13020,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -12924,15 +13120,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        770.0
-      ],
-      "modifier2": [
-        854.0
-      ],
-      "modifier3": [
-        952.0
-      ]
+      "modifier": {
+        "lvl1": [
+          770.0
+        ],
+        "lvl2": [
+          854.0
+        ],
+        "lvl3": [
+          952.0
+        ]
+      }
     },
     "skill2": {
       "name": "Hunter's Intuition",
@@ -12946,8 +13144,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -13051,15 +13248,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        746.0
-      ],
-      "modifier2": [
-        784.0
-      ],
-      "modifier3": [
-        822.0
-      ]
+      "modifier": {
+        "lvl1": [
+          746.0
+        ],
+        "lvl2": [
+          784.0
+        ],
+        "lvl3": [
+          822.0
+        ]
+      }
     },
     "skill2": {
       "name": "Inspiriting Scent",
@@ -13073,8 +13272,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     },
     "STRLV1": 20,
     "STRLV2": 45,
@@ -13169,15 +13367,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        1713.2
-      ],
-      "modifier2": [
-        1775.2
-      ],
-      "modifier3": [
-        1864.8
-      ]
+      "modifier": {
+        "lvl1": [
+          1713.2
+        ],
+        "lvl2": [
+          1775.2
+        ],
+        "lvl3": [
+          1864.8
+        ]
+      }
     },
     "skill2": {
       "name": "Palette Punch",
@@ -13191,8 +13391,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": 0,
-      "modifier2": 0
+      "modifier": null
     }
   },
   {
@@ -13292,15 +13491,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        542.0
-      ],
-      "modifier2": [
-        602.0
-      ],
-      "modifier3": [
-        670.0
-      ]
+      "modifier": {
+        "lvl1": [
+          542.0
+        ],
+        "lvl2": [
+          602.0
+        ],
+        "lvl3": [
+          670.0
+        ]
+      }
     },
     "skill2": {
       "name": "Sol",
@@ -13314,12 +13515,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        668.0
-      ],
-      "modifier2": [
-        702.0
-      ]
+      "modifier": {
+        "lvl1": [
+          668.0
+        ],
+        "lvl2": [
+          702.0
+        ]
+      }
     }
   },
   {
@@ -13413,15 +13616,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        746.0
-      ],
-      "modifier2": [
-        784.0
-      ],
-      "modifier3": [
-        822.0
-      ]
+      "modifier": {
+        "lvl1": [
+          746.0
+        ],
+        "lvl2": [
+          784.0
+        ],
+        "lvl3": [
+          822.0
+        ]
+      }
     },
     "skill2": {
       "name": "Ice Mirror",
@@ -13435,12 +13640,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier1": [
-        746.0
-      ],
-      "modifier2": [
-        829.0
-      ]
+      "modifier": {
+        "lvl1": [
+          746.0
+        ],
+        "lvl2": [
+          829.0
+        ]
+      }
     }
   },
   {
@@ -13534,15 +13741,17 @@ const adventurer =
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        2860.0
-      ],
-      "modifier2": [
-        3175.25
-      ],
-      "modifier3": [
-        3523.0
-      ]
+      "modifier": {
+        "lvl1": [
+          2860.0
+        ],
+        "lvl2": [
+          3175.25
+        ],
+        "lvl3": [
+          3523.0
+        ]
+      }
     },
     "skill2": {
       "name": "Nosferatu",
@@ -13556,12 +13765,14 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier1": [
-        876.0
-      ],
-      "modifier2": [
-        921.0
-      ]
+      "modifier": {
+        "lvl1": [
+          876.0
+        ],
+        "lvl2": [
+          921.0
+        ]
+      }
     }
   }
 ];

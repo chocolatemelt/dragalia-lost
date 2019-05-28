@@ -40,7 +40,8 @@ const loadHalidom = (halidom, action, simc) => {
   if (variant === 'sync') {
     console.log('sync');
     return syncHalidom(key);
-  } else if (variant === 'load') {
+  }
+  if (variant === 'load') {
     return loadState(key) || loadState('calcHalidom') || halidom;
   }
 
