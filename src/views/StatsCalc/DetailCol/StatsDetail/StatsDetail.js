@@ -1,9 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
-import { exValues } from 'data';
-import { translate, getDetails, getEnemyDamage, getAdventurerDamage} from 'actions';
-import { withTheme } from 'components';
+import {
+  translate,
+  getDetails,
+  getEnemyDamage,
+  getAdventurerDamage,
+} from '../../../../actions';
+import { exValues } from '../../../../data';
+import { withTheme } from '../../../../components';
 import DungeonSelect from './DungeonSelect';
 import DungeonSettings from './DungeonSettings';
 import DungeonDamage from './DungeonDamage';
@@ -34,8 +39,8 @@ class StatsDetail extends React.Component {
       (weapon === 'Axe' || weapon === 'Lance') &&
       (id !== state.id || ex !== state.ex)
     ) {
-      let exHP, exDef;
-      exHP = exDef = '';
+      let exHP = '';
+      let exDef = '';
       if (weapon === 'Axe') {
         exDef = exValues[weapon][rarity][ex];
       } else if (weapon === 'Lance') {
@@ -52,20 +57,26 @@ class StatsDetail extends React.Component {
     return null;
   }
 
+  onChange = ({ target: { name, value } }) => this.setState({ [name]: value });
+
   render() {
     const { rows, dungeon, ...res } = this.state;
     const { lang, expand, stats, halidom } = this.props;
     const { adventurer } = stats;
-    let name, details;
-    let enemyMax, enemyMin, totalHP, enemyTextArea, adventurerTextArea;
+    let name;
+    let details;
+    let enemyMax;
+    let enemyMin;
+    let totalHP;
+    let enemyTextArea;
+    let adventurerTextArea;
     if (adventurer) {
+      const { HP, exHP } = this.state;
       name = adventurer ? adventurer.name[lang] : '';
       details = getDetails(stats, halidom);
       const trueBaseHP =
         details.total.HP - details.halidom.HP + details.trueHalidom.HP;
-      totalHP = Math.ceil(
-        trueBaseHP * (1 + this.state.HP * 0.01) * (1 + this.state.exHP * 0.01)
-      );
+      totalHP = Math.ceil(trueBaseHP * (1 + HP * 0.01) * (1 + exHP * 0.01));
       const enemyDamage = getEnemyDamage(stats, this.state);
       enemyMax = enemyDamage.max;
       enemyMin = enemyDamage.min;
@@ -104,8 +115,7 @@ class StatsDetail extends React.Component {
                   <td>{details.total.STR}</td>
                   <td>{details.total.might}</td>
                 </tr>
-                {
-                adventurerTextArea.map((content, i) => {
+                {adventurerTextArea.map((content, i) => {
                   return (
                     <tr key={i}>
                       <td>{content[0]}</td>
@@ -135,8 +145,6 @@ class StatsDetail extends React.Component {
       </Fragment>
     );
   }
-
-  onChange = ({ target: { name, value } }) => this.setState({ [name]: value });
 }
 
 const mapStateToProps = ({ stats, halidom }) => {
@@ -146,7 +154,7 @@ const mapStateToProps = ({ stats, halidom }) => {
 const mapDispatchToProps = dispatch => {
   return {
     // TODO clear
-    //: () => dispatch(),
+    // : () => dispatch(),
   };
 };
 
