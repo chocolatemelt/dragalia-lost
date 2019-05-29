@@ -19,6 +19,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -28,6 +34,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 3
       }
     },
     "abilities13": {
@@ -37,6 +49,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 4
       }
     },
     "abilities21": 0,
@@ -65,6 +83,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -74,6 +98,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -83,6 +113,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities21": 0,
@@ -111,6 +147,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -120,6 +162,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -129,6 +177,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 10
       }
     },
     "abilities21": 0,
@@ -157,6 +211,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -166,6 +226,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -175,6 +241,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities21": 0,
@@ -203,6 +275,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -212,6 +290,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 3
       }
     },
     "abilities13": {
@@ -221,6 +305,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities21": 0,
@@ -249,6 +339,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -258,6 +354,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -267,6 +369,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities21": 0,
@@ -295,6 +403,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -304,6 +418,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -313,6 +433,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities21": 0,
@@ -341,6 +467,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -350,6 +482,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -359,6 +497,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities21": 0,
@@ -387,6 +531,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -396,6 +546,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -405,6 +561,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 20
       }
     },
     "abilities21": 0,
@@ -433,6 +595,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -442,6 +610,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -451,6 +625,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities21": 0,
@@ -479,6 +659,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -488,6 +674,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -497,6 +689,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities21": 0,
@@ -525,6 +723,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -534,6 +738,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 4
       }
     },
     "abilities13": {
@@ -543,6 +753,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 5
       }
     },
     "abilities21": 0,
@@ -571,6 +787,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -580,6 +802,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -589,6 +817,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -617,6 +851,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -626,6 +866,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -635,6 +881,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -663,6 +915,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -672,6 +930,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -681,6 +945,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -709,6 +979,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -718,6 +994,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 9
       }
     },
     "abilities13": {
@@ -727,6 +1009,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 10
       }
     },
     "abilities21": 0,
@@ -755,6 +1043,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -764,6 +1058,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities13": {
@@ -773,6 +1073,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities21": 0,
@@ -801,6 +1107,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -810,6 +1122,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 40
       }
     },
     "abilities13": {
@@ -819,6 +1137,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "abilities21": 0,
@@ -847,6 +1171,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -856,6 +1186,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -865,6 +1201,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities21": 0,
@@ -893,6 +1235,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -902,6 +1250,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -911,6 +1265,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -939,6 +1299,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -948,6 +1314,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -957,6 +1329,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities21": 0,
@@ -985,6 +1363,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Inhibitor",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -994,6 +1378,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Inhibitor",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -1003,6 +1393,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Inhibitor",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -1031,6 +1427,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -1040,6 +1442,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities13": {
@@ -1049,6 +1457,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities21": 0,
@@ -1077,6 +1491,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -1086,6 +1506,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -1095,6 +1521,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities21": 0,
@@ -1124,8 +1556,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 5
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +8%",
@@ -1135,8 +1571,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities13": {
       "name": "Full HP = Strength +10%",
@@ -1146,18 +1586,19 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
     "abilities23": 0,
     "abilities31": 0,
     "abilities32": 0,
-    "abilities33": 0,
-    "incSTR1": 5,
-    "incSTR2": 8,
-    "incSTR3": 10
+    "abilities33": 0
   },
   {
     "id": "400026",
@@ -1178,6 +1619,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -1187,6 +1634,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -1196,6 +1649,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -1224,6 +1683,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -1233,6 +1698,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities13": {
@@ -1242,6 +1713,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities21": 0,
@@ -1270,6 +1747,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -1279,6 +1762,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -1288,6 +1777,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -1316,6 +1811,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -1325,6 +1826,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -1334,6 +1841,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities21": 0,
@@ -1362,6 +1875,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -1371,6 +1890,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -1380,6 +1905,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -1408,6 +1939,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -1417,6 +1954,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -1426,6 +1969,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -1435,6 +1984,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1444,6 +1999,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -1453,6 +2014,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 50
       }
     },
     "abilities31": 0,
@@ -1478,6 +2045,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -1487,6 +2060,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities13": {
@@ -1496,6 +2075,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -1505,6 +2090,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -1514,6 +2105,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -1523,6 +2120,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -1548,6 +2151,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -1557,6 +2166,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -1566,6 +2181,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -1575,6 +2196,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -1584,6 +2211,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -1593,6 +2226,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -1618,6 +2257,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -1627,6 +2272,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -1636,6 +2287,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -1645,6 +2302,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -1654,6 +2317,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -1663,6 +2332,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -1688,6 +2363,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -1697,6 +2378,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -1706,6 +2393,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1717,7 +2410,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Water Res +5%",
@@ -1728,7 +2427,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Water Res +8%",
@@ -1739,7 +2444,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -1768,6 +2479,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -1777,6 +2494,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -1786,6 +2509,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1797,7 +2526,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Flame Res +5%",
@@ -1808,7 +2543,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Flame Res +8%",
@@ -1819,7 +2560,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -1848,6 +2595,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -1857,6 +2610,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -1866,6 +2625,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1877,7 +2642,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Wind Res +5%",
@@ -1888,7 +2659,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Wind Res +8%",
@@ -1899,7 +2676,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -1928,6 +2711,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -1937,6 +2726,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -1946,6 +2741,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1957,7 +2758,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Light Res +5%",
@@ -1968,7 +2775,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Light Res +8%",
@@ -1979,7 +2792,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -2008,6 +2827,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -2017,6 +2842,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -2026,6 +2857,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -2037,7 +2874,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Shadow Res +5%",
@@ -2048,7 +2891,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Shadow Res +8%",
@@ -2059,7 +2908,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -2088,6 +2943,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -2097,6 +2958,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -2106,6 +2973,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -2115,6 +2988,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 8
       }
     },
     "abilities22": {
@@ -2124,6 +3003,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 9
       }
     },
     "abilities23": {
@@ -2133,6 +3018,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shapeshift Prep",
+        "ability_value": 10
       }
     },
     "abilities31": 0,
@@ -2158,6 +3049,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -2167,6 +3064,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -2176,6 +3079,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -2187,7 +3096,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Water Res +5%",
@@ -2198,7 +3113,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Water Res +8%",
@@ -2209,7 +3130,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -2238,6 +3165,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -2247,6 +3180,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -2256,6 +3195,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -2265,6 +3210,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -2274,6 +3225,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -2283,6 +3240,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
@@ -2308,6 +3271,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -2317,6 +3286,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "abilities13": {
@@ -2326,6 +3301,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 60
       }
     },
     "abilities21": {
@@ -2335,6 +3316,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 3
       }
     },
     "abilities22": {
@@ -2344,6 +3331,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities23": {
@@ -2353,6 +3346,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities31": 0,
@@ -2378,6 +3377,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -2387,6 +3392,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -2396,6 +3407,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 6
       }
     },
     "abilities21": {
@@ -2405,6 +3422,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -2414,6 +3437,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -2423,6 +3452,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -2448,6 +3483,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -2457,6 +3498,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -2466,6 +3513,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -2475,6 +3528,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -2484,6 +3543,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -2493,6 +3558,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -2519,8 +3590,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "Full HP = Defense +18%",
@@ -2530,8 +3605,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 18
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 18
+      }
     },
     "abilities13": {
       "name": "Full HP = Defense +20%",
@@ -2541,8 +3620,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 20
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "Poison Res +15%",
@@ -2551,6 +3634,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -2560,6 +3649,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -2569,14 +3664,17 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
     "abilities32": 0,
-    "abilities33": 0,
-    "incDef1": 15,
-    "incDef2": 18,
-    "incDef3": 20
+    "abilities33": 0
   },
   {
     "id": "400048",
@@ -2597,6 +3695,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -2606,6 +3710,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -2615,6 +3725,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities21": {
@@ -2624,6 +3740,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -2633,6 +3755,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -2642,6 +3770,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
@@ -2667,6 +3801,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -2676,6 +3816,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -2685,6 +3831,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -2694,6 +3846,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -2703,6 +3861,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -2712,6 +3876,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
@@ -2737,6 +3907,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -2746,6 +3922,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -2755,6 +3937,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -2766,7 +3954,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Light Res +5%",
@@ -2777,7 +3971,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Light Res +8%",
@@ -2788,7 +3988,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -2817,6 +4023,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -2826,6 +4038,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 4
       }
     },
     "abilities13": {
@@ -2835,6 +4053,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 5
       }
     },
     "abilities21": {
@@ -2844,6 +4068,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -2853,6 +4083,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -2862,6 +4098,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -2887,6 +4129,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -2896,6 +4144,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -2905,6 +4159,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -2915,8 +4175,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
     "abilities22": {
       "name": "Full HP = Defense +18%",
@@ -2926,8 +4190,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 18
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 18
+      }
     },
     "abilities23": {
       "name": "Full HP = Defense +20%",
@@ -2937,15 +4205,16 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 20
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 20
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
-    "abilities33": 0,
-    "incDef1": 15,
-    "incDef2": 18,
-    "incDef3": 20
+    "abilities33": 0
   },
   {
     "id": "400053",
@@ -2966,6 +4235,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -2975,6 +4250,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -2984,6 +4265,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -2993,6 +4280,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -3002,6 +4295,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -3011,6 +4310,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities31": {
@@ -3020,6 +4325,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Phraeganoth's Bane",
+        "ability_value": 20
       }
     },
     "abilities32": {
@@ -3029,6 +4340,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Phraeganoth's Bane",
+        "ability_value": 25
       }
     },
     "abilities33": {
@@ -3038,6 +4355,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Phraeganoth's Bane",
+        "ability_value": 25
       }
     }
   },
@@ -3060,6 +4383,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -3069,6 +4398,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -3078,6 +4413,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -3087,6 +4428,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 3
       }
     },
     "abilities22": {
@@ -3096,6 +4443,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities23": {
@@ -3105,6 +4458,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities31": 0,
@@ -3130,6 +4489,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Midgardsormr Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -3139,6 +4504,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Midgardsormr Res",
+        "ability_value": 18
       }
     },
     "abilities13": {
@@ -3148,6 +4519,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Midgardsormr Res",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -3159,7 +4536,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Wind Res +4%",
@@ -3170,7 +4553,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 4
+      }
     },
     "abilities23": {
       "name": "Wind Res +5%",
@@ -3181,7 +4570,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 5
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -3210,6 +4605,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mercury Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -3219,6 +4620,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mercury Res",
+        "ability_value": 18
       }
     },
     "abilities13": {
@@ -3228,6 +4635,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mercury Res",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -3239,7 +4652,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Water Res +4%",
@@ -3250,7 +4669,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 4
+      }
     },
     "abilities23": {
       "name": "Water Res +5%",
@@ -3261,7 +4686,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 5
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -3290,6 +4721,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Brunhilda Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -3299,6 +4736,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Brunhilda Res",
+        "ability_value": 18
       }
     },
     "abilities13": {
@@ -3308,6 +4751,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Brunhilda Res",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -3319,7 +4768,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Flame Res +4%",
@@ -3330,7 +4785,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 4
+      }
     },
     "abilities23": {
       "name": "Flame Res +5%",
@@ -3341,7 +4802,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 5
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -3370,6 +4837,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Jupiter Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -3379,6 +4852,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Jupiter Res",
+        "ability_value": 18
       }
     },
     "abilities13": {
@@ -3388,6 +4867,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Jupiter Res",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -3399,7 +4884,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Light Res +4%",
@@ -3410,7 +4901,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 4
+      }
     },
     "abilities23": {
       "name": "Light Res +5%",
@@ -3421,7 +4918,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 5
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -3450,6 +4953,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Zodiark Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -3459,6 +4968,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Zodiark Res",
+        "ability_value": 18
       }
     },
     "abilities13": {
@@ -3468,6 +4983,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Zodiark Res",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -3479,7 +5000,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Shadow Res +4%",
@@ -3490,7 +5017,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 4
+      }
     },
     "abilities23": {
       "name": "Shadow Res +5%",
@@ -3501,7 +5034,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 5
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -3530,6 +5069,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -3539,6 +5084,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -3548,6 +5099,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -3557,6 +5114,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 8
       }
     },
     "abilities22": {
@@ -3566,6 +5129,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities23": {
@@ -3575,6 +5144,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities31": 0,
@@ -3600,6 +5175,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -3609,6 +5190,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -3618,6 +5205,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -3627,6 +5220,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -3636,6 +5235,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -3645,6 +5250,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities31": {
@@ -3654,6 +5265,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -3663,6 +5280,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 50
       }
     },
     "abilities33": {
@@ -3672,6 +5295,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 50
       }
     }
   },
@@ -3694,6 +5323,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -3703,6 +5338,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -3712,6 +5353,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -3721,6 +5368,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 5
       }
     },
     "abilities22": {
@@ -3730,6 +5383,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 8
       }
     },
     "abilities23": {
@@ -3739,6 +5398,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 10
       }
     },
     "abilities31": 0,
@@ -3764,6 +5429,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Strength",
+        "ability_value": 13
       }
     },
     "abilities12": {
@@ -3773,6 +5444,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Strength",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -3782,6 +5459,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Strength",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -3793,7 +5476,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "Wind Res +8%",
@@ -3804,7 +5493,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "Wind Res +10%",
@@ -3815,7 +5510,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 10
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -3845,8 +5546,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +13%",
@@ -3856,8 +5561,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities13": {
       "name": "Full HP = Strength +15%",
@@ -3867,8 +5576,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "Critical Damage +10%",
@@ -3877,6 +5590,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -3886,6 +5605,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities23": {
@@ -3895,14 +5620,17 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities31": 0,
     "abilities32": 0,
-    "abilities33": 0,
-    "incSTR1": 10,
-    "incSTR2": 13,
-    "incSTR3": 15
+    "abilities33": 0
   },
   {
     "id": "400065",
@@ -3923,6 +5651,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -3932,6 +5666,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -3941,6 +5681,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -3950,6 +5696,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -3959,6 +5711,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -3968,6 +5726,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
@@ -3993,6 +5757,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 13
       }
     },
     "abilities12": {
@@ -4002,6 +5772,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -4011,6 +5787,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -4020,6 +5802,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 20
       }
     },
     "abilities22": {
@@ -4029,6 +5817,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities23": {
@@ -4038,6 +5832,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": 0,
@@ -4063,6 +5863,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -4072,6 +5878,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -4081,6 +5893,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -4092,7 +5910,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "Flame Res +8%",
@@ -4103,7 +5927,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "Flame Res +10%",
@@ -4114,7 +5944,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 10
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -4143,6 +5979,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -4152,6 +5994,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -4161,6 +6009,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -4172,7 +6026,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "Light Res +8%",
@@ -4183,7 +6043,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "Light Res +10%",
@@ -4194,7 +6060,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 10
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -4223,6 +6095,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -4232,6 +6110,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -4241,6 +6125,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities21": {
@@ -4250,6 +6140,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 3
       }
     },
     "abilities22": {
@@ -4259,6 +6155,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities23": {
@@ -4268,6 +6170,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities31": 0,
@@ -4293,6 +6201,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 6
       }
     },
     "abilities12": {
@@ -4302,6 +6216,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -4311,6 +6231,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -4320,6 +6246,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -4329,6 +6261,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities23": {
@@ -4338,6 +6276,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities31": 0,
@@ -4363,6 +6307,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -4372,6 +6322,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities13": {
@@ -4381,6 +6337,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -4390,6 +6352,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 20
       }
     },
     "abilities22": {
@@ -4399,6 +6367,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "abilities23": {
@@ -4408,6 +6382,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities31": 0,
@@ -4435,7 +6415,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hms",
-      "counter": 20
+      "counter": 20,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Midgardsormr Res",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "High Midgardsormr Res +23%",
@@ -4444,6 +6430,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Midgardsormr Res",
+        "ability_value": 23
       }
     },
     "abilities13": {
@@ -4455,7 +6447,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hms",
-      "counter": 25
+      "counter": 25,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Midgardsormr Res",
+        "ability_value": 25
+      }
     },
     "abilities21": {
       "name": "Midgardsormr Res +15%",
@@ -4464,6 +6462,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Midgardsormr Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -4473,6 +6477,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Midgardsormr Res",
+        "ability_value": 18
       }
     },
     "abilities23": {
@@ -4482,6 +6492,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Midgardsormr Res",
+        "ability_value": 20
       }
     },
     "abilities31": {
@@ -4493,7 +6509,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 3
+      }
     },
     "abilities32": {
       "name": "Wind Res +4%",
@@ -4504,7 +6526,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 4
+      }
     },
     "abilities33": {
       "name": "Wind Res +5%",
@@ -4515,7 +6543,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Wind",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 5
+      }
     },
     "dungeon": "hms",
     "counter1": 20,
@@ -4544,6 +6578,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Healing",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -4553,6 +6593,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Healing",
+        "ability_value": 13
       }
     },
     "abilities13": {
@@ -4562,6 +6608,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Healing",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -4571,6 +6623,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 30
       }
     },
     "abilities22": {
@@ -4580,6 +6638,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 40
       }
     },
     "abilities23": {
@@ -4589,6 +6653,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "abilities31": 0,
@@ -4614,6 +6684,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -4623,6 +6699,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 40
       }
     },
     "abilities13": {
@@ -4632,6 +6714,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -4641,6 +6729,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -4650,6 +6744,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -4659,6 +6759,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
@@ -4685,8 +6791,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "HP 70% = Strength +10%",
@@ -4696,8 +6806,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities13": {
       "name": "HP 70% = Strength +13%",
@@ -4707,8 +6821,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "Flame Res +5%",
@@ -4719,7 +6837,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "Flame Res +8%",
@@ -4730,7 +6854,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "Flame Res +10%",
@@ -4741,14 +6871,17 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 10
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
     "abilities33": 0,
-    "incSTR1": 8,
-    "incSTR2": 10,
-    "incSTR3": 13,
     "resEle": "Flame",
     "incRes1": 5,
     "incRes2": 8,
@@ -4773,6 +6906,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -4782,6 +6921,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities13": {
@@ -4791,6 +6936,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -4800,6 +6951,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 20
       }
     },
     "abilities22": {
@@ -4809,6 +6966,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "abilities23": {
@@ -4818,6 +6981,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -4827,6 +6996,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 50
       }
     },
     "abilities32": {
@@ -4836,6 +7011,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 100
       }
     },
     "abilities33": {
@@ -4845,6 +7026,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 100
       }
     }
   },
@@ -4867,6 +7054,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -4876,6 +7069,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -4885,6 +7084,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -4896,7 +7101,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "Shadow Res +8%",
@@ -4907,7 +7118,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "Shadow Res +10%",
@@ -4918,7 +7135,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 10
+      }
     },
     "abilities31": {
       "name": "Tricker Treats +50%",
@@ -4927,6 +7150,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 50
       }
     },
     "abilities32": {
@@ -4936,6 +7165,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 100
       }
     },
     "abilities33": {
@@ -4945,6 +7180,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 100
       }
     },
     "resEle": "Shadow",
@@ -4971,6 +7212,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -4980,6 +7227,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -4989,6 +7242,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -4998,6 +7257,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities22": {
@@ -5007,6 +7272,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities23": {
@@ -5016,6 +7287,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 5
       }
     },
     "abilities31": 0,
@@ -5041,6 +7318,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -5050,6 +7333,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 2
       }
     },
     "abilities13": {
@@ -5059,6 +7348,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -5068,6 +7363,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -5077,6 +7378,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -5086,6 +7393,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Paralysis Res",
+        "ability_value": 75
       }
     },
     "abilities31": 0,
@@ -5111,6 +7424,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -5120,6 +7439,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -5129,6 +7454,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -5138,6 +7469,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -5147,6 +7484,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -5156,6 +7499,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Snack-o'-Lanterns",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -5165,6 +7514,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -5174,6 +7529,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 50
       }
     },
     "abilities33": {
@@ -5183,6 +7544,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tricker Treats",
+        "ability_value": 50
       }
     }
   },
@@ -5205,6 +7572,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -5214,6 +7587,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -5223,6 +7602,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -5234,7 +7619,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Shadow Res +5%",
@@ -5245,7 +7636,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Shadow Res +8%",
@@ -5256,7 +7653,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 8
+      }
     },
     "abilities31": {
       "name": "Tent Canvas +50%",
@@ -5265,6 +7668,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 50
       }
     },
     "abilities32": {
@@ -5274,6 +7683,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 75
       }
     },
     "abilities33": {
@@ -5283,6 +7698,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 75
       }
     },
     "resEle": "Shadow",
@@ -5310,8 +7731,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "HP 70% = Defense +10%",
@@ -5321,8 +7746,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 10
+      }
     },
     "abilities13": {
       "name": "HP 70% = Defense +13%",
@@ -5332,8 +7761,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 13
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "Healing Doublebuff I",
@@ -5342,6 +7775,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 1
       }
     },
     "abilities22": {
@@ -5351,6 +7790,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 2
       }
     },
     "abilities23": {
@@ -5360,6 +7805,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 3
       }
     },
     "abilities31": {
@@ -5369,6 +7820,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -5378,6 +7835,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -5387,11 +7850,14 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 150
       }
-    },
-    "incDef1": 8,
-    "incDef2": 10,
-    "incDef3": 13
+    }
   },
   {
     "id": "400092",
@@ -5412,6 +7878,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -5421,6 +7893,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities13": {
@@ -5430,6 +7908,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "abilities21": 0,
@@ -5458,6 +7942,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -5467,6 +7957,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -5476,6 +7972,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -5485,6 +7987,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 3
       }
     },
     "abilities22": {
@@ -5494,6 +8002,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities23": {
@@ -5503,6 +8017,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities31": 0,
@@ -5528,6 +8048,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -5537,6 +8063,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities13": {
@@ -5546,6 +8078,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -5556,8 +8094,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 5
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "HP 70% = Strength +8%",
@@ -5567,8 +8109,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "HP 70% = Strength +10%",
@@ -5578,15 +8124,16 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
-    "abilities33": 0,
-    "incSTR1": 5,
-    "incSTR2": 8,
-    "incSTR3": 10
+    "abilities33": 0
   },
   {
     "id": "400100",
@@ -5607,6 +8154,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -5616,6 +8169,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities13": {
@@ -5625,6 +8184,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 75
       }
     },
     "abilities21": 0,
@@ -5653,6 +8218,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -5662,6 +8233,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -5671,6 +8248,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -5699,6 +8282,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -5708,6 +8297,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -5717,6 +8312,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -5727,8 +8328,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 3
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "HP 70% = Strength +5%",
@@ -5738,8 +8343,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 5
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "HP 70% = Strength +8%",
@@ -5749,8 +8358,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities31": {
       "name": "Hypnos's Bane +30%",
@@ -5759,6 +8372,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Hypnos's Bane",
+        "ability_value": 30
       }
     },
     "abilities32": {
@@ -5768,6 +8387,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Hypnos's Bane",
+        "ability_value": 35
       }
     },
     "abilities33": {
@@ -5777,11 +8402,14 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Hypnos's Bane",
+        "ability_value": 35
       }
-    },
-    "incSTR1": 3,
-    "incSTR2": 5,
-    "incSTR3": 8
+    }
   },
   {
     "id": "400103",
@@ -5802,6 +8430,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -5811,6 +8445,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -5820,6 +8460,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -5830,8 +8476,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities22": {
       "name": "Full HP = Strength +10%",
@@ -5841,8 +8491,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities23": {
       "name": "Full HP = Strength +13%",
@@ -5852,8 +8506,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities31": {
       "name": "Divine Gales +100%",
@@ -5862,6 +8520,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -5871,6 +8535,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -5880,11 +8550,14 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 150
       }
-    },
-    "incSTR1": 8,
-    "incSTR2": 10,
-    "incSTR3": 13
+    }
   },
   {
     "id": "400104",
@@ -5905,6 +8578,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -5914,6 +8593,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -5923,6 +8608,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -5932,6 +8623,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 8
       }
     },
     "abilities22": {
@@ -5941,6 +8638,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 10
       }
     },
     "abilities23": {
@@ -5950,6 +8653,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 15
       }
     },
     "abilities31": {
@@ -5959,6 +8668,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -5968,6 +8683,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -5977,6 +8698,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 150
       }
     }
   },
@@ -5999,6 +8726,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -6008,6 +8741,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -6017,6 +8756,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -6026,6 +8771,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -6035,6 +8786,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -6044,6 +8801,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities31": {
@@ -6053,6 +8816,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 50
       }
     },
     "abilities32": {
@@ -6062,6 +8831,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 75
       }
     },
     "abilities33": {
@@ -6071,6 +8846,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 75
       }
     }
   },
@@ -6094,8 +8875,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 13
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 13
+      }
     },
     "abilities12": {
       "name": "Full HP = Defense +15%",
@@ -6105,8 +8890,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
     "abilities13": {
       "name": "Full HP = Defense +20%",
@@ -6116,8 +8905,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 20
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "Windwhistle Grass +50%",
@@ -6126,6 +8919,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6135,6 +8934,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 75
       }
     },
     "abilities23": {
@@ -6144,14 +8949,17 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 75
       }
     },
     "abilities31": 0,
     "abilities32": 0,
-    "abilities33": 0,
-    "incDef1": 13,
-    "incDef2": 15,
-    "incDef3": 20
+    "abilities33": 0
   },
   {
     "id": "400107",
@@ -6172,6 +8980,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -6181,6 +8995,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -6190,6 +9010,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -6199,6 +9025,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -6208,6 +9040,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -6217,6 +9055,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Windwhistle Grass",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -6226,6 +9070,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -6235,6 +9085,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 50
       }
     },
     "abilities33": {
@@ -6244,6 +9100,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Divine Gales",
+        "ability_value": 50
       }
     }
   },
@@ -6268,7 +9130,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hmc",
-      "counter": 20
+      "counter": 20,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Mercury Res",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "High Mercury Res +23%",
@@ -6279,7 +9147,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hmc",
-      "counter": 23
+      "counter": 23,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Mercury Res",
+        "ability_value": 23
+      }
     },
     "abilities13": {
       "name": "High Mercury Res +25%",
@@ -6290,7 +9164,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hmc",
-      "counter": 25
+      "counter": 25,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Mercury Res",
+        "ability_value": 25
+      }
     },
     "abilities21": {
       "name": "Mercury Res +15%",
@@ -6299,6 +9179,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mercury Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -6308,6 +9194,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mercury Res",
+        "ability_value": 18
       }
     },
     "abilities23": {
@@ -6317,6 +9209,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mercury Res",
+        "ability_value": 20
       }
     },
     "abilities31": {
@@ -6328,7 +9226,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 3
+      }
     },
     "abilities32": {
       "name": "Water Res +4%",
@@ -6339,7 +9243,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 4
+      }
     },
     "abilities33": {
       "name": "Water Res +5%",
@@ -6350,7 +9260,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Water",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Water Res",
+        "ability_value": 5
+      }
     },
     "dungeon": "hmc",
     "counter1": 20,
@@ -6380,6 +9296,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -6389,6 +9311,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -6398,6 +9326,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -6407,6 +9341,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 5
       }
     },
     "abilities22": {
@@ -6416,6 +9356,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 6
       }
     },
     "abilities23": {
@@ -6425,6 +9371,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 8
       }
     },
     "abilities31": 0,
@@ -6450,6 +9402,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -6459,6 +9417,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 55
       }
     },
     "abilities13": {
@@ -6468,6 +9432,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 60
       }
     },
     "abilities21": {
@@ -6477,6 +9447,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -6486,6 +9462,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Curse Res",
+        "ability_value": 35
       }
     },
     "abilities23": {
@@ -6495,6 +9477,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Curse Res",
+        "ability_value": 40
       }
     },
     "abilities31": 0,
@@ -6520,6 +9508,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Critical Rate",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -6529,6 +9523,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Critical Rate",
+        "ability_value": 6
       }
     },
     "abilities13": {
@@ -6538,6 +9538,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Critical Rate",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -6549,7 +9555,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "Shadow Res +5%",
@@ -6560,7 +9572,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "Shadow Res +8%",
@@ -6571,7 +9589,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 8
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -6600,6 +9624,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -6609,6 +9639,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -6618,6 +9654,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities21": 0,
@@ -6646,6 +9688,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -6655,6 +9703,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -6664,6 +9718,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -6673,6 +9733,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 1
       }
     },
     "abilities22": {
@@ -6682,6 +9748,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 2
       }
     },
     "abilities23": {
@@ -6691,6 +9763,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 3
       }
     },
     "abilities31": 0,
@@ -6716,6 +9794,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities12": {
@@ -6725,6 +9809,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -6734,6 +9824,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -6743,6 +9839,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Flurry Devastation",
+        "ability_value": 8
       }
     },
     "abilities22": {
@@ -6752,6 +9854,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Flurry Devastation",
+        "ability_value": 10
       }
     },
     "abilities23": {
@@ -6761,6 +9869,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Flurry Devastation",
+        "ability_value": 12
       }
     },
     "abilities31": {
@@ -6770,6 +9884,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -6779,6 +9899,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -6788,6 +9914,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 150
       }
     }
   },
@@ -6810,6 +9942,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -6819,6 +9957,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -6828,6 +9972,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -6837,6 +9987,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -6846,6 +10002,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -6855,6 +10017,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities31": {
@@ -6864,6 +10032,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 50
       }
     },
     "abilities32": {
@@ -6873,6 +10047,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 75
       }
     },
     "abilities33": {
@@ -6882,6 +10062,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 75
       }
     }
   },
@@ -6904,6 +10090,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -6913,6 +10105,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -6922,6 +10120,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -6931,6 +10135,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6940,6 +10150,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 75
       }
     },
     "abilities23": {
@@ -6949,6 +10165,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 75
       }
     },
     "abilities31": 0,
@@ -6974,6 +10196,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -6983,6 +10211,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -6992,6 +10226,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -7001,6 +10241,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7010,6 +10256,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -7019,6 +10271,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Astral Ornament",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7028,6 +10286,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -7037,6 +10301,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 50
       }
     },
     "abilities33": {
@@ -7046,6 +10316,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Holiday Cheer",
+        "ability_value": 50
       }
     }
   },
@@ -7068,6 +10344,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -7077,6 +10359,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -7086,6 +10374,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -7096,8 +10390,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 3
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "HP 70% = Strength +5%",
@@ -7107,8 +10405,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 5
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "HP 70% = Strength +8%",
@@ -7118,8 +10420,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities31": {
       "name": "Forbidden Knowledge +50%",
@@ -7128,6 +10434,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 50
       }
     },
     "abilities32": {
@@ -7137,6 +10449,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 100
       }
     },
     "abilities33": {
@@ -7146,11 +10464,14 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 100
       }
-    },
-    "incSTR1": 3,
-    "incSTR2": 5,
-    "incSTR3": 8
+    }
   },
   {
     "id": "400121",
@@ -7173,7 +10494,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hbh",
-      "counter": 20
+      "counter": 20,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Brunhilda Res",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "High Brunhilda Res +23%",
@@ -7184,7 +10511,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hbh",
-      "counter": 23
+      "counter": 23,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Brunhilda Res",
+        "ability_value": 23
+      }
     },
     "abilities13": {
       "name": "High Brunhilda Res +25%",
@@ -7195,7 +10528,13 @@ const wyrmprint =
         "MaxLimitedValue": 25
       },
       "dungeon": "hbh",
-      "counter": 25
+      "counter": 25,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "High Brunhilda Res",
+        "ability_value": 25
+      }
     },
     "abilities21": {
       "name": "Brunhilda Res +15%",
@@ -7204,6 +10543,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Brunhilda Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -7213,6 +10558,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Brunhilda Res",
+        "ability_value": 18
       }
     },
     "abilities23": {
@@ -7222,6 +10573,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Brunhilda Res",
+        "ability_value": 20
       }
     },
     "abilities31": {
@@ -7233,7 +10590,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 3
+      "res": 3,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 3
+      }
     },
     "abilities32": {
       "name": "Flame Res +4%",
@@ -7244,7 +10607,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 4
+      "res": 4,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 4
+      }
     },
     "abilities33": {
       "name": "Flame Res +5%",
@@ -7255,7 +10624,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Flame",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flame Res",
+        "ability_value": 5
+      }
     },
     "dungeon": "hbh",
     "counter1": 20,
@@ -7285,7 +10660,8 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
-      }
+      },
+      "values": {}
     },
     "abilities12": {
       "name": "Happy Dragonyule!",
@@ -7294,7 +10670,8 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
-      }
+      },
+      "values": {}
     },
     "abilities13": {
       "name": "Happy Dragonyule!",
@@ -7303,7 +10680,8 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
-      }
+      },
+      "values": {}
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -7333,7 +10711,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "Light Res +10%",
@@ -7344,7 +10728,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 10
+      }
     },
     "abilities13": {
       "name": "Light Res +13%",
@@ -7355,7 +10745,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Light",
-      "res": 13
+      "res": 13,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Light Res",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "(Shadow) Paralysis Res +25%",
@@ -7364,6 +10760,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7373,6 +10775,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Paralysis Res",
+        "ability_value": 40
       }
     },
     "abilities23": {
@@ -7382,6 +10790,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Paralysis Res",
+        "ability_value": 65
       }
     },
     "abilities31": 0,
@@ -7411,6 +10825,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -7420,6 +10840,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -7429,6 +10855,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -7438,6 +10870,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities22": {
@@ -7447,6 +10885,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities23": {
@@ -7456,6 +10900,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities31": 0,
@@ -7481,6 +10931,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -7490,6 +10946,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -7499,6 +10961,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -7508,6 +10976,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 3
       }
     },
     "abilities22": {
@@ -7517,6 +10991,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 4
       }
     },
     "abilities23": {
@@ -7526,6 +11006,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 5
       }
     },
     "abilities31": 0,
@@ -7551,6 +11037,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -7560,6 +11052,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -7569,6 +11067,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -7578,6 +11082,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Buff Time",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -7587,6 +11097,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Buff Time",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -7596,6 +11112,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Buff Time",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
@@ -7621,6 +11143,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Lance",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -7630,6 +11158,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Lance",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities13": {
@@ -7639,6 +11173,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Lance",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -7650,7 +11190,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "Shadow Res +8%",
@@ -7661,7 +11207,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "Shadow Res +10%",
@@ -7672,7 +11224,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 10
+      }
     },
     "abilities31": {
       "name": "Renown +100%",
@@ -7681,6 +11239,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -7690,6 +11254,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -7699,6 +11269,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 150
       }
     },
     "resEle": "Shadow",
@@ -7725,6 +11301,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -7734,6 +11316,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities13": {
@@ -7743,6 +11331,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -7752,6 +11346,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -7761,6 +11361,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities23": {
@@ -7770,6 +11376,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities31": {
@@ -7779,6 +11391,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -7788,6 +11406,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -7797,6 +11421,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 150
       }
     }
   },
@@ -7819,6 +11449,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -7828,6 +11464,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -7837,6 +11479,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -7846,6 +11494,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -7855,6 +11509,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 75
       }
     },
     "abilities23": {
@@ -7864,6 +11524,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 75
       }
     },
     "abilities31": 0,
@@ -7890,8 +11556,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "HP 70% = Strength +10%",
@@ -7901,8 +11571,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities13": {
       "name": "HP 70% = Strength +13%",
@@ -7912,8 +11586,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "Tent Canvas +25%",
@@ -7922,6 +11600,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7931,6 +11615,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -7940,6 +11630,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Tent Canvas",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7949,6 +11645,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -7958,6 +11660,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 50
       }
     },
     "abilities33": {
@@ -7967,11 +11675,14 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Renown",
+        "ability_value": 50
       }
-    },
-    "incSTR1": 8,
-    "incSTR2": 10,
-    "incSTR3": 13
+    }
   },
   {
     "id": "400136",
@@ -7992,6 +11703,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -8001,6 +11718,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -8010,6 +11733,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -8019,6 +11748,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Haste",
+        "ability_value": 6
       }
     },
     "abilities22": {
@@ -8028,6 +11763,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Haste",
+        "ability_value": 8
       }
     },
     "abilities23": {
@@ -8037,6 +11778,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Haste",
+        "ability_value": 10
       }
     },
     "abilities31": 0,
@@ -8062,6 +11809,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -8071,6 +11824,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -8080,6 +11839,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -8108,6 +11873,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -8117,6 +11888,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities13": {
@@ -8126,6 +11903,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 75
       }
     },
     "abilities21": 0,
@@ -8154,6 +11937,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -8163,6 +11952,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 2
       }
     },
     "abilities13": {
@@ -8172,6 +11967,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -8181,6 +11982,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 1
       }
     },
     "abilities22": {
@@ -8190,6 +11997,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 2
       }
     },
     "abilities23": {
@@ -8199,6 +12012,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 3
       }
     },
     "abilities31": 0,
@@ -8224,6 +12043,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Damage",
+        "ability_value": 6
       }
     },
     "abilities12": {
@@ -8233,6 +12058,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Damage",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -8242,6 +12073,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Damage",
+        "ability_value": 14
       }
     },
     "abilities21": 0,
@@ -8270,6 +12107,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -8279,6 +12122,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities13": {
@@ -8288,6 +12137,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities21": 0,
@@ -8316,6 +12171,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 1
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Energy Prep",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -8325,6 +12186,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 1
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Energy Prep",
+        "ability_value": 3
       }
     },
     "abilities13": {
@@ -8334,6 +12201,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 1
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Energy Prep",
+        "ability_value": 5
       }
     },
     "abilities21": 0,
@@ -8362,7 +12235,8 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
-      }
+      },
+      "values": {}
     },
     "abilities12": {
       "name": "Loving Heart",
@@ -8371,7 +12245,8 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
-      }
+      },
+      "values": {}
     },
     "abilities13": {
       "name": "Loving Heart",
@@ -8380,7 +12255,8 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
-      }
+      },
+      "values": {}
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -8408,6 +12284,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -8417,6 +12299,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 40
       }
     },
     "abilities13": {
@@ -8426,6 +12314,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 50
       }
     },
     "abilities21": 0,
@@ -8454,6 +12348,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -8463,6 +12363,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -8472,6 +12378,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 30
       }
     },
     "abilities21": 0,
@@ -8500,6 +12412,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burning Punisher",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -8509,6 +12427,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burning Punisher",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -8518,6 +12442,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burning Punisher",
+        "ability_value": 30
       }
     },
     "abilities21": 0,
@@ -8546,6 +12476,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -8555,6 +12491,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 10
       }
     },
     "abilities13": {
@@ -8564,6 +12506,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 13
       }
     },
     "abilities21": 0,
@@ -8592,6 +12540,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -8601,6 +12555,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -8610,6 +12570,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 10
       }
     },
     "abilities21": 0,
@@ -8638,6 +12604,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -8647,6 +12619,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 2
       }
     },
     "abilities13": {
@@ -8656,6 +12634,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Affliction Guard",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -8667,7 +12651,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 5
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 5
+      }
     },
     "abilities22": {
       "name": "Shadow Res +8%",
@@ -8678,7 +12668,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 8
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 8
+      }
     },
     "abilities23": {
       "name": "Shadow Res +10%",
@@ -8689,7 +12685,13 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "resEle": "Shadow",
-      "res": 10
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shadow Res",
+        "ability_value": 10
+      }
     },
     "abilities31": 0,
     "abilities32": 0,
@@ -8718,6 +12720,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -8727,6 +12735,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -8736,6 +12750,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 25
       }
     },
     "abilities21": 0,
@@ -8764,6 +12784,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -8773,6 +12799,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 20
       }
     },
     "abilities13": {
@@ -8782,6 +12814,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -8791,6 +12829,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 3
       }
     },
     "abilities22": {
@@ -8800,6 +12844,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities23": {
@@ -8809,6 +12859,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities31": 0,
@@ -8834,6 +12890,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -8843,6 +12905,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 55
       }
     },
     "abilities13": {
@@ -8852,6 +12920,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 60
       }
     },
     "abilities21": {
@@ -8861,6 +12935,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Bog Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -8870,6 +12950,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Bog Res",
+        "ability_value": 35
       }
     },
     "abilities23": {
@@ -8879,6 +12965,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Bog Res",
+        "ability_value": 40
       }
     },
     "abilities31": 0,
@@ -8904,6 +12996,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -8913,6 +13011,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 3
       }
     },
     "abilities13": {
@@ -8922,6 +13026,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 4
       }
     },
     "abilities21": {
@@ -8931,6 +13041,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 1
       }
     },
     "abilities22": {
@@ -8940,6 +13056,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 2
       }
     },
     "abilities23": {
@@ -8949,6 +13071,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 3
       }
     },
     "abilities31": {
@@ -8958,6 +13086,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -8967,6 +13101,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -8976,6 +13116,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 150
       }
     }
   },
@@ -8998,6 +13144,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -9007,6 +13159,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -9016,6 +13174,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities21": {
@@ -9025,6 +13189,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Arcane Tomes",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -9034,6 +13204,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Arcane Tomes",
+        "ability_value": 75
       }
     },
     "abilities23": {
@@ -9043,6 +13219,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Arcane Tomes",
+        "ability_value": 75
       }
     },
     "abilities31": 0,
@@ -9068,6 +13250,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -9077,6 +13265,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities13": {
@@ -9086,6 +13280,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -9095,6 +13295,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -9104,6 +13310,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -9113,6 +13325,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 150
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Forbidden Knowledge",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -9122,6 +13340,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Arcane Tomes",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -9131,6 +13355,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Arcane Tomes",
+        "ability_value": 50
       }
     },
     "abilities33": {
@@ -9140,6 +13370,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 75
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Arcane Tomes",
+        "ability_value": 50
       }
     }
   },
@@ -9162,6 +13398,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Axe",
+        "req_threshold": null,
+        "ability_type": " Critical Rate",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -9171,6 +13413,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Axe",
+        "req_threshold": null,
+        "ability_type": " Critical Rate",
+        "ability_value": 12
       }
     },
     "abilities13": {
@@ -9180,6 +13428,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Axe",
+        "req_threshold": null,
+        "ability_type": " Critical Rate",
+        "ability_value": 14
       }
     },
     "abilities21": {
@@ -9189,6 +13443,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -9198,6 +13458,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -9207,6 +13473,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -9232,6 +13504,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Sword",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -9241,6 +13519,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Sword",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities13": {
@@ -9250,6 +13534,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Sword",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -9259,6 +13549,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon's Claws",
+        "ability_value": 1
       }
     },
     "abilities22": {
@@ -9268,6 +13564,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon's Claws",
+        "ability_value": 2
       }
     },
     "abilities23": {
@@ -9277,6 +13579,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon's Claws",
+        "ability_value": 3
       }
     },
     "abilities31": 0,
@@ -9302,6 +13610,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Bow",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -9311,6 +13625,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Bow",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities13": {
@@ -9320,6 +13640,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Bow",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -9329,6 +13655,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Haste",
+        "ability_value": 8
       }
     },
     "abilities22": {
@@ -9338,6 +13670,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Haste",
+        "ability_value": 10
       }
     },
     "abilities23": {
@@ -9347,6 +13685,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Haste",
+        "ability_value": 12
       }
     },
     "abilities31": {
@@ -9356,6 +13700,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 100
       }
     },
     "abilities32": {
@@ -9365,6 +13715,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 150
       }
     },
     "abilities33": {
@@ -9374,6 +13730,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 150
       }
     }
   },
@@ -9397,8 +13759,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 5
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "HP 70% = Defense +8%",
@@ -9408,8 +13774,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 8
+      }
     },
     "abilities13": {
       "name": "HP 70% = Defense +10%",
@@ -9419,8 +13789,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Stun Res +15%",
@@ -9429,6 +13803,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -9438,6 +13818,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -9447,6 +13833,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities31": {
@@ -9456,6 +13848,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 50
       }
     },
     "abilities32": {
@@ -9465,6 +13863,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 100
       }
     },
     "abilities33": {
@@ -9474,11 +13878,14 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 100
       }
-    },
-    "incDef1": 5,
-    "incDef2": 8,
-    "incDef3": 10
+    }
   },
   {
     "id": "400175",
@@ -9499,6 +13906,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -9508,6 +13921,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -9517,6 +13936,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities21": {
@@ -9526,6 +13951,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 125
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Papier-Mâché",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -9535,6 +13966,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 125
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Papier-Mâché",
+        "ability_value": 75
       }
     },
     "abilities23": {
@@ -9544,6 +13981,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 125
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Papier-Mâché",
+        "ability_value": 75
       }
     },
     "abilities31": 0,
@@ -9569,6 +14012,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Accelerator",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -9578,6 +14027,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Accelerator",
+        "ability_value": 30
       }
     },
     "abilities13": {
@@ -9587,6 +14042,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Accelerator",
+        "ability_value": 35
       }
     },
     "abilities21": {
@@ -9596,6 +14057,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 125
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Papier-Mâché",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -9605,6 +14072,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 125
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Papier-Mâché",
+        "ability_value": 50
       }
     },
     "abilities23": {
@@ -9614,6 +14087,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 125
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Papier-Mâché",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -9623,6 +14102,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -9632,6 +14117,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 50
       }
     },
     "abilities33": {
@@ -9641,6 +14132,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 250
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Eggsploration Points",
+        "ability_value": 50
       }
     }
   },
@@ -9663,6 +14160,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -9672,6 +14175,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 5
       }
     },
     "abilities13": {
@@ -9681,6 +14190,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 6
       }
     },
     "abilities21": {
@@ -9690,6 +14205,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 1
       }
     },
     "abilities22": {
@@ -9699,6 +14220,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 2
       }
     },
     "abilities23": {
@@ -9708,6 +14235,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 3
       }
     },
     "abilities31": {
@@ -9717,6 +14250,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 30
       }
     },
     "abilities32": {
@@ -9726,6 +14265,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 45
       }
     },
     "abilities33": {
@@ -9735,6 +14280,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 60
       }
     }
   },
@@ -9757,6 +14308,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -9766,6 +14323,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 8
       }
     },
     "abilities13": {
@@ -9775,6 +14338,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -9784,6 +14353,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 10
       }
     },
     "abilities22": {
@@ -9793,6 +14368,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 15
       }
     },
     "abilities23": {
@@ -9802,6 +14383,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 20
       }
     },
     "abilities31": 0,
@@ -9828,8 +14415,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "HP 70% = Strength +10%",
@@ -9839,8 +14430,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities13": {
       "name": "HP 70% = Strength +13%",
@@ -9850,8 +14445,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "Skill Prep +15%",
@@ -9860,6 +14459,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -9869,6 +14474,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 20
       }
     },
     "abilities23": {
@@ -9878,14 +14489,17 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities31": 0,
     "abilities32": 0,
-    "abilities33": 0,
-    "incSTR1": 8,
-    "incSTR2": 10,
-    "incSTR3": 13
+    "abilities33": 0
   },
   {
     "id": "400293",
@@ -9906,6 +14520,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -9915,6 +14535,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 2
       }
     },
     "abilities13": {
@@ -9924,6 +14550,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Shield Prep",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -9934,8 +14566,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 3
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 3
+      }
     },
     "abilities22": {
       "name": "HP 70% = Defense +5%",
@@ -9945,8 +14581,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 5
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 5
+      }
     },
     "abilities23": {
       "name": "HP 70% = Defense +8%",
@@ -9956,8 +14596,12 @@ const wyrmprint =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 8
+      }
     },
     "abilities31": {
       "name": "Valor +20%",
@@ -9966,6 +14610,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 20
       }
     },
     "abilities32": {
@@ -9975,6 +14625,12 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 30
       }
     },
     "abilities33": {
@@ -9984,11 +14640,14 @@ const wyrmprint =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Valor",
+        "ability_value": 40
       }
-    },
-    "incDef1": 3,
-    "incDef2": 5,
-    "incDef3": 8
+    }
   }
 ];
 export default wyrmprint;

@@ -23,12 +23,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          614.0
-        ],
-        "lvl2": [
-          682.0
-        ]
+        "lvl1": {
+          "BASE": 614.0
+        },
+        "lvl2": {
+          "BASE": 682.0
+        }
       }
     },
     "MinHp": 17,
@@ -60,13 +60,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -92,12 +99,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          614.0
-        ],
-        "lvl2": [
-          682.0
-        ]
+        "lvl1": {
+          "BASE": 614.0
+        },
+        "lvl2": {
+          "BASE": 682.0
+        }
       }
     },
     "MinHp": 17,
@@ -129,13 +136,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -160,13 +174,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -192,12 +213,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          614.0
-        ],
-        "lvl2": [
-          682.0
-        ]
+        "lvl1": {
+          "BASE": 614.0
+        },
+        "lvl2": {
+          "BASE": 682.0
+        }
       }
     },
     "MinHp": 17,
@@ -229,13 +250,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Wind) Fury Penetrator",
       "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -261,12 +289,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          614.0
-        ],
-        "lvl2": [
-          682.0
-        ]
+        "lvl1": {
+          "BASE": 614.0
+        },
+        "lvl2": {
+          "BASE": 682.0
+        }
       }
     },
     "MinHp": 17,
@@ -298,13 +326,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -329,13 +364,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -361,12 +403,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          614.0
-        ],
-        "lvl2": [
-          682.0
-        ]
+        "lvl1": {
+          "BASE": 614.0
+        },
+        "lvl2": {
+          "BASE": 682.0
+        }
       }
     },
     "MinHp": 17,
@@ -478,6 +520,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -504,6 +552,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -531,12 +585,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          676.0
-        ],
-        "lvl2": [
-          750.0
-        ]
+        "lvl1": {
+          "BASE": 676.0
+        },
+        "lvl2": {
+          "BASE": 750.0
+        }
       }
     },
     "MinHp": 27,
@@ -568,13 +622,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -599,6 +660,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -608,7 +675,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -664,13 +732,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -695,13 +770,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -757,6 +839,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -766,6 +854,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -791,13 +885,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Wind) Fury Penetrator",
       "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -853,6 +954,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -862,6 +969,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Stunned Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -887,13 +1000,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -918,13 +1038,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -950,12 +1077,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          676.0
-        ],
-        "lvl2": [
-          750.0
-        ]
+        "lvl1": {
+          "BASE": 676.0
+        },
+        "lvl2": {
+          "BASE": 750.0
+        }
       }
     },
     "MinHp": 27,
@@ -1067,6 +1194,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -1094,12 +1227,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          745.0
-        ],
-        "lvl2": [
-          825.0
-        ]
+        "lvl1": {
+          "BASE": 745.0
+        },
+        "lvl2": {
+          "BASE": 825.0
+        }
       }
     },
     "MinHp": 42,
@@ -1131,6 +1264,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1140,7 +1279,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -1166,12 +1306,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          745.0
-        ],
-        "lvl2": [
-          825.0
-        ]
+        "lvl1": {
+          "BASE": 745.0
+        },
+        "lvl2": {
+          "BASE": 825.0
+        }
       }
     },
     "MinHp": 42,
@@ -1234,6 +1374,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1243,6 +1389,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -1269,12 +1421,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          745.0
-        ],
-        "lvl2": [
-          825.0
-        ]
+        "lvl1": {
+          "BASE": 745.0
+        },
+        "lvl2": {
+          "BASE": 825.0
+        }
       }
     },
     "MinHp": 42,
@@ -1306,6 +1458,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1315,6 +1473,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Stunned Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -1341,12 +1505,14 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 15
+      "values": {
+        "req": "HP Below 50%",
+        "req_threshold": -50,
+        "ability_type": "Strength",
+        "ability_value": 15
+      }
     },
-    "abilities21": 0,
-    "req": "",
-    "incSTR": 15
+    "abilities21": 0
   },
   {
     "id": "301037_01_50501",
@@ -1513,12 +1679,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          790.0
-        ],
-        "lvl2": [
-          878.0
-        ]
+        "lvl1": {
+          "BASE": 790.0
+        },
+        "lvl2": {
+          "BASE": 878.0
+        }
       }
     },
     "MinHp": 15,
@@ -1550,13 +1716,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -1581,6 +1754,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -1592,7 +1771,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -1620,12 +1805,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          790.0
-        ],
-        "lvl2": [
-          878.0
-        ]
+        "lvl1": {
+          "BASE": 790.0
+        },
+        "lvl2": {
+          "BASE": 878.0
+        }
       }
     },
     "MinHp": 15,
@@ -1657,13 +1842,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -1689,12 +1881,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          792.0
-        ],
-        "lvl2": [
-          879.0
-        ]
+        "lvl1": {
+          "BASE": 792.0
+        },
+        "lvl2": {
+          "BASE": 879.0
+        }
       }
     },
     "MinHp": 15,
@@ -1726,13 +1918,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Wind) Fury Penetrator",
       "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -1758,12 +1957,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          792.0
-        ],
-        "lvl2": [
-          879.0
-        ]
+        "lvl1": {
+          "BASE": 792.0
+        },
+        "lvl2": {
+          "BASE": 879.0
+        }
       }
     },
     "MinHp": 15,
@@ -1795,13 +1994,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -1827,12 +2033,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          792.0
-        ],
-        "lvl2": [
-          879.0
-        ]
+        "lvl1": {
+          "BASE": 792.0
+        },
+        "lvl2": {
+          "BASE": 879.0
+        }
       }
     },
     "MinHp": 15,
@@ -1864,13 +2070,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -1975,6 +2188,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -2001,6 +2220,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -2058,13 +2283,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -2089,6 +2321,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -2098,7 +2336,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -2125,7 +2364,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -2134,6 +2379,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -2161,6 +2412,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -2172,7 +2429,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -2200,12 +2463,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          869.0
-        ],
-        "lvl2": [
-          966.0
-        ]
+        "lvl1": {
+          "BASE": 869.0
+        },
+        "lvl2": {
+          "BASE": 966.0
+        }
       }
     },
     "MinHp": 24,
@@ -2237,13 +2500,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -2270,7 +2540,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Water) High Brunhilda's Bane",
@@ -2279,7 +2555,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
-      }
+      },
+      "values": {}
     },
     "req": "Water",
     "incDef": 15
@@ -2337,6 +2614,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -2346,6 +2629,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -2371,13 +2660,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Wind) Fury Penetrator",
       "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -2403,12 +2699,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          869.0
-        ],
-        "lvl2": [
-          966.0
-        ]
+        "lvl1": {
+          "BASE": 869.0
+        },
+        "lvl2": {
+          "BASE": 966.0
+        }
       }
     },
     "MinHp": 24,
@@ -2440,6 +2736,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -2449,6 +2751,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Stunned Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -2474,13 +2782,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -2536,13 +2851,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -2647,6 +2969,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -2674,12 +3002,14 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
-    "abilities21": 0,
-    "req": "",
-    "incDef": 15
+    "abilities21": 0
   },
   {
     "id": "302013_01_50101",
@@ -2704,12 +3034,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          957.0
-        ],
-        "lvl2": [
-          1062.0
-        ]
+        "lvl1": {
+          "BASE": 957.0
+        },
+        "lvl2": {
+          "BASE": 1062.0
+        }
       }
     },
     "MinHp": 39,
@@ -2741,6 +3071,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -2750,7 +3086,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -2777,7 +3114,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -2786,6 +3129,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -2846,7 +3195,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Water) High Brunhilda's Bane",
@@ -2855,7 +3210,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
-      }
+      },
+      "values": {}
     },
     "req": "Water",
     "incDef": 20
@@ -2883,12 +3239,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          957.0
-        ],
-        "lvl2": [
-          1062.0
-        ]
+        "lvl1": {
+          "BASE": 957.0
+        },
+        "lvl2": {
+          "BASE": 1062.0
+        }
       }
     },
     "MinHp": 39,
@@ -2920,6 +3276,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -2929,6 +3291,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -2985,6 +3353,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -2994,6 +3368,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Stunned Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -3020,12 +3400,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          960.0
-        ],
-        "lvl2": [
-          1065.0
-        ]
+        "lvl1": {
+          "BASE": 960.0
+        },
+        "lvl2": {
+          "BASE": 1065.0
+        }
       }
     },
     "MinHp": 37,
@@ -3169,12 +3549,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          610.0
-        ],
-        "lvl2": [
-          678.0
-        ]
+        "lvl1": {
+          "BASE": 610.0
+        },
+        "lvl2": {
+          "BASE": 678.0
+        }
       }
     },
     "MinHp": 19,
@@ -3206,13 +3586,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3237,13 +3624,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3269,12 +3663,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          676.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        }
       }
     },
     "MinHp": 18,
@@ -3306,13 +3700,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3337,13 +3738,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3369,12 +3777,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          676.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        }
       }
     },
     "MinHp": 18,
@@ -3406,13 +3814,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3437,13 +3852,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Wind) Fury Penetrator",
       "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3469,12 +3891,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          610.0
-        ],
-        "lvl2": [
-          678.0
-        ]
+        "lvl1": {
+          "BASE": 610.0
+        },
+        "lvl2": {
+          "BASE": 678.0
+        }
       }
     },
     "MinHp": 19,
@@ -3506,13 +3928,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3537,13 +3966,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3569,12 +4005,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          676.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        }
       }
     },
     "MinHp": 18,
@@ -3686,6 +4122,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -3712,6 +4154,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Physian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -3739,12 +4187,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          668.0
-        ],
-        "lvl2": [
-          744.0
-        ]
+        "lvl1": {
+          "BASE": 668.0
+        },
+        "lvl2": {
+          "BASE": 744.0
+        }
       }
     },
     "MinHp": 27,
@@ -3776,13 +4224,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3807,13 +4262,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3838,6 +4300,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -3847,7 +4315,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -3874,7 +4343,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -3883,6 +4358,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -3911,12 +4392,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          668.0
-        ],
-        "lvl2": [
-          744.0
-        ]
+        "lvl1": {
+          "BASE": 668.0
+        },
+        "lvl2": {
+          "BASE": 744.0
+        }
       }
     },
     "MinHp": 27,
@@ -3948,13 +4429,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -3979,6 +4467,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -3990,7 +4484,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -4017,13 +4517,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -4050,7 +4557,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Water) High Brunhilda's Bane",
@@ -4059,7 +4572,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
-      }
+      },
+      "values": {}
     },
     "req": "Water",
     "incDef": 15
@@ -4117,13 +4631,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -4148,13 +4669,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Wind) Fury Penetrator",
       "details": "If the user is attuned to Wind: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -4179,6 +4707,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -4188,6 +4722,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -4214,12 +4754,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          668.0
-        ],
-        "lvl2": [
-          744.0
-        ]
+        "lvl1": {
+          "BASE": 668.0
+        },
+        "lvl2": {
+          "BASE": 744.0
+        }
       }
     },
     "MinHp": 27,
@@ -4251,13 +4791,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Physian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -4282,13 +4829,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -4424,6 +4978,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": 0
@@ -4451,12 +5011,14 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
-    "abilities21": 0,
-    "req": "",
-    "incDef": 15
+    "abilities21": 0
   },
   {
     "id": "303064_01_49901",
@@ -4480,6 +5042,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -4507,12 +5075,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          740.0
-        ],
-        "lvl2": [
-          820.0
-        ]
+        "lvl1": {
+          "BASE": 740.0
+        },
+        "lvl2": {
+          "BASE": 820.0
+        }
       }
     },
     "MinHp": 43,
@@ -4544,6 +5112,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -4553,7 +5127,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -4580,7 +5155,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -4589,6 +5170,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -4647,6 +5234,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities21": {
@@ -4658,7 +5251,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -4687,7 +5286,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Water) High Brunhilda's Bane",
@@ -4696,7 +5301,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
-      }
+      },
+      "values": {}
     },
     "req": "Water",
     "incDef": 20
@@ -4724,12 +5330,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          740.0
-        ],
-        "lvl2": [
-          820.0
-        ]
+        "lvl1": {
+          "BASE": 740.0
+        },
+        "lvl2": {
+          "BASE": 820.0
+        }
       }
     },
     "MinHp": 43,
@@ -4761,6 +5367,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -4770,6 +5382,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -4827,12 +5445,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          740.0
-        ],
-        "lvl2": [
-          820.0
-        ]
+        "lvl1": {
+          "BASE": 740.0
+        },
+        "lvl2": {
+          "BASE": 820.0
+        }
       }
     },
     "MinHp": 43,
@@ -4945,12 +5563,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          932.0
-        ],
-        "lvl2": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 932.0
+        },
+        "lvl2": {
+          "BASE": 1036.0
+        }
       }
     },
     "MinHp": 17,
@@ -4983,12 +5601,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          932.0
-        ],
-        "lvl2": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 932.0
+        },
+        "lvl2": {
+          "BASE": 1036.0
+        }
       }
     },
     "MinHp": 17,
@@ -5020,13 +5638,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -5052,12 +5677,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          932.0
-        ],
-        "lvl2": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 932.0
+        },
+        "lvl2": {
+          "BASE": 1036.0
+        }
       }
     },
     "MinHp": 19,
@@ -5090,12 +5715,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          932.0
-        ],
-        "lvl2": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 932.0
+        },
+        "lvl2": {
+          "BASE": 1036.0
+        }
       }
     },
     "MinHp": 19,
@@ -5127,13 +5752,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -5159,12 +5791,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          932.0
-        ],
-        "lvl2": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 932.0
+        },
+        "lvl2": {
+          "BASE": 1036.0
+        }
       }
     },
     "MinHp": 19,
@@ -5276,6 +5908,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -5303,12 +5941,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          1026.0
-        ],
-        "lvl2": [
-          1140.0
-        ]
+        "lvl1": {
+          "BASE": 1026.0
+        },
+        "lvl2": {
+          "BASE": 1140.0
+        }
       }
     },
     "MinHp": 28,
@@ -5340,6 +5978,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -5349,7 +5993,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -5405,6 +6050,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -5416,7 +6067,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -5443,13 +6100,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -5505,6 +6169,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -5514,6 +6184,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -5570,6 +6246,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -5579,6 +6261,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Stunned Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -5604,13 +6292,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -5636,12 +6331,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          1026.0
-        ],
-        "lvl2": [
-          1140.0
-        ]
+        "lvl1": {
+          "BASE": 1026.0
+        },
+        "lvl2": {
+          "BASE": 1140.0
+        }
       }
     },
     "MinHp": 28,
@@ -5753,6 +6448,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -5779,6 +6480,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": 0
@@ -5836,6 +6543,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -5845,7 +6558,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -5871,12 +6585,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          1128.0
-        ],
-        "lvl2": [
-          1254.0
-        ]
+        "lvl1": {
+          "BASE": 1128.0
+        },
+        "lvl2": {
+          "BASE": 1254.0
+        }
       }
     },
     "MinHp": 44,
@@ -5908,6 +6622,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities21": {
@@ -5919,7 +6639,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -5947,12 +6673,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          1128.0
-        ],
-        "lvl2": [
-          1254.0
-        ]
+        "lvl1": {
+          "BASE": 1128.0
+        },
+        "lvl2": {
+          "BASE": 1254.0
+        }
       }
     },
     "MinHp": 44,
@@ -5984,6 +6710,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -5993,6 +6725,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -6049,6 +6787,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -6058,6 +6802,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Stunned Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -6195,12 +6945,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          685.0
-        ],
-        "lvl2": [
-          761.0
-        ]
+        "lvl1": {
+          "BASE": 685.0
+        },
+        "lvl2": {
+          "BASE": 761.0
+        }
       }
     },
     "MinHp": 17,
@@ -6232,13 +6982,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6263,6 +7020,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -6274,7 +7037,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -6302,12 +7071,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          686.0
-        ],
-        "lvl2": [
-          762.0
-        ]
+        "lvl1": {
+          "BASE": 686.0
+        },
+        "lvl2": {
+          "BASE": 762.0
+        }
       }
     },
     "MinHp": 18,
@@ -6339,13 +7108,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6370,13 +7146,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6402,12 +7185,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          685.0
-        ],
-        "lvl2": [
-          761.0
-        ]
+        "lvl1": {
+          "BASE": 685.0
+        },
+        "lvl2": {
+          "BASE": 761.0
+        }
       }
     },
     "MinHp": 17,
@@ -6439,13 +7222,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6471,12 +7261,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          686.0
-        ],
-        "lvl2": [
-          762.0
-        ]
+        "lvl1": {
+          "BASE": 686.0
+        },
+        "lvl2": {
+          "BASE": 762.0
+        }
       }
     },
     "MinHp": 18,
@@ -6509,12 +7299,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          687.0
-        ],
-        "lvl2": [
-          762.0
-        ]
+        "lvl1": {
+          "BASE": 687.0
+        },
+        "lvl2": {
+          "BASE": 762.0
+        }
       }
     },
     "MinHp": 16,
@@ -6546,13 +7336,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6577,13 +7374,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6609,12 +7413,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          686.0
-        ],
-        "lvl2": [
-          762.0
-        ]
+        "lvl1": {
+          "BASE": 686.0
+        },
+        "lvl2": {
+          "BASE": 762.0
+        }
       }
     },
     "MinHp": 18,
@@ -6646,13 +7450,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6757,6 +7568,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -6783,6 +7600,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -6809,6 +7632,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -6866,13 +7695,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -6897,6 +7733,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -6906,7 +7748,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -6933,7 +7776,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -6942,6 +7791,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -6969,6 +7824,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -6980,7 +7841,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -7008,12 +7875,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          755.0
-        ],
-        "lvl2": [
-          840.0
-        ]
+        "lvl1": {
+          "BASE": 755.0
+        },
+        "lvl2": {
+          "BASE": 840.0
+        }
       }
     },
     "MinHp": 28,
@@ -7045,13 +7912,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -7076,6 +7950,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -7087,7 +7967,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -7114,13 +8000,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -7147,7 +8040,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Water) High Brunhilda's Bane",
@@ -7156,7 +8055,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
-      }
+      },
+      "values": {}
     },
     "req": "Water",
     "incDef": 15
@@ -7184,12 +8084,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          755.0
-        ],
-        "lvl2": [
-          840.0
-        ]
+        "lvl1": {
+          "BASE": 755.0
+        },
+        "lvl2": {
+          "BASE": 840.0
+        }
       }
     },
     "MinHp": 28,
@@ -7221,13 +8121,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -7252,6 +8159,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -7261,6 +8174,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -7317,13 +8236,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -7348,13 +8274,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -7410,13 +8343,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -7521,6 +8461,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": 0
@@ -7548,12 +8494,14 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
-    "abilities21": 0,
-    "req": "",
-    "incDef": 15
+    "abilities21": 0
   },
   {
     "id": "305076_01_49901",
@@ -7577,6 +8525,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -7604,12 +8558,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          830.0
-        ],
-        "lvl2": [
-          922.0
-        ]
+        "lvl1": {
+          "BASE": 830.0
+        },
+        "lvl2": {
+          "BASE": 922.0
+        }
       }
     },
     "MinHp": 43,
@@ -7641,6 +8595,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -7650,7 +8610,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -7677,7 +8638,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -7686,6 +8653,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -7744,6 +8717,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities21": {
@@ -7755,7 +8734,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -7784,7 +8769,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Water) High Brunhilda's Bane",
@@ -7793,7 +8784,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
-      }
+      },
+      "values": {}
     },
     "req": "Water",
     "incDef": 20
@@ -7851,6 +8843,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -7860,6 +8858,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -7886,12 +8890,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          830.0
-        ],
-        "lvl2": [
-          922.0
-        ]
+        "lvl1": {
+          "BASE": 830.0
+        },
+        "lvl2": {
+          "BASE": 922.0
+        }
       }
     },
     "MinHp": 43,
@@ -7924,12 +8928,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          830.0
-        ],
-        "lvl2": [
-          922.0
-        ]
+        "lvl1": {
+          "BASE": 830.0
+        },
+        "lvl2": {
+          "BASE": 922.0
+        }
       }
     },
     "MinHp": 43,
@@ -8042,12 +9046,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          705.0
-        ],
-        "lvl2": [
-          783.0
-        ]
+        "lvl1": {
+          "BASE": 705.0
+        },
+        "lvl2": {
+          "BASE": 783.0
+        }
       }
     },
     "MinHp": 16,
@@ -8079,13 +9083,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8110,6 +9121,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -8121,7 +9138,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -8179,13 +9202,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8210,13 +9240,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8242,12 +9279,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          705.0
-        ],
-        "lvl2": [
-          783.0
-        ]
+        "lvl1": {
+          "BASE": 705.0
+        },
+        "lvl2": {
+          "BASE": 783.0
+        }
       }
     },
     "MinHp": 16,
@@ -8279,13 +9316,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8311,12 +9355,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          705.0
-        ],
-        "lvl2": [
-          783.0
-        ]
+        "lvl1": {
+          "BASE": 705.0
+        },
+        "lvl2": {
+          "BASE": 783.0
+        }
       }
     },
     "MinHp": 16,
@@ -8348,13 +9392,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8379,13 +9430,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8441,13 +9499,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8552,6 +9617,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -8578,6 +9649,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Undead's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -8604,6 +9681,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -8631,12 +9714,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          777.0
-        ],
-        "lvl2": [
-          863.0
-        ]
+        "lvl1": {
+          "BASE": 777.0
+        },
+        "lvl2": {
+          "BASE": 863.0
+        }
       }
     },
     "MinHp": 27,
@@ -8668,13 +9751,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8699,6 +9789,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -8708,7 +9804,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -8733,6 +9830,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -8744,7 +9847,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -8772,12 +9881,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          777.0
-        ],
-        "lvl2": [
-          863.0
-        ]
+        "lvl1": {
+          "BASE": 777.0
+        },
+        "lvl2": {
+          "BASE": 863.0
+        }
       }
     },
     "MinHp": 27,
@@ -8809,13 +9918,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8840,13 +9956,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Skill Resistance Penetrator",
       "details": "If the user is attuned to Water:  completely negates skill resistance.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8872,12 +9995,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          777.0
-        ],
-        "lvl2": [
-          863.0
-        ]
+        "lvl1": {
+          "BASE": 777.0
+        },
+        "lvl2": {
+          "BASE": 863.0
+        }
       }
     },
     "MinHp": 27,
@@ -8909,13 +10032,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -8940,6 +10070,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -8949,6 +10085,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -9005,13 +10147,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Undead's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Dull Res",
       "details": "If the user is attuned to Light: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -9036,13 +10185,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -9098,13 +10254,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -9209,6 +10372,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -9266,6 +10435,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -9275,7 +10450,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -9362,6 +10538,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -9371,6 +10553,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -9397,12 +10585,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          854.0
-        ],
-        "lvl2": [
-          949.0
-        ]
+        "lvl1": {
+          "BASE": 854.0
+        },
+        "lvl2": {
+          "BASE": 949.0
+        }
       }
     },
     "MinHp": 42,
@@ -9435,12 +10623,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          852.0
-        ],
-        "lvl2": [
-          948.0
-        ]
+        "lvl1": {
+          "BASE": 852.0
+        },
+        "lvl2": {
+          "BASE": 948.0
+        }
       }
     },
     "MinHp": 42,
@@ -9584,12 +10772,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          806.0
-        ],
-        "lvl2": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 806.0
+        },
+        "lvl2": {
+          "BASE": 895.0
+        }
       }
     },
     "MinHp": 16,
@@ -9621,13 +10809,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -9652,6 +10847,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -9663,7 +10864,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -9691,12 +10898,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          806.0
-        ],
-        "lvl2": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 806.0
+        },
+        "lvl2": {
+          "BASE": 895.0
+        }
       }
     },
     "MinHp": 16,
@@ -9728,13 +10935,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -9760,12 +10974,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          806.0
-        ],
-        "lvl2": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 806.0
+        },
+        "lvl2": {
+          "BASE": 895.0
+        }
       }
     },
     "MinHp": 16,
@@ -9797,13 +11011,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -9829,12 +11050,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          806.0
-        ],
-        "lvl2": [
-          806.0
-        ]
+        "lvl1": {
+          "BASE": 806.0
+        },
+        "lvl2": {
+          "BASE": 806.0
+        }
       }
     },
     "MinHp": 16,
@@ -9866,13 +11087,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -9898,12 +11126,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          806.0
-        ],
-        "lvl2": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 806.0
+        },
+        "lvl2": {
+          "BASE": 895.0
+        }
       }
     },
     "MinHp": 16,
@@ -9935,13 +11163,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -10046,6 +11281,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -10072,6 +11313,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blinded Punisher",
+        "ability_value": 10
       }
     },
     "abilities21": 0
@@ -10099,12 +11346,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          886.0
-        ],
-        "lvl2": [
-          984.0
-        ]
+        "lvl1": {
+          "BASE": 886.0
+        },
+        "lvl2": {
+          "BASE": 984.0
+        }
       }
     },
     "MinHp": 26,
@@ -10136,13 +11383,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Flame) Dragon Delay Res",
       "details": "If the user is attuned to Flame: completely prevents dragon delaying.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -10167,6 +11421,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -10176,7 +11436,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -10201,6 +11462,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -10212,7 +11479,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 8
+      "STR": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Strength",
+        "ability_value": 8
+      }
     },
     "req": "Flame",
     "incSTR": 8
@@ -10270,13 +11543,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Water) Dull Res",
       "details": "If the user is attuned to Water: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -10301,6 +11581,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -10312,7 +11598,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -10340,12 +11632,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          886.0
-        ],
-        "lvl2": [
-          984.0
-        ]
+        "lvl1": {
+          "BASE": 886.0
+        },
+        "lvl2": {
+          "BASE": 984.0
+        }
       }
     },
     "MinHp": 26,
@@ -10377,13 +11669,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Wind) Copy Punisher",
       "details": "If the user is attuned to Wind: increases damage to copies created by Propagation by '''20x'''.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -10408,6 +11707,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -10417,6 +11722,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -10473,13 +11784,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Thaumian's Bane",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Light) Copy Punisher",
       "details": "If the user is attuned to Light:  increases damage to copies created by Propagation.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -10505,12 +11823,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          886.0
-        ],
-        "lvl2": [
-          984.0
-        ]
+        "lvl1": {
+          "BASE": 886.0
+        },
+        "lvl2": {
+          "BASE": 984.0
+        }
       }
     },
     "MinHp": 26,
@@ -10542,13 +11860,20 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Blinded Punisher",
+        "ability_value": 15
       }
     },
     "abilities21": {
       "name": "(Shadow) Dull Res",
       "details": "If the user is attuned to Shadow: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     }
   },
   {
@@ -10653,6 +11978,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities21": 0
@@ -10679,6 +12010,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -10736,6 +12073,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -10745,7 +12088,8 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
-      }
+      },
+      "values": {}
     }
   },
   {
@@ -10771,12 +12115,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          976.0
-        ],
-        "lvl2": [
-          1084.0
-        ]
+        "lvl1": {
+          "BASE": 976.0
+        },
+        "lvl2": {
+          "BASE": 1084.0
+        }
       }
     },
     "MinHp": 40,
@@ -10808,6 +12152,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities21": {
@@ -10819,7 +12169,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 5
+      "STR": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Strength",
+        "ability_value": 5
+      }
     },
     "req": "Water",
     "incSTR": 5
@@ -10877,6 +12233,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -10886,6 +12248,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Broken Punisher",
+        "ability_value": 15
       }
     }
   },
@@ -10912,12 +12280,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          976.0
-        ],
-        "lvl2": [
-          1084.0
-        ]
+        "lvl1": {
+          "BASE": 976.0
+        },
+        "lvl2": {
+          "BASE": 1084.0
+        }
       }
     },
     "MinHp": 40,
@@ -11061,12 +12429,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          562.0
-        ],
-        "lvl2": [
-          624.0
-        ]
+        "lvl1": {
+          "BASE": 562.0
+        },
+        "lvl2": {
+          "BASE": 624.0
+        }
       }
     },
     "MinHp": 19,
@@ -11100,13 +12468,20 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 3
+      "def": 3,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 3
+      }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "req": "Flame",
     "incDef": 3
@@ -11134,12 +12509,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          562.0
-        ],
-        "lvl2": [
-          624.0
-        ]
+        "lvl1": {
+          "BASE": 562.0
+        },
+        "lvl2": {
+          "BASE": 624.0
+        }
       }
     },
     "MinHp": 19,
@@ -11173,13 +12548,20 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 3
+      "def": 3,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 3
+      }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "req": "Water",
     "incDef": 3
@@ -11239,7 +12621,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "def": 3
+      "def": 3,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 3
+      }
     },
     "abilities21": {
       "name": "(Wind) Recovery Potency +5%",
@@ -11248,6 +12636,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Recovery Potency",
+        "ability_value": 5
       }
     },
     "req": "Wind",
@@ -11339,13 +12733,20 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "def": 3
+      "def": 3,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 3
+      }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "req": "Light",
     "incDef": 3
@@ -11484,12 +12885,14 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 3
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 3
+      }
     },
-    "abilities21": 0,
-    "req": "",
-    "incDef": 3
+    "abilities21": 0
   },
   {
     "id": "308021_01_40101",
@@ -11546,13 +12949,20 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 5
+      "def": 5,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 5
+      }
     },
     "abilities21": {
       "name": "(Flame) Dull Res",
       "details": "If the user is attuned to Flame: completely prevents [[dull|dulling]].",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "req": "Flame",
     "incDef": 5
@@ -11579,6 +12989,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -11588,6 +13004,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 4
       }
     }
   },
@@ -11615,7 +13037,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -11624,6 +13052,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -11684,13 +13118,20 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 5
+      "def": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 5
+      }
     },
     "abilities21": {
       "name": "(Water) Scorching Air Res",
       "details": "If the user is attuned to Water:  completely nullifies damage from scorching air.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "req": "Water",
     "incDef": 5
@@ -11719,7 +13160,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 15
+      "def": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "(Water) Skill Haste +4%",
@@ -11728,6 +13175,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 4
       }
     },
     "req": "Water",
@@ -11786,6 +13239,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -11795,6 +13254,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Healing",
+        "ability_value": 8
       }
     }
   },
@@ -11822,7 +13287,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "def": 5
+      "def": 5,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 5
+      }
     },
     "abilities21": {
       "name": "(Wind) Recovery Potency +5%",
@@ -11831,6 +13302,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Recovery Potency",
+        "ability_value": 5
       }
     },
     "req": "Wind",
@@ -11889,6 +13366,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -11898,6 +13381,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Recovery Potency",
+        "ability_value": 5
       }
     }
   },
@@ -11925,13 +13414,20 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "def": 5
+      "def": 5,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Defense",
+        "ability_value": 5
+      }
     },
     "abilities21": {
       "name": "(Light) Fury Penetrator",
       "details": "If the user is attuned to Light: ignores the effects of fury when attacking enemies.",
       "might": 50,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "req": "Light",
     "incDef": 5
@@ -12069,6 +13565,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities21": 0
@@ -12096,12 +13598,14 @@ const weapon =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
-    "abilities21": 0,
-    "req": "",
-    "incDef": 15
+    "abilities21": 0
   },
   {
     "id": "308031_01_50101",
@@ -12156,6 +13660,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -12165,6 +13675,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 4
       }
     }
   },
@@ -12192,7 +13708,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Flame) HP 70% = Critical Rate +5%",
@@ -12201,6 +13723,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Critical Rate",
+        "ability_value": 5
       }
     },
     "req": "Flame",
@@ -12261,7 +13789,13 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "def": 20
+      "def": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Full HP = Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "(Water) Skill Haste +4%",
@@ -12270,6 +13804,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Skill Haste",
+        "ability_value": 4
       }
     },
     "req": "Water",
@@ -12328,6 +13868,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -12337,6 +13883,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP 70% = Healing",
+        "ability_value": 8
       }
     }
   },
@@ -12363,12 +13915,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          680.0
-        ],
-        "lvl2": [
-          755.0
-        ]
+        "lvl1": {
+          "BASE": 680.0
+        },
+        "lvl2": {
+          "BASE": 755.0
+        }
       }
     },
     "MinHp": 49,
@@ -12400,6 +13952,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -12409,6 +13967,12 @@ const weapon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Recovery Potency",
+        "ability_value": 5
       }
     }
   },
@@ -12435,12 +13999,12 @@ const weapon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          680.0
-        ],
-        "lvl2": [
-          755.0
-        ]
+        "lvl1": {
+          "BASE": 680.0
+        },
+        "lvl2": {
+          "BASE": 755.0
+        }
       }
     },
     "MinHp": 49,

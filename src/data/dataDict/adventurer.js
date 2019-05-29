@@ -38,6 +38,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon's Claws",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -47,6 +53,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon's Claws",
+        "ability_value": 2
       }
     },
     "abilities21": {
@@ -56,6 +68,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -65,6 +83,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -74,6 +98,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Player EXP",
+        "ability_value": 10
       }
     },
     "abilities32": {
@@ -83,6 +113,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Player EXP",
+        "ability_value": 15
       }
     },
     "skill1": {
@@ -98,12 +134,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          676.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        }
       }
     },
     "skill2": {
@@ -119,12 +155,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          638.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 638.0
+        }
       }
     }
   },
@@ -166,6 +202,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -175,6 +217,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -184,6 +232,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -193,6 +247,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -202,6 +262,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -231,12 +297,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          679.0
-        ],
-        "lvl2": [
-          754.0
-        ]
+        "lvl1": {
+          "BASE": 679.0
+        },
+        "lvl2": {
+          "BASE": 754.0
+        }
       }
     }
   },
@@ -278,6 +344,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -287,6 +359,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -296,6 +374,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -305,6 +389,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -314,6 +404,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Accelerator",
+        "ability_value": 30
       }
     },
     "abilities32": {
@@ -323,6 +419,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Accelerator",
+        "ability_value": 35
       }
     },
     "skill1": {
@@ -338,21 +440,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          651.0,
-          651.0,
-          651.0
-        ],
-        "lvl2": [
-          728.0,
-          728.0,
-          728.0
-        ],
-        "lvl3": [
-          805.0,
-          805.0,
-          805.0
-        ]
+        "lvl1": {
+          "BASE": 651.0
+        },
+        "lvl2": {
+          "BASE": 728.0
+        },
+        "lvl3": {
+          "BASE": 805.0
+        }
       }
     },
     "skill2": {
@@ -368,12 +464,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          750.0
-        ],
-        "lvl2": [
-          830.0
-        ]
+        "lvl1": {
+          "BASE": 750.0
+        },
+        "lvl2": {
+          "BASE": 830.0
+        }
       }
     }
   },
@@ -415,6 +511,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -424,6 +526,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 5
       }
     },
     "abilities21": {
@@ -433,6 +541,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -442,6 +556,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -451,6 +571,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -466,15 +592,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          924.0
-        ],
-        "lvl2": [
-          1028.0
-        ],
-        "lvl3": [
-          1140.0
-        ]
+        "lvl1": {
+          "BASE": 924.0
+        },
+        "lvl2": {
+          "BASE": 1028.0
+        },
+        "lvl3": {
+          "BASE": 1140.0
+        }
       }
     },
     "skill2": {
@@ -527,25 +653,49 @@ const adventurer =
       "name": "Experience's Boon I",
       "details": "Grants the user an Attack Gauge and a Burst Gauge. The Attack Gauge fills when regular attacks connect with enemies, while the Burst Gauge is filled when force strikes successfully connect. &lt;br&gt;\nThe user's defense is increased by '''5%''' for 1 completely filled gauge and '''10%''' if both gauges are completely filled. &lt;br&gt;\nAny filled gauges are consumed when using the [[Cyclone Blade]] skill, increasing its power by '''15%''' for 1 completely filled gauge and '''50%''' if both gauges are completely filled.",
       "might": 80,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Experience's Boon",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "Experience's Boon II",
       "details": "Grants the user an Attack Gauge and a Burst Gauge. The Attack Gauge fills when regular attacks connect with enemies, while the Burst Gauge is filled when force strikes successfully connect.  &lt;br&gt;\nThe user's defense is increased by '''8%''' for 1 completely filled gauge and '''15%''' if both gauges are completely filled. &lt;br&gt;\nAny filled gauges are consumed when using the [[Cyclone Blade]] skill, increasing its power by '''20%''' for 1 completely filled gauge and '''80%''' if both gauges are completely filled.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Experience's Boon",
+        "ability_value": 2
+      }
     },
     "abilities21": {
       "name": "Relentless Spirit I",
       "details": "Reduces susceptibility to freeze and bog by '''50%'''.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Relentless Spirit",
+        "ability_value": 1
+      }
     },
     "abilities22": {
       "name": "Relentless Spirit II",
       "details": "Reduces susceptibility to freeze and bog by '''100%'''.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Relentless Spirit",
+        "ability_value": 2
+      }
     },
     "abilities31": {
       "name": "Skill Damage +25%",
@@ -554,6 +704,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -563,6 +719,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -578,15 +740,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          672.0
-        ],
-        "lvl2": [
-          744.0
-        ],
-        "lvl3": [
-          828.0
-        ]
+        "lvl1": {
+          "BASE": 672.0
+        },
+        "lvl2": {
+          "BASE": 744.0
+        },
+        "lvl3": {
+          "BASE": 828.0
+        }
       }
     },
     "skill2": {
@@ -642,6 +804,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -651,6 +819,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities21": {
@@ -660,6 +834,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -669,6 +849,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -679,8 +865,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 8
+      }
     },
     "skill1": {
       "name": "Elder Cure",
@@ -709,9 +899,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "defLV1": 45,
-    "incDef1": 8
+    }
   },
   "100004_02": {
     "id": "100004_02",
@@ -752,8 +940,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "HP 70% = Strength +13%",
@@ -763,8 +955,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "Stun Res +50%",
@@ -773,6 +969,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -782,19 +984,27 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
       "name": "35 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 35-hit combo.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "abilities32": {
       "name": "30 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 30-hit combo.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "skill1": {
       "name": "Starlit Gift",
@@ -809,21 +1019,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          660.0,
-          660.0,
-          660.0
-        ],
-        "lvl2": [
-          693.0,
-          693.0,
-          693.0
-        ],
-        "lvl3": [
-          737.0,
-          737.0,
-          737.0
-        ]
+        "lvl1": {
+          "BASE": 660.0
+        },
+        "lvl2": {
+          "BASE": 693.0
+        },
+        "lvl3": {
+          "BASE": 737.0
+        }
       }
     },
     "skill2": {
@@ -839,18 +1043,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          665.0
-        ],
-        "lvl2": [
-          740.0
-        ]
+        "lvl1": {
+          "BASE": 665.0
+        },
+        "lvl2": {
+          "BASE": 740.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 10,
-    "incSTR2": 13
+    }
   },
   "100005_01": {
     "id": "100005_01",
@@ -890,6 +1090,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -899,6 +1105,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities21": {
@@ -908,6 +1120,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -917,6 +1135,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -926,6 +1150,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "skill1": {
@@ -941,15 +1171,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          604.0
-        ],
-        "lvl2": [
-          636.0
-        ],
-        "lvl3": [
-          664.0
-        ]
+        "lvl1": {
+          "BASE": 604.0
+        },
+        "lvl2": {
+          "BASE": 636.0
+        },
+        "lvl3": {
+          "BASE": 664.0
+        }
       }
     },
     "skill2": {
@@ -965,12 +1195,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          1635.0
-        ],
-        "lvl2": [
-          1812.0
-        ]
+        "lvl1": {
+          "BASE": 1635.0
+        },
+        "lvl2": {
+          "BASE": 1812.0
+        }
       }
     }
   },
@@ -1013,8 +1243,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +13%",
@@ -1024,8 +1258,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "Curse Res +25%",
@@ -1034,6 +1272,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1043,6 +1287,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -1052,6 +1302,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -1067,15 +1323,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          734.0
-        ],
-        "lvl3": [
-          771.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 734.0
+        },
+        "lvl3": {
+          "BASE": 771.0
+        }
       }
     },
     "skill2": {
@@ -1091,18 +1347,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          777.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 777.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 10,
-    "incSTR2": 13
+    }
   },
   "100010_04": {
     "id": "100010_04",
@@ -1139,25 +1391,49 @@ const adventurer =
       "name": "Flamewyrm's Nature I",
       "details": "Reduces susceptibility to burning by '''100%'''. When shapeshifting for the first time, [[Gala Mym|Mym]] will transform into [[Brunhilda]] regardless of what dragon she is equipped with, and her strength will increase by '''15%''' for the remainder of the quest. The second time onwards, she will transform into [[High Brunhilda]] instead, and her attack rate while shapeshifted will increase by '''15%'''.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flamewyrm's Nature",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "Flamewyrm's Nature II",
       "details": "Reduces susceptibility to burning by '''100%'''. When shapeshifting for the first time, [[Gala Mym|Mym]] will transform into [[Brunhilda]] regardless of what dragon she is equipped with, her strength will increase by '''15%''' for the remainder of the quest, and the skill [[Flames of Passion]] will be powered up for the remainder of the quest. The second time onwards, she will transform into [[High Brunhilda]] instead, and her attack rate while shapeshifted will increase by '''15%'''.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flamewyrm's Nature",
+        "ability_value": 2
+      }
     },
     "abilities21": {
       "name": "Flamewyrm's Defiance I",
       "details": "Reduces susceptibility to stun by '''50%'''. When [[Gala Mym|Mym]] is hit by an attack that would have stunned her, the skill gauge for the [[Dragon Claw]] skill fills by '''25%'''. After activating, this gauge-filling effect will not activate again for 15 seconds.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flamewyrm's Defiance",
+        "ability_value": 1
+      }
     },
     "abilities22": {
       "name": "Flamewyrm's Defiance II",
       "details": "Reduces susceptibility to stun by '''100%'''. When [[Gala Mym|Mym]] is hit by an attack that would have stunned her, the skill gauge for the [[Dragon Claw]] skill fills by '''50%'''. After activating, this gauge-filling effect will not activate again for 15 seconds.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flamewyrm's Defiance",
+        "ability_value": 2
+      }
     },
     "abilities31": {
       "name": "Dragon Time +15%",
@@ -1166,6 +1442,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 15
       }
     },
     "abilities32": {
@@ -1175,6 +1457,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -1241,25 +1529,49 @@ const adventurer =
       "name": "Sylvan Strength I",
       "details": "Increases the user's strength by '''2%''' and critical rate by '''1%''' for 15 seconds for every 25-hit combo.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sylvan Strength",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "Sylvan Strength II",
       "details": "Increases the user's strength by '''2%''' and critical rate by '''1%''' for 15 seconds for every 20-hit combo.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sylvan Strength",
+        "ability_value": 2
+      }
     },
     "abilities21": {
       "name": "Woodland Blessing I",
       "details": "Reduces susceptibility to stun and sleep by '''50%'''.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Woodland Blessing",
+        "ability_value": 1
+      }
     },
     "abilities22": {
       "name": "Woodland Blessing II",
       "details": "Reduces susceptibility to stun and sleep by '''100%'''.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Woodland Blessing",
+        "ability_value": 2
+      }
     },
     "abilities31": {
       "name": "Buff Time +25%",
@@ -1268,6 +1580,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -1277,6 +1595,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -1292,12 +1616,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          769.0
-        ],
-        "lvl2": [
-          854.0
-        ]
+        "lvl1": {
+          "BASE": 769.0
+        },
+        "lvl2": {
+          "BASE": 854.0
+        }
       }
     },
     "skill2": {
@@ -1353,6 +1677,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -1362,6 +1692,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -1371,6 +1707,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1380,6 +1722,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -1389,6 +1737,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -1404,15 +1758,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          618.0
-        ],
-        "lvl2": [
-          687.0
-        ],
-        "lvl3": [
-          762.0
-        ]
+        "lvl1": {
+          "BASE": 618.0
+        },
+        "lvl2": {
+          "BASE": 687.0
+        },
+        "lvl3": {
+          "BASE": 762.0
+        }
       }
     },
     "skill2": {
@@ -1428,12 +1782,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          618.0
-        ],
-        "lvl2": [
-          686.0
-        ]
+        "lvl1": {
+          "BASE": 618.0
+        },
+        "lvl2": {
+          "BASE": 686.0
+        }
       }
     }
   },
@@ -1475,6 +1829,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -1484,6 +1844,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -1493,6 +1859,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1502,6 +1874,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -1511,6 +1889,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -1526,15 +1910,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          711.0
-        ],
-        "lvl2": [
-          790.0
-        ],
-        "lvl3": [
-          878.0
-        ]
+        "lvl1": {
+          "BASE": 711.0
+        },
+        "lvl2": {
+          "BASE": 790.0
+        },
+        "lvl3": {
+          "BASE": 878.0
+        }
       }
     },
     "skill2": {
@@ -1550,12 +1934,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          711.0
-        ],
-        "lvl2": [
-          790.0
-        ]
+        "lvl1": {
+          "BASE": 711.0
+        },
+        "lvl2": {
+          "BASE": 790.0
+        }
       }
     }
   },
@@ -1597,6 +1981,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Burn",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -1606,6 +1996,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Burn",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -1615,6 +2011,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1624,6 +2026,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -1633,6 +2041,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -1648,15 +2062,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          636.0
-        ],
-        "lvl2": [
-          705.0
-        ],
-        "lvl3": [
-          786.0
-        ]
+        "lvl1": {
+          "BASE": 636.0
+        },
+        "lvl2": {
+          "BASE": 705.0
+        },
+        "lvl3": {
+          "BASE": 786.0
+        }
       }
     },
     "skill2": {
@@ -1672,12 +2086,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          635.0
-        ],
-        "lvl2": [
-          667.0
-        ]
+        "lvl1": {
+          "BASE": 635.0
+        },
+        "lvl2": {
+          "BASE": 667.0
+        }
       }
     }
   },
@@ -1719,6 +2133,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -1728,6 +2148,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -1737,6 +2163,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1746,6 +2178,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -1755,6 +2193,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -1770,15 +2214,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          725.0
-        ],
-        "lvl2": [
-          805.0
-        ],
-        "lvl3": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 725.0
+        },
+        "lvl2": {
+          "BASE": 805.0
+        },
+        "lvl3": {
+          "BASE": 895.0
+        }
       }
     },
     "skill2": {
@@ -1794,12 +2238,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          725.0
-        ],
-        "lvl2": [
-          805.0
-        ]
+        "lvl1": {
+          "BASE": 725.0
+        },
+        "lvl2": {
+          "BASE": 805.0
+        }
       }
     }
   },
@@ -1841,6 +2285,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -1850,6 +2300,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -1859,6 +2315,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1868,6 +2330,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -1877,6 +2345,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -1892,15 +2366,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          549.0
-        ],
-        "lvl2": [
-          609.0
-        ],
-        "lvl3": [
-          678.0
-        ]
+        "lvl1": {
+          "BASE": 549.0
+        },
+        "lvl2": {
+          "BASE": 609.0
+        },
+        "lvl3": {
+          "BASE": 678.0
+        }
       }
     },
     "skill2": {
@@ -1916,12 +2390,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          550.0
-        ],
-        "lvl2": [
-          576.0
-        ]
+        "lvl1": {
+          "BASE": 550.0
+        },
+        "lvl2": {
+          "BASE": 576.0
+        }
       }
     }
   },
@@ -1963,6 +2437,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -1972,6 +2452,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -1981,6 +2467,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -1990,6 +2482,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -1999,6 +2497,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -2028,12 +2532,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          506.0
-        ],
-        "lvl2": [
-          562.0
-        ]
+        "lvl1": {
+          "BASE": 506.0
+        },
+        "lvl2": {
+          "BASE": 562.0
+        }
       }
     }
   },
@@ -2075,6 +2579,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -2084,6 +2594,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -2093,6 +2609,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -2102,6 +2624,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -2111,6 +2639,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -2126,15 +2660,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          924.0
-        ],
-        "lvl2": [
-          1026.0
-        ],
-        "lvl3": [
-          1140.0
-        ]
+        "lvl1": {
+          "BASE": 924.0
+        },
+        "lvl2": {
+          "BASE": 1026.0
+        },
+        "lvl3": {
+          "BASE": 1140.0
+        }
       }
     },
     "skill2": {
@@ -2150,12 +2684,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          924.0
-        ],
-        "lvl2": [
-          970.0
-        ]
+        "lvl1": {
+          "BASE": 924.0
+        },
+        "lvl2": {
+          "BASE": 970.0
+        }
       }
     }
   },
@@ -2197,6 +2731,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -2206,6 +2746,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 5
       }
     },
     "abilities21": {
@@ -2215,6 +2761,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -2224,6 +2776,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -2234,8 +2792,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "skill1": {
       "name": "Vanquishing Flame",
@@ -2250,15 +2812,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          676.0
-        ],
-        "lvl3": [
-          750.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        },
+        "lvl3": {
+          "BASE": 750.0
+        }
       }
     },
     "skill2": {
@@ -2274,9 +2836,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "STRLV1": 45,
-    "incSTR1": 8
+    }
   },
   "110009_01": {
     "id": "110009_01",
@@ -2317,8 +2877,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +13%",
@@ -2328,8 +2892,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities21": {
       "name": "Sleep Res +50%",
@@ -2338,6 +2906,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -2347,6 +2921,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -2356,6 +2936,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -2385,18 +2971,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          798.0
-        ],
-        "lvl2": [
-          886.0
-        ]
+        "lvl1": {
+          "BASE": 798.0
+        },
+        "lvl2": {
+          "BASE": 886.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 10,
-    "incSTR2": 13
+    }
   },
   "110010_01": {
     "id": "110010_01",
@@ -2436,6 +3018,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -2445,6 +3033,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -2454,6 +3048,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -2463,6 +3063,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -2472,6 +3078,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 6
       }
     },
     "abilities32": {
@@ -2481,6 +3093,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Rate",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -2496,21 +3114,21 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          862.0,
-          861.0,
-          864.0
-        ],
-        "lvl2": [
-          958.0,
-          957.0,
-          959.0
-        ],
-        "lvl3": [
-          1064.0,
-          1062.0,
-          1064.0
-        ]
+        "lvl1": {
+          "BASE": 862.0,
+          "Ravenous Fire (Flare)": 861.0,
+          "Ravenous Fire (Ruin)": 864.0
+        },
+        "lvl2": {
+          "BASE": 958.0,
+          "Ravenous Fire (Flare)": 957.0,
+          "Ravenous Fire (Ruin)": 959.0
+        },
+        "lvl3": {
+          "BASE": 1064.0,
+          "Ravenous Fire (Flare)": 1062.0,
+          "Ravenous Fire (Ruin)": 1064.0
+        }
       }
     },
     "skill2": {
@@ -2566,6 +3184,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Debilitator",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -2575,6 +3199,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Debilitator",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -2584,6 +3214,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -2593,6 +3229,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -2602,6 +3244,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -2611,6 +3259,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -2626,15 +3280,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          663.0
-        ],
-        "lvl2": [
-          735.0
-        ],
-        "lvl3": [
-          820.0
-        ]
+        "lvl1": {
+          "BASE": 663.0
+        },
+        "lvl2": {
+          "BASE": 735.0
+        },
+        "lvl3": {
+          "BASE": 820.0
+        }
       }
     },
     "skill2": {
@@ -2687,13 +3341,15 @@ const adventurer =
       "name": "40 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 40-hit combo.",
       "might": 60,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "abilities12": {
       "name": "35 Hits = Energy Level Up",
       "details": "Increases the user's energy level by '''one''' stage for every 35-hit combo.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {}
     },
     "abilities21": {
       "name": "Stun Res +50%",
@@ -2702,6 +3358,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -2711,6 +3373,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -2720,6 +3388,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -2735,15 +3409,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          696.0
-        ],
-        "lvl2": [
-          728.0
-        ],
-        "lvl3": [
-          768.0
-        ]
+        "lvl1": {
+          "BASE": 696.0
+        },
+        "lvl2": {
+          "BASE": 728.0
+        },
+        "lvl3": {
+          "BASE": 768.0
+        }
       }
     },
     "skill2": {
@@ -2759,12 +3433,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          716.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 716.0
+        }
       }
     }
   },
@@ -2806,6 +3480,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Inhibitor",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -2815,6 +3495,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Inhibitor",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -2824,6 +3510,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -2833,6 +3525,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -2842,6 +3540,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -2857,15 +3561,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          839.0
-        ],
-        "lvl2": [
-          933.0
-        ],
-        "lvl3": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 839.0
+        },
+        "lvl2": {
+          "BASE": 933.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
+        }
       }
     },
     "skill2": {
@@ -2881,12 +3585,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          839.0
-        ],
-        "lvl2": [
-          933.0
-        ]
+        "lvl1": {
+          "BASE": 839.0
+        },
+        "lvl2": {
+          "BASE": 933.0
+        }
       }
     }
   },
@@ -2928,6 +3632,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Bog",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -2937,6 +3647,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Bog",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -2946,6 +3662,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -2955,6 +3677,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -2964,6 +3692,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -2979,15 +3713,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          636.0
-        ],
-        "lvl2": [
-          705.0
-        ],
-        "lvl3": [
-          786.0
-        ]
+        "lvl1": {
+          "BASE": 636.0
+        },
+        "lvl2": {
+          "BASE": 705.0
+        },
+        "lvl3": {
+          "BASE": 786.0
+        }
       }
     },
     "skill2": {
@@ -3003,12 +3737,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          635.0
-        ],
-        "lvl2": [
-          667.0
-        ]
+        "lvl1": {
+          "BASE": 635.0
+        },
+        "lvl2": {
+          "BASE": 667.0
+        }
       }
     }
   },
@@ -3050,6 +3784,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -3059,6 +3799,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 2
       }
     },
     "abilities21": {
@@ -3068,6 +3814,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -3077,6 +3829,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -3086,6 +3844,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -3115,12 +3879,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          618.0
-        ],
-        "lvl2": [
-          686.0
-        ]
+        "lvl1": {
+          "BASE": 618.0
+        },
+        "lvl2": {
+          "BASE": 686.0
+        }
       }
     }
   },
@@ -3163,8 +3927,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +10%",
@@ -3174,8 +3942,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Burn Res +25%",
@@ -3184,6 +3956,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -3193,6 +3971,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -3202,6 +3986,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -3217,15 +4007,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          614.0
-        ],
-        "lvl3": [
-          682.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 614.0
+        },
+        "lvl3": {
+          "BASE": 682.0
+        }
       }
     },
     "skill2": {
@@ -3241,18 +4031,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          614.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 614.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 8,
-    "incSTR2": 10
+    }
   },
   "110015_02": {
     "id": "110015_02",
@@ -3292,6 +4078,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 2
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Energy",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -3301,6 +4093,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 2
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Energy",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -3310,6 +4108,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -3319,6 +4123,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -3328,6 +4138,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities32": {
@@ -3337,6 +4153,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "skill1": {
@@ -3352,15 +4174,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          861.0
-        ],
-        "lvl2": [
-          903.0
-        ],
-        "lvl3": [
-          948.0
-        ]
+        "lvl1": {
+          "BASE": 861.0
+        },
+        "lvl2": {
+          "BASE": 903.0
+        },
+        "lvl3": {
+          "BASE": 948.0
+        }
       }
     },
     "skill2": {
@@ -3416,6 +4238,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -3425,6 +4253,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -3434,6 +4268,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -3443,6 +4283,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -3452,6 +4298,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -3467,15 +4319,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          711.0
-        ],
-        "lvl2": [
-          790.0
-        ],
-        "lvl3": [
-          878.0
-        ]
+        "lvl1": {
+          "BASE": 711.0
+        },
+        "lvl2": {
+          "BASE": 790.0
+        },
+        "lvl3": {
+          "BASE": 878.0
+        }
       }
     },
     "skill2": {
@@ -3532,8 +4384,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "Full HP = Defense +20%",
@@ -3543,8 +4399,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 20
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "Stun Res +25%",
@@ -3553,6 +4413,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -3562,6 +4428,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -3571,6 +4443,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -3600,11 +4478,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "defLV1": 10,
-    "defLV2": 30,
-    "incDef1": 15,
-    "incDef2": 20
+    }
   },
   "110018_01": {
     "id": "110018_01",
@@ -3644,6 +4518,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -3653,6 +4533,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -3662,6 +4548,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -3671,6 +4563,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -3680,6 +4578,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -3695,15 +4599,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          880.0
-        ],
-        "lvl2": [
-          978.0
-        ],
-        "lvl3": [
-          1086.0
-        ]
+        "lvl1": {
+          "BASE": 880.0
+        },
+        "lvl2": {
+          "BASE": 978.0
+        },
+        "lvl3": {
+          "BASE": 1086.0
+        }
       }
     },
     "skill2": {
@@ -3719,12 +4623,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          924.0
-        ],
-        "lvl2": [
-          1028.0
-        ]
+        "lvl1": {
+          "BASE": 924.0
+        },
+        "lvl2": {
+          "BASE": 1028.0
+        }
       }
     }
   },
@@ -3766,6 +4670,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Inhibitor",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -3775,6 +4685,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Inhibitor",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -3784,6 +4700,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -3793,6 +4715,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -3802,6 +4730,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -3871,6 +4805,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -3880,6 +4820,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -3889,6 +4835,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -3898,6 +4850,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -3907,6 +4865,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 4
       }
     },
     "skill1": {
@@ -3922,15 +4886,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          604.0
-        ],
-        "lvl2": [
-          668.0
-        ],
-        "lvl3": [
-          744.0
-        ]
+        "lvl1": {
+          "BASE": 604.0
+        },
+        "lvl2": {
+          "BASE": 668.0
+        },
+        "lvl3": {
+          "BASE": 744.0
+        }
       }
     },
     "skill2": {
@@ -3946,12 +4910,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          548.0
-        ],
-        "lvl2": [
-          576.0
-        ]
+        "lvl1": {
+          "BASE": 548.0
+        },
+        "lvl2": {
+          "BASE": 576.0
+        }
       }
     }
   },
@@ -3993,6 +4957,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon's Claws",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -4002,6 +4972,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon's Claws",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -4011,6 +4987,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -4020,6 +5002,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -4029,6 +5017,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 15
       }
     },
     "abilities32": {
@@ -4038,6 +5032,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -4053,15 +5053,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 4.0,
       "modifier": {
-        "lvl1": [
-          744.0
-        ],
-        "lvl2": [
-          828.0
-        ],
-        "lvl3": [
-          920.0
-        ]
+        "lvl1": {
+          "BASE": 744.0
+        },
+        "lvl2": {
+          "BASE": 828.0
+        },
+        "lvl3": {
+          "BASE": 920.0
+        }
       }
     },
     "skill2": {
@@ -4117,6 +5117,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -4126,6 +5132,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 6
       }
     },
     "abilities21": {
@@ -4135,6 +5147,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -4144,6 +5162,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -4153,6 +5177,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities32": {
@@ -4162,6 +5192,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -4177,15 +5213,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          668.0
-        ],
-        "lvl2": [
-          743.0
-        ],
-        "lvl3": [
-          825.0
-        ]
+        "lvl1": {
+          "BASE": 668.0
+        },
+        "lvl2": {
+          "BASE": 743.0
+        },
+        "lvl3": {
+          "BASE": 825.0
+        }
       }
     },
     "skill2": {
@@ -4201,12 +5237,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          669.0
-        ],
-        "lvl2": [
-          744.0
-        ]
+        "lvl1": {
+          "BASE": 669.0
+        },
+        "lvl2": {
+          "BASE": 744.0
+        }
       }
     }
   },
@@ -4248,6 +5284,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 2
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Energy",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -4257,6 +5299,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 2
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Energy",
+        "ability_value": 2
       }
     },
     "abilities21": {
@@ -4266,6 +5314,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -4275,6 +5329,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -4284,6 +5344,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "skill1": {
@@ -4299,15 +5365,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          798.0
-        ],
-        "lvl2": [
-          836.0
-        ],
-        "lvl3": [
-          878.0
-        ]
+        "lvl1": {
+          "BASE": 798.0
+        },
+        "lvl2": {
+          "BASE": 836.0
+        },
+        "lvl3": {
+          "BASE": 878.0
+        }
       }
     },
     "skill2": {
@@ -4363,6 +5429,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -4372,6 +5444,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "abilities21": {
@@ -4381,6 +5459,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -4390,6 +5474,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -4399,6 +5489,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -4414,15 +5510,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          839.0
-        ],
-        "lvl2": [
-          933.0
-        ],
-        "lvl3": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 839.0
+        },
+        "lvl2": {
+          "BASE": 933.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
+        }
       }
     },
     "skill2": {
@@ -4438,12 +5534,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          840.0
-        ],
-        "lvl2": [
-          932.0
-        ]
+        "lvl1": {
+          "BASE": 840.0
+        },
+        "lvl2": {
+          "BASE": 932.0
+        }
       }
     }
   },
@@ -4485,6 +5581,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -4494,6 +5596,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -4503,6 +5611,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -4512,6 +5626,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -4521,6 +5641,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -4550,12 +5676,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          506.0
-        ],
-        "lvl2": [
-          562.0
-        ]
+        "lvl1": {
+          "BASE": 506.0
+        },
+        "lvl2": {
+          "BASE": 562.0
+        }
       }
     }
   },
@@ -4597,6 +5723,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -4606,6 +5738,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 2
       }
     },
     "abilities21": {
@@ -4615,6 +5753,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -4624,6 +5768,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -4633,6 +5783,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -4648,15 +5804,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          725.0
-        ],
-        "lvl2": [
-          805.0
-        ],
-        "lvl3": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 725.0
+        },
+        "lvl2": {
+          "BASE": 805.0
+        },
+        "lvl3": {
+          "BASE": 895.0
+        }
       }
     },
     "skill2": {
@@ -4672,12 +5828,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          725.0
-        ],
-        "lvl2": [
-          805.0
-        ]
+        "lvl1": {
+          "BASE": 725.0
+        },
+        "lvl2": {
+          "BASE": 805.0
+        }
       }
     }
   },
@@ -4719,6 +5875,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -4728,6 +5890,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -4737,6 +5905,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -4746,6 +5920,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -4755,6 +5935,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -4770,15 +5956,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          548.0
-        ],
-        "lvl2": [
-          608.0
-        ],
-        "lvl3": [
-          676.0
-        ]
+        "lvl1": {
+          "BASE": 548.0
+        },
+        "lvl2": {
+          "BASE": 608.0
+        },
+        "lvl3": {
+          "BASE": 676.0
+        }
       }
     },
     "skill2": {
@@ -4794,12 +5980,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          550.0
-        ],
-        "lvl2": [
-          576.0
-        ]
+        "lvl1": {
+          "BASE": 550.0
+        },
+        "lvl2": {
+          "BASE": 576.0
+        }
       }
     }
   },
@@ -4841,6 +6027,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Critical Rate",
+        "ability_value": 6
       }
     },
     "abilities12": {
@@ -4850,6 +6042,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Critical Rate",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -4859,6 +6057,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -4868,6 +6072,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -4877,6 +6087,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -4906,12 +6122,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          714.0
-        ],
-        "lvl2": [
-          792.0
-        ]
+        "lvl1": {
+          "BASE": 714.0
+        },
+        "lvl2": {
+          "BASE": 792.0
+        }
       }
     }
   },
@@ -4954,8 +6170,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +10%",
@@ -4965,8 +6185,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Paralysis Res +25%",
@@ -4975,6 +6199,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -4984,6 +6214,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -4993,6 +6229,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -5008,15 +6250,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          636.0
-        ],
-        "lvl2": [
-          705.0
-        ],
-        "lvl3": [
-          786.0
-        ]
+        "lvl1": {
+          "BASE": 636.0
+        },
+        "lvl2": {
+          "BASE": 705.0
+        },
+        "lvl3": {
+          "BASE": 786.0
+        }
       }
     },
     "skill2": {
@@ -5032,18 +6274,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          635.0
-        ],
-        "lvl2": [
-          667.0
-        ]
+        "lvl1": {
+          "BASE": 635.0
+        },
+        "lvl2": {
+          "BASE": 667.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 8,
-    "incSTR2": 10
+    }
   },
   "110029_01": {
     "id": "110029_01",
@@ -5083,6 +6321,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -5092,6 +6336,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -5101,6 +6351,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -5110,6 +6366,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -5119,6 +6381,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 4
       }
     },
     "skill1": {
@@ -5134,15 +6402,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          679.0
-        ],
-        "lvl2": [
-          754.0
-        ],
-        "lvl3": [
-          838.0
-        ]
+        "lvl1": {
+          "BASE": 679.0
+        },
+        "lvl2": {
+          "BASE": 754.0
+        },
+        "lvl3": {
+          "BASE": 838.0
+        }
       }
     },
     "skill2": {
@@ -5198,6 +6466,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -5207,6 +6481,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -5216,6 +6496,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -5225,6 +6511,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -5234,6 +6526,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -5249,15 +6547,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          782.0
-        ],
-        "lvl2": [
-          822.0
-        ],
-        "lvl3": [
-          864.0
-        ]
+        "lvl1": {
+          "BASE": 782.0
+        },
+        "lvl2": {
+          "BASE": 822.0
+        },
+        "lvl3": {
+          "BASE": 864.0
+        }
       }
     },
     "skill2": {
@@ -5313,6 +6611,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Poison",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -5322,6 +6626,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Poison",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -5331,6 +6641,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -5340,6 +6656,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -5349,6 +6671,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -5364,15 +6692,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          734.0
-        ],
-        "lvl3": [
-          771.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 734.0
+        },
+        "lvl3": {
+          "BASE": 771.0
+        }
       }
     },
     "skill2": {
@@ -5388,12 +6716,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          734.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 734.0
+        }
       }
     }
   },
@@ -5435,6 +6763,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities12": {
@@ -5444,6 +6778,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -5453,6 +6793,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -5462,6 +6808,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -5471,6 +6823,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities32": {
@@ -5480,6 +6838,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "skill1": {
@@ -5495,15 +6859,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          876.0
-        ],
-        "lvl2": [
-          924.0
-        ],
-        "lvl3": [
-          966.0
-        ]
+        "lvl1": {
+          "BASE": 876.0
+        },
+        "lvl2": {
+          "BASE": 924.0
+        },
+        "lvl3": {
+          "BASE": 966.0
+        }
       }
     },
     "skill2": {
@@ -5519,12 +6883,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          876.0
-        ],
-        "lvl2": [
-          976.0
-        ]
+        "lvl1": {
+          "BASE": 876.0
+        },
+        "lvl2": {
+          "BASE": 976.0
+        }
       }
     }
   },
@@ -5567,8 +6931,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 5
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "HP 70% = Defense +8%",
@@ -5578,8 +6946,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 8
+      }
     },
     "abilities21": {
       "name": "Curse Res +25%",
@@ -5588,6 +6960,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -5597,6 +6975,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -5606,6 +6990,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -5621,15 +7011,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          839.0
-        ],
-        "lvl2": [
-          933.0
-        ],
-        "lvl3": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 839.0
+        },
+        "lvl2": {
+          "BASE": 933.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
+        }
       }
     },
     "skill2": {
@@ -5645,18 +7035,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          840.0
-        ],
-        "lvl2": [
-          932.0
-        ]
+        "lvl1": {
+          "BASE": 840.0
+        },
+        "lvl2": {
+          "BASE": 932.0
+        }
       }
-    },
-    "defLV1": 10,
-    "defLV2": 30,
-    "incDef1": 5,
-    "incDef2": 8
+    }
   },
   "110034_01": {
     "id": "110034_01",
@@ -5697,8 +7083,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "Full HP = Defense +20%",
@@ -5708,8 +7098,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 20
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Defense",
+        "ability_value": 20
+      }
     },
     "abilities21": {
       "name": "Poison Res +25%",
@@ -5718,6 +7112,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -5727,6 +7127,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -5736,6 +7142,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -5751,15 +7163,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          618.0
-        ],
-        "lvl2": [
-          686.0
-        ],
-        "lvl3": [
-          762.0
-        ]
+        "lvl1": {
+          "BASE": 618.0
+        },
+        "lvl2": {
+          "BASE": 686.0
+        },
+        "lvl3": {
+          "BASE": 762.0
+        }
       }
     },
     "skill2": {
@@ -5775,11 +7187,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "defLV1": 10,
-    "defLV2": 30,
-    "incDef1": 15,
-    "incDef2": 20
+    }
   },
   "110035_01": {
     "id": "110035_01",
@@ -5819,6 +7227,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -5828,6 +7242,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -5837,6 +7257,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -5846,6 +7272,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -5855,6 +7287,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -5870,15 +7308,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          580.0
-        ],
-        "lvl3": [
-          610.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 580.0
+        },
+        "lvl3": {
+          "BASE": 610.0
+        }
       }
     },
     "skill2": {
@@ -5894,12 +7332,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          614.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 614.0
+        }
       }
     }
   },
@@ -5941,6 +7379,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -5950,6 +7394,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -5959,6 +7409,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -5968,6 +7424,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -5977,6 +7439,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -5992,12 +7460,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          636.0
-        ],
-        "lvl2": [
-          705.0
-        ]
+        "lvl1": {
+          "BASE": 636.0
+        },
+        "lvl2": {
+          "BASE": 705.0
+        }
       }
     },
     "skill2": {
@@ -6013,12 +7481,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          635.0
-        ],
-        "lvl2": [
-          667.0
-        ]
+        "lvl1": {
+          "BASE": 635.0
+        },
+        "lvl2": {
+          "BASE": 667.0
+        }
       }
     }
   },
@@ -6060,6 +7528,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -6069,6 +7543,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -6078,6 +7558,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -6087,6 +7573,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -6096,6 +7588,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -6111,15 +7609,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          549.0
-        ],
-        "lvl2": [
-          609.0
-        ],
-        "lvl3": [
-          678.0
-        ]
+        "lvl1": {
+          "BASE": 549.0
+        },
+        "lvl2": {
+          "BASE": 609.0
+        },
+        "lvl3": {
+          "BASE": 678.0
+        }
       }
     },
     "skill2": {
@@ -6135,12 +7633,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          550.0
-        ],
-        "lvl2": [
-          576.0
-        ]
+        "lvl1": {
+          "BASE": 550.0
+        },
+        "lvl2": {
+          "BASE": 576.0
+        }
       }
     }
   },
@@ -6182,6 +7680,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -6191,6 +7695,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -6200,6 +7710,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -6209,6 +7725,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -6218,6 +7740,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -6287,6 +7815,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 2
       }
     },
     "abilities12": {
@@ -6296,6 +7830,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 3
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Healing Doublebuff",
+        "ability_value": 3
       }
     },
     "abilities21": {
@@ -6305,6 +7845,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6314,6 +7860,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -6323,6 +7875,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -6352,12 +7910,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          680.0
-        ],
-        "lvl2": [
-          755.0
-        ]
+        "lvl1": {
+          "BASE": 680.0
+        },
+        "lvl2": {
+          "BASE": 755.0
+        }
       }
     }
   },
@@ -6399,6 +7957,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -6408,6 +7972,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Strength",
+        "ability_value": 5
       }
     },
     "abilities21": {
@@ -6417,6 +7987,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6426,6 +8002,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -6435,6 +8017,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stunned Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -6450,15 +8038,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          734.0
-        ],
-        "lvl3": [
-          771.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 734.0
+        },
+        "lvl3": {
+          "BASE": 771.0
+        }
       }
     },
     "skill2": {
@@ -6474,12 +8062,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          734.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 734.0
+        }
       }
     }
   },
@@ -6521,6 +8109,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -6530,6 +8124,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities21": {
@@ -6539,6 +8139,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6548,6 +8154,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -6557,6 +8169,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -6572,15 +8190,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          798.0
-        ],
-        "lvl2": [
-          886.0
-        ],
-        "lvl3": [
-          984.0
-        ]
+        "lvl1": {
+          "BASE": 798.0
+        },
+        "lvl2": {
+          "BASE": 886.0
+        },
+        "lvl3": {
+          "BASE": 984.0
+        }
       }
     },
     "skill2": {
@@ -6636,6 +8254,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -6645,6 +8269,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 6
       }
     },
     "abilities21": {
@@ -6654,6 +8284,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6663,6 +8299,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -6672,6 +8314,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 3
       }
     },
     "abilities32": {
@@ -6681,6 +8329,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 4
       }
     },
     "skill1": {
@@ -6696,15 +8350,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          1016.0
-        ],
-        "lvl2": [
-          1128.0
-        ],
-        "lvl3": [
-          1254.0
-        ]
+        "lvl1": {
+          "BASE": 1016.0
+        },
+        "lvl2": {
+          "BASE": 1128.0
+        },
+        "lvl3": {
+          "BASE": 1254.0
+        }
       }
     },
     "skill2": {
@@ -6760,6 +8414,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities12": {
@@ -6769,6 +8429,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "abilities21": {
@@ -6778,6 +8444,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6787,6 +8459,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -6796,6 +8474,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Healing",
+        "ability_value": 13
       }
     },
     "abilities32": {
@@ -6805,6 +8489,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Healing",
+        "ability_value": 15
       }
     },
     "skill1": {
@@ -6874,6 +8564,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Strength Debilitator",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -6883,6 +8579,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striking Strength Debilitator",
+        "ability_value": 2
       }
     },
     "abilities21": {
@@ -6892,6 +8594,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -6901,6 +8609,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -6910,6 +8624,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities32": {
@@ -6919,6 +8639,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "skill1": {
@@ -6988,6 +8714,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -6997,6 +8729,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -7006,6 +8744,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7015,6 +8759,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7024,6 +8774,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -7039,15 +8795,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          714.0
-        ],
-        "lvl2": [
-          792.0
-        ],
-        "lvl3": [
-          879.0
-        ]
+        "lvl1": {
+          "BASE": 714.0
+        },
+        "lvl2": {
+          "BASE": 792.0
+        },
+        "lvl3": {
+          "BASE": 879.0
+        }
       }
     },
     "skill2": {
@@ -7063,12 +8819,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          711.0
-        ],
-        "lvl2": [
-          790.0
-        ]
+        "lvl1": {
+          "BASE": 711.0
+        },
+        "lvl2": {
+          "BASE": 790.0
+        }
       }
     }
   },
@@ -7110,6 +8866,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -7119,6 +8881,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -7128,6 +8896,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7137,6 +8911,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7146,6 +8926,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -7161,15 +8947,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          840.0
-        ],
-        "lvl2": [
-          932.0
-        ],
-        "lvl3": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 840.0
+        },
+        "lvl2": {
+          "BASE": 932.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
+        }
       }
     },
     "skill2": {
@@ -7185,12 +8971,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          839.0
-        ],
-        "lvl2": [
-          933.0
-        ]
+        "lvl1": {
+          "BASE": 839.0
+        },
+        "lvl2": {
+          "BASE": 933.0
+        }
       }
     }
   },
@@ -7233,8 +9019,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 5
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "HP 70% = Strength +8%",
@@ -7244,8 +9034,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities21": {
       "name": "Paralysis Res +25%",
@@ -7254,6 +9048,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7263,6 +9063,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7272,6 +9078,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -7287,15 +9099,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          614.0
-        ],
-        "lvl3": [
-          682.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 614.0
+        },
+        "lvl3": {
+          "BASE": 682.0
+        }
       }
     },
     "skill2": {
@@ -7311,18 +9123,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          614.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 614.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 5,
-    "incSTR2": 8
+    }
   },
   "110047_01": {
     "id": "110047_01",
@@ -7362,6 +9170,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -7371,6 +9185,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -7380,6 +9200,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7389,6 +9215,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7398,6 +9230,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -7413,15 +9251,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          725.0
-        ],
-        "lvl2": [
-          805.0
-        ],
-        "lvl3": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 725.0
+        },
+        "lvl2": {
+          "BASE": 805.0
+        },
+        "lvl3": {
+          "BASE": 895.0
+        }
       }
     },
     "skill2": {
@@ -7437,12 +9275,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          725.0
-        ],
-        "lvl2": [
-          805.0
-        ]
+        "lvl1": {
+          "BASE": 725.0
+        },
+        "lvl2": {
+          "BASE": 805.0
+        }
       }
     }
   },
@@ -7484,6 +9322,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -7493,6 +9337,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities21": {
@@ -7502,6 +9352,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -7511,6 +9367,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -7521,8 +9383,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "skill1": {
       "name": "Sweet Treat",
@@ -7551,16 +9417,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          555.0
-        ],
-        "lvl2": [
-          617.0
-        ]
+        "lvl1": {
+          "BASE": 555.0
+        },
+        "lvl2": {
+          "BASE": 617.0
+        }
       }
-    },
-    "STRLV1": 45,
-    "incSTR1": 10
+    }
   },
   "110048_01": {
     "id": "110048_01",
@@ -7600,6 +9464,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -7609,6 +9479,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -7618,6 +9494,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7627,6 +9509,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7636,6 +9524,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -7651,15 +9545,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          548.0
-        ],
-        "lvl2": [
-          608.0
-        ],
-        "lvl3": [
-          676.0
-        ]
+        "lvl1": {
+          "BASE": 548.0
+        },
+        "lvl2": {
+          "BASE": 608.0
+        },
+        "lvl3": {
+          "BASE": 676.0
+        }
       }
     },
     "skill2": {
@@ -7675,12 +9569,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          550.0
-        ],
-        "lvl2": [
-          576.0
-        ]
+        "lvl1": {
+          "BASE": 550.0
+        },
+        "lvl2": {
+          "BASE": 576.0
+        }
       }
     }
   },
@@ -7722,6 +9616,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -7731,6 +9631,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -7740,6 +9646,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7749,6 +9661,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7758,6 +9676,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -7828,8 +9752,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +10%",
@@ -7839,8 +9767,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Curse Res +25%",
@@ -7849,6 +9781,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -7858,6 +9796,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -7867,6 +9811,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -7882,12 +9832,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          714.0
-        ],
-        "lvl2": [
-          792.0
-        ]
+        "lvl1": {
+          "BASE": 714.0
+        },
+        "lvl2": {
+          "BASE": 792.0
+        }
       }
     },
     "skill2": {
@@ -7903,18 +9853,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          711.0
-        ],
-        "lvl2": [
-          747.0
-        ]
+        "lvl1": {
+          "BASE": 711.0
+        },
+        "lvl2": {
+          "BASE": 747.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 8,
-    "incSTR2": 10
+    }
   },
   "110050_01": {
     "id": "110050_01",
@@ -7954,6 +9900,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Skill",
+        "ability_value": 6
       }
     },
     "abilities12": {
@@ -7963,6 +9915,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Skill",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -7972,6 +9930,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -7981,6 +9945,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -7990,6 +9960,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -8005,12 +9981,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          638.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 638.0
+        }
       }
     },
     "skill2": {
@@ -8066,6 +10042,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -8075,6 +10057,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities21": {
@@ -8084,6 +10072,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -8093,6 +10087,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -8102,6 +10102,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -8117,15 +10123,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          797.0
-        ],
-        "lvl2": [
-          886.0
-        ],
-        "lvl3": [
-          984.0
-        ]
+        "lvl1": {
+          "BASE": 797.0
+        },
+        "lvl2": {
+          "BASE": 886.0
+        },
+        "lvl3": {
+          "BASE": 984.0
+        }
       }
     },
     "skill2": {
@@ -8141,12 +10147,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          798.0
-        ],
-        "lvl2": [
-          838.0
-        ]
+        "lvl1": {
+          "BASE": 798.0
+        },
+        "lvl2": {
+          "BASE": 838.0
+        }
       }
     }
   },
@@ -8188,6 +10194,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -8197,6 +10209,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -8206,6 +10224,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -8215,6 +10239,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -8224,6 +10254,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -8239,15 +10275,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          604.0
-        ],
-        "lvl2": [
-          636.0
-        ],
-        "lvl3": [
-          664.0
-        ]
+        "lvl1": {
+          "BASE": 604.0
+        },
+        "lvl2": {
+          "BASE": 636.0
+        },
+        "lvl3": {
+          "BASE": 664.0
+        }
       }
     },
     "skill2": {
@@ -8263,12 +10299,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          604.0
-        ],
-        "lvl2": [
-          668.0
-        ]
+        "lvl1": {
+          "BASE": 604.0
+        },
+        "lvl2": {
+          "BASE": 668.0
+        }
       }
     }
   },
@@ -8310,6 +10346,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -8319,6 +10361,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -8328,6 +10376,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -8337,6 +10391,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -8346,6 +10406,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -8361,15 +10427,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          580.0
-        ],
-        "lvl3": [
-          608.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 580.0
+        },
+        "lvl3": {
+          "BASE": 608.0
+        }
       }
     },
     "skill2": {
@@ -8425,6 +10491,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Blindness",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -8434,6 +10506,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Blindness",
+        "ability_value": 60
       }
     },
     "abilities21": {
@@ -8443,6 +10521,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -8452,6 +10536,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -8461,6 +10551,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blinded Punisher",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -8470,6 +10566,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blinded Punisher",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -8485,17 +10587,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          768.0
-        ],
-        "lvl2": [
-          808.0,
-          1365.52
-        ],
-        "lvl3": [
-          848.0,
-          1475.52
-        ]
+        "lvl1": {
+          "BASE": 768.0
+        },
+        "lvl2": {
+          "BASE": 1365.52
+        },
+        "lvl3": {
+          "BASE": 1475.52
+        }
       }
     },
     "skill2": {
@@ -8551,6 +10651,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -8560,6 +10666,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -8569,6 +10681,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -8578,6 +10696,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -8587,6 +10711,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Freezer",
+        "ability_value": 1
       }
     },
     "skill1": {
@@ -8602,15 +10732,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          777.0
-        ],
-        "lvl3": [
-          864.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 777.0
+        },
+        "lvl3": {
+          "BASE": 864.0
+        }
       }
     },
     "skill2": {
@@ -8666,6 +10796,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -8675,6 +10811,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Defense",
+        "ability_value": 60
       }
     },
     "abilities21": {
@@ -8684,6 +10826,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -8693,6 +10841,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -8702,6 +10856,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -8717,15 +10877,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          924.0
-        ],
-        "lvl2": [
-          970.0
-        ],
-        "lvl3": [
-          1018.0
-        ]
+        "lvl1": {
+          "BASE": 924.0
+        },
+        "lvl2": {
+          "BASE": 970.0
+        },
+        "lvl3": {
+          "BASE": 1018.0
+        }
       }
     },
     "skill2": {
@@ -8781,6 +10941,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -8790,6 +10956,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -8799,6 +10971,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -8808,6 +10986,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -8817,6 +11001,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -8832,15 +11022,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          618.0
-        ],
-        "lvl2": [
-          648.0
-        ],
-        "lvl3": [
-          681.0
-        ]
+        "lvl1": {
+          "BASE": 618.0
+        },
+        "lvl2": {
+          "BASE": 648.0
+        },
+        "lvl3": {
+          "BASE": 681.0
+        }
       }
     },
     "skill2": {
@@ -8896,6 +11086,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -8905,6 +11101,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -8914,6 +11116,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -8923,6 +11131,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -8932,6 +11146,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -8998,13 +11218,25 @@ const adventurer =
       "name": "Paralysis = User Strength +10%",
       "details": "Buffs the user's strength by '''10%''' for 10 seconds upon successfully [[Afflictions|paralyzing]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 60,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": "Paralysis",
+        "req_threshold": null,
+        "ability_type": "User Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "Paralysis = User Strength +10%",
       "details": "Buffs the user's strength by '''15%''' for 10 seconds upon successfully [[Afflictions|paralyzing]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 80,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": "Paralysis",
+        "req_threshold": null,
+        "ability_type": "User Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Curse Res +50%",
@@ -9013,6 +11245,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -9022,6 +11260,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -9031,6 +11275,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralyzed Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -9046,15 +11296,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          782.0
-        ],
-        "lvl2": [
-          822.0
-        ],
-        "lvl3": [
-          864.0
-        ]
+        "lvl1": {
+          "BASE": 782.0
+        },
+        "lvl2": {
+          "BASE": 822.0
+        },
+        "lvl3": {
+          "BASE": 864.0
+        }
       }
     },
     "skill2": {
@@ -9107,13 +11357,25 @@ const adventurer =
       "name": "Blindness = Team Strength +8%",
       "details": "Buffs the entire team's strength by '''8%''' for 10 seconds upon successfully [[Afflictions|blinding]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 60,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": "Blindness",
+        "req_threshold": null,
+        "ability_type": "Team Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "Blindness = Team Strength +10%",
       "details": "Buffs the entire team's strength by '''10%''' for 10 seconds upon successfully [[Afflictions|blinding]] an enemy. After activating, this ability will not activate again for five seconds.",
       "might": 80,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": "Blindness",
+        "req_threshold": null,
+        "ability_type": "Team Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Blindness Res +50%",
@@ -9122,6 +11384,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -9131,6 +11399,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -9140,6 +11414,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blinded Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -9155,15 +11435,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          734.0
-        ],
-        "lvl3": [
-          771.0
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 734.0
+        },
+        "lvl3": {
+          "BASE": 771.0
+        }
       }
     },
     "skill2": {
@@ -9179,12 +11459,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          699.0
-        ],
-        "lvl2": [
-          1793.4
-        ]
+        "lvl1": {
+          "BASE": 699.0
+        },
+        "lvl2": {
+          "BASE": 1793.4
+        }
       }
     }
   },
@@ -9226,6 +11506,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -9235,6 +11521,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -9244,6 +11536,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -9253,6 +11551,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -9262,6 +11566,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -9277,15 +11587,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          550.0
-        ],
-        "lvl2": [
-          610.0
-        ],
-        "lvl3": [
-          678.0
-        ]
+        "lvl1": {
+          "BASE": 550.0
+        },
+        "lvl2": {
+          "BASE": 610.0
+        },
+        "lvl3": {
+          "BASE": 678.0
+        }
       }
     },
     "skill2": {
@@ -9342,8 +11652,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "abilities12": {
       "name": "Full HP = Strength +15%",
@@ -9353,8 +11667,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 15
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": {
       "name": "Burn Res +50%",
@@ -9363,6 +11681,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -9372,6 +11696,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -9381,6 +11711,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities32": {
@@ -9390,6 +11726,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "skill1": {
@@ -9405,15 +11747,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          878.0
-        ],
-        "lvl2": [
-          922.0
-        ],
-        "lvl3": [
-          968.0
-        ]
+        "lvl1": {
+          "BASE": 878.0
+        },
+        "lvl2": {
+          "BASE": 922.0
+        },
+        "lvl3": {
+          "BASE": 968.0
+        }
       }
     },
     "skill2": {
@@ -9429,18 +11771,14 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          877.0
-        ],
-        "lvl2": [
-          974.0
-        ]
+        "lvl1": {
+          "BASE": 877.0
+        },
+        "lvl2": {
+          "BASE": 974.0
+        }
       }
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 13,
-    "incSTR2": 15
+    }
   },
   "110253_01": {
     "id": "110253_01",
@@ -9480,6 +11818,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -9489,6 +11833,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -9498,6 +11848,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -9507,6 +11863,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -9516,6 +11878,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 6
       }
     },
     "skill1": {
@@ -9531,15 +11899,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          606.0
-        ],
-        "lvl2": [
-          672.0
-        ],
-        "lvl3": [
-          744.0
-        ]
+        "lvl1": {
+          "BASE": 606.0
+        },
+        "lvl2": {
+          "BASE": 672.0
+        },
+        "lvl3": {
+          "BASE": 744.0
+        }
       }
     },
     "skill2": {
@@ -9555,12 +11923,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          604.0
-        ],
-        "lvl2": [
-          636.0
-        ]
+        "lvl1": {
+          "BASE": 604.0
+        },
+        "lvl2": {
+          "BASE": 636.0
+        }
       }
     }
   },
@@ -9602,6 +11970,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -9611,6 +11985,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -9620,6 +12000,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -9629,6 +12015,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -9638,6 +12030,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -9653,15 +12051,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          617.0
-        ],
-        "lvl2": [
-          648.0
-        ],
-        "lvl3": [
-          680.0
-        ]
+        "lvl1": {
+          "BASE": 617.0
+        },
+        "lvl2": {
+          "BASE": 648.0
+        },
+        "lvl3": {
+          "BASE": 680.0
+        }
       }
     },
     "skill2": {
@@ -9677,12 +12075,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          618.0
-        ],
-        "lvl2": [
-          687.0
-        ]
+        "lvl1": {
+          "BASE": 618.0
+        },
+        "lvl2": {
+          "BASE": 687.0
+        }
       }
     }
   },
@@ -9724,6 +12122,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -9733,6 +12137,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -9742,6 +12152,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -9751,6 +12167,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -9761,8 +12183,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "skill1": {
       "name": "Ardent Stream",
@@ -9777,15 +12203,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          784.0
-        ],
-        "lvl2": [
-          872.0
-        ],
-        "lvl3": [
-          968.0
-        ]
+        "lvl1": {
+          "BASE": 784.0
+        },
+        "lvl2": {
+          "BASE": 872.0
+        },
+        "lvl3": {
+          "BASE": 968.0
+        }
       }
     },
     "skill2": {
@@ -9801,9 +12227,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "STRLV1": 45,
-    "incSTR1": 8
+    }
   },
   "110256_01": {
     "id": "110256_01",
@@ -9843,6 +12267,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -9852,6 +12282,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -9861,6 +12297,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -9870,6 +12312,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -9879,6 +12327,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 10
       }
     },
     "abilities32": {
@@ -9888,6 +12342,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 13
       }
     },
     "skill1": {
@@ -9903,15 +12363,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          768.0
-        ],
-        "lvl2": [
-          808.0
-        ],
-        "lvl3": [
-          848.0
-        ]
+        "lvl1": {
+          "BASE": 768.0
+        },
+        "lvl2": {
+          "BASE": 808.0
+        },
+        "lvl3": {
+          "BASE": 848.0
+        }
       }
     },
     "skill2": {
@@ -9927,12 +12387,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          768.0
-        ],
-        "lvl2": [
-          807.0
-        ]
+        "lvl1": {
+          "BASE": 768.0
+        },
+        "lvl2": {
+          "BASE": 807.0
+        }
       }
     }
   },
@@ -9974,6 +12434,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -9983,6 +12449,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities21": {
@@ -9992,6 +12464,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -10001,6 +12479,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -10010,6 +12494,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -10079,6 +12569,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -10088,6 +12584,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -10097,6 +12599,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -10106,6 +12614,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -10115,6 +12629,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Blindness Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -10130,15 +12650,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          840.0
-        ],
-        "lvl2": [
-          932.0
-        ],
-        "lvl3": [
-          1036.0
-        ]
+        "lvl1": {
+          "BASE": 840.0
+        },
+        "lvl2": {
+          "BASE": 932.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
+        }
       }
     },
     "skill2": {
@@ -10194,6 +12714,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 4
       }
     },
     "abilities12": {
@@ -10203,6 +12729,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 5
       }
     },
     "abilities21": {
@@ -10212,6 +12744,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -10221,6 +12759,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -10230,6 +12774,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -10245,15 +12795,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          676.0
-        ],
-        "lvl3": [
-          750.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        },
+        "lvl3": {
+          "BASE": 750.0
+        }
       }
     },
     "skill2": {
@@ -10309,6 +12859,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -10318,6 +12874,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 6
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Slayer's Strength",
+        "ability_value": 6
       }
     },
     "abilities21": {
@@ -10327,6 +12889,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -10336,6 +12904,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -10345,6 +12919,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities32": {
@@ -10354,6 +12934,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "skill1": {
@@ -10369,15 +12955,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          552.0
-        ],
-        "lvl2": [
-          612.0
-        ],
-        "lvl3": [
-          680.0
-        ]
+        "lvl1": {
+          "BASE": 552.0
+        },
+        "lvl2": {
+          "BASE": 612.0
+        },
+        "lvl3": {
+          "BASE": 680.0
+        }
       }
     },
     "skill2": {
@@ -10433,6 +13019,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Stun",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -10442,6 +13034,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Stun",
+        "ability_value": 60
       }
     },
     "abilities21": {
@@ -10451,6 +13049,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -10460,6 +13064,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -10469,6 +13079,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stunned Punisher",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -10478,6 +13094,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stunned Punisher",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -10493,15 +13115,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          769.0
-        ],
-        "lvl2": [
-          807.0
-        ],
-        "lvl3": [
-          848.0
-        ]
+        "lvl1": {
+          "BASE": 769.0
+        },
+        "lvl2": {
+          "BASE": 807.0
+        },
+        "lvl3": {
+          "BASE": 848.0
+        }
       }
     },
     "skill2": {
@@ -10557,6 +13179,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -10566,6 +13194,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -10575,6 +13209,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -10584,6 +13224,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -10593,6 +13239,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities32": {
@@ -10602,6 +13254,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -10617,18 +13275,18 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          1014.0,
-          1521.0
-        ],
-        "lvl2": [
-          1062.0,
-          1593.0
-        ],
-        "lvl3": [
-          1116.0,
-          1674.0
-        ]
+        "lvl1": {
+          "BASE": 1014.0,
+          "Heaven's Breath": 1521.0
+        },
+        "lvl2": {
+          "BASE": 1062.0,
+          "Heaven's Breath": 1593.0
+        },
+        "lvl3": {
+          "BASE": 1116.0,
+          "Heaven's Breath": 1674.0
+        }
       }
     },
     "skill2": {
@@ -10684,6 +13342,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 13
       }
     },
     "abilities12": {
@@ -10693,6 +13357,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -10702,6 +13372,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -10711,6 +13387,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -10720,6 +13402,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Recovery Potency",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -10789,6 +13477,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Physian's Bane",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -10798,6 +13492,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Physian's Bane",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -10807,6 +13507,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -10816,6 +13522,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -10825,6 +13537,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -10840,15 +13558,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          606.0
-        ],
-        "lvl2": [
-          672.0
-        ],
-        "lvl3": [
-          744.0
-        ]
+        "lvl1": {
+          "BASE": 606.0
+        },
+        "lvl2": {
+          "BASE": 672.0
+        },
+        "lvl3": {
+          "BASE": 744.0
+        }
       }
     },
     "skill2": {
@@ -10864,12 +13582,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          604.0
-        ],
-        "lvl2": [
-          668.0
-        ]
+        "lvl1": {
+          "BASE": 604.0
+        },
+        "lvl2": {
+          "BASE": 668.0
+        }
       }
     }
   },
@@ -10911,6 +13629,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 40
       }
     },
     "abilities12": {
@@ -10920,6 +13644,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Force Strike",
+        "ability_value": 50
       }
     },
     "abilities21": {
@@ -10929,6 +13659,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -10938,19 +13674,37 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
       "name": "Electrically Charged I",
       "details": "Increases strength by '''20%''' when electrified.",
       "might": 80,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Electrically Charged",
+        "ability_value": 1
+      }
     },
     "abilities32": {
       "name": "Electrically Charged II",
       "details": "Increases strength by '''25%''' when electrified.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Electrically Charged",
+        "ability_value": 2
+      }
     },
     "skill1": {
       "name": "Lightning Burst",
@@ -10965,18 +13719,18 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          668.0,
-          1404.0
-        ],
-        "lvl2": [
-          743.0,
-          1559.0
-        ],
-        "lvl3": [
-          825.0,
-          1736.0
-        ]
+        "lvl1": {
+          "BASE": 668.0,
+          "Thunderous Impulse": 1404.0
+        },
+        "lvl2": {
+          "BASE": 743.0,
+          "Thunderous Impulse": 1559.0
+        },
+        "lvl3": {
+          "BASE": 825.0,
+          "Thunderous Impulse": 1736.0
+        }
       }
     },
     "skill2": {
@@ -11032,6 +13786,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -11041,6 +13801,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities21": {
@@ -11050,6 +13816,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -11059,6 +13831,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -11068,6 +13846,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Energized: Strength",
+        "ability_value": 15
       }
     },
     "abilities32": {
@@ -11077,6 +13861,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Energized: Strength",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -11092,21 +13882,21 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          748.0,
-          758.0,
-          993.0
-        ],
-        "lvl2": [
-          785.0,
-          796.0,
-          1041.0
-        ],
-        "lvl3": [
-          824.0,
-          834.0,
-          1092.0
-        ]
+        "lvl1": {
+          "Phase I": 748.0,
+          "Phase II": 758.0,
+          "Phase III": 993.0
+        },
+        "lvl2": {
+          "Phase I": 785.0,
+          "Phase II": 796.0,
+          "Phase III": 1041.0
+        },
+        "lvl3": {
+          "Phase I": 824.0,
+          "Phase II": 834.0,
+          "Phase III": 1092.0
+        }
       }
     },
     "skill2": {
@@ -11122,12 +13912,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          746.66
-        ],
-        "lvl2": [
-          829.62
-        ]
+        "lvl1": {
+          "BASE": 746.66
+        },
+        "lvl2": {
+          "BASE": 829.62
+        }
       }
     }
   },
@@ -11169,6 +13959,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Skill",
+        "ability_value": 6
       }
     },
     "abilities12": {
@@ -11178,6 +13974,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Striker's Skill",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -11187,6 +13989,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -11196,6 +14004,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -11205,6 +14019,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Strength Doublebuff",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -11220,15 +14040,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          604.0
-        ],
-        "lvl2": [
-          636.0
-        ],
-        "lvl3": [
-          668.0
-        ]
+        "lvl1": {
+          "BASE": 604.0
+        },
+        "lvl2": {
+          "BASE": 636.0
+        },
+        "lvl3": {
+          "BASE": 668.0
+        }
       }
     },
     "skill2": {
@@ -11284,6 +14104,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Undead Res",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -11293,6 +14119,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Undead Res",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -11302,6 +14134,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -11311,6 +14149,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -11320,6 +14164,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -11389,6 +14239,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "abilities12": {
@@ -11398,6 +14254,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
       }
     },
     "abilities21": {
@@ -11407,6 +14269,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -11416,6 +14284,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -11425,6 +14299,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities32": {
@@ -11434,6 +14314,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "skill1": {
@@ -11449,18 +14335,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          516.0,
-          516.0
-        ],
-        "lvl2": [
-          572.0,
-          572.0
-        ],
-        "lvl3": [
-          636.0,
-          636.0
-        ]
+        "lvl1": {
+          "BASE": 516.0
+        },
+        "lvl2": {
+          "BASE": 572.0
+        },
+        "lvl3": {
+          "BASE": 636.0
+        }
       }
     },
     "skill2": {
@@ -11516,6 +14399,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -11525,6 +14414,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 13
       }
     },
     "abilities21": {
@@ -11534,6 +14429,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -11543,6 +14444,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -11552,6 +14459,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 40
       }
     },
     "abilities32": {
@@ -11561,6 +14474,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -11576,15 +14495,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          1015.0
-        ],
-        "lvl2": [
-          1067.0
-        ],
-        "lvl3": [
-          1121.0
-        ]
+        "lvl1": {
+          "BASE": 1015.0
+        },
+        "lvl2": {
+          "BASE": 1067.0
+        },
+        "lvl3": {
+          "BASE": 1121.0
+        }
       }
     },
     "skill2": {
@@ -11600,12 +14519,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          1014.0
-        ],
-        "lvl2": [
-          1128.0
-        ]
+        "lvl1": {
+          "BASE": 1014.0
+        },
+        "lvl2": {
+          "BASE": 1128.0
+        }
       }
     }
   },
@@ -11644,13 +14563,25 @@ const adventurer =
       "name": "Last Boost I",
       "details": "Fills '''50%''' of the entire team's skill gauges when the user's HP drops to '''30%''' (once per quest). This does not fill the skill gauges of dragons.",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Boost",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "Last Boost II",
       "details": "Fills '''100%''' of the entire team's skill gauges when the user's HP drops to '''30%''' (once per quest). This does not fill the skill gauges of dragons.",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Boost",
+        "ability_value": 2
+      }
     },
     "abilities21": {
       "name": "Stun Res +50%",
@@ -11659,6 +14590,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -11668,6 +14605,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -11677,6 +14620,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 10
       }
     },
     "abilities32": {
@@ -11686,6 +14635,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Flurry Devastation",
+        "ability_value": 13
       }
     },
     "skill1": {
@@ -11701,15 +14656,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          672.0
-        ],
-        "lvl2": [
-          744.0
-        ],
-        "lvl3": [
-          824.0
-        ]
+        "lvl1": {
+          "BASE": 672.0
+        },
+        "lvl2": {
+          "BASE": 744.0
+        },
+        "lvl3": {
+          "BASE": 824.0
+        }
       }
     },
     "skill2": {
@@ -11725,12 +14680,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          616.0
-        ],
-        "lvl2": [
-          685.0
-        ]
+        "lvl1": {
+          "BASE": 616.0
+        },
+        "lvl2": {
+          "BASE": 685.0
+        }
       }
     }
   },
@@ -11773,8 +14728,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "HP 70% = Strength +10%",
@@ -11784,8 +14743,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Poison Res +50%",
@@ -11794,6 +14757,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -11803,6 +14772,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -11812,6 +14787,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Buff Time",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -11827,12 +14808,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 0.0,
       "modifier": {
-        "lvl1": [
-          548.0
-        ],
-        "lvl2": [
-          574.0
-        ]
+        "lvl1": {
+          "BASE": 548.0
+        },
+        "lvl2": {
+          "BASE": 574.0
+        }
       }
     },
     "skill2": {
@@ -11848,11 +14829,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "STRLV1": 10,
-    "STRLV2": 30,
-    "incSTR1": 8,
-    "incSTR2": 10
+    }
   },
   "110302_01": {
     "id": "110302_01",
@@ -11893,8 +14870,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 8
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "HP 70% = Defense +10%",
@@ -11904,8 +14885,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "def": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 10
+      }
     },
     "abilities21": {
       "name": "Bog Res +50%",
@@ -11914,6 +14899,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -11923,6 +14914,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -11932,7 +14929,8 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 1
-      }
+      },
+      "values": {}
     },
     "skill1": {
       "name": "Ka-boom!",
@@ -11947,15 +14945,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          679.0
-        ],
-        "lvl2": [
-          754.0
-        ],
-        "lvl3": [
-          838.0
-        ]
+        "lvl1": {
+          "BASE": 679.0
+        },
+        "lvl2": {
+          "BASE": 754.0
+        },
+        "lvl3": {
+          "BASE": 838.0
+        }
       }
     },
     "skill2": {
@@ -11971,11 +14969,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "defLV1": 10,
-    "defLV2": 30,
-    "incDef1": 8,
-    "incDef2": 10
+    }
   },
   "110303_01": {
     "id": "110303_01",
@@ -12015,6 +15009,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Demon's Bane",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -12024,6 +15024,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Demon's Bane",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -12033,6 +15039,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -12042,6 +15054,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -12051,6 +15069,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Offense",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -12120,6 +15144,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 13
       }
     },
     "abilities12": {
@@ -12129,6 +15159,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Healing",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -12138,6 +15174,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -12147,6 +15189,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleep Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -12156,6 +15204,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -12225,6 +15279,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Energized: Strength",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -12234,6 +15294,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Energized: Strength",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -12243,6 +15309,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -12252,6 +15324,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -12261,6 +15339,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -12270,6 +15354,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -12285,15 +15375,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          876.0
-        ],
-        "lvl2": [
-          921.0
-        ],
-        "lvl3": [
-          966.0
-        ]
+        "lvl1": {
+          "BASE": 876.0
+        },
+        "lvl2": {
+          "BASE": 921.0
+        },
+        "lvl3": {
+          "BASE": 966.0
+        }
       }
     },
     "skill2": {
@@ -12349,6 +15439,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bleeding Punisher",
+        "ability_value": 5
       }
     },
     "abilities12": {
@@ -12358,6 +15454,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bleeding Punisher",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -12367,6 +15469,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -12376,6 +15484,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -12385,6 +15499,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -12400,15 +15520,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          784.0
-        ],
-        "lvl2": [
-          820.0
-        ],
-        "lvl3": [
-          864.0
-        ]
+        "lvl1": {
+          "BASE": 784.0
+        },
+        "lvl2": {
+          "BASE": 820.0
+        },
+        "lvl3": {
+          "BASE": 864.0
+        }
       }
     },
     "skill2": {
@@ -12464,6 +15584,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Accelerator",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -12473,6 +15599,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 35
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Gauge Accelerator",
+        "ability_value": 30
       }
     },
     "abilities21": {
@@ -12482,6 +15614,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -12491,6 +15629,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -12500,6 +15644,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Sleeping Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -12515,15 +15665,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          924.0
-        ],
-        "lvl2": [
-          968.0
-        ],
-        "lvl3": [
-          1020.0
-        ]
+        "lvl1": {
+          "BASE": 924.0
+        },
+        "lvl2": {
+          "BASE": 968.0
+        },
+        "lvl3": {
+          "BASE": 1020.0
+        }
       }
     },
     "skill2": {
@@ -12579,6 +15729,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -12588,6 +15744,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Thaumian's Bane",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -12597,6 +15759,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -12606,6 +15774,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -12615,6 +15789,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
       }
     },
     "skill1": {
@@ -12630,15 +15810,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          680.0
-        ],
-        "lvl2": [
-          710.0
-        ],
-        "lvl3": [
-          750.0
-        ]
+        "lvl1": {
+          "BASE": 680.0
+        },
+        "lvl2": {
+          "BASE": 710.0
+        },
+        "lvl3": {
+          "BASE": 750.0
+        }
       }
     },
     "skill2": {
@@ -12694,6 +15874,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 8
       }
     },
     "abilities12": {
@@ -12703,6 +15889,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -12712,6 +15904,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -12721,6 +15919,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -12730,6 +15934,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities32": {
@@ -12739,6 +15949,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -12754,15 +15970,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          864.0
-        ],
-        "lvl2": [
-          904.0
-        ],
-        "lvl3": [
-          952.0
-        ]
+        "lvl1": {
+          "BASE": 864.0
+        },
+        "lvl2": {
+          "BASE": 904.0
+        },
+        "lvl3": {
+          "BASE": 952.0
+        }
       }
     },
     "skill2": {
@@ -12818,6 +16034,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Therion's Bane",
+        "ability_value": 20
       }
     },
     "abilities12": {
@@ -12827,6 +16049,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Therion's Bane",
+        "ability_value": 25
       }
     },
     "abilities21": {
@@ -12836,6 +16064,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -12845,6 +16079,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -12854,6 +16094,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -12869,15 +16115,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          452.0
-        ],
-        "lvl2": [
-          501.0
-        ],
-        "lvl3": [
-          558.0
-        ]
+        "lvl1": {
+          "BASE": 452.0
+        },
+        "lvl2": {
+          "BASE": 501.0
+        },
+        "lvl3": {
+          "BASE": 558.0
+        }
       }
     },
     "skill2": {
@@ -12933,6 +16179,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 13
       }
     },
     "abilities12": {
@@ -12942,6 +16194,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "abilities21": {
@@ -12951,6 +16209,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -12960,6 +16224,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Bog Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -12969,6 +16239,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Damage",
+        "ability_value": 15
       }
     },
     "skill1": {
@@ -12984,15 +16260,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          608.0
-        ],
-        "lvl2": [
-          676.0
-        ],
-        "lvl3": [
-          752.0
-        ]
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        },
+        "lvl3": {
+          "BASE": 752.0
+        }
       }
     },
     "skill2": {
@@ -13048,6 +16324,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 15
       }
     },
     "abilities12": {
@@ -13057,6 +16339,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 20
       }
     },
     "abilities21": {
@@ -13066,6 +16354,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "abilities22": {
@@ -13075,6 +16369,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 50
       }
     },
     "abilities31": {
@@ -13084,6 +16384,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Poison Res",
+        "ability_value": 25
       }
     },
     "skill1": {
@@ -13099,15 +16405,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          725.0
-        ],
-        "lvl2": [
-          805.0
-        ],
-        "lvl3": [
-          895.0
-        ]
+        "lvl1": {
+          "BASE": 725.0
+        },
+        "lvl2": {
+          "BASE": 805.0
+        },
+        "lvl3": {
+          "BASE": 895.0
+        }
       }
     },
     "skill2": {
@@ -13163,6 +16469,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": "25 Hits",
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities12": {
@@ -13172,6 +16484,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": "20 Hits",
+        "req_threshold": null,
+        "ability_type": "Critical Damage",
+        "ability_value": 10
       }
     },
     "abilities21": {
@@ -13181,6 +16499,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -13190,6 +16514,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -13199,6 +16529,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 25
       }
     },
     "abilities32": {
@@ -13208,6 +16544,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Damage",
+        "ability_value": 30
       }
     },
     "skill1": {
@@ -13223,15 +16565,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          770.0
-        ],
-        "lvl2": [
-          854.0
-        ],
-        "lvl3": [
-          952.0
-        ]
+        "lvl1": {
+          "BASE": 770.0
+        },
+        "lvl2": {
+          "BASE": 854.0
+        },
+        "lvl3": {
+          "BASE": 952.0
+        }
       }
     },
     "skill2": {
@@ -13287,6 +16629,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 3
       }
     },
     "abilities12": {
@@ -13296,6 +16644,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 4
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Recovery",
+        "ability_value": 4
       }
     },
     "abilities21": {
@@ -13305,6 +16659,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -13314,6 +16674,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Freeze Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -13324,8 +16690,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 10
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
     },
     "abilities32": {
       "name": "HP 70% = Strength +13%",
@@ -13335,8 +16705,12 @@ const adventurer =
         "IsEffectMix": false,
         "MaxLimitedValue": 20
       },
-      "req": "",
-      "STR": 13
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 13
+      }
     },
     "skill1": {
       "name": "Woodland Spear",
@@ -13351,15 +16725,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          746.0
-        ],
-        "lvl2": [
-          784.0
-        ],
-        "lvl3": [
-          822.0
-        ]
+        "lvl1": {
+          "BASE": 746.0
+        },
+        "lvl2": {
+          "BASE": 784.0
+        },
+        "lvl3": {
+          "BASE": 822.0
+        }
       }
     },
     "skill2": {
@@ -13375,11 +16749,7 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
-    },
-    "STRLV1": 20,
-    "STRLV2": 45,
-    "incSTR1": 10,
-    "incSTR2": 13
+    }
   },
   "110319_01": {
     "id": "110319_01",
@@ -13419,6 +16789,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities12": {
@@ -13428,6 +16804,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Skill Haste",
+        "ability_value": 8
       }
     },
     "abilities21": {
@@ -13437,6 +16819,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -13446,6 +16834,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -13455,6 +16849,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralyzed Punisher",
+        "ability_value": 20
       }
     },
     "skill1": {
@@ -13470,15 +16870,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          1713.2
-        ],
-        "lvl2": [
-          1775.2
-        ],
-        "lvl3": [
-          1864.8
-        ]
+        "lvl1": {
+          "BASE": 1713.2
+        },
+        "lvl2": {
+          "BASE": 1775.2
+        },
+        "lvl3": {
+          "BASE": 1864.8
+        }
       }
     },
     "skill2": {
@@ -13534,6 +16934,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Burst",
+        "ability_value": 1
       }
     },
     "abilities12": {
@@ -13543,6 +16949,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 60
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Burst",
+        "ability_value": 2
       }
     },
     "abilities21": {
@@ -13552,6 +16964,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -13561,6 +16979,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Curse Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -13570,6 +16994,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 6
       }
     },
     "abilities32": {
@@ -13579,6 +17009,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Haste",
+        "ability_value": 8
       }
     },
     "skill1": {
@@ -13594,15 +17030,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          542.0
-        ],
-        "lvl2": [
-          602.0
-        ],
-        "lvl3": [
-          670.0
-        ]
+        "lvl1": {
+          "BASE": 542.0
+        },
+        "lvl2": {
+          "BASE": 602.0
+        },
+        "lvl3": {
+          "BASE": 670.0
+        }
       }
     },
     "skill2": {
@@ -13618,12 +17054,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          668.0
-        ],
-        "lvl2": [
-          702.0
-        ]
+        "lvl1": {
+          "BASE": 668.0
+        },
+        "lvl2": {
+          "BASE": 702.0
+        }
       }
     }
   },
@@ -13662,13 +17098,25 @@ const adventurer =
       "name": "Last Bravery I",
       "details": "Increases the entire team's strength by '''20%''' and defense by '''30%''' for 15 seconds when the user's HP drops to '''30%''' (once per quest).",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Bravery",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "Last Bravery II",
       "details": "Increases the entire team's strength by '''30%''' and defense by '''40%''' for 15 seconds when the user's HP drops to '''30%''' (once per quest).",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Bravery",
+        "ability_value": 2
+      }
     },
     "abilities21": {
       "name": "Burn Res +50%",
@@ -13677,6 +17125,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -13686,6 +17140,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -13695,6 +17155,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities32": {
@@ -13704,6 +17170,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "skill1": {
@@ -13719,15 +17191,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          746.0
-        ],
-        "lvl2": [
-          784.0
-        ],
-        "lvl3": [
-          822.0
-        ]
+        "lvl1": {
+          "BASE": 746.0
+        },
+        "lvl2": {
+          "BASE": 784.0
+        },
+        "lvl3": {
+          "BASE": 822.0
+        }
       }
     },
     "skill2": {
@@ -13743,12 +17215,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          746.0
-        ],
-        "lvl2": [
-          829.0
-        ]
+        "lvl1": {
+          "BASE": 746.0
+        },
+        "lvl2": {
+          "BASE": 829.0
+        }
       }
     }
   },
@@ -13787,13 +17259,25 @@ const adventurer =
       "name": "Last Destruction I",
       "details": "Increases the damage of the next attack skill used by each team member by '''30%''' when the user's HP drops to '''30%''' (once per quest).",
       "might": 70,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Destruction",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "Last Destruction II",
       "details": "Increases the damage of the next attack skill used by each team member by '''40%''' when the user's HP drops to '''30%''' (once per quest).",
       "might": 100,
-      "limit": 0
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Last Destruction",
+        "ability_value": 2
+      }
     },
     "abilities21": {
       "name": "Paralysis Res +50%",
@@ -13802,6 +17286,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 50
       }
     },
     "abilities22": {
@@ -13811,6 +17301,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Paralysis Res",
+        "ability_value": 100
       }
     },
     "abilities31": {
@@ -13820,6 +17316,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
       }
     },
     "abilities32": {
@@ -13829,6 +17331,12 @@ const adventurer =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 100
       }
     },
     "skill1": {
@@ -13844,15 +17352,15 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          2860.0
-        ],
-        "lvl2": [
-          3175.25
-        ],
-        "lvl3": [
-          3523.0
-        ]
+        "lvl1": {
+          "BASE": 2860.0
+        },
+        "lvl2": {
+          "BASE": 3175.25
+        },
+        "lvl3": {
+          "BASE": 3523.0
+        }
       }
     },
     "skill2": {
@@ -13868,12 +17376,12 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          876.0
-        ],
-        "lvl2": [
-          921.0
-        ]
+        "lvl1": {
+          "BASE": 876.0
+        },
+        "lvl2": {
+          "BASE": 921.0
+        }
       }
     }
   }

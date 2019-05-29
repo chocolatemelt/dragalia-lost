@@ -22,12 +22,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          465.0
-        ],
-        "lvl2": [
-          519.0
-        ]
+        "lvl1": {
+          "BASE": 465.0
+        },
+        "lvl2": {
+          "BASE": 519.0
+        }
       }
     },
     "MinHp": 20,
@@ -40,7 +40,13 @@ const dragon =
       "might": 30,
       "limit": 0,
       "req": "Wind",
-      "Hybrid": 8
+      "Hybrid": 8,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "(Wind) HP &amp; Strength +10%",
@@ -48,7 +54,13 @@ const dragon =
       "might": 50,
       "limit": 0,
       "req": "Wind",
-      "Hybrid": 10
+      "Hybrid": 10,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -79,12 +91,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          813.4
-        ],
-        "lvl2": [
-          906.5
-        ]
+        "lvl1": {
+          "BASE": 813.4
+        },
+        "lvl2": {
+          "BASE": 906.5
+        }
       }
     },
     "MinHp": 20,
@@ -100,7 +112,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 15
+      "STR": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "(Flame) Strength +20%",
@@ -111,7 +129,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 20
+      "STR": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 20
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -142,12 +166,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          554.0
-        ],
-        "lvl2": [
-          616.0
-        ]
+        "lvl1": {
+          "BASE": 554.0
+        },
+        "lvl2": {
+          "BASE": 616.0
+        }
       }
     },
     "MinHp": 21,
@@ -163,7 +187,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 15
+      "HP": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "(Water) HP +20%",
@@ -174,7 +204,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 20
+      "HP": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 20
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -205,12 +241,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          415.8
-        ],
-        "lvl2": [
-          462.0
-        ]
+        "lvl1": {
+          "BASE": 415.8
+        },
+        "lvl2": {
+          "BASE": 462.0
+        }
       }
     },
     "MinHp": 20,
@@ -223,7 +259,13 @@ const dragon =
       "might": 30,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 8
+      "Hybrid": 8,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 8
+      }
     },
     "abilities12": {
       "name": "(Light) HP &amp; Strength +10%",
@@ -231,7 +273,13 @@ const dragon =
       "might": 50,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 10
+      "Hybrid": 10,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 10
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -262,12 +310,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          529.2
-        ],
-        "lvl2": [
-          588.0
-        ]
+        "lvl1": {
+          "BASE": 529.2
+        },
+        "lvl2": {
+          "BASE": 588.0
+        }
       }
     },
     "MinHp": 20,
@@ -283,7 +331,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 15
+      "STR": 15,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "(Shadow) Strength +20%",
@@ -294,7 +348,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 20
+      "STR": 20,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 20
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -339,7 +399,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Flame",
-      "HP": 30
+      "HP": 30,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Flame) HP +45%",
@@ -350,7 +416,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Flame",
-      "HP": 45
+      "HP": 45,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -381,12 +453,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          567.0
-        ],
-        "lvl2": [
-          630.0
-        ]
+        "lvl1": {
+          "BASE": 567.0
+        },
+        "lvl2": {
+          "BASE": 630.0
+        }
       }
     },
     "MinHp": 29,
@@ -402,7 +474,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Flame) Strength +45%",
@@ -413,7 +491,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 45
+      "STR": 45,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -444,12 +528,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          618.1
-        ],
-        "lvl2": [
-          686.0
-        ]
+        "lvl1": {
+          "BASE": 618.1
+        },
+        "lvl2": {
+          "BASE": 686.0
+        }
       }
     },
     "MinHp": 30,
@@ -462,7 +546,13 @@ const dragon =
       "might": 60,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 15
+      "Hybrid": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "(Water) HP &amp; Strength +20%",
@@ -470,7 +560,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -501,12 +597,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          393.0
-        ],
-        "lvl2": [
-          438.0
-        ]
+        "lvl1": {
+          "BASE": 393.0
+        },
+        "lvl2": {
+          "BASE": 438.0
+        }
       }
     },
     "MinHp": 22,
@@ -522,7 +618,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 20
+      "HP": 20,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Wind) HP +30%",
@@ -533,7 +635,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 30
+      "HP": 30,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 30
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -564,12 +672,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          680.4
-        ],
-        "lvl2": [
-          756.0
-        ]
+        "lvl1": {
+          "BASE": 680.4
+        },
+        "lvl2": {
+          "BASE": 756.0
+        }
       }
     },
     "MinHp": 30,
@@ -585,7 +693,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 30
+      "HP": 30,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Wind) HP +45%",
@@ -596,7 +710,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 45
+      "HP": 45,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -627,12 +747,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          567.0
-        ],
-        "lvl2": [
-          630.0
-        ]
+        "lvl1": {
+          "BASE": 567.0
+        },
+        "lvl2": {
+          "BASE": 630.0
+        }
       }
     },
     "MinHp": 30,
@@ -648,7 +768,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Light",
-      "HP": 30
+      "HP": 30,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Light) HP +45%",
@@ -659,7 +785,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Light",
-      "HP": 45
+      "HP": 45,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -690,12 +822,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          642.6
-        ],
-        "lvl2": [
-          714.0
-        ]
+        "lvl1": {
+          "BASE": 642.6
+        },
+        "lvl2": {
+          "BASE": 714.0
+        }
       }
     },
     "MinHp": 29,
@@ -711,7 +843,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Light) Strength +45%",
@@ -722,7 +860,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 45
+      "STR": 45,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -753,12 +897,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          774.9
-        ],
-        "lvl2": [
-          861.0
-        ]
+        "lvl1": {
+          "BASE": 774.9
+        },
+        "lvl2": {
+          "BASE": 861.0
+        }
       }
     },
     "MinHp": 29,
@@ -774,7 +918,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Shadow) Strength +45%",
@@ -785,7 +935,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 45
+      "STR": 45,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -816,12 +972,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          554.4
-        ],
-        "lvl2": [
-          616.0
-        ]
+        "lvl1": {
+          "BASE": 554.4
+        },
+        "lvl2": {
+          "BASE": 616.0
+        }
       }
     },
     "MinHp": 29,
@@ -834,7 +990,13 @@ const dragon =
       "might": 60,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 15
+      "Hybrid": 15,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "(Shadow) HP &amp; Strength +20%",
@@ -842,7 +1004,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -873,12 +1041,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 5.0,
       "modifier": {
-        "lvl1": [
-          882.0
-        ],
-        "lvl2": [
-          980.0
-        ]
+        "lvl1": {
+          "BASE": 882.0
+        },
+        "lvl2": {
+          "BASE": 980.0
+        }
       }
     },
     "MinHp": 36,
@@ -894,7 +1062,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 40
+      "STR": 40,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Flame) Strength +60%",
@@ -905,7 +1079,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 60
+      "STR": 60,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -936,12 +1116,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          869.4
-        ],
-        "lvl2": [
-          913.5
-        ]
+        "lvl1": {
+          "BASE": 869.4
+        },
+        "lvl2": {
+          "BASE": 913.5
+        }
       }
     },
     "MinHp": 37,
@@ -957,7 +1137,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 40
+      "STR": 40,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Water) Strength +60%",
@@ -968,7 +1154,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 60
+      "STR": 60,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -999,12 +1191,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          762.3
-        ],
-        "lvl2": [
-          802.2
-        ]
+        "lvl1": {
+          "BASE": 762.3
+        },
+        "lvl2": {
+          "BASE": 802.2
+        }
       }
     },
     "MinHp": 36,
@@ -1020,7 +1212,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 40
+      "STR": 40,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Wind) Strength +60%",
@@ -1031,7 +1229,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 60
+      "STR": 60,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1062,12 +1266,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          737.8
-        ],
-        "lvl2": [
-          774.9
-        ]
+        "lvl1": {
+          "BASE": 737.8
+        },
+        "lvl2": {
+          "BASE": 774.9
+        }
       }
     },
     "MinHp": 37,
@@ -1080,7 +1284,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Shadow) HP &amp; Strength +30%",
@@ -1088,7 +1298,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 30
+      "Hybrid": 30,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1119,12 +1335,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          743.4
-        ],
-        "lvl2": [
-          826.0
-        ]
+        "lvl1": {
+          "BASE": 743.4
+        },
+        "lvl2": {
+          "BASE": 826.0
+        }
       }
     },
     "MinHp": 38,
@@ -1140,7 +1356,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Light",
-      "HP": 40
+      "HP": 40,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Light) HP +60%",
@@ -1151,7 +1373,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Light",
-      "HP": 60
+      "HP": 60,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1182,12 +1410,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          466.0
-        ],
-        "lvl2": [
-          518.0
-        ]
+        "lvl1": {
+          "BASE": 466.0
+        },
+        "lvl2": {
+          "BASE": 518.0
+        }
       }
     },
     "MinHp": 18,
@@ -1203,7 +1431,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 10
+      "STR": 10,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Flame) Strength +15%",
@@ -1214,7 +1448,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 15
+      "STR": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1245,12 +1485,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          454.0
-        ],
-        "lvl2": [
-          504.0
-        ]
+        "lvl1": {
+          "BASE": 454.0
+        },
+        "lvl2": {
+          "BASE": 504.0
+        }
       }
     },
     "MinHp": 19,
@@ -1266,7 +1506,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Flame",
-      "HP": 10
+      "HP": 10,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Flame) HP +15%",
@@ -1277,7 +1523,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Flame",
-      "HP": 15
+      "HP": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1308,12 +1560,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          290.0
-        ],
-        "lvl2": [
-          348.0
-        ]
+        "lvl1": {
+          "BASE": 290.0
+        },
+        "lvl2": {
+          "BASE": 348.0
+        }
       }
     },
     "MinHp": 18,
@@ -1326,7 +1578,13 @@ const dragon =
       "might": 20,
       "limit": 0,
       "req": "Flame",
-      "Hybrid": 5
+      "Hybrid": 5,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "(Flame) HP &amp; Strength +8%",
@@ -1334,7 +1592,13 @@ const dragon =
       "might": 30,
       "limit": 0,
       "req": "Flame",
-      "Hybrid": 8
+      "Hybrid": 8,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 8
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1365,12 +1629,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          735.0
-        ],
-        "lvl2": [
-          770.0
-        ]
+        "lvl1": {
+          "BASE": 735.0
+        },
+        "lvl2": {
+          "BASE": 770.0
+        }
       }
     },
     "MinHp": 36,
@@ -1386,7 +1650,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 40
+      "STR": 40,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Flame) Strength +60%",
@@ -1397,7 +1667,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 60
+      "STR": 60,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1428,12 +1704,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          721.0
-        ],
-        "lvl2": [
-          800.8
-        ]
+        "lvl1": {
+          "BASE": 721.0
+        },
+        "lvl2": {
+          "BASE": 800.8
+        }
       }
     },
     "MinHp": 37,
@@ -1446,7 +1722,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Water) HP &amp; Strength +30%",
@@ -1454,7 +1736,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 30
+      "Hybrid": 30,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1485,12 +1773,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          656.0
-        ],
-        "lvl2": [
-          728.0
-        ]
+        "lvl1": {
+          "BASE": 656.0
+        },
+        "lvl2": {
+          "BASE": 728.0
+        }
       }
     },
     "MinHp": 36,
@@ -1506,7 +1794,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 35
+      "STR": 35,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 35
+      }
     },
     "abilities12": {
       "name": "(Wind) Strength +50%",
@@ -1517,7 +1811,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 50
+      "STR": 50,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 50
+      }
     },
     "abilities21": {
       "name": "(Wind) Poisoned Punisher +15%",
@@ -1526,6 +1826,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Poisoned Punisher",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -1535,6 +1841,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Poisoned Punisher",
+        "ability_value": 20
       }
     },
     "incHP1": 0,
@@ -1564,12 +1876,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          600.0
-        ],
-        "lvl2": [
-          630.0
-        ]
+        "lvl1": {
+          "BASE": 600.0
+        },
+        "lvl2": {
+          "BASE": 630.0
+        }
       }
     },
     "MinHp": 38,
@@ -1585,7 +1897,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 40
+      "HP": 40,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Wind) HP +60%",
@@ -1596,7 +1914,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 60
+      "HP": 60,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1627,12 +1951,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          619.5
-        ],
-        "lvl2": [
-          650.3
-        ]
+        "lvl1": {
+          "BASE": 619.5
+        },
+        "lvl2": {
+          "BASE": 650.3
+        }
       }
     },
     "MinHp": 35,
@@ -1645,7 +1969,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Wind",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Wind) HP &amp; Strength +30%",
@@ -1653,7 +1983,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Wind",
-      "Hybrid": 30
+      "Hybrid": 30,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": {
       "name": "Dragon Time +15%",
@@ -1662,6 +1998,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -1671,6 +2013,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 20
       }
     },
     "incHP1": 20,
@@ -1700,12 +2048,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          851.0
-        ],
-        "lvl2": [
-          894.0
-        ]
+        "lvl1": {
+          "BASE": 851.0
+        },
+        "lvl2": {
+          "BASE": 894.0
+        }
       }
     },
     "MinHp": 35,
@@ -1718,7 +2066,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Flame",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Flame) HP &amp; Strength +30%",
@@ -1726,7 +2080,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Flame",
-      "Hybrid": 30
+      "Hybrid": 30,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": {
       "name": "Dragon Time +15%",
@@ -1735,6 +2095,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -1744,6 +2110,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 20
       }
     },
     "incHP1": 20,
@@ -1773,12 +2145,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          675.0
-        ],
-        "lvl2": [
-          750.0
-        ]
+        "lvl1": {
+          "BASE": 675.0
+        },
+        "lvl2": {
+          "BASE": 750.0
+        }
       }
     },
     "MinHp": 35,
@@ -1791,7 +2163,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Water) HP &amp; Strength +30%",
@@ -1799,7 +2177,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 30
+      "Hybrid": 30,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": {
       "name": "Dragon Time +15%",
@@ -1808,6 +2192,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 15
       }
     },
     "abilities22": {
@@ -1817,6 +2207,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragon Time",
+        "ability_value": 20
       }
     },
     "incHP1": 20,
@@ -1846,12 +2242,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          520.0
-        ],
-        "lvl2": [
-          548.0
-        ]
+        "lvl1": {
+          "BASE": 520.0
+        },
+        "lvl2": {
+          "BASE": 548.0
+        }
       }
     },
     "MinHp": 37,
@@ -1864,7 +2260,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Light) HP &amp; Strength +30%",
@@ -1872,7 +2274,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 30
+      "Hybrid": 30,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1903,12 +2311,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 18.0,
       "modifier": {
-        "lvl1": [
-          685.0
-        ],
-        "lvl2": [
-          720.0
-        ]
+        "lvl1": {
+          "BASE": 685.0
+        },
+        "lvl2": {
+          "BASE": 720.0
+        }
       }
     },
     "MinHp": 22,
@@ -1924,7 +2332,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 20
+      "STR": 20,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Shadow) Strength +30%",
@@ -1935,7 +2349,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -1966,12 +2386,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          662.0
-        ],
-        "lvl2": [
-          736.0
-        ]
+        "lvl1": {
+          "BASE": 662.0
+        },
+        "lvl2": {
+          "BASE": 736.0
+        }
       }
     },
     "MinHp": 36,
@@ -1987,7 +2407,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 35
+      "STR": 35,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP 30% = Strength",
+        "ability_value": 35
+      }
     },
     "abilities12": {
       "name": "(Shadow) HP 30% = Strength +50%",
@@ -1998,7 +2424,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 50
+      "STR": 50,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP 30% = Strength",
+        "ability_value": 50
+      }
     },
     "abilities21": {
       "name": "(Shadow) Last Bulwark I",
@@ -2007,6 +2439,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 2
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Last Bulwark",
+        "ability_value": 1
       }
     },
     "abilities22": {
@@ -2016,6 +2454,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 2
+      },
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Last Bulwark",
+        "ability_value": 2
       }
     },
     "incHP1": 0,
@@ -2045,12 +2489,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          504.0
-        ],
-        "lvl2": [
-          560.0
-        ]
+        "lvl1": {
+          "BASE": 504.0
+        },
+        "lvl2": {
+          "BASE": 560.0
+        }
       }
     },
     "MinHp": 37,
@@ -2065,7 +2509,13 @@ const dragon =
       "req": "Light",
       "STR": 35,
       "resEle": "Shadow",
-      "res": 15
+      "res": 15,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength &amp; Shadow Res",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "(Light) Strength &amp; Shadow Res II",
@@ -2075,7 +2525,13 @@ const dragon =
       "req": "Light",
       "STR": 50,
       "resEle": "Shadow",
-      "res": 15
+      "res": 15,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength &amp; Shadow Res",
+        "ability_value": 2
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2122,7 +2578,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 40
+      "STR": 40,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Light) Strength +60%",
@@ -2133,7 +2595,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 60
+      "STR": 60,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2164,12 +2632,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          524.3
-        ],
-        "lvl2": [
-          550.2
-        ]
+        "lvl1": {
+          "BASE": 524.3
+        },
+        "lvl2": {
+          "BASE": 550.2
+        }
       }
     },
     "MinHp": 29,
@@ -2185,7 +2653,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Wind) Strength +45%",
@@ -2196,7 +2670,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 45
+      "STR": 45,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2227,12 +2707,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          895.0
-        ],
-        "lvl2": [
-          995.0
-        ]
+        "lvl1": {
+          "BASE": 895.0
+        },
+        "lvl2": {
+          "BASE": 995.0
+        }
       }
     },
     "MinHp": 37,
@@ -2248,7 +2728,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Light) Strength +40%",
@@ -2259,7 +2745,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 40
+      "STR": 40,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 40
+      }
     },
     "abilities21": {
       "name": "(Light) Overdrive Punisher +20%",
@@ -2268,6 +2760,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Overdrive Punisher",
+        "ability_value": 20
       }
     },
     "abilities22": {
@@ -2277,6 +2775,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Overdrive Punisher",
+        "ability_value": 25
       }
     },
     "incHP1": 0,
@@ -2306,12 +2810,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          504.0
-        ],
-        "lvl2": [
-          560.0
-        ]
+        "lvl1": {
+          "BASE": 504.0
+        },
+        "lvl2": {
+          "BASE": 560.0
+        }
       }
     },
     "MinHp": 37,
@@ -2326,7 +2830,13 @@ const dragon =
       "req": "Flame",
       "STR": 35,
       "resEle": "Wind",
-      "res": 15
+      "res": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength &amp; Wind Res",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "(Flame) Strength &amp; Wind Res II",
@@ -2336,7 +2846,13 @@ const dragon =
       "req": "Flame",
       "STR": 50,
       "resEle": "Wind",
-      "res": 15
+      "res": 15,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength &amp; Wind Res",
+        "ability_value": 2
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2369,12 +2885,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          396.0
-        ],
-        "lvl2": [
-          440.0
-        ]
+        "lvl1": {
+          "BASE": 396.0
+        },
+        "lvl2": {
+          "BASE": 440.0
+        }
       }
     },
     "MinHp": 22,
@@ -2390,7 +2906,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 20
+      "STR": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Flame) Strength +30%",
@@ -2401,7 +2923,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Flame",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2432,12 +2960,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          415.8
-        ],
-        "lvl2": [
-          462.0
-        ]
+        "lvl1": {
+          "BASE": 415.8
+        },
+        "lvl2": {
+          "BASE": 462.0
+        }
       }
     },
     "MinHp": 29,
@@ -2453,7 +2981,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Water) Strength +45%",
@@ -2464,7 +2998,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 45
+      "STR": 45,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 45
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2495,12 +3035,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          466.0
-        ],
-        "lvl2": [
-          518.0
-        ]
+        "lvl1": {
+          "BASE": 466.0
+        },
+        "lvl2": {
+          "BASE": 518.0
+        }
       }
     },
     "MinHp": 18,
@@ -2516,7 +3056,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 10
+      "STR": 10,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Water) Strength +15%",
@@ -2527,7 +3073,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Water",
-      "STR": 15
+      "STR": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2558,12 +3110,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          466.0
-        ],
-        "lvl2": [
-          518.0
-        ]
+        "lvl1": {
+          "BASE": 466.0
+        },
+        "lvl2": {
+          "BASE": 518.0
+        }
       }
     },
     "MinHp": 18,
@@ -2579,7 +3131,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 10
+      "STR": 10,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Wind) Strength +15%",
@@ -2590,7 +3148,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Wind",
-      "STR": 15
+      "STR": 15,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2621,12 +3185,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          466.0
-        ],
-        "lvl2": [
-          518.0
-        ]
+        "lvl1": {
+          "BASE": 466.0
+        },
+        "lvl2": {
+          "BASE": 518.0
+        }
       }
     },
     "MinHp": 18,
@@ -2642,7 +3206,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 10
+      "STR": 10,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Light) Strength +15%",
@@ -2653,7 +3223,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Light",
-      "STR": 15
+      "STR": 15,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2684,12 +3260,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          466.0
-        ],
-        "lvl2": [
-          518.0
-        ]
+        "lvl1": {
+          "BASE": 466.0
+        },
+        "lvl2": {
+          "BASE": 518.0
+        }
       }
     },
     "MinHp": 18,
@@ -2705,7 +3281,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 10
+      "STR": 10,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Shadow) Strength +15%",
@@ -2716,7 +3298,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 15
+      "STR": 15,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2747,12 +3335,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          454.0
-        ],
-        "lvl2": [
-          504.0
-        ]
+        "lvl1": {
+          "BASE": 454.0
+        },
+        "lvl2": {
+          "BASE": 504.0
+        }
       }
     },
     "MinHp": 19,
@@ -2768,7 +3356,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 10
+      "HP": 10,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Water) HP +15%",
@@ -2779,7 +3373,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 15
+      "HP": 15,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2810,12 +3410,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          454.0
-        ],
-        "lvl2": [
-          504.0
-        ]
+        "lvl1": {
+          "BASE": 454.0
+        },
+        "lvl2": {
+          "BASE": 504.0
+        }
       }
     },
     "MinHp": 19,
@@ -2831,7 +3431,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 10
+      "HP": 10,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Wind) HP +15%",
@@ -2842,7 +3448,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Wind",
-      "HP": 15
+      "HP": 15,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2873,12 +3485,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          454.0
-        ],
-        "lvl2": [
-          504.0
-        ]
+        "lvl1": {
+          "BASE": 454.0
+        },
+        "lvl2": {
+          "BASE": 504.0
+        }
       }
     },
     "MinHp": 19,
@@ -2894,7 +3506,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Light",
-      "HP": 10
+      "HP": 10,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Light) HP +15%",
@@ -2905,7 +3523,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Light",
-      "HP": 15
+      "HP": 15,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -2936,12 +3560,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          454.0
-        ],
-        "lvl2": [
-          504.0
-        ]
+        "lvl1": {
+          "BASE": 454.0
+        },
+        "lvl2": {
+          "BASE": 504.0
+        }
       }
     },
     "MinHp": 19,
@@ -2957,7 +3581,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Shadow",
-      "HP": 10
+      "HP": 10,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Shadow) HP +15%",
@@ -2968,7 +3598,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Shadow",
-      "HP": 15
+      "HP": 15,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3010,7 +3646,13 @@ const dragon =
       "might": 20,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 5
+      "Hybrid": 5,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "(Water) HP &amp; Strength +8%",
@@ -3018,7 +3660,13 @@ const dragon =
       "might": 30,
       "limit": 0,
       "req": "Water",
-      "Hybrid": 8
+      "Hybrid": 8,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 8
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3060,7 +3708,13 @@ const dragon =
       "might": 20,
       "limit": 0,
       "req": "Wind",
-      "Hybrid": 5
+      "Hybrid": 5,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "(Wind) HP &amp; Strength +8%",
@@ -3068,7 +3722,13 @@ const dragon =
       "might": 30,
       "limit": 0,
       "req": "Wind",
-      "Hybrid": 8
+      "Hybrid": 8,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 8
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3110,7 +3770,13 @@ const dragon =
       "might": 20,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 5
+      "Hybrid": 5,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "(Light) HP &amp; Strength +8%",
@@ -3118,7 +3784,13 @@ const dragon =
       "might": 30,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 8
+      "Hybrid": 8,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 8
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3149,12 +3821,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          290.0
-        ],
-        "lvl2": [
-          348.0
-        ]
+        "lvl1": {
+          "BASE": 290.0
+        },
+        "lvl2": {
+          "BASE": 348.0
+        }
       }
     },
     "MinHp": 18,
@@ -3167,7 +3839,13 @@ const dragon =
       "might": 20,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 5
+      "Hybrid": 5,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 5
+      }
     },
     "abilities12": {
       "name": "(Shadow) HP &amp; Strength +8%",
@@ -3175,7 +3853,13 @@ const dragon =
       "might": 30,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 8
+      "Hybrid": 8,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 8
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3206,12 +3890,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 3.0,
       "modifier": {
-        "lvl1": [
-          600.0
-        ],
-        "lvl2": [
-          630.0
-        ]
+        "lvl1": {
+          "BASE": 600.0
+        },
+        "lvl2": {
+          "BASE": 630.0
+        }
       }
     },
     "MinHp": 22,
@@ -3224,7 +3908,13 @@ const dragon =
       "might": 50,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 10
+      "Hybrid": 10,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 10
+      }
     },
     "abilities12": {
       "name": "(Shadow) HP &amp; Strength +15%",
@@ -3232,7 +3922,13 @@ const dragon =
       "might": 60,
       "limit": 0,
       "req": "Shadow",
-      "Hybrid": 15
+      "Hybrid": 15,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 15
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3263,12 +3959,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          580.0
-        ],
-        "lvl2": [
-          644.0
-        ]
+        "lvl1": {
+          "BASE": 580.0
+        },
+        "lvl2": {
+          "BASE": 644.0
+        }
       }
     },
     "MinHp": 30,
@@ -3281,7 +3977,13 @@ const dragon =
       "might": 60,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 15
+      "Hybrid": 15,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 15
+      }
     },
     "abilities12": {
       "name": "(Light) HP &amp; Strength +20%",
@@ -3289,7 +3991,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Light",
-      "Hybrid": 20
+      "Hybrid": 20,
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " HP &amp; Strength",
+        "ability_value": 20
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3320,12 +4028,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          582.0
-        ],
-        "lvl2": [
-          612.0
-        ]
+        "lvl1": {
+          "BASE": 582.0
+        },
+        "lvl2": {
+          "BASE": 612.0
+        }
       }
     },
     "MinHp": 37,
@@ -3338,7 +4046,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Water",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragonyule Blessing",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "Dragonyule Blessing II",
@@ -3346,7 +4060,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Water",
-      "STR": 45
+      "STR": 45,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Dragonyule Blessing",
+        "ability_value": 2
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3377,12 +4097,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          594.0
-        ],
-        "lvl2": [
-          624.0
-        ]
+        "lvl1": {
+          "BASE": 594.0
+        },
+        "lvl2": {
+          "BASE": 624.0
+        }
       }
     },
     "MinHp": 37,
@@ -3398,7 +4118,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 40
+      "STR": 40,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 40
+      }
     },
     "abilities12": {
       "name": "(Shadow) Strength +60%",
@@ -3409,7 +4135,13 @@ const dragon =
         "MaxLimitedValue": 20
       },
       "req": "Shadow",
-      "STR": 60
+      "STR": 60,
+      "values": {
+        "req": "Shadow",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 60
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3452,6 +4184,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Critical Damage",
+        "ability_value": 50
       }
     },
     "abilities12": {
@@ -3461,6 +4199,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
+      },
+      "values": {
+        "req": "Light",
+        "req_threshold": null,
+        "ability_type": " Critical Damage",
+        "ability_value": 70
       }
     },
     "abilities21": 0,
@@ -3492,12 +4236,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          630.0
-        ],
-        "lvl2": [
-          662.0
-        ]
+        "lvl1": {
+          "BASE": 630.0
+        },
+        "lvl2": {
+          "BASE": 662.0
+        }
       }
     },
     "MinHp": 22,
@@ -3513,7 +4257,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 20
+      "HP": 20,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 20
+      }
     },
     "abilities12": {
       "name": "(Water) HP +30%",
@@ -3524,7 +4274,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 30
+      "HP": 30,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 30
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3555,12 +4311,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": {
-        "lvl1": [
-          504.0
-        ],
-        "lvl2": [
-          558.0
-        ]
+        "lvl1": {
+          "BASE": 504.0
+        },
+        "lvl2": {
+          "BASE": 558.0
+        }
       }
     },
     "MinHp": 36,
@@ -3573,7 +4329,13 @@ const dragon =
       "might": 70,
       "limit": 0,
       "req": "Wind",
-      "STR": 30
+      "STR": 30,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength &amp; Critical Damage",
+        "ability_value": 1
+      }
     },
     "abilities12": {
       "name": "(Wind) Strength &amp; Critical Damage II",
@@ -3581,7 +4343,13 @@ const dragon =
       "might": 100,
       "limit": 0,
       "req": "Wind",
-      "STR": 45
+      "STR": 45,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength &amp; Critical Damage",
+        "ability_value": 2
+      }
     },
     "abilities21": 0,
     "abilities22": 0,
@@ -3612,12 +4380,12 @@ const dragon =
       "IsAffectedByTension": true,
       "iframe": 2.0,
       "modifier": {
-        "lvl1": [
-          624.0
-        ],
-        "lvl2": [
-          648.0
-        ]
+        "lvl1": {
+          "BASE": 624.0
+        },
+        "lvl2": {
+          "BASE": 648.0
+        }
       }
     },
     "MinHp": 38,
@@ -3633,7 +4401,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 30
+      "HP": 30,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 30
+      }
     },
     "abilities12": {
       "name": "(Water) HP +40%",
@@ -3644,7 +4418,13 @@ const dragon =
         "MaxLimitedValue": 0
       },
       "req": "Water",
-      "HP": 40
+      "HP": 40,
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " HP",
+        "ability_value": 40
+      }
     },
     "abilities21": {
       "name": "(Water) Overdrive Punisher +40%",
@@ -3653,6 +4433,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Overdrive Punisher",
+        "ability_value": 40
       }
     },
     "abilities22": {
@@ -3662,6 +4448,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "Water",
+        "req_threshold": null,
+        "ability_type": " Overdrive Punisher",
+        "ability_value": 60
       }
     },
     "incHP1": 30,
@@ -3703,6 +4495,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Adventurer EXP",
+        "ability_value": 100
       }
     },
     "abilities12": {
@@ -3712,6 +4510,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Adventurer EXP",
+        "ability_value": 150
       }
     },
     "abilities21": 0,
@@ -3755,6 +4559,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mana",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -3764,6 +4574,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 50
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Mana",
+        "ability_value": 50
       }
     },
     "abilities21": 0,
@@ -3807,6 +4623,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Rupies",
+        "ability_value": 25
       }
     },
     "abilities12": {
@@ -3816,6 +4638,12 @@ const dragon =
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Rupies",
+        "ability_value": 50
       }
     },
     "abilities21": 0,
