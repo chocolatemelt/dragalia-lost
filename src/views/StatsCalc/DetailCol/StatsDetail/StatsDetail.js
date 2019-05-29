@@ -132,7 +132,7 @@ class StatsDetail extends React.Component {
                 <tbody>
                   {adventurerTextArea.map(data => {
                     return (
-                      <tr key={data[0] + data[1]}>
+                      <tr key={data[4]}>
                         <td>{data[0]}</td>
                         <td>{data[1]}</td>
                         <td>{data[2]}</td>

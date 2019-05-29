@@ -424,25 +424,30 @@ export const getAdventurerDamage = (stats, str) => {
   // TODO: Adventurer Combo FS Dash - data is not in a cargo table
   // TODO: Adventurer Skill
   const advSkills = [adventurer.skill1, adventurer.skill2];
-  advSkills.forEach((skill, idx) => {
+  console.log(advSkills);
+  advSkills.forEach(skill => {
+    const baseKey = skill.name;
     if (skill.modifier) {
       Object.keys(skill.modifier).forEach(lvl => {
         const modList = skill.modifier[lvl];
-        modList.forEach(baseMod => {
+        Object.keys(modList).forEach(mod => {
+          const modKey = baseKey + lvl + mod;
           const dmg = calcDamage(
             resist,
             str,
-            baseMod,
+            modList[mod],
             critMod,
             skillDmgMod,
             passiveMod,
             elementMod
           );
-          textArea.push([skill.name, lvl, baseMod, dmg]);
+          const displayName =
+            mod === 'BASE' ? skill.name : `${skill.name} + ${mod}`;
+          textArea.push([displayName, lvl, modList[mod], dmg, modKey]);
         });
       });
     } else {
-      textArea.push([skill.name, 'N/A', 'N/A', 'N/A']);
+      textArea.push([skill.name, 'N/A', 'N/A', 'N/A', baseKey]);
     }
   });
   // TODO: Weapon Skill
