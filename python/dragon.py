@@ -1,16 +1,19 @@
 import main
-FILE_NAME = 'dragon'
+
+FILE_NAME = "dragon"
 
 
 def set_dragon():
-    table = 'Dragons'
-    fields = 'BaseId,Name,NameJP,Rarity,ElementalType,' + \
-        'MinHp,MaxHp,MinAtk,MaxAtk,SkillName,' + \
-        'Abilities11,Abilities12,Abilities21,Abilities22,' + \
-        'IsPlayable'
-    group = 'BaseId'
+    table = "Dragons"
+    fields = (
+        "BaseId,Name,NameJP,Rarity,ElementalType,"
+        + "MinHp,MaxHp,MinAtk,MaxAtk,SkillName,"
+        + "Abilities11,Abilities12,Abilities21,Abilities22,"
+        + "IsPlayable"
+    )
+    group = "BaseId"
 
-    parse_int = ['MinHp', 'MaxHp', 'MinAtk', 'MaxAtk']
+    parse_int = ["MinHp", "MaxHp", "MinAtk", "MaxAtk"]
 
     raw_data = main.get_data(table, fields, group)
     abilities = main.set_abilities()
@@ -24,43 +27,43 @@ def set_dragon():
     data_dict = {}
 
     for i in raw_data:
-        item = i['title']
-        if item['BaseId'] and item['IsPlayable'] == '1':
-            uid = '{}_01'.format(item['BaseId'])
+        item = i["title"]
+        if item["BaseId"] and item["IsPlayable"] == "1":
+            uid = "{}_01".format(item["BaseId"])
             name = main.set_name(names, item, data_new)
 
             new_item = {
-                'id': uid,
-                'name': name,
-                'element': item['ElementalType'],
-                'rarity': item['Rarity'],
-                'skill': skills.get(item['SkillName'])
+                "id": uid,
+                "name": name,
+                "element": item["ElementalType"],
+                "rarity": item["Rarity"],
+                "skill": skills.get(item["SkillName"]),
             }
 
             for k in parse_int:
                 new_item[k] = int(item[k])
 
-            HP_V = {'incHP1': 0, 'incHP2': 0}
-            STR_V = {'incSTR1': 0, 'incSTR2': 0}
+            HP_V = {"incHP1": 0, "incHP2": 0}
+            STR_V = {"incSTR1": 0, "incSTR2": 0}
             res_V = {}
 
-            for a in ['Abilities11', 'Abilities12', 'Abilities21', 'Abilities22']:
+            for a in ["Abilities11", "Abilities12", "Abilities21", "Abilities22"]:
                 ability = abilities.get(item[a])
                 if ability:
                     # new_item[a.lower()] = ability['Might']
                     new_item[a.lower()] = ability
                     level = a[-1]
-                    if 'HP' in ability:
-                        HP_V['incHP' + level] = ability['HP']
-                    elif 'STR' in ability:
-                        STR_V['incSTR'+level] = ability['STR']
-                    elif 'Hybrid' in ability:
-                        HP_V['incHP' + level] = ability['Hybrid']
-                        STR_V['incSTR'+level] = ability['Hybrid']
+                    if "HP" in ability:
+                        HP_V["incHP" + level] = ability["HP"]
+                    elif "STR" in ability:
+                        STR_V["incSTR" + level] = ability["STR"]
+                    elif "Hybrid" in ability:
+                        HP_V["incHP" + level] = ability["Hybrid"]
+                        STR_V["incSTR" + level] = ability["Hybrid"]
 
-                    if 'res' in ability:
-                        res_V['resEle'] = ability['resEle']
-                        res_V['incRes'] = ability['res']
+                    if "res" in ability:
+                        res_V["resEle"] = ability["resEle"]
+                        res_V["incRes"] = ability["res"]
                 else:
                     new_item[a.lower()] = 0
 
@@ -71,15 +74,15 @@ def set_dragon():
             data_list.append(new_item)
             data_dict[uid] = new_item
 
-    main.save_file('list', FILE_NAME, data_list)
-    main.save_file('dict', FILE_NAME, data_dict)
+    main.save_file("list", FILE_NAME, data_list)
+    main.save_file("dict", FILE_NAME, data_dict)
 
     if len(names) != o_len:
         print(data_new)
-        main.save_file('locales', FILE_NAME, names)
+        main.save_file("locales", FILE_NAME, names)
         main.download_images(FILE_NAME, data_new)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(__file__)
     set_dragon()

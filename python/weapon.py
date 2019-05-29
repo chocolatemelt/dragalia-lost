@@ -1,14 +1,16 @@
 import main
 
-FILE_NAME = 'weapon'
+FILE_NAME = "weapon"
 
 
 def set_weapon():
-    table = 'Weapons'
-    fields = 'Id,BaseId,FormId,WeaponName,Type,Rarity,ElementalType,' + \
-        'MinHp,MaxHp,MinAtk,MaxAtk,SkillName,Abilities11,Abilities21,IsPlayable'
-    group = 'BaseId,FormId'
-    parse_int = ['MinHp', 'MaxHp', 'MinAtk', 'MaxAtk']
+    table = "Weapons"
+    fields = (
+        "Id,BaseId,FormId,WeaponName,Type,Rarity,ElementalType,"
+        + "MinHp,MaxHp,MinAtk,MaxAtk,SkillName,Abilities11,Abilities21,IsPlayable"
+    )
+    group = "BaseId,FormId"
+    parse_int = ["MinHp", "MaxHp", "MinAtk", "MaxAtk"]
 
     raw_data = main.get_data(table, fields, group)
     abilities = main.set_abilities()
@@ -21,20 +23,20 @@ def set_weapon():
     data_dict = {}
     data_new = []
     for i in raw_data:
-        item = i['title']
-        rarity = int(item['Rarity'])
-        if item['IsPlayable'] == '1' and rarity >= 3:
-            uid = '{}_01_{}'.format(item['BaseId'], item['FormId'])
+        item = i["title"]
+        rarity = int(item["Rarity"])
+        if item["IsPlayable"] == "1" and rarity >= 3:
+            uid = "{}_01_{}".format(item["BaseId"], item["FormId"])
             name = main.set_name(names, item, data_new)
 
             new_item = {
-                'id': uid,
-                'name': name,
-                'weapon': item['Type'],
-                'element': item['ElementalType'],
-                'rarity': item['Rarity'],
+                "id": uid,
+                "name": name,
+                "weapon": item["Type"],
+                "element": item["ElementalType"],
+                "rarity": item["Rarity"],
                 # 'skill': item['SkillName']
-                'skill': skills.get(item['SkillName'])
+                "skill": skills.get(item["SkillName"]),
             }
 
             for k in parse_int:
@@ -43,18 +45,18 @@ def set_weapon():
             # new_item['skill'] = item['SkillName'] != ''
 
             special = {}
-            for a in ['Abilities11', 'Abilities21']:
+            for a in ["Abilities11", "Abilities21"]:
                 ability = abilities.get(item[a])
                 if ability:
                     # new_item[a.lower()] = ability['might']
                     new_item[a.lower()] = ability
 
-                    if 'STR' in ability:
-                        special['req'] = ability['req']
-                        special['incSTR'] = ability['STR']
-                    elif 'def' in ability:
-                        special['req'] = ability['req']
-                        special['incDef'] = ability['def']
+                    if "STR" in ability:
+                        special["req"] = ability["req"]
+                        special["incSTR"] = ability["STR"]
+                    elif "def" in ability:
+                        special["req"] = ability["req"]
+                        special["incDef"] = ability["def"]
                 else:
                     new_item[a.lower()] = 0
             if len(special):
@@ -62,15 +64,15 @@ def set_weapon():
 
             data_list.append(new_item)
             data_dict[uid] = new_item
-    main.save_file('list', FILE_NAME, data_list)
-    main.save_file('dict', FILE_NAME, data_dict)
+    main.save_file("list", FILE_NAME, data_list)
+    main.save_file("dict", FILE_NAME, data_dict)
 
     if len(names) != o_len:
         print(data_new)
-        main.save_file('locales', FILE_NAME, names)
+        main.save_file("locales", FILE_NAME, names)
         main.download_images(FILE_NAME, data_new)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(__file__)
     set_weapon()
