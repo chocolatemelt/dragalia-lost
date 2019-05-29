@@ -38,26 +38,26 @@ def print_data(data):
     pp.pprint(data)
 
 
-def regex(details):
-    result = {}
-    result.update(regex_HP_STR_Def_DragonRes(details))
-    result.update(regexRes(details))
-
-    return result
-
-
+# skill_pattern = re.compile(
+#     r'([A-Za-z]+ Stance|\[\[.*?\]\].*?upgraded|Phase I+)?.*?'
+#     r'(deals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+'
+#     r'&lt;span style=&quot;color:#[a-zA-Z0-9]{6}; font-weight:bold;&quot;&gt;([\d.]+)%&lt;/span&gt;',
+#     re.IGNORECASE
+# )
 skill_pattern = re.compile(
-    r'(Stance.*?|upgraded.*?|Phase.*?)?([Dd]eals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+'
-    r'&lt;span style=&quot;color:#[a-zA-Z0-9]{6}; font-weight:bold;&quot;&gt;([\d.]+)%&lt;/span&gt;',
-    re.IGNORECASE
+    r'(&lt;br/?&gt;\n?.*?|Phase [IV]+.*?)?'
+    r'([Dd]eals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+'
+    r'&lt;span style=&quot;color:#[a-zA-Z0-9]{6}; font-weight:bold;&quot;&gt;([\d.]+)%&lt;/span&gt;'
+    # r'(.*?inflicts \[\[.*?|(.*)\]\] for (\d+) seconds( - dealing \'\'\'(\d+)%\'\'\' every ([\d\.]+) seconds))'
 )
-
+effect_active_pattern = re.compile(r'When \[\[(.*)\]\]')
 
 def regex_skill_modifier(details=''):
     matched = skill_pattern.findall(details)
     if len(matched) == 0:
         return 0
-    mod_list = []
+    mod_dict = {}
+    last_key = None
     for r in matched:
         upgrade, deals, hit, _, delayed_hit, modifier = r
         if len(modifier) == 0:
@@ -71,56 +71,74 @@ def regex_skill_modifier(details=''):
             hit = int(hit)
         if len(delayed_hit) > 0:
             hit += int(delayed_hit[4])
-        # mod_list.append(round(hit * float(modifier), 2))
         if len(deals) > 0 or len(upgrade) > 0:
-            mod_list.append(round(hit * float(modifier), 2))
+            if len(upgrade) > 0:
+                buff = effect_active_pattern.search(upgrade)
+                if buff:
+                    last_key = buff.group(1)
+                else:
+                    last_key = upgrade.\
+                        replace('&lt;br/&gt;', '').\
+                        replace('&lt;br&gt;', '').\
+                        strip()
+            else:
+                last_key = 'BASE'
+            mod_dict[last_key] = round(hit * float(modifier), 2)
         else:
-            if len(mod_list) == 0:
-                print(details)
-                print(r)
-                print(mod_list)
-            mod_list[-1] += round(hit * float(modifier), 2)
+            mod_dict[last_key] += round(hit * float(modifier), 2)
+    if len(mod_dict) > 1:
+        if len(set(mod_dict.values())) == 1:
+            mod_dict = {'BASE': mod_dict['BASE']}
 
-    return mod_list
+    return mod_dict
+
+
+def regex_abilities(details):
+    result = {}
+    result.update(regex_dragon_aura(details))
+    result.update(regex_resist(details))
+
+    return result
 
 
 dragon_aura_pattern = re.compile(
-        r'([a-zA-Z0-9]+)?:?\s*' +
+        r'attuned to (Flame|Water|Wind|Light|Shadow)?:?\s*' +
         r'increases (strength|HP|defense|strength and HP) by (?:\'\'\')?(\d+)%(?:\'\'\')?' +
         r'(?:\.' +
         r'| and adds \'\'\'(\d+)%\'\'\' to (Flame|Water|Wind|Light|Shadow) resistance' +
         r'| when HP is| and)', re.IGNORECASE)
 
 
-def regex_HP_STR_Def_DragonRes(details=''):
+def regex_dragon_aura(details=''):
     r = dragon_aura_pattern.search(details)
 
     if r:
-        req, field, v, res, resEle = r.groups()
+        req, field, v, res, res_ele = r.groups()
         result = {}
         result['req'] = req or ''
         result[ABBR_FIELDS[field]] = int(v)
 
-        if resEle:
-            result.update({'resEle': resEle.capitalize(), 'res': int(res)})
+        if res_ele:
+            result.update({'resEle': res_ele.capitalize(), 'res': int(res)})
 
         return result
 
     return {}
 
 
-def regexRes(details=''):
+resist_pattern = re.compile(r'Reduces (?:(Flame|Water|Wind|Light|Shadow) )?damage taken ' +
+        r'(?:from (High Midgardsormr|High Brunhilda|High Mercury) )?' +
+        r'by \'\'\'(\d+)%\'\'\'', re.IGNORECASE)
+
+
+def regex_resist(details=''):
     # test = [
     #     "Reduces damage taken from High Midgardsormr by '''20%'''.",
     #     "Reduces shadow damage taken by '''3%'''.",
     # ]
     # details = test[1]
 
-    r = re.search(
-        r'Reduces (?:(Flame|Water|Wind|Light|Shadow) )?damage taken ' +
-        r'(?:from (High Midgardsormr|High Brunhilda|High Mercury) )?' +
-        r'by \'\'\'(\d+)%\'\'\'', details, re.IGNORECASE
-    )
+    r = resist_pattern.search(details)
 
     if r:
         # print(r.groups())
@@ -146,6 +164,46 @@ def regexRes(details=''):
             }
 
     return {}
+
+
+passive_pattern = re.compile(
+    r"(\(.+\)|.+= )?(.+) (\+\d+%|[IV]+)",
+    re.IGNORECASE)
+
+
+def regex_passive(name=''):
+    r = passive_pattern.search(name)
+    if r:
+        req, ability_type, ability_value = r.groups()
+        req_threshold = None
+        if req:
+            if req[0] == '(' and req[-1] == ')':
+                req = req[1:-1]
+            elif req[-2] == '=':
+                req = req[0:-3]
+        if req and 'HP' in req:
+            if req == 'Full HP':
+                req_threshold = 100
+            elif 'Below' in req:
+                req_threshold = -int(req[-3:-1])
+            else:
+                req_threshold = int(req[-3:-1])
+        if ability_value[0] == '+' and ability_value[-1] == '%':
+            ability_value = int(ability_value[1:-1])
+        else:
+            # roman numerals r hard
+            if ability_value == 'IV':
+                ability_value = 4
+            else:
+                ability_value = ability_value.count('I') + ability_value.count('V') * 5
+        return {
+            'req': req,
+            'req_threshold': req_threshold,
+            'ability_type': ability_type,
+            'ability_value': ability_value
+        }
+    else:
+        return {}
 
 
 def set_abilitylimitedgroup():
@@ -178,6 +236,7 @@ def set_abilities():
     results = {}
     for i in raw_data:
         item = i['title']
+        name = item['Name']
         details = item['Details']
 
         new_item = {
@@ -188,10 +247,12 @@ def set_abilities():
             if item['AbilityLimitedGroupId1'] in ability_limit.keys() else 0
         }
 
-        updates = regex(details)
+        updates = regex_abilities(details)
 
         if len(updates):
             new_item.update(updates)
+
+        new_item['values'] = regex_passive(name)
 
         results[item['Id']] = new_item
 
