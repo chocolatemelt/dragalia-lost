@@ -50,7 +50,7 @@ def print_data(data):
 #     re.IGNORECASE
 # )
 skill_pattern = re.compile(
-    r"(&lt;br/?&gt;\n?.*?|Phase [IV]+.*?)?"
+    r"(&lt;br/?&gt;\n?.*?|Phase [IV]+.*?|increase caps at.*?)?"
     r"([Dd]eals\s+)?([a-zA-Z0-9]+)\s+(shot|hit)s?\s+(and \d delayed hits? )?of\s+"
     r"&lt;span style=&quot;color:#[a-zA-Z0-9]{6}; font-weight:bold;&quot;&gt;([\d.]+)%&lt;/span&gt;"
     # r'(.*?inflicts \[\[.*?|(.*)\]\] for (\d+) seconds( - dealing \'\'\'(\d+)%\'\'\' every ([\d\.]+) seconds))'
@@ -79,15 +79,19 @@ def regex_skill_modifier(details=""):
             hit += int(delayed_hit[4])
         if len(deals) > 0 or len(upgrade) > 0:
             if len(upgrade) > 0:
-                buff = effect_active_pattern.search(upgrade)
-                if buff:
-                    last_key = buff.group(1)
+                if upgrade.startswith('increase caps at'):
+                    # special case for veronica
+                    last_key = '1 HP'
                 else:
-                    last_key = (
-                        upgrade.replace("&lt;br/&gt;", "")
-                        .replace("&lt;br&gt;", "")
-                        .strip()
-                    )
+                    buff = effect_active_pattern.search(upgrade)
+                    if buff:
+                        last_key = buff.group(1)
+                    else:
+                        last_key = (
+                            upgrade.replace("&lt;br/&gt;", "")
+                            .replace("&lt;br&gt;", "")
+                            .strip()
+                        )
             else:
                 last_key = "BASE"
             mod_dict[last_key] = round(hit * float(modifier), 2)
