@@ -17353,13 +17353,16 @@ const adventurer =
       "iframe": 1.0,
       "modifier": {
         "lvl1": {
-          "BASE": 2860.0
+          "BASE": 880.0,
+          "1 HP": 1980.0
         },
         "lvl2": {
-          "BASE": 3175.25
+          "BASE": 977.0,
+          "1 HP": 2198.25
         },
         "lvl3": {
-          "BASE": 3523.0
+          "BASE": 1084.0,
+          "1 HP": 2439.0
         }
       }
     },

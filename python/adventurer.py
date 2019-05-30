@@ -82,7 +82,9 @@ def set_adventurer():
             }
 
             for k in parse_int:
-                new_item[k] = int(item[k])
+                if item[k].isdigit():
+                    new_item[k] = int(item[k])
+
 
             inc_LV = {}
             inc_Value = {}
