@@ -185,8 +185,8 @@ def regex_passive(name=""):
         req, ability_type, ability_value = r.groups()
         req_threshold = None
         if req:
-            if req[0] == "(" and req[-1] == ")":
-                req = req[1:-1]
+            if req[0] == "(" and req[-2] == ")":
+                req = req[1:-2]
             elif req[-2] == "=":
                 req = req[0:-3]
         if req and "HP" in req:

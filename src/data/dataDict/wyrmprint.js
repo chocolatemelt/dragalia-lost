@@ -7003,7 +7003,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 1
@@ -7018,7 +7018,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 2
@@ -7033,7 +7033,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 3
@@ -7048,7 +7048,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Paralysis Res",
         "ability_value": 25
@@ -7063,7 +7063,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Paralysis Res",
         "ability_value": 50
@@ -7078,7 +7078,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Paralysis Res",
         "ability_value": 75
@@ -9238,7 +9238,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Curse Res",
         "ability_value": 25
@@ -9253,7 +9253,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Curse Res",
         "ability_value": 35
@@ -9268,7 +9268,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Curse Res",
         "ability_value": 40
@@ -9299,7 +9299,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Critical Rate",
         "ability_value": 5
@@ -9314,7 +9314,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Critical Rate",
         "ability_value": 6
@@ -9329,7 +9329,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Critical Rate",
         "ability_value": 8
@@ -9415,7 +9415,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 4
@@ -9430,7 +9430,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 5
@@ -9445,7 +9445,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 6
@@ -9630,7 +9630,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Flurry Devastation",
         "ability_value": 8
@@ -9645,7 +9645,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Flurry Devastation",
         "ability_value": 10
@@ -9660,7 +9660,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Flurry Devastation",
         "ability_value": 12
@@ -10551,7 +10551,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Paralysis Res",
         "ability_value": 25
@@ -10566,7 +10566,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Paralysis Res",
         "ability_value": 40
@@ -10581,7 +10581,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Paralysis Res",
         "ability_value": 65
@@ -10873,7 +10873,7 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Buff Time",
         "ability_value": 15
@@ -10888,7 +10888,7 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Buff Time",
         "ability_value": 20
@@ -10903,7 +10903,7 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Buff Time",
         "ability_value": 25
@@ -10934,7 +10934,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Lance) ",
+        "req": "Lance",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 30
@@ -10949,7 +10949,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Lance) ",
+        "req": "Lance",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 35
@@ -10964,7 +10964,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Lance) ",
+        "req": "Lance",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 40
@@ -11600,7 +11600,7 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -11615,7 +11615,7 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 20
@@ -11630,7 +11630,7 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 25
@@ -11728,7 +11728,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 1
@@ -11743,7 +11743,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 2
@@ -11758,7 +11758,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 3
@@ -12331,7 +12331,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 8
@@ -12346,7 +12346,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 8
@@ -12361,7 +12361,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 10
@@ -12395,7 +12395,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 1
@@ -12410,7 +12410,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 2
@@ -12425,7 +12425,7 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Affliction Guard",
         "ability_value": 3
@@ -12726,7 +12726,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Bog Res",
         "ability_value": 25
@@ -12741,7 +12741,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Bog Res",
         "ability_value": 35
@@ -12756,7 +12756,7 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Bog Res",
         "ability_value": 40
@@ -12935,7 +12935,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 4
@@ -12950,7 +12950,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 5
@@ -12965,7 +12965,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 6
@@ -13189,7 +13189,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Axe) ",
+        "req": "Axe",
         "req_threshold": null,
         "ability_type": "Critical Rate",
         "ability_value": 10
@@ -13204,7 +13204,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Axe) ",
+        "req": "Axe",
         "req_threshold": null,
         "ability_type": "Critical Rate",
         "ability_value": 12
@@ -13219,7 +13219,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Axe) ",
+        "req": "Axe",
         "req_threshold": null,
         "ability_type": "Critical Rate",
         "ability_value": 14
@@ -13295,7 +13295,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Sword) ",
+        "req": "Sword",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 30
@@ -13310,7 +13310,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Sword) ",
+        "req": "Sword",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 35
@@ -13325,7 +13325,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Sword) ",
+        "req": "Sword",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 40
@@ -13623,7 +13623,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Bow) ",
+        "req": "Bow",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 30
@@ -13638,7 +13638,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Bow) ",
+        "req": "Bow",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 35
@@ -13653,7 +13653,7 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "(Bow) ",
+        "req": "Bow",
         "req_threshold": null,
         "ability_type": "Skill Damage",
         "ability_value": 40
@@ -13919,7 +13919,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 4
@@ -13934,7 +13934,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 5
@@ -13949,7 +13949,7 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 6

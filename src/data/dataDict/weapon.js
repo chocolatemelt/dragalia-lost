@@ -62,7 +62,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -138,7 +138,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -176,7 +176,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -252,7 +252,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -328,7 +328,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -366,7 +366,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -624,7 +624,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -662,7 +662,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -734,7 +734,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -772,7 +772,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -841,7 +841,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -856,7 +856,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -887,7 +887,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -956,7 +956,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -971,7 +971,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Stunned Punisher",
         "ability_value": 15
@@ -1002,7 +1002,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -1040,7 +1040,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -1266,7 +1266,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -1376,7 +1376,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -1391,7 +1391,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -1460,7 +1460,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -1475,7 +1475,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Stunned Punisher",
         "ability_value": 15
@@ -1718,7 +1718,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -1756,7 +1756,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -1773,7 +1773,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -1844,7 +1844,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -1920,7 +1920,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -1996,7 +1996,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -2072,7 +2072,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -2285,7 +2285,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -2323,7 +2323,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -2366,7 +2366,7 @@ const weapon =
       "req": "Flame",
       "def": 15,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -2381,7 +2381,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -2414,7 +2414,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -2431,7 +2431,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -2502,7 +2502,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -2542,7 +2542,7 @@ const weapon =
       "req": "Water",
       "def": 15,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -2616,7 +2616,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -2631,7 +2631,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -2662,7 +2662,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -2738,7 +2738,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -2753,7 +2753,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Stunned Punisher",
         "ability_value": 15
@@ -2784,7 +2784,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -2853,7 +2853,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -3073,7 +3073,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -3116,7 +3116,7 @@ const weapon =
       "req": "Flame",
       "def": 20,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -3131,7 +3131,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -3197,7 +3197,7 @@ const weapon =
       "req": "Water",
       "def": 20,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -3278,7 +3278,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -3293,7 +3293,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -3355,7 +3355,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -3370,7 +3370,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Stunned Punisher",
         "ability_value": 15
@@ -3588,7 +3588,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -3626,7 +3626,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -3702,7 +3702,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -3740,7 +3740,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -3816,7 +3816,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -3854,7 +3854,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -3930,7 +3930,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 10
@@ -3968,7 +3968,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -4226,7 +4226,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -4264,7 +4264,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -4302,7 +4302,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -4345,7 +4345,7 @@ const weapon =
       "req": "Flame",
       "def": 15,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -4360,7 +4360,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -4431,7 +4431,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -4469,7 +4469,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 3
@@ -4486,7 +4486,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -4519,7 +4519,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -4559,7 +4559,7 @@ const weapon =
       "req": "Water",
       "def": 15,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -4633,7 +4633,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -4671,7 +4671,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -4709,7 +4709,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -4724,7 +4724,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -4793,7 +4793,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Physian's Bane",
         "ability_value": 15
@@ -4831,7 +4831,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -5114,7 +5114,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -5157,7 +5157,7 @@ const weapon =
       "req": "Flame",
       "def": 20,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -5172,7 +5172,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -5236,7 +5236,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 4
@@ -5253,7 +5253,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -5288,7 +5288,7 @@ const weapon =
       "req": "Water",
       "def": 20,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -5369,7 +5369,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -5384,7 +5384,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -5640,7 +5640,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -5754,7 +5754,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -5980,7 +5980,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -6052,7 +6052,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 3
@@ -6069,7 +6069,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -6102,7 +6102,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -6171,7 +6171,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -6186,7 +6186,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -6248,7 +6248,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -6263,7 +6263,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Stunned Punisher",
         "ability_value": 15
@@ -6294,7 +6294,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -6545,7 +6545,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -6624,7 +6624,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 4
@@ -6641,7 +6641,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -6712,7 +6712,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -6727,7 +6727,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -6789,7 +6789,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -6804,7 +6804,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Stunned Punisher",
         "ability_value": 15
@@ -6984,7 +6984,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -7022,7 +7022,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -7039,7 +7039,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -7110,7 +7110,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -7148,7 +7148,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -7224,7 +7224,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -7338,7 +7338,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -7376,7 +7376,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -7452,7 +7452,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -7697,7 +7697,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -7735,7 +7735,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -7778,7 +7778,7 @@ const weapon =
       "req": "Flame",
       "def": 15,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -7793,7 +7793,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -7826,7 +7826,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -7843,7 +7843,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -7914,7 +7914,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -7952,7 +7952,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 3
@@ -7969,7 +7969,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -8002,7 +8002,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -8042,7 +8042,7 @@ const weapon =
       "req": "Water",
       "def": 15,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -8123,7 +8123,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -8161,7 +8161,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -8176,7 +8176,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -8238,7 +8238,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -8276,7 +8276,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -8345,7 +8345,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -8597,7 +8597,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -8640,7 +8640,7 @@ const weapon =
       "req": "Flame",
       "def": 20,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -8655,7 +8655,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -8719,7 +8719,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 4
@@ -8736,7 +8736,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -8771,7 +8771,7 @@ const weapon =
       "req": "Water",
       "def": 20,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -8845,7 +8845,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -8860,7 +8860,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -9085,7 +9085,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -9123,7 +9123,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -9140,7 +9140,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -9204,7 +9204,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -9242,7 +9242,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -9318,7 +9318,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -9394,7 +9394,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 10
@@ -9432,7 +9432,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -9501,7 +9501,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -9753,7 +9753,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -9791,7 +9791,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -9832,7 +9832,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -9849,7 +9849,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -9920,7 +9920,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -9958,7 +9958,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -10034,7 +10034,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -10072,7 +10072,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -10087,7 +10087,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -10149,7 +10149,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Undead's Bane",
         "ability_value": 15
@@ -10187,7 +10187,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -10256,7 +10256,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -10437,7 +10437,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -10540,7 +10540,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -10555,7 +10555,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -10811,7 +10811,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -10849,7 +10849,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -10866,7 +10866,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -10937,7 +10937,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -11013,7 +11013,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -11089,7 +11089,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 10
@@ -11165,7 +11165,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 10
@@ -11385,7 +11385,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -11423,7 +11423,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -11464,7 +11464,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -11481,7 +11481,7 @@ const weapon =
       "req": "Flame",
       "STR": 8,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Strength",
         "ability_value": 8
@@ -11545,7 +11545,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -11583,7 +11583,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 3
@@ -11600,7 +11600,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -11671,7 +11671,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -11709,7 +11709,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -11724,7 +11724,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -11786,7 +11786,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Thaumian's Bane",
         "ability_value": 15
@@ -11862,7 +11862,7 @@ const weapon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "(Shadow) ",
+        "req": "Shadow",
         "req_threshold": null,
         "ability_type": "Blinded Punisher",
         "ability_value": 15
@@ -12075,7 +12075,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -12154,7 +12154,7 @@ const weapon =
         "MaxLimitedValue": 6
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Slayer's Strength",
         "ability_value": 4
@@ -12171,7 +12171,7 @@ const weapon =
       "req": "Water",
       "STR": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Strength",
         "ability_value": 5
@@ -12235,7 +12235,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -12250,7 +12250,7 @@ const weapon =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Broken Punisher",
         "ability_value": 15
@@ -12470,7 +12470,7 @@ const weapon =
       "req": "Flame",
       "def": 3,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 3
@@ -12550,7 +12550,7 @@ const weapon =
       "req": "Water",
       "def": 3,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 3
@@ -12623,7 +12623,7 @@ const weapon =
       "req": "Wind",
       "def": 3,
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 3
@@ -12638,7 +12638,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Recovery Potency",
         "ability_value": 5
@@ -12735,7 +12735,7 @@ const weapon =
       "req": "Light",
       "def": 3,
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 3
@@ -12951,7 +12951,7 @@ const weapon =
       "req": "Flame",
       "def": 5,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 5
@@ -12991,7 +12991,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -13006,7 +13006,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 4
@@ -13039,7 +13039,7 @@ const weapon =
       "req": "Flame",
       "def": 15,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -13054,7 +13054,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -13120,7 +13120,7 @@ const weapon =
       "req": "Water",
       "def": 5,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 5
@@ -13162,7 +13162,7 @@ const weapon =
       "req": "Water",
       "def": 15,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 15
@@ -13177,7 +13177,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 4
@@ -13241,7 +13241,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -13256,7 +13256,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "HP 70% = Healing",
         "ability_value": 8
@@ -13289,7 +13289,7 @@ const weapon =
       "req": "Wind",
       "def": 5,
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 5
@@ -13304,7 +13304,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Recovery Potency",
         "ability_value": 5
@@ -13368,7 +13368,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 25
@@ -13383,7 +13383,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Recovery Potency",
         "ability_value": 5
@@ -13416,7 +13416,7 @@ const weapon =
       "req": "Light",
       "def": 5,
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "HP 70% = Defense",
         "ability_value": 5
@@ -13662,7 +13662,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -13677,7 +13677,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 4
@@ -13710,7 +13710,7 @@ const weapon =
       "req": "Flame",
       "def": 20,
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -13725,7 +13725,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Flame) ",
+        "req": "Flame",
         "req_threshold": null,
         "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
@@ -13791,7 +13791,7 @@ const weapon =
       "req": "Water",
       "def": 20,
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Full HP = Defense",
         "ability_value": 20
@@ -13806,7 +13806,7 @@ const weapon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "(Water) ",
+        "req": "Water",
         "req_threshold": null,
         "ability_type": "Skill Haste",
         "ability_value": 4
@@ -13870,7 +13870,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -13885,7 +13885,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Wind) ",
+        "req": "Wind",
         "req_threshold": null,
         "ability_type": "HP 70% = Healing",
         "ability_value": 8
@@ -13954,7 +13954,7 @@ const weapon =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Skill Prep",
         "ability_value": 50
@@ -13969,7 +13969,7 @@ const weapon =
         "MaxLimitedValue": 20
       },
       "values": {
-        "req": "(Light) ",
+        "req": "Light",
         "req_threshold": null,
         "ability_type": "Recovery Potency",
         "ability_value": 5
