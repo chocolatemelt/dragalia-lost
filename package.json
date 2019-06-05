@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "cp -rf build/. /d/Apache24/htdocs/dragalia-lost"
+    "deploy": "./publish.js"
   },
   "eslintConfig": {
     "extends": "react-app"
