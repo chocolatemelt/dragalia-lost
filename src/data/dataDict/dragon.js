@@ -3937,6 +3937,81 @@ const dragon =
     "incSTR1": 10,
     "incSTR2": 15
   },
+  "210074_01": {
+    "id": "210074_01",
+    "name": {
+      "en": "Yulong",
+      "ja": "ギョクリュウ",
+      "zh": "Yulong"
+    },
+    "element": "Wind",
+    "rarity": "5",
+    "skill": {
+      "name": "Subjugating Storm",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;189%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#25b700; font-weight:bold;&quot;&gt;210%&lt;/span&gt; wind damage to surrounding enemies.",
+      "description3": "",
+      "Sp": 30,
+      "SPLv2": 30,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier": {
+        "lvl1": {
+          "BASE": 567.0
+        },
+        "lvl2": {
+          "BASE": 630.0
+        }
+      }
+    },
+    "MinHp": 22,
+    "MaxHp": 225,
+    "MinAtk": 7,
+    "MaxAtk": 72,
+    "abilities11": {
+      "name": "(Wind) Strength +20%",
+      "details": "If the user is attuned to Wind: increases strength by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Wind",
+      "STR": 20,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 20
+      }
+    },
+    "abilities12": {
+      "name": "(Wind) Strength +30%",
+      "details": "If the user is attuned to Wind: increases strength by '''30%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Wind",
+      "STR": 30,
+      "values": {
+        "req": "Wind",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 30
+      }
+    },
+    "abilities21": 0,
+    "abilities22": 0,
+    "incHP1": 0,
+    "incHP2": 0,
+    "incSTR1": 20,
+    "incSTR2": 30
+  },
   "210075_01": {
     "id": "210075_01",
     "name": {
@@ -4460,6 +4535,109 @@ const dragon =
     "incHP2": 40,
     "incSTR1": 0,
     "incSTR2": 0
+  },
+  "210082_01": {
+    "id": "210082_01",
+    "name": {
+      "en": "Konohana Sakuya",
+      "ja": "コノハナサクヤ",
+      "zh": "Konohana Sakuya"
+    },
+    "element": "Flame",
+    "rarity": "5",
+    "skill": {
+      "name": "Deciduous Dance",
+      "icon": "Icon_Skill_020",
+      "description1": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;594%&lt;/span&gt; flame damage to the target and nearby enemies, and increases the damage dealt by the user's next skill by '''30%'''.",
+      "description2": "Deals 1 hit of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;660%&lt;/span&gt; flame damage to the target and nearby enemies, and increases the damage dealt by the user's next skill by '''40%'''.",
+      "description3": "",
+      "Sp": 30,
+      "SPLv2": 30,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier": {
+        "lvl1": {
+          "BASE": 594.0
+        },
+        "lvl2": {
+          "BASE": 660.0
+        }
+      }
+    },
+    "MinHp": 37,
+    "MaxHp": 374,
+    "MinAtk": 12,
+    "MaxAtk": 121,
+    "abilities11": {
+      "name": "(Flame) Strength +10%",
+      "details": "If the user is attuned to Flame: increases strength by '''10%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 10,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 10
+      }
+    },
+    "abilities12": {
+      "name": "(Flame) Strength +20%",
+      "details": "If the user is attuned to Flame: increases strength by '''20%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "req": "Flame",
+      "STR": 20,
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Strength",
+        "ability_value": 20
+      }
+    },
+    "abilities21": {
+      "name": "(Flame) Skill Damage +50%",
+      "details": "If the user is attuned to Flame: increases attack skill damage by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 50
+      }
+    },
+    "abilities22": {
+      "name": "(Flame) Skill Damage +70%",
+      "details": "If the user is attuned to Flame: increases attack skill damage by '''70%'''.",
+      "might": 70,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Flame",
+        "req_threshold": null,
+        "ability_type": " Skill Damage",
+        "ability_value": 70
+      }
+    },
+    "incHP1": 0,
+    "incHP2": 0,
+    "incSTR1": 10,
+    "incSTR2": 20
   },
   "210089_01": {
     "id": "210089_01",

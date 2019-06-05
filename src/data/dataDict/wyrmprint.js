@@ -8,10 +8,10 @@ const wyrmprint =
       "zh": "Ring of Exaltation"
     },
     "rarity": "2",
-    "MinHp": 26,
-    "MaxHp": 178,
-    "MinAtk": 9,
-    "MaxAtk": 62,
+    "MinHp": 5,
+    "MaxHp": 36,
+    "MinAtk": 1,
+    "MaxAtk": 12,
     "abilities11": {
       "name": "Critical Rate +2%",
       "details": "Increases critical rate by '''2%'''.",
@@ -72,10 +72,10 @@ const wyrmprint =
       "zh": "Seafood Soup"
     },
     "rarity": "2",
-    "MinHp": 26,
-    "MaxHp": 178,
-    "MinAtk": 9,
-    "MaxAtk": 62,
+    "MinHp": 5,
+    "MaxHp": 36,
+    "MinAtk": 1,
+    "MaxAtk": 12,
     "abilities11": {
       "name": "Skill Prep +8%",
       "details": "Fills '''8%''' of skill gauges at the start of quests.",
@@ -136,10 +136,10 @@ const wyrmprint =
       "zh": "Dragon Arcanum"
     },
     "rarity": "2",
-    "MinHp": 26,
-    "MaxHp": 178,
-    "MinAtk": 9,
-    "MaxAtk": 62,
+    "MinHp": 5,
+    "MaxHp": 36,
+    "MinAtk": 1,
+    "MaxAtk": 12,
     "abilities11": {
       "name": "Shapeshift Prep +5%",
       "details": "Fills '''5%''' of the dragon gauge at the start of quests.",
@@ -200,10 +200,10 @@ const wyrmprint =
       "zh": "Mana Fount"
     },
     "rarity": "2",
-    "MinHp": 26,
-    "MaxHp": 177,
-    "MinAtk": 9,
-    "MaxAtk": 63,
+    "MinHp": 5,
+    "MaxHp": 35,
+    "MinAtk": 1,
+    "MaxAtk": 13,
     "abilities11": {
       "name": "Skill Damage +5%",
       "details": "Increases attack skill damage by '''5%'''.",
@@ -264,10 +264,10 @@ const wyrmprint =
       "zh": "Old Harp"
     },
     "rarity": "2",
-    "MinHp": 27,
-    "MaxHp": 182,
-    "MinAtk": 8,
-    "MaxAtk": 58,
+    "MinHp": 5,
+    "MaxHp": 36,
+    "MinAtk": 1,
+    "MaxAtk": 12,
     "abilities11": {
       "name": "Recovery Potency +2%",
       "details": "Increases the potency of recovery skills by '''2%'''.",
@@ -990,7 +990,7 @@ const wyrmprint =
     "abilities12": {
       "name": "Shapeshift Prep +9%",
       "details": "Fills '''9%''' of the dragon gauge at the start of quests.",
-      "might": 10,
+      "might": 30,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
@@ -2999,7 +2999,7 @@ const wyrmprint =
     "abilities22": {
       "name": "Shapeshift Prep +9%",
       "details": "Fills '''9%''' of the dragon gauge at the start of quests.",
-      "might": 10,
+      "might": 30,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 10
@@ -6425,12 +6425,14 @@ const wyrmprint =
     },
     "abilities12": {
       "name": "High Midgardsormr Res +23%",
-      "details": "Reduces damage taken from High Midgardsormr  by '''23%'''.",
+      "details": "Reduces damage taken from High Midgardsormr by '''23%'''.",
       "might": 100,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 25
       },
+      "dungeon": "hms",
+      "counter": 23,
       "values": {
         "req": null,
         "req_threshold": null,
@@ -6553,6 +6555,7 @@ const wyrmprint =
     },
     "dungeon": "hms",
     "counter1": 20,
+    "counter2": 23,
     "counter3": 25,
     "resEle": "Wind",
     "incRes1": 3,
@@ -7399,6 +7402,112 @@ const wyrmprint =
         "req_threshold": null,
         "ability_type": " Paralysis Res",
         "ability_value": 75
+      }
+    },
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0
+  },
+  "400085": {
+    "id": "400085",
+    "name": {
+      "en": "Beauty's Secret",
+      "ja": "美の秘訣",
+      "zh": "Beauty's Secret"
+    },
+    "rarity": "4",
+    "MinHp": 21,
+    "MaxHp": 146,
+    "MinAtk": 6,
+    "MaxAtk": 46,
+    "abilities11": {
+      "name": "HP 70% = Strength +6%",
+      "details": "Increases strength by '''6%''' when HP is '''70%''' or above.",
+      "might": 50,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 6
+      }
+    },
+    "abilities12": {
+      "name": "HP 70% = Strength +8%",
+      "details": "Increases strength by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 8
+      }
+    },
+    "abilities13": {
+      "name": "HP 70% = Strength +10%",
+      "details": "Increases strength by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Strength",
+        "ability_value": 10
+      }
+    },
+    "abilities21": {
+      "name": "Burn Res +20%",
+      "details": "Reduces susceptibility to burning by '''20%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 20
+      }
+    },
+    "abilities22": {
+      "name": "Burn Res +25%",
+      "details": "Reduces susceptibility to burning by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 25
+      }
+    },
+    "abilities23": {
+      "name": "Burn Res +50%",
+      "details": "Reduces susceptibility to burning by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Burn Res",
+        "ability_value": 50
       }
     },
     "abilities31": 0,
@@ -9865,7 +9974,7 @@ const wyrmprint =
     "abilities23": {
       "name": "(Water) Flurry Devastation +12%",
       "details": "If the user is attuned to Water: increases critical rate by '''12%''' when the combo count is 15 or higher.",
-      "might": 60,
+      "might": 70,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -11108,7 +11217,7 @@ const wyrmprint =
     "abilities23": {
       "name": "(Shadow) Buff Time +25%",
       "details": "If the user is attuned to Shadow: increases duration of buff skills by '''25%'''.",
-      "might": 40,
+      "might": 50,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
@@ -11759,7 +11868,7 @@ const wyrmprint =
     "abilities22": {
       "name": "Striking Haste +8%",
       "details": "Increases skill gauge fill rate by '''8%''' when the user's force strikes connect.",
-      "might": 60,
+      "might": 65,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -11774,7 +11883,7 @@ const wyrmprint =
     "abilities23": {
       "name": "Striking Haste +10%",
       "details": "Increases skill gauge fill rate by '''10%''' when the user's force strikes connect.",
-      "might": 60,
+      "might": 70,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -11835,7 +11944,7 @@ const wyrmprint =
     "abilities13": {
       "name": "(Wind) Broken Punisher +25%",
       "details": "If the user is attuned to Wind: increases damage to enemies in break state by '''25%'''.",
-      "might": 20,
+      "might": 50,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
@@ -12438,7 +12547,7 @@ const wyrmprint =
     "abilities13": {
       "name": "Burning Punisher +30%",
       "details": "Increases damage to burning enemies by '''30%'''.",
-      "might": 80,
+      "might": 90,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 30
@@ -12535,7 +12644,7 @@ const wyrmprint =
     "MaxAtk": 53,
     "abilities11": {
       "name": "(Flame) Skill Haste +8%",
-      "details": "If the user is attuned to Flame: Increases skill gauge fill rate by '''8%'''.",
+      "details": "If the user is attuned to Flame: increases skill gauge fill rate by '''8%'''.",
       "might": 80,
       "limit": {
         "IsEffectMix": false,
@@ -12550,7 +12659,7 @@ const wyrmprint =
     },
     "abilities12": {
       "name": "(Flame) Skill Haste +8%",
-      "details": "If the user is attuned to Flame: Increases skill gauge fill rate by '''8%'''.",
+      "details": "If the user is attuned to Flame: increases skill gauge fill rate by '''8%'''.",
       "might": 80,
       "limit": {
         "IsEffectMix": false,
@@ -13155,7 +13264,7 @@ const wyrmprint =
     "abilities12": {
       "name": "(Shadow) Skill Haste +5%",
       "details": "If the user is attuned to shadow: increases skill gauge fill rate by '''5%'''.",
-      "might": 80,
+      "might": 85,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -13170,7 +13279,7 @@ const wyrmprint =
     "abilities13": {
       "name": "(Shadow) Skill Haste +6%",
       "details": "If the user is attuned to shadow: increases skill gauge fill rate by '''6%'''.",
-      "might": 60,
+      "might": 90,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -13591,6 +13700,228 @@ const wyrmprint =
     "abilities32": 0,
     "abilities33": 0
   },
+  "400168": {
+    "id": "400168",
+    "name": {
+      "en": "Study Rabbits",
+      "ja": "夢に見た学校生活♪",
+      "zh": "Study Rabbits"
+    },
+    "rarity": "5",
+    "MinHp": 29,
+    "MaxHp": 195,
+    "MinAtk": 6,
+    "MaxAtk": 46,
+    "abilities11": {
+      "name": "HP 70% = Defense +8%",
+      "details": "Increases defense by '''8%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 8
+      }
+    },
+    "abilities12": {
+      "name": "HP 70% = Defense +10%",
+      "details": "Increases defense by '''10%''' when HP is '''70%''' or above.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 10
+      }
+    },
+    "abilities13": {
+      "name": "HP 70% = Defense +13%",
+      "details": "Increases defense by '''13%''' when HP is '''70%''' or above.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Defense",
+        "ability_value": 13
+      }
+    },
+    "abilities21": {
+      "name": "HP +4%",
+      "details": "Increases HP by '''4%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 8
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "HP",
+        "ability_value": 4
+      }
+    },
+    "abilities22": {
+      "name": "HP +6%",
+      "details": "Increases HP by '''6%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 8
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "HP",
+        "ability_value": 6
+      }
+    },
+    "abilities23": {
+      "name": "HP +8%",
+      "details": "Increases HP by '''8%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 8
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "HP",
+        "ability_value": 8
+      }
+    },
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0
+  },
+  "400171": {
+    "id": "400171",
+    "name": {
+      "en": "A Maddened Master",
+      "ja": "師匠の一喝",
+      "zh": "A Maddened Master"
+    },
+    "rarity": "4",
+    "MinHp": 19,
+    "MaxHp": 127,
+    "MinAtk": 4,
+    "MaxAtk": 30,
+    "abilities11": {
+      "name": "Wind Res +5%",
+      "details": "Reduces wind damage taken by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 5,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 5
+      }
+    },
+    "abilities12": {
+      "name": "Wind Res +8%",
+      "details": "Reduces wind damage taken by '''8%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 8,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 8
+      }
+    },
+    "abilities13": {
+      "name": "Wind Res +10%",
+      "details": "Reduces wind damage taken by '''10%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "resEle": "Wind",
+      "res": 10,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Wind Res",
+        "ability_value": 10
+      }
+    },
+    "abilities21": {
+      "name": "Overdrive Punisher +3%",
+      "details": "Increases damage to enemies in overdrive state by '''3%'''.",
+      "might": 20,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 3
+      }
+    },
+    "abilities22": {
+      "name": "Overdrive Punisher +4%",
+      "details": "Increases damage to enemies in overdrive state by '''4%'''.",
+      "might": 30,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 4
+      }
+    },
+    "abilities23": {
+      "name": "Overdrive Punisher +5%",
+      "details": "Increases damage to enemies in overdrive state by '''5%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Overdrive Punisher",
+        "ability_value": 5
+      }
+    },
+    "abilities31": 0,
+    "abilities32": 0,
+    "abilities33": 0,
+    "resEle": "Wind",
+    "incRes1": 5,
+    "incRes2": 8,
+    "incRes3": 10
+  },
   "400172": {
     "id": "400172",
     "name": {
@@ -13651,7 +13982,7 @@ const wyrmprint =
     "abilities21": {
       "name": "Striking Haste +8%",
       "details": "Increases skill gauge fill rate by '''8%''' when the user's force strikes connect.",
-      "might": 60,
+      "might": 65,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -13666,7 +13997,7 @@ const wyrmprint =
     "abilities22": {
       "name": "Striking Haste +10%",
       "details": "Increases skill gauge fill rate by '''10%''' when the user's force strikes connect.",
-      "might": 60,
+      "might": 70,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -13681,7 +14012,7 @@ const wyrmprint =
     "abilities23": {
       "name": "Striking Haste +12%",
       "details": "Increases skill gauge fill rate by '''12%''' when the user's force strikes connect.",
-      "might": 70,
+      "might": 75,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15
@@ -13917,7 +14248,7 @@ const wyrmprint =
     "abilities12": {
       "name": "(Water) Skill Haste +5%",
       "details": "If the user is attuned to Water:  increases skill gauge fill rate by '''5%'''.",
-      "might": 50,
+      "might": 55,
       "limit": {
         "IsEffectMix": false,
         "MaxLimitedValue": 15

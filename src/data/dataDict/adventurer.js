@@ -1468,22 +1468,32 @@ const adventurer =
     "skill1": {
       "name": "Dragon Claw",
       "icon": "Icon_Skill_003",
-      "description1": "Deals flame damage to enemies directly ahead, and raises the dragon gauge if the attack connects.",
-      "description2": "Deals flame damage to enemies directly ahead, and raises the dragon gauge if the attack connects.",
-      "description3": "Deals flame damage to enemies directly ahead, and raises the dragon gauge if the attack connects.",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;249%&lt;/span&gt; flame damage to enemies directly ahead, and raises the dragon gauge by '''5%''' if the attack connects.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;276%&lt;/span&gt; flame damage to enemies directly ahead, and raises the dragon gauge by '''5%''' if the attack connects.",
+      "description3": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;307%&lt;/span&gt; flame damage to enemies directly ahead, and raises the dragon gauge by '''5%''' if the attack connects.",
       "Sp": 2914,
       "SPLv2": 2914,
       "SpRegen": 0,
       "HideLevel3": false,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": null
+      "modifier": {
+        "lvl1": {
+          "BASE": 747.0
+        },
+        "lvl2": {
+          "BASE": 828.0
+        },
+        "lvl3": {
+          "BASE": 921.0
+        }
+      }
     },
     "skill2": {
       "name": "Flames of Passion",
       "icon": "Icon_Skill_025",
-      "description1": "Deals flame damage to enemies in a line.",
-      "description2": "Deals flame damage to enemies in a line.",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;187%&lt;/span&gt; flame damage to enemies in a line. &lt;br&gt;\nAfter [[Dragon Transformation|transformation]], '''Flames of Passion''' deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;281%&lt;/span&gt; flame damage instead for the remainder of the quest.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;207%&lt;/span&gt; flame damage to enemies in a line. &lt;br&gt;\nAfter [[Dragon Transformation|transformation]], '''Flames of Passion''' deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;311%&lt;/span&gt; flame damage instead for the remainder of the quest.",
       "description3": "",
       "Sp": 5736,
       "SPLv2": 5736,
@@ -1491,7 +1501,16 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": null
+      "modifier": {
+        "lvl1": {
+          "BASE": 748.0,
+          "After [[Dragon Transformation|transformation]], '''Flames of Passion'''": 1124.0
+        },
+        "lvl2": {
+          "BASE": 828.0,
+          "After [[Dragon Transformation|transformation]], '''Flames of Passion'''": 1244.0
+        }
+      }
     }
   },
   "100029_02": {
@@ -6428,6 +6447,138 @@ const adventurer =
       "modifier": null
     }
   },
+  "110029_02": {
+    "id": "110029_02",
+    "name": {
+      "en": "Aeleen",
+      "ja": "エイル",
+      "zh": "艾露"
+    },
+    "weapon": "Staff",
+    "element": "Water",
+    "rarity": "4",
+    "MinHp3": 46,
+    "MinHp4": 57,
+    "MinHp5": 66,
+    "MaxHp": 469,
+    "PlusHp0": 55,
+    "PlusHp1": 63,
+    "PlusHp2": 75,
+    "PlusHp3": 63,
+    "PlusHp4": 31,
+    "McFullBonusHp5": 28,
+    "MinAtk3": 26,
+    "MinAtk4": 32,
+    "MinAtk5": 38,
+    "MaxAtk": 270,
+    "PlusAtk0": 31,
+    "PlusAtk1": 36,
+    "PlusAtk2": 43,
+    "PlusAtk3": 36,
+    "PlusAtk4": 18,
+    "McFullBonusAtk5": 18,
+    "DefCoef": 8,
+    "abilities11": {
+      "name": "Skill Prep +50%",
+      "details": "Fills '''50%''' of skill gauges at the start of quests.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 50
+      }
+    },
+    "abilities12": {
+      "name": "Skill Prep +75%",
+      "details": "Fills '''75%''' of skill gauges at the start of quests.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Skill Prep",
+        "ability_value": 75
+      }
+    },
+    "abilities21": {
+      "name": "Stun Res +50%",
+      "details": "Reduces susceptibility to stun by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
+      }
+    },
+    "abilities22": {
+      "name": "Stun Res +100%",
+      "details": "Reduces susceptibility to stun by '''100%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
+      }
+    },
+    "abilities31": {
+      "name": "United Haste I",
+      "details": "Increases skill gauge fill rate relative to the number of active team members. The more active members, the greater the increase will be.",
+      "might": 60,
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "United Haste",
+        "ability_value": 1
+      }
+    },
+    "skill1": {
+      "name": "Medicinal Cure",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to all allies with '''31%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''25%''' [[Healing Formula|Regen Potency]] every 2.99 seconds, and activates &quot;Skill Shift.&quot; &lt;br&gt;\nPhase II adds an additional '''8%''' increase to the entire team's defense for '''5''' seconds, while Phase III adds an additional '''5%''' increase to the team's strength for '''10''' seconds.",
+      "description2": "Restores HP to all allies with '''36%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''29%''' [[Healing Formula|Regen Potency]] every 2.99 seconds, and activates &quot;Skill Shift.&quot; &lt;br&gt;\nPhase II adds an additional '''10%''' increase to the entire team's defense for '''5''' seconds, while Phase III adds an additional '''8%''' increase to the team's strength for '''10''' seconds.",
+      "description3": "Restores HP to all allies with '''44%''' [[Healing Formula|Recovery Potency]] and applies Regen for 15 seconds, healing with '''35%''' [[Healing Formula|Regen Potency]] every 2.99 seconds, and activates &quot;Skill Shift.&quot; &lt;br&gt;\nPhase II adds an additional '''15%''' increase to the entire team's defense for '''5''' seconds, while Phase III adds an additional '''10%''' increase to the team's strength for '''10''' seconds.",
+      "Sp": 7888,
+      "SPLv2": 7888,
+      "SpRegen": 0,
+      "HideLevel3": false,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": null
+    },
+    "skill2": {
+      "name": "Naturopathy",
+      "icon": "Icon_Skill_029",
+      "description1": "Restores HP to the user and nearby allies with '''72%''' [[Healing Formula|Recovery Potency]], and removes [[Conditions#Afflictions|stun]].",
+      "description2": "Restores HP to the user and nearby allies with '''90%''' [[Healing Formula|Recovery Potency]], and removes [[Conditions#Afflictions|stun]].",
+      "description3": "",
+      "Sp": 11832,
+      "SPLv2": 11832,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": null
+    }
+  },
   "110030_01": {
     "id": "110030_01",
     "name": {
@@ -6888,6 +7039,173 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 976.0
+        }
+      }
+    }
+  },
+  "110032_02": {
+    "id": "110032_02",
+    "name": {
+      "en": "Maribelle",
+      "ja": "メリィベル",
+      "zh": "梅莉贝尔"
+    },
+    "weapon": "Wand",
+    "element": "Flame",
+    "rarity": "5",
+    "MinHp3": 44,
+    "MinHp4": 54,
+    "MinHp5": 63,
+    "MaxHp": 447,
+    "PlusHp0": 52,
+    "PlusHp1": 60,
+    "PlusHp2": 71,
+    "PlusHp3": 60,
+    "PlusHp4": 30,
+    "McFullBonusHp5": 27,
+    "MinAtk3": 30,
+    "MinAtk4": 37,
+    "MinAtk5": 43,
+    "MaxAtk": 307,
+    "PlusAtk0": 36,
+    "PlusAtk1": 41,
+    "PlusAtk2": 49,
+    "PlusAtk3": 41,
+    "PlusAtk4": 20,
+    "McFullBonusAtk5": 19,
+    "DefCoef": 8,
+    "abilities11": {
+      "name": "Full HP = Skill Damage +35%",
+      "details": "Increases attack skill damage by '''35%''' when HP is '''full'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 35
+      }
+    },
+    "abilities12": {
+      "name": "Full HP = Skill Damage +40%",
+      "details": "Increases attack skill damage by '''40%''' when HP is '''full'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 40
+      },
+      "values": {
+        "req": "Full HP",
+        "req_threshold": 100,
+        "ability_type": "Skill Damage",
+        "ability_value": 40
+      }
+    },
+    "abilities21": {
+      "name": "Stun Res +50%",
+      "details": "Reduces susceptibility to stun by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
+      }
+    },
+    "abilities22": {
+      "name": "Stun Res +100%",
+      "details": "Reduces susceptibility to stun by '''100%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
+      }
+    },
+    "abilities31": {
+      "name": "Broken Punisher +25%",
+      "details": "Increases damage to enemies in break state by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 25
+      }
+    },
+    "abilities32": {
+      "name": "Broken Punisher +30%",
+      "details": "Increases damage to enemies in break state by '''30%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 30
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Broken Punisher",
+        "ability_value": 30
+      }
+    },
+    "skill1": {
+      "name": "Study Break",
+      "icon": "Icon_Skill_014",
+      "description1": "Deals 12 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;73%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 12 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;77%&lt;/span&gt; flame damage to enemies directly ahead, and reduces their defense by '''5%''' for '''10''' seconds with '''50%''' base chance.",
+      "description3": "Deals 12 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;80%&lt;/span&gt; flame damage to enemies directly ahead, and reduces their defense by '''5%''' for '''10''' seconds with '''50%''' base chance.",
+      "Sp": 2649,
+      "SPLv2": 2649,
+      "SpRegen": 0,
+      "HideLevel3": false,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier": {
+        "lvl1": {
+          "BASE": 876.0
+        },
+        "lvl2": {
+          "BASE": 924.0
+        },
+        "lvl3": {
+          "BASE": 960.0
+        }
+      }
+    },
+    "skill2": {
+      "name": "Happy Memories",
+      "icon": "Icon_Skill_018",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;613%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;644%&lt;/span&gt; flame damage to surrounding enemies.",
+      "description3": "",
+      "Sp": 8300,
+      "SPLv2": 8300,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": {
+        "lvl1": {
+          "BASE": 1226.0
+        },
+        "lvl2": {
+          "BASE": 1288.0
         }
       }
     }
@@ -10756,6 +11074,155 @@ const adventurer =
       "IsAffectedByTension": true,
       "iframe": 1.0,
       "modifier": null
+    }
+  },
+  "110054_01": {
+    "id": "110054_01",
+    "name": {
+      "en": "Serena",
+      "ja": "セレナ",
+      "zh": "Serena"
+    },
+    "weapon": "Sword",
+    "element": "Flame",
+    "rarity": "4",
+    "MinHp3": 47,
+    "MinHp4": 58,
+    "MinHp5": 68,
+    "MaxHp": 484,
+    "PlusHp0": 56,
+    "PlusHp1": 65,
+    "PlusHp2": 77,
+    "PlusHp3": 65,
+    "PlusHp4": 32,
+    "McFullBonusHp5": 29,
+    "MinAtk3": 26,
+    "MinAtk4": 32,
+    "MinAtk5": 37,
+    "MaxAtk": 265,
+    "PlusAtk0": 31,
+    "PlusAtk1": 36,
+    "PlusAtk2": 42,
+    "PlusAtk3": 36,
+    "PlusAtk4": 18,
+    "McFullBonusAtk5": 15,
+    "DefCoef": 10,
+    "abilities11": {
+      "name": "Barrage Obliteration +5%",
+      "details": "Adds '''5%''' to the modifier applied to critical damage for every '''20'''-hit combo (up to three times per quest).",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Barrage Obliteration",
+        "ability_value": 5
+      }
+    },
+    "abilities12": {
+      "name": "Barrage Obliteration +6%",
+      "details": "Adds '''6%''' to the modifier applied to critical damage for every '''20'''-hit combo (up to three times per quest).",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 0
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Barrage Obliteration",
+        "ability_value": 6
+      }
+    },
+    "abilities21": {
+      "name": "Stun Res +50%",
+      "details": "Reduces susceptibility to stun by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
+      }
+    },
+    "abilities22": {
+      "name": "Stun Res +100%",
+      "details": "Reduces susceptibility to stun by '''100%'''.",
+      "might": 100,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 100
+      }
+    },
+    "abilities31": {
+      "name": "Barrage Devastation +3%",
+      "details": "Increases critical rate by '''3%''' for every '''30'''-hit combo (up to three times per quest).",
+      "might": 60,
+      "limit": 0,
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Barrage Devastation",
+        "ability_value": 3
+      }
+    },
+    "skill1": {
+      "name": "Assault Flame",
+      "icon": "Icon_Skill_006",
+      "description1": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;284%&lt;/span&gt; flame damage to enemies in a line.",
+      "description2": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;315%&lt;/span&gt; flame damage to enemies in a line, and increases the user's critical rate by '''10%''' for '''5''' seconds.",
+      "description3": "Deals 2 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;350%&lt;/span&gt; flame damage to enemies in a line, and increases the user's critical rate by '''10%''' for '''5''' seconds.",
+      "Sp": 2500,
+      "SPLv2": 2500,
+      "SpRegen": 0,
+      "HideLevel3": false,
+      "IsAffectedByTension": true,
+      "iframe": 2.0,
+      "modifier": {
+        "lvl1": {
+          "BASE": 568.0
+        },
+        "lvl2": {
+          "BASE": 630.0
+        },
+        "lvl3": {
+          "BASE": 700.0
+        }
+      }
+    },
+    "skill2": {
+      "name": "Blazing Pain",
+      "icon": "Icon_Skill_011",
+      "description1": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;152%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description2": "Deals 4 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;169%&lt;/span&gt; flame damage to enemies directly ahead.",
+      "description3": "",
+      "Sp": 4593,
+      "SPLv2": 4593,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": {
+        "lvl1": {
+          "BASE": 608.0
+        },
+        "lvl2": {
+          "BASE": 676.0
+        }
+      }
     }
   },
   "110056_01": {
@@ -14689,6 +15156,151 @@ const adventurer =
       }
     }
   },
+  "110299_01": {
+    "id": "110299_01",
+    "name": {
+      "en": "Xuan Zang",
+      "ja": "サンゾウ",
+      "zh": "Xuan Zang"
+    },
+    "weapon": "Lance",
+    "element": "Flame",
+    "rarity": "4",
+    "MinHp3": 44,
+    "MinHp4": 44,
+    "MinHp5": 63,
+    "MaxHp": 448,
+    "PlusHp0": 52,
+    "PlusHp1": 60,
+    "PlusHp2": 72,
+    "PlusHp3": 60,
+    "PlusHp4": 30,
+    "McFullBonusHp5": 27,
+    "MinAtk3": 27,
+    "MinAtk4": 27,
+    "MinAtk5": 39,
+    "MaxAtk": 276,
+    "PlusAtk0": 32,
+    "PlusAtk1": 37,
+    "PlusAtk2": 44,
+    "PlusAtk3": 37,
+    "PlusAtk4": 18,
+    "McFullBonusAtk5": 17,
+    "DefCoef": 10,
+    "abilities11": {
+      "name": "Demihuman's Bane +20%",
+      "details": "Increases damage to [[Class Banes|demihumans]] by '''20%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Demihuman's Bane",
+        "ability_value": 20
+      }
+    },
+    "abilities12": {
+      "name": "Demihuman's Bane +25%",
+      "details": "Increases damage to [[Class Banes|demihumans]] by '''25%'''.",
+      "might": 80,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 20
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Demihuman's Bane",
+        "ability_value": 25
+      }
+    },
+    "abilities21": {
+      "name": "Stun Res +25%",
+      "details": "Reduces susceptibility to stun by '''25%'''.",
+      "might": 40,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 25
+      }
+    },
+    "abilities22": {
+      "name": "Stun Res +50%",
+      "details": "Reduces susceptibility to stun by '''50%'''.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 100
+      },
+      "values": {
+        "req": null,
+        "req_threshold": null,
+        "ability_type": "Stun Res",
+        "ability_value": 50
+      }
+    },
+    "abilities31": {
+      "name": "HP 70% = Critical Rate +6%",
+      "details": "Increases critical rate by '''6%''' when HP is '''70%''' or above.",
+      "might": 60,
+      "limit": {
+        "IsEffectMix": false,
+        "MaxLimitedValue": 15
+      },
+      "values": {
+        "req": "HP 70%",
+        "req_threshold": 70,
+        "ability_type": "Critical Rate",
+        "ability_value": 6
+      }
+    },
+    "skill1": {
+      "name": "Flame Incursion",
+      "icon": "Icon_Skill_012",
+      "description1": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;204%&lt;/span&gt; flame damage to enemies directly ahead. Debuffed foes take 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;244.8%&lt;/span&gt; flame damage instead.",
+      "description2": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;226%&lt;/span&gt; flame damage to enemies directly ahead. Debuffed foes take 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;271.2%&lt;/span&gt; flame damage instead.",
+      "description3": "Deals 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;251%&lt;/span&gt; flame damage to enemies directly ahead. Debuffed foes take 3 hits of &lt;span style=&quot;color:#ff1b00; font-weight:bold;&quot;&gt;302.4%&lt;/span&gt; flame damage instead.",
+      "Sp": 2707,
+      "SPLv2": 2707,
+      "SpRegen": 0,
+      "HideLevel3": false,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": {
+        "lvl1": {
+          "BASE": 1346.4
+        },
+        "lvl2": {
+          "BASE": 1491.6
+        },
+        "lvl3": {
+          "BASE": 1660.2
+        }
+      }
+    },
+    "skill2": {
+      "name": "Heaven's Binding",
+      "icon": "Icon_Skill_020",
+      "description1": "Reduces the strength of the target and nearby enemies by '''3%''' with '''70%''' base chance, and their defense by '''8%''', for '''20''' seconds with '''70%''' base chance (STR DOWN and DEF DOWN rolled separately).",
+      "description2": "Reduces the strength of the target and nearby enemies by '''5%''' with '''70%''' base chance, and their defense by '''10%''', for '''20''' seconds with '''70%''' base chance (STR DOWN and DEF DOWN rolled separately).",
+      "description3": "",
+      "Sp": 6000,
+      "SPLv2": 6000,
+      "SpRegen": 0,
+      "HideLevel3": true,
+      "IsAffectedByTension": true,
+      "iframe": 1.0,
+      "modifier": null
+    }
+  },
   "110301_01": {
     "id": "110301_01",
     "name": {
@@ -16464,7 +17076,7 @@ const adventurer =
     "DefCoef": 8,
     "abilities11": {
       "name": "25 Hits = Critical Damage +10%",
-      "details": "Adds 10% to the modifier applied to critical damage for 20 seconds for every '''25'''-hit combo.",
+      "details": "Adds '''10%''' to the modifier applied to critical damage for '''20''' seconds for every '''25'''-hit combo.",
       "might": 80,
       "limit": {
         "IsEffectMix": false,
@@ -16479,7 +17091,7 @@ const adventurer =
     },
     "abilities12": {
       "name": "20 Hits = Critical Damage +10%",
-      "details": "Adds 10% to the modifier applied to critical damage for 20 seconds for every '''20'''-hit combo.",
+      "details": "Adds '''10%''' to the modifier applied to critical damage for '''20''' seconds for every '''20'''-hit combo.",
       "might": 100,
       "limit": {
         "IsEffectMix": false,
