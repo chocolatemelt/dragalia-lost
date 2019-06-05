@@ -42,9 +42,9 @@ const dragon =
       "req": "Wind",
       "Hybrid": 8,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 8
       }
     },
@@ -56,9 +56,9 @@ const dragon =
       "req": "Wind",
       "Hybrid": 10,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 10
       }
     },
@@ -114,9 +114,9 @@ const dragon =
       "req": "Flame",
       "STR": 15,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 15
       }
     },
@@ -131,9 +131,9 @@ const dragon =
       "req": "Flame",
       "STR": 20,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 20
       }
     },
@@ -189,9 +189,9 @@ const dragon =
       "req": "Water",
       "HP": 15,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 15
       }
     },
@@ -206,9 +206,9 @@ const dragon =
       "req": "Water",
       "HP": 20,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 20
       }
     },
@@ -261,9 +261,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 8,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 8
       }
     },
@@ -275,9 +275,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 10,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 10
       }
     },
@@ -333,9 +333,9 @@ const dragon =
       "req": "Shadow",
       "STR": 15,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 15
       }
     },
@@ -350,9 +350,9 @@ const dragon =
       "req": "Shadow",
       "STR": 20,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 20
       }
     },
@@ -401,9 +401,9 @@ const dragon =
       "req": "Flame",
       "HP": 30,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 30
       }
     },
@@ -418,9 +418,9 @@ const dragon =
       "req": "Flame",
       "HP": 45,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 45
       }
     },
@@ -476,9 +476,9 @@ const dragon =
       "req": "Flame",
       "STR": 30,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -493,9 +493,9 @@ const dragon =
       "req": "Flame",
       "STR": 45,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 45
       }
     },
@@ -548,9 +548,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 15,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 15
       }
     },
@@ -562,9 +562,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 20,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -620,9 +620,9 @@ const dragon =
       "req": "Wind",
       "HP": 20,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 20
       }
     },
@@ -637,9 +637,9 @@ const dragon =
       "req": "Wind",
       "HP": 30,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 30
       }
     },
@@ -695,9 +695,9 @@ const dragon =
       "req": "Wind",
       "HP": 30,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 30
       }
     },
@@ -712,9 +712,9 @@ const dragon =
       "req": "Wind",
       "HP": 45,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 45
       }
     },
@@ -770,9 +770,9 @@ const dragon =
       "req": "Light",
       "HP": 30,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 30
       }
     },
@@ -787,9 +787,9 @@ const dragon =
       "req": "Light",
       "HP": 45,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 45
       }
     },
@@ -845,9 +845,9 @@ const dragon =
       "req": "Light",
       "STR": 30,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -862,9 +862,9 @@ const dragon =
       "req": "Light",
       "STR": 45,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 45
       }
     },
@@ -920,9 +920,9 @@ const dragon =
       "req": "Shadow",
       "STR": 30,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -937,9 +937,9 @@ const dragon =
       "req": "Shadow",
       "STR": 45,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 45
       }
     },
@@ -992,9 +992,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 15,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 15
       }
     },
@@ -1006,9 +1006,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 20,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -1064,9 +1064,9 @@ const dragon =
       "req": "Flame",
       "STR": 40,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 40
       }
     },
@@ -1081,9 +1081,9 @@ const dragon =
       "req": "Flame",
       "STR": 60,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 60
       }
     },
@@ -1139,9 +1139,9 @@ const dragon =
       "req": "Water",
       "STR": 40,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 40
       }
     },
@@ -1156,9 +1156,9 @@ const dragon =
       "req": "Water",
       "STR": 60,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 60
       }
     },
@@ -1214,9 +1214,9 @@ const dragon =
       "req": "Wind",
       "STR": 40,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 40
       }
     },
@@ -1231,9 +1231,9 @@ const dragon =
       "req": "Wind",
       "STR": 60,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 60
       }
     },
@@ -1286,9 +1286,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 20,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -1300,9 +1300,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 30,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 30
       }
     },
@@ -1358,9 +1358,9 @@ const dragon =
       "req": "Light",
       "HP": 40,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 40
       }
     },
@@ -1375,9 +1375,9 @@ const dragon =
       "req": "Light",
       "HP": 60,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 60
       }
     },
@@ -1433,9 +1433,9 @@ const dragon =
       "req": "Flame",
       "STR": 10,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 10
       }
     },
@@ -1450,9 +1450,9 @@ const dragon =
       "req": "Flame",
       "STR": 15,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 15
       }
     },
@@ -1508,9 +1508,9 @@ const dragon =
       "req": "Flame",
       "HP": 10,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 10
       }
     },
@@ -1525,9 +1525,9 @@ const dragon =
       "req": "Flame",
       "HP": 15,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 15
       }
     },
@@ -1580,9 +1580,9 @@ const dragon =
       "req": "Flame",
       "Hybrid": 5,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 5
       }
     },
@@ -1594,9 +1594,9 @@ const dragon =
       "req": "Flame",
       "Hybrid": 8,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 8
       }
     },
@@ -1652,9 +1652,9 @@ const dragon =
       "req": "Flame",
       "STR": 40,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 40
       }
     },
@@ -1669,9 +1669,9 @@ const dragon =
       "req": "Flame",
       "STR": 60,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 60
       }
     },
@@ -1724,9 +1724,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 20,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -1738,9 +1738,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 30,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 30
       }
     },
@@ -1796,9 +1796,9 @@ const dragon =
       "req": "Wind",
       "STR": 35,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 35
       }
     },
@@ -1813,9 +1813,9 @@ const dragon =
       "req": "Wind",
       "STR": 50,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 50
       }
     },
@@ -1828,9 +1828,9 @@ const dragon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Poisoned Punisher",
+        "ability_type": "Poisoned Punisher",
         "ability_value": 15
       }
     },
@@ -1843,9 +1843,9 @@ const dragon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Poisoned Punisher",
+        "ability_type": "Poisoned Punisher",
         "ability_value": 20
       }
     },
@@ -1899,9 +1899,9 @@ const dragon =
       "req": "Wind",
       "HP": 40,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 40
       }
     },
@@ -1916,9 +1916,9 @@ const dragon =
       "req": "Wind",
       "HP": 60,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 60
       }
     },
@@ -1971,9 +1971,9 @@ const dragon =
       "req": "Wind",
       "Hybrid": 20,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -1985,9 +1985,9 @@ const dragon =
       "req": "Wind",
       "Hybrid": 30,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 30
       }
     },
@@ -2068,9 +2068,9 @@ const dragon =
       "req": "Flame",
       "Hybrid": 20,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -2082,9 +2082,9 @@ const dragon =
       "req": "Flame",
       "Hybrid": 30,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 30
       }
     },
@@ -2165,9 +2165,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 20,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -2179,9 +2179,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 30,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 30
       }
     },
@@ -2262,9 +2262,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 20,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -2276,9 +2276,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 30,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 30
       }
     },
@@ -2334,9 +2334,9 @@ const dragon =
       "req": "Shadow",
       "STR": 20,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 20
       }
     },
@@ -2351,9 +2351,9 @@ const dragon =
       "req": "Shadow",
       "STR": 30,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -2409,9 +2409,9 @@ const dragon =
       "req": "Shadow",
       "STR": 35,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP 30% = Strength",
+        "ability_type": "HP 30% = Strength",
         "ability_value": 35
       }
     },
@@ -2426,9 +2426,9 @@ const dragon =
       "req": "Shadow",
       "STR": 50,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP 30% = Strength",
+        "ability_type": "HP 30% = Strength",
         "ability_value": 50
       }
     },
@@ -2441,9 +2441,9 @@ const dragon =
         "MaxLimitedValue": 2
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Last Bulwark",
+        "ability_type": "Last Bulwark",
         "ability_value": 1
       }
     },
@@ -2456,9 +2456,9 @@ const dragon =
         "MaxLimitedValue": 2
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Last Bulwark",
+        "ability_type": "Last Bulwark",
         "ability_value": 2
       }
     },
@@ -2511,9 +2511,9 @@ const dragon =
       "resEle": "Shadow",
       "res": 15,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength &amp; Shadow Res",
+        "ability_type": "Strength &amp; Shadow Res",
         "ability_value": 1
       }
     },
@@ -2527,9 +2527,9 @@ const dragon =
       "resEle": "Shadow",
       "res": 15,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength &amp; Shadow Res",
+        "ability_type": "Strength &amp; Shadow Res",
         "ability_value": 2
       }
     },
@@ -2580,9 +2580,9 @@ const dragon =
       "req": "Light",
       "STR": 40,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 40
       }
     },
@@ -2597,9 +2597,9 @@ const dragon =
       "req": "Light",
       "STR": 60,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 60
       }
     },
@@ -2655,9 +2655,9 @@ const dragon =
       "req": "Wind",
       "STR": 30,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -2672,9 +2672,9 @@ const dragon =
       "req": "Wind",
       "STR": 45,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 45
       }
     },
@@ -2730,9 +2730,9 @@ const dragon =
       "req": "Light",
       "STR": 30,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -2747,9 +2747,9 @@ const dragon =
       "req": "Light",
       "STR": 40,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 40
       }
     },
@@ -2762,9 +2762,9 @@ const dragon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Overdrive Punisher",
+        "ability_type": "Overdrive Punisher",
         "ability_value": 20
       }
     },
@@ -2777,9 +2777,9 @@ const dragon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Overdrive Punisher",
+        "ability_type": "Overdrive Punisher",
         "ability_value": 25
       }
     },
@@ -2832,9 +2832,9 @@ const dragon =
       "resEle": "Wind",
       "res": 15,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength &amp; Wind Res",
+        "ability_type": "Strength &amp; Wind Res",
         "ability_value": 1
       }
     },
@@ -2848,9 +2848,9 @@ const dragon =
       "resEle": "Wind",
       "res": 15,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength &amp; Wind Res",
+        "ability_type": "Strength &amp; Wind Res",
         "ability_value": 2
       }
     },
@@ -2908,9 +2908,9 @@ const dragon =
       "req": "Flame",
       "STR": 20,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 20
       }
     },
@@ -2925,9 +2925,9 @@ const dragon =
       "req": "Flame",
       "STR": 30,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -2983,9 +2983,9 @@ const dragon =
       "req": "Water",
       "STR": 30,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -3000,9 +3000,9 @@ const dragon =
       "req": "Water",
       "STR": 45,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 45
       }
     },
@@ -3058,9 +3058,9 @@ const dragon =
       "req": "Water",
       "STR": 10,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 10
       }
     },
@@ -3075,9 +3075,9 @@ const dragon =
       "req": "Water",
       "STR": 15,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 15
       }
     },
@@ -3133,9 +3133,9 @@ const dragon =
       "req": "Wind",
       "STR": 10,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 10
       }
     },
@@ -3150,9 +3150,9 @@ const dragon =
       "req": "Wind",
       "STR": 15,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 15
       }
     },
@@ -3208,9 +3208,9 @@ const dragon =
       "req": "Light",
       "STR": 10,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 10
       }
     },
@@ -3225,9 +3225,9 @@ const dragon =
       "req": "Light",
       "STR": 15,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 15
       }
     },
@@ -3283,9 +3283,9 @@ const dragon =
       "req": "Shadow",
       "STR": 10,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 10
       }
     },
@@ -3300,9 +3300,9 @@ const dragon =
       "req": "Shadow",
       "STR": 15,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 15
       }
     },
@@ -3358,9 +3358,9 @@ const dragon =
       "req": "Water",
       "HP": 10,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 10
       }
     },
@@ -3375,9 +3375,9 @@ const dragon =
       "req": "Water",
       "HP": 15,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 15
       }
     },
@@ -3433,9 +3433,9 @@ const dragon =
       "req": "Wind",
       "HP": 10,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 10
       }
     },
@@ -3450,9 +3450,9 @@ const dragon =
       "req": "Wind",
       "HP": 15,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 15
       }
     },
@@ -3508,9 +3508,9 @@ const dragon =
       "req": "Light",
       "HP": 10,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 10
       }
     },
@@ -3525,9 +3525,9 @@ const dragon =
       "req": "Light",
       "HP": 15,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 15
       }
     },
@@ -3583,9 +3583,9 @@ const dragon =
       "req": "Shadow",
       "HP": 10,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 10
       }
     },
@@ -3600,9 +3600,9 @@ const dragon =
       "req": "Shadow",
       "HP": 15,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 15
       }
     },
@@ -3648,9 +3648,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 5,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 5
       }
     },
@@ -3662,9 +3662,9 @@ const dragon =
       "req": "Water",
       "Hybrid": 8,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 8
       }
     },
@@ -3710,9 +3710,9 @@ const dragon =
       "req": "Wind",
       "Hybrid": 5,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 5
       }
     },
@@ -3724,9 +3724,9 @@ const dragon =
       "req": "Wind",
       "Hybrid": 8,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 8
       }
     },
@@ -3772,9 +3772,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 5,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 5
       }
     },
@@ -3786,9 +3786,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 8,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 8
       }
     },
@@ -3841,9 +3841,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 5,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 5
       }
     },
@@ -3855,9 +3855,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 8,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 8
       }
     },
@@ -3910,9 +3910,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 10,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 10
       }
     },
@@ -3924,9 +3924,9 @@ const dragon =
       "req": "Shadow",
       "Hybrid": 15,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 15
       }
     },
@@ -3982,9 +3982,9 @@ const dragon =
       "req": "Wind",
       "STR": 20,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 20
       }
     },
@@ -3999,9 +3999,9 @@ const dragon =
       "req": "Wind",
       "STR": 30,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 30
       }
     },
@@ -4054,9 +4054,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 15,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 15
       }
     },
@@ -4068,9 +4068,9 @@ const dragon =
       "req": "Light",
       "Hybrid": 20,
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " HP &amp; Strength",
+        "ability_type": "HP &amp; Strength",
         "ability_value": 20
       }
     },
@@ -4195,9 +4195,9 @@ const dragon =
       "req": "Shadow",
       "STR": 40,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 40
       }
     },
@@ -4212,9 +4212,9 @@ const dragon =
       "req": "Shadow",
       "STR": 60,
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 60
       }
     },
@@ -4261,9 +4261,9 @@ const dragon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Critical Damage",
+        "ability_type": "Critical Damage",
         "ability_value": 50
       }
     },
@@ -4276,9 +4276,9 @@ const dragon =
         "MaxLimitedValue": 25
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Critical Damage",
+        "ability_type": "Critical Damage",
         "ability_value": 70
       }
     },
@@ -4334,9 +4334,9 @@ const dragon =
       "req": "Water",
       "HP": 20,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 20
       }
     },
@@ -4351,9 +4351,9 @@ const dragon =
       "req": "Water",
       "HP": 30,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 30
       }
     },
@@ -4406,9 +4406,9 @@ const dragon =
       "req": "Wind",
       "STR": 30,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength &amp; Critical Damage",
+        "ability_type": "Strength &amp; Critical Damage",
         "ability_value": 1
       }
     },
@@ -4420,9 +4420,9 @@ const dragon =
       "req": "Wind",
       "STR": 45,
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Strength &amp; Critical Damage",
+        "ability_type": "Strength &amp; Critical Damage",
         "ability_value": 2
       }
     },
@@ -4478,9 +4478,9 @@ const dragon =
       "req": "Water",
       "HP": 30,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 30
       }
     },
@@ -4495,9 +4495,9 @@ const dragon =
       "req": "Water",
       "HP": 40,
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " HP",
+        "ability_type": "HP",
         "ability_value": 40
       }
     },
@@ -4510,9 +4510,9 @@ const dragon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Overdrive Punisher",
+        "ability_type": "Overdrive Punisher",
         "ability_value": 40
       }
     },
@@ -4525,9 +4525,9 @@ const dragon =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Overdrive Punisher",
+        "ability_type": "Overdrive Punisher",
         "ability_value": 60
       }
     },
@@ -4581,9 +4581,9 @@ const dragon =
       "req": "Flame",
       "STR": 10,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 10
       }
     },
@@ -4598,9 +4598,9 @@ const dragon =
       "req": "Flame",
       "STR": 20,
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Strength",
+        "ability_type": "Strength",
         "ability_value": 20
       }
     },
@@ -4613,9 +4613,9 @@ const dragon =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 50
       }
     },
@@ -4628,9 +4628,9 @@ const dragon =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 70
       }
     },

@@ -1,325 +1,5 @@
 const wyrmprint =
  {
-  "400001": {
-    "id": "400001",
-    "name": {
-      "en": "Ring of Exaltation",
-      "ja": "勇躍の指輪",
-      "zh": "Ring of Exaltation"
-    },
-    "rarity": "2",
-    "MinHp": 5,
-    "MaxHp": 36,
-    "MinAtk": 1,
-    "MaxAtk": 12,
-    "abilities11": {
-      "name": "Critical Rate +2%",
-      "details": "Increases critical rate by '''2%'''.",
-      "might": 10,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 15
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Critical Rate",
-        "ability_value": 2
-      }
-    },
-    "abilities12": {
-      "name": "Critical Rate +3%",
-      "details": "Increases critical rate by '''3%'''.",
-      "might": 20,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 15
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Critical Rate",
-        "ability_value": 3
-      }
-    },
-    "abilities13": {
-      "name": "Critical Rate +4%",
-      "details": "Increases critical rate by '''4%'''.",
-      "might": 40,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 15
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Critical Rate",
-        "ability_value": 4
-      }
-    },
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
-  },
-  "400002": {
-    "id": "400002",
-    "name": {
-      "en": "Seafood Soup",
-      "ja": "シーフードスープ",
-      "zh": "Seafood Soup"
-    },
-    "rarity": "2",
-    "MinHp": 5,
-    "MaxHp": 36,
-    "MinAtk": 1,
-    "MaxAtk": 12,
-    "abilities11": {
-      "name": "Skill Prep +8%",
-      "details": "Fills '''8%''' of skill gauges at the start of quests.",
-      "might": 5,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 100
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Skill Prep",
-        "ability_value": 8
-      }
-    },
-    "abilities12": {
-      "name": "Skill Prep +10%",
-      "details": "Fills '''10%''' of skill gauges at the start of quests.",
-      "might": 10,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 100
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Skill Prep",
-        "ability_value": 10
-      }
-    },
-    "abilities13": {
-      "name": "Skill Prep +15%",
-      "details": "Fills '''15%''' of skill gauges at the start of quests.",
-      "might": 20,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 100
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Skill Prep",
-        "ability_value": 15
-      }
-    },
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
-  },
-  "400003": {
-    "id": "400003",
-    "name": {
-      "en": "Dragon Arcanum",
-      "ja": "ドラゴンの秘薬",
-      "zh": "Dragon Arcanum"
-    },
-    "rarity": "2",
-    "MinHp": 5,
-    "MaxHp": 36,
-    "MinAtk": 1,
-    "MaxAtk": 12,
-    "abilities11": {
-      "name": "Shapeshift Prep +5%",
-      "details": "Fills '''5%''' of the dragon gauge at the start of quests.",
-      "might": 10,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 10
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Shapeshift Prep",
-        "ability_value": 5
-      }
-    },
-    "abilities12": {
-      "name": "Shapeshift Prep +8%",
-      "details": "Fills '''8%''' of the dragon gauge at the start of quests.",
-      "might": 20,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 10
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Shapeshift Prep",
-        "ability_value": 8
-      }
-    },
-    "abilities13": {
-      "name": "Shapeshift Prep +10%",
-      "details": "Fills '''10%''' of the dragon gauge at the start of quests.",
-      "might": 40,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 10
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Shapeshift Prep",
-        "ability_value": 10
-      }
-    },
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
-  },
-  "400004": {
-    "id": "400004",
-    "name": {
-      "en": "Mana Fount",
-      "ja": "マナスポット",
-      "zh": "Mana Fount"
-    },
-    "rarity": "2",
-    "MinHp": 5,
-    "MaxHp": 35,
-    "MinAtk": 1,
-    "MaxAtk": 13,
-    "abilities11": {
-      "name": "Skill Damage +5%",
-      "details": "Increases attack skill damage by '''5%'''.",
-      "might": 10,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 40
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Skill Damage",
-        "ability_value": 5
-      }
-    },
-    "abilities12": {
-      "name": "Skill Damage +10%",
-      "details": "Increases attack skill damage by '''10%'''.",
-      "might": 20,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 40
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Skill Damage",
-        "ability_value": 10
-      }
-    },
-    "abilities13": {
-      "name": "Skill Damage +15%",
-      "details": "Increases attack skill damage by '''15%'''.",
-      "might": 40,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 40
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Skill Damage",
-        "ability_value": 15
-      }
-    },
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
-  },
-  "400005": {
-    "id": "400005",
-    "name": {
-      "en": "Old Harp",
-      "ja": "古びたハープ",
-      "zh": "Old Harp"
-    },
-    "rarity": "2",
-    "MinHp": 5,
-    "MaxHp": 36,
-    "MinAtk": 1,
-    "MaxAtk": 12,
-    "abilities11": {
-      "name": "Recovery Potency +2%",
-      "details": "Increases the potency of recovery skills by '''2%'''.",
-      "might": 10,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 20
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Recovery Potency",
-        "ability_value": 2
-      }
-    },
-    "abilities12": {
-      "name": "Recovery Potency +3%",
-      "details": "Increases the potency of recovery skills by '''3%'''.",
-      "might": 20,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 20
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Recovery Potency",
-        "ability_value": 3
-      }
-    },
-    "abilities13": {
-      "name": "Recovery Potency +5%",
-      "details": "Increases the potency of recovery skills by '''5%'''.",
-      "might": 40,
-      "limit": {
-        "IsEffectMix": false,
-        "MaxLimitedValue": 20
-      },
-      "values": {
-        "req": null,
-        "req_threshold": null,
-        "ability_type": "Recovery Potency",
-        "ability_value": 5
-      }
-    },
-    "abilities21": 0,
-    "abilities22": 0,
-    "abilities23": 0,
-    "abilities31": 0,
-    "abilities32": 0,
-    "abilities33": 0
-  },
   "400006": {
     "id": "400006",
     "name": {
@@ -7323,9 +7003,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 1
       }
     },
@@ -7338,9 +7018,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 2
       }
     },
@@ -7353,9 +7033,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 3
       }
     },
@@ -7368,9 +7048,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Paralysis Res",
+        "ability_type": "Paralysis Res",
         "ability_value": 25
       }
     },
@@ -7383,9 +7063,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Paralysis Res",
+        "ability_type": "Paralysis Res",
         "ability_value": 50
       }
     },
@@ -7398,9 +7078,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Paralysis Res",
+        "ability_type": "Paralysis Res",
         "ability_value": 75
       }
     },
@@ -9558,9 +9238,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Curse Res",
+        "ability_type": "Curse Res",
         "ability_value": 25
       }
     },
@@ -9573,9 +9253,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Curse Res",
+        "ability_type": "Curse Res",
         "ability_value": 35
       }
     },
@@ -9588,9 +9268,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Curse Res",
+        "ability_type": "Curse Res",
         "ability_value": 40
       }
     },
@@ -9619,9 +9299,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Critical Rate",
+        "ability_type": "Critical Rate",
         "ability_value": 5
       }
     },
@@ -9634,9 +9314,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Critical Rate",
+        "ability_type": "Critical Rate",
         "ability_value": 6
       }
     },
@@ -9649,9 +9329,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Critical Rate",
+        "ability_type": "Critical Rate",
         "ability_value": 8
       }
     },
@@ -9735,9 +9415,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 4
       }
     },
@@ -9750,9 +9430,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 5
       }
     },
@@ -9765,9 +9445,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 6
       }
     },
@@ -9950,9 +9630,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Flurry Devastation",
+        "ability_type": "Flurry Devastation",
         "ability_value": 8
       }
     },
@@ -9965,9 +9645,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Flurry Devastation",
+        "ability_type": "Flurry Devastation",
         "ability_value": 10
       }
     },
@@ -9980,9 +9660,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Flurry Devastation",
+        "ability_type": "Flurry Devastation",
         "ability_value": 12
       }
     },
@@ -10871,9 +10551,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Paralysis Res",
+        "ability_type": "Paralysis Res",
         "ability_value": 25
       }
     },
@@ -10886,9 +10566,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Paralysis Res",
+        "ability_type": "Paralysis Res",
         "ability_value": 40
       }
     },
@@ -10901,9 +10581,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Paralysis Res",
+        "ability_type": "Paralysis Res",
         "ability_value": 65
       }
     },
@@ -11193,9 +10873,9 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Buff Time",
+        "ability_type": "Buff Time",
         "ability_value": 15
       }
     },
@@ -11208,9 +10888,9 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Buff Time",
+        "ability_type": "Buff Time",
         "ability_value": 20
       }
     },
@@ -11223,9 +10903,9 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Buff Time",
+        "ability_type": "Buff Time",
         "ability_value": 25
       }
     },
@@ -11254,9 +10934,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Lance",
+        "req": "(Lance) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 30
       }
     },
@@ -11269,9 +10949,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Lance",
+        "req": "(Lance) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 35
       }
     },
@@ -11284,9 +10964,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Lance",
+        "req": "(Lance) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 40
       }
     },
@@ -11920,9 +11600,9 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     },
@@ -11935,9 +11615,9 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 20
       }
     },
@@ -11950,9 +11630,9 @@ const wyrmprint =
         "MaxLimitedValue": 30
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 25
       }
     },
@@ -12048,9 +11728,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 1
       }
     },
@@ -12063,9 +11743,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 2
       }
     },
@@ -12078,9 +11758,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 3
       }
     },
@@ -12651,9 +12331,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 8
       }
     },
@@ -12666,9 +12346,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 8
       }
     },
@@ -12681,9 +12361,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Flame",
+        "req": "(Flame) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 10
       }
     },
@@ -12715,9 +12395,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 1
       }
     },
@@ -12730,9 +12410,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 2
       }
     },
@@ -12745,9 +12425,9 @@ const wyrmprint =
         "MaxLimitedValue": 3
       },
       "values": {
-        "req": "Light",
+        "req": "(Light) ",
         "req_threshold": null,
-        "ability_type": " Affliction Guard",
+        "ability_type": "Affliction Guard",
         "ability_value": 3
       }
     },
@@ -13046,9 +12726,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Bog Res",
+        "ability_type": "Bog Res",
         "ability_value": 25
       }
     },
@@ -13061,9 +12741,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Bog Res",
+        "ability_type": "Bog Res",
         "ability_value": 35
       }
     },
@@ -13076,9 +12756,9 @@ const wyrmprint =
         "MaxLimitedValue": 100
       },
       "values": {
-        "req": "Wind",
+        "req": "(Wind) ",
         "req_threshold": null,
-        "ability_type": " Bog Res",
+        "ability_type": "Bog Res",
         "ability_value": 40
       }
     },
@@ -13255,9 +12935,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 4
       }
     },
@@ -13270,9 +12950,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 5
       }
     },
@@ -13285,9 +12965,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Shadow",
+        "req": "(Shadow) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 6
       }
     },
@@ -13509,9 +13189,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Axe",
+        "req": "(Axe) ",
         "req_threshold": null,
-        "ability_type": " Critical Rate",
+        "ability_type": "Critical Rate",
         "ability_value": 10
       }
     },
@@ -13524,9 +13204,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Axe",
+        "req": "(Axe) ",
         "req_threshold": null,
-        "ability_type": " Critical Rate",
+        "ability_type": "Critical Rate",
         "ability_value": 12
       }
     },
@@ -13539,9 +13219,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Axe",
+        "req": "(Axe) ",
         "req_threshold": null,
-        "ability_type": " Critical Rate",
+        "ability_type": "Critical Rate",
         "ability_value": 14
       }
     },
@@ -13615,9 +13295,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Sword",
+        "req": "(Sword) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 30
       }
     },
@@ -13630,9 +13310,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Sword",
+        "req": "(Sword) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 35
       }
     },
@@ -13645,9 +13325,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Sword",
+        "req": "(Sword) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 40
       }
     },
@@ -13943,9 +13623,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Bow",
+        "req": "(Bow) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 30
       }
     },
@@ -13958,9 +13638,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Bow",
+        "req": "(Bow) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 35
       }
     },
@@ -13973,9 +13653,9 @@ const wyrmprint =
         "MaxLimitedValue": 40
       },
       "values": {
-        "req": "Bow",
+        "req": "(Bow) ",
         "req_threshold": null,
-        "ability_type": " Skill Damage",
+        "ability_type": "Skill Damage",
         "ability_value": 40
       }
     },
@@ -14239,9 +13919,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 4
       }
     },
@@ -14254,9 +13934,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 5
       }
     },
@@ -14269,9 +13949,9 @@ const wyrmprint =
         "MaxLimitedValue": 15
       },
       "values": {
-        "req": "Water",
+        "req": "(Water) ",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 6
       }
     },

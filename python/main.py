@@ -141,7 +141,7 @@ def regex_dragon_aura(details=""):
 
 resist_pattern = re.compile(
     r"Reduces (?:(Flame|Water|Wind|Light|Shadow) )?damage taken "
-    + r"(?:from (High Midgardsormr|High Brunhilda|High Mercury) )?"
+    + r"(?:from (High Midgardsormr|High Brunhilda|High Mercury)\s+)?"
     + r"by \'\'\'(\d+)%\'\'\'",
     re.IGNORECASE,
 )
@@ -176,7 +176,7 @@ def regex_resist(details=""):
     return {}
 
 
-passive_pattern = re.compile(r"(\(.+\)|.+= )?(.+) (\+\d+%|[IV]+)", re.IGNORECASE)
+passive_pattern = re.compile(r"(\(.+\) |.+= )?(.+) (\+\d+%|[IV]+)", re.IGNORECASE)
 
 
 def regex_passive(name=""):
@@ -246,11 +246,12 @@ def set_abilities():
         item = i["title"]
         name = item["Name"]
         details = item["Details"]
+        might = int(item['PartyPowerWeight']) if item['PartyPowerWeight'] else 0
 
         new_item = {
             "name": item["Name"],
             "details": details,
-            "might": int(item["PartyPowerWeight"]) or 0,
+            "might": might,
             "limit": ability_limit[item["AbilityLimitedGroupId1"]]
             if item["AbilityLimitedGroupId1"] in ability_limit.keys()
             else 0,
@@ -327,32 +328,49 @@ def load_name(file):
     return data
 
 
-def set_name(names, item, new=[]):
-    uid = item.get("BaseId", item.get("Id", None))
+def set_name(names, item, data_new=[], data_updates=[False]):
+    uid = item.get('BaseId', item.get('Id', None))
+    if uid == None:
+        return
 
-    if uid:
-        if "FormId" in item:
-            uid += "_01_{}".format(item["FormId"])
+    if 'FormId' in item:
+        uid += '_01_{}'.format(item['FormId'])
 
-        if uid in names:
-            if names[uid]["ja"] and names[uid]["zh"]:
-                return names[uid]
-            else:
-                en = names[uid]["en"]
-                return {
-                    "en": en,
-                    "ja": names[uid]["ja"] or en,
-                    "zh": names[uid]["zh"] or en,
-                }
+    en_name = item.get('Name', item.get('WeaponName', ''))
+    ja_name = item.get('NameJP', item.get('WeaponNameJP', ''))
 
-        new.append(uid)
+    if uid in names:
+        if names[uid]['ja'] and names[uid]['zh']:
+            return names[uid]
+        else:
+            names[uid] = {
+                'en': en_name or names[uid]['en'],
+                'ja': ja_name or names[uid]['ja'],
+                'zh': names[uid]['zh'],
+            }
 
-        en_name = item.get("Name", item.get("WeaponName", ""))
-        ja_name = item.get("NameJP", "")
+            data_updates[0] = True
 
-        names[uid] = {"en": en_name, "ja": ja_name, "zh": ""}
+            return {
+                'en': en_name,
+                'ja': ja_name or names[uid]['ja'] or en_name,
+                'zh': names[uid]['zh'] or en_name,
+            }
 
-        return {"en": en_name, "ja": ja_name or en_name, "zh": en_name}
+    data_updates[0] = True
+    data_new.append(uid)
+
+    names[uid] = {
+        'en': en_name,
+        'ja': ja_name,
+        'zh': '',
+    }
+
+    return {
+        'en': en_name,
+        'ja': ja_name or en_name,
+        'zh': en_name,
+    }
 
 
 def save_file(f_type, file, data):
@@ -382,27 +400,30 @@ def save_file(f_type, file, data):
 
 def download_images(file_name, new_content=[]):
     pattern = {
-        "adventurer": r"\d{6}_0\d_r0[345].png",
-        "dragon": r"\d{6}_01.png",
-        "weapon": r"\d{6}_01_\d{5}.png",
-        "wyrmprint": r"\d{6}_0[12].png",
-        "facility": r"TW02_(\d{6})_IMG_0(\d)",
+        'adventurer': r'\d{6}_0\d_r0[345].png',
+        'dragon': r'\d{6}_01.png',
+        'weapon': r'\d{6}_01_\d{5}.png',
+        'wyrmprint': r'\d{6}_0[12].png',
+        'material': r'\d{9}.png',
+        'facility': r'TW02_(\d{6})_IMG_0(\d)',
     }
 
     start = {
-        "adventurer": "100001_01_r04.png",
-        "dragon": "210001_01.png",
-        "weapon": "301001_01_19901.png",
-        "wyrmprint": "400001_01.png",
-        "facility": "TW02_100101_IMG_01.png",
+        'adventurer': '100001_01_r04.png',
+        'dragon': '210001_01.png',
+        'weapon': '301001_01_19901.png',
+        'wyrmprint': '400001_01.png',
+        'material': '104001011.png',
+        'facility': 'TW02_100101_IMG_01.png'
     }
 
     end = {
-        "adventurer": "2",
-        "dragon": "3",
-        "weapon": "4",
-        "wyrmprint": "A",
-        "facility": "U",
+        'adventurer': '2',
+        'dragon': '3',
+        'weapon': '4',
+        'wyrmprint': 'A',
+        'facility': 'U',
+        'material': '4',
     }
 
     download = {}
@@ -461,6 +482,6 @@ def clear_dict(file):
 
 if __name__ == "__main__":
     print(__file__)
-    # download_images('facility', ['101002'])
+    download_images('adventurer', ['110029'])
     # facility = load_name('facility')
     # save_file('facility', 'facility', facility)
