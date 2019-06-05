@@ -1,11 +1,7 @@
 import React, { Fragment } from 'react';
+import ReactTooltip from 'react-tooltip';
 import { connect } from 'react-redux';
-import {
-  translate,
-  getDetails,
-  getEnemyDamage,
-  getAdventurerDamage,
-} from '../../../../actions';
+import { translate, getDetails, getEnemyDamage, getAdventurerDamage } from '../../../../actions';
 import { exValues } from '../../../../data';
 import { withTheme } from '../../../../components';
 import DungeonSelect from './DungeonSelect';
@@ -14,15 +10,7 @@ import DungeonDamage from './DungeonDamage';
 
 class StatsDetail extends React.Component {
   state = {
-    rows: [
-      'adventurer',
-      'weapon',
-      'wyrmprint1',
-      'wyrmprint2',
-      'dragon',
-      'ability',
-      'halidom',
-    ],
+    rows: ['adventurer', 'weapon', 'wyrmprint1', 'wyrmprint2', 'dragon', 'ability', 'halidom'],
     dungeon: 'hmc',
     exHP: '',
     exDef: '',
@@ -34,10 +22,7 @@ class StatsDetail extends React.Component {
     const { adventurer } = props.stats;
     const { id, ex, weapon, rarity } = adventurer || {};
 
-    if (
-      (weapon === 'Axe' || weapon === 'Lance') &&
-      (id !== state.id || ex !== state.ex)
-    ) {
+    if ((weapon === 'Axe' || weapon === 'Lance') && (id !== state.id || ex !== state.ex)) {
       let exHP = '';
       let exDef = '';
       if (weapon === 'Axe') {
@@ -73,8 +58,7 @@ class StatsDetail extends React.Component {
       const { HP, exHP } = this.state;
       name = adventurer ? adventurer.name[lang] : '';
       details = getDetails(stats, halidom);
-      const trueBaseHP =
-        details.total.HP - details.halidom.HP + details.trueHalidom.HP;
+      const trueBaseHP = details.total.HP - details.halidom.HP + details.trueHalidom.HP;
       totalHP = Math.ceil(trueBaseHP * (1 + HP * 0.01) * (1 + exHP * 0.01));
       const enemyDamage = getEnemyDamage(stats, this.state);
       enemyMax = enemyDamage.max;
@@ -133,10 +117,11 @@ class StatsDetail extends React.Component {
                   {adventurerTextArea.map(data => {
                     return (
                       <tr key={data[4]}>
-                        <td>{data[0]}</td>
+                        <td data-tip={`${data[1]} ${data[0]}`}>{data[0]}</td>
                         <td>{data[1]}</td>
                         <td>{data[2]}</td>
                         <td>{data[3]}</td>
+                        <ReactTooltip place="right" effect="solid" />
                       </tr>
                     );
                   })}
