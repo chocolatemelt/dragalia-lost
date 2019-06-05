@@ -104,29 +104,31 @@ class StatsDetail extends React.Component {
             </table>
 
             {expand && (
-              <table id="calc-detail" className="gutter">
-                <thead>
-                  <tr>
-                    <th>{translate('Skill', lang)}</th>
-                    <th>{translate('Level', lang)}</th>
-                    <th>{translate('Damage Mod', lang)}</th>
-                    <th>{translate('Calculated', lang)}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {adventurerTextArea.map(data => {
-                    return (
-                      <tr key={data[4]}>
-                        <td data-tip={`${data[1]} ${data[0]}`}>{data[0]}</td>
-                        <td>{data[1]}</td>
-                        <td>{data[2]}</td>
-                        <td>{data[3]}</td>
-                        <ReactTooltip place="right" effect="solid" />
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
+              <Fragment>
+                <table id="calc-detail" className="gutter">
+                  <thead>
+                    <tr>
+                      <th>{translate('Skill', lang)}</th>
+                      <th>{translate('Level', lang)}</th>
+                      <th>{translate('Damage Mod', lang)}</th>
+                      <th>{translate('Calculated', lang)}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {adventurerTextArea.map(data => {
+                      return (
+                        <tr key={data[4]} data-tip={`${data[1]} ${data[0]}`}>
+                          <td>{data[0]}</td>
+                          <td>{data[1]}</td>
+                          <td>{data[2]}</td>
+                          <td>{data[3]}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+                <ReactTooltip place="right" effect="solid" />
+              </Fragment>
             )}
 
             {!expand && (

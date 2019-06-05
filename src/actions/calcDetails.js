@@ -48,15 +48,8 @@ const getWeaponMight = weapon => {
   // unbind === 4, skill LV2, else skill LV1
   let skillMight = 0;
   if (weapon.skill)
-    skillMight =
-      weapon.unbind === '4'
-        ? mightDict.itemSkill['4']
-        : mightDict.itemSkill['0'];
-  return (
-    getAbilityMight(weapon.abilities11) +
-    getAbilityMight(weapon.abilities21) +
-    skillMight
-  );
+    skillMight = weapon.unbind === '4' ? mightDict.itemSkill['4'] : mightDict.itemSkill['0'];
+  return getAbilityMight(weapon.abilities11) + getAbilityMight(weapon.abilities21) + skillMight;
 };
 
 const getWyrmprintMight = wyrmprint => {
@@ -75,23 +68,15 @@ const getWyrmprintMight = wyrmprint => {
 
   if (unbind === '4') {
     return (
-      getAbilityMight(abilities13) +
-      getAbilityMight(abilities23) +
-      getAbilityMight(abilities33)
+      getAbilityMight(abilities13) + getAbilityMight(abilities23) + getAbilityMight(abilities33)
     );
   }
   if (wyrmprint.unbind * 1 >= 2) {
     return (
-      getAbilityMight(abilities12) +
-      getAbilityMight(abilities22) +
-      getAbilityMight(abilities32)
+      getAbilityMight(abilities12) + getAbilityMight(abilities22) + getAbilityMight(abilities32)
     );
   }
-  return (
-    getAbilityMight(abilities11) +
-    getAbilityMight(abilities21) +
-    getAbilityMight(abilities31)
-  );
+  return getAbilityMight(abilities11) + getAbilityMight(abilities21) + getAbilityMight(abilities31);
 };
 
 const getDragonMight = dragon => {
@@ -197,12 +182,8 @@ export const calcDetails = (statsKey, item, sameEle = false) => {
         HP = baseHP;
         STR = baseSTR;
       } else {
-        HP =
-          baseHP +
-          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxHp - item[stepHP]);
-        STR =
-          baseSTR +
-          ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxAtk - item[stepSTR]);
+        HP = baseHP + ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxHp - item[stepHP]);
+        STR = baseSTR + ((level - 1) / (MAX_LEVEL - 1)) * (item.MaxAtk - item[stepSTR]);
       }
     }
 
@@ -384,32 +365,26 @@ export const calcDamage = (
   def = 10,
   defMod = 1
 ) => {
-  console.log(
-    resist,
-    str,
-    baseMod,
-    critMod,
-    skillDmgMod,
-    passiveMod,
-    elementMod
-  );
+  // console.log(
+  //   resist,
+  //   str,
+  //   baseMod,
+  //   critMod,
+  //   skillDmgMod,
+  //   passiveMod,
+  //   elementMod
+  // );
   const baseDmg =
-    (5 *
-      (1 - resist) *
-      str *
-      (baseMod / 100) *
-      critMod *
-      skillDmgMod *
-      passiveMod *
-      elementMod) /
+    (5 * (1 - resist) * str * (baseMod / 100) * critMod * skillDmgMod * passiveMod * elementMod) /
     (3 * def * defMod);
-  console.log(baseDmg);
+  // console.log(baseDmg);
   // return [Math.floor(baseDmg * 0.95), baseDmg, Math.floor(baseDmg * 1.05)]
   return Math.floor(baseDmg);
 };
 
 export const getAdventurerDamage = (stats, str) => {
   const { adventurer, weapon, dragon } = stats;
+  console.log(stats, str);
   // TODO: calculate skill damage
   // Formula: (5/3) * (1-damage res) * (str) * (mod) * (crit mod) * (skill damage) * (punisher) * (elemental) * (dragon) / (defense) * (defense mod)
   // assume def = 10
@@ -424,7 +399,6 @@ export const getAdventurerDamage = (stats, str) => {
   // TODO: Adventurer Combo FS Dash - data is not in a cargo table
   // TODO: Adventurer Skill
   const advSkills = [adventurer.skill1, adventurer.skill2];
-  console.log(advSkills);
   advSkills.forEach(skill => {
     const baseKey = skill.name;
     if (skill.modifier) {
@@ -441,8 +415,7 @@ export const getAdventurerDamage = (stats, str) => {
             passiveMod,
             elementMod
           );
-          const displayName =
-            mod === 'BASE' ? skill.name : `${skill.name} + ${mod}`;
+          const displayName = mod === 'BASE' ? skill.name : `${skill.name} + ${mod}`;
           textArea.push([displayName, lvl, modList[mod], dmg, modKey]);
         });
       });
@@ -485,11 +458,7 @@ export const getEnemyDamage = (stats, state) => {
   }
 
   // weapon Def
-  if (
-    weapon &&
-    weapon.incDef &&
-    adventurer.element.indexOf(weapon.reqEle) !== -1
-  ) {
+  if (weapon && weapon.incDef && adventurer.element.indexOf(weapon.reqEle) !== -1) {
     tDef += weapon.incDef;
     textArea.push(`weapon,def,${weapon.incDef}`);
   }
@@ -547,9 +516,7 @@ export const getEnemyDamage = (stats, state) => {
       wDef += temp;
 
       if (wDef > MAX_WYRMPRINT_DEF) {
-        textArea.push(
-          `wyrmprint2,def,${temp} -> ${MAX_WYRMPRINT_DEF - wDef + temp}`
-        );
+        textArea.push(`wyrmprint2,def,${temp} -> ${MAX_WYRMPRINT_DEF - wDef + temp}`);
         wDef = MAX_WYRMPRINT_DEF;
       } else {
         textArea.push(`wyrmprint2,def,${temp}`);
@@ -561,11 +528,7 @@ export const getEnemyDamage = (stats, state) => {
       wCounter += temp;
 
       if (wCounter > MAX_WYRMPRINT_COUNTER) {
-        textArea.push(
-          `wyrmprint2,counter,${temp} -> ${MAX_WYRMPRINT_COUNTER -
-            wCounter +
-            temp}`
-        );
+        textArea.push(`wyrmprint2,counter,${temp} -> ${MAX_WYRMPRINT_COUNTER - wCounter + temp}`);
         wCounter = MAX_WYRMPRINT_COUNTER;
       } else {
         textArea.push(`wyrmprint2,counter,${temp}`);
@@ -576,9 +539,7 @@ export const getEnemyDamage = (stats, state) => {
       temp = wyrmprint2[`incRes${stage}`] || wyrmprint2[`incRes${stage - 1}`];
       wRes += temp;
       if (wRes > MAX_WYRMPRINT_RES) {
-        textArea.push(
-          `wyrmprint2,res,${temp} -> ${MAX_WYRMPRINT_RES - wRes + temp}`
-        );
+        textArea.push(`wyrmprint2,res,${temp} -> ${MAX_WYRMPRINT_RES - wRes + temp}`);
         wRes = MAX_WYRMPRINT_RES;
       } else {
         textArea.push(`wyrmprint2,res,${temp}`);
@@ -604,12 +565,7 @@ export const getEnemyDamage = (stats, state) => {
   }
 
   const base =
-    ((5 / 3) *
-      info.STR *
-      info.mult *
-      eleModifier *
-      (1 - tCounter * 0.01) *
-      (1 - tRes * 0.01)) /
+    ((5 / 3) * info.STR * info.mult * eleModifier * (1 - tCounter * 0.01) * (1 - tRes * 0.01)) /
     (adventurer.DefCoef * (1 + tDef * 0.01));
 
   const max = Math.floor(base * 1.05);
