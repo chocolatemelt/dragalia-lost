@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dragalia-lost/static/css/main.f8f284b0.chunk.css",
-    "main.js": "/dragalia-lost/static/js/main.ff506e4d.chunk.js",
-    "main.js.map": "/dragalia-lost/static/js/main.ff506e4d.chunk.js.map",
+    "main.css": "/dragalia-lost/static/css/main.1dd1a51b.chunk.css",
+    "main.js": "/dragalia-lost/static/js/main.b36431a1.chunk.js",
+    "main.js.map": "/dragalia-lost/static/js/main.b36431a1.chunk.js.map",
     "runtime~main.js": "/dragalia-lost/static/js/runtime~main.c60f60f1.js",
     "runtime~main.js.map": "/dragalia-lost/static/js/runtime~main.c60f60f1.js.map",
-    "static/js/2.65d74c7a.chunk.js": "/dragalia-lost/static/js/2.65d74c7a.chunk.js",
-    "static/js/2.65d74c7a.chunk.js.map": "/dragalia-lost/static/js/2.65d74c7a.chunk.js.map",
+    "static/js/2.51cc0f8b.chunk.js": "/dragalia-lost/static/js/2.51cc0f8b.chunk.js",
+    "static/js/2.51cc0f8b.chunk.js.map": "/dragalia-lost/static/js/2.51cc0f8b.chunk.js.map",
     "index.html": "/dragalia-lost/index.html",
-    "precache-manifest.ce07e2852bf848599ed25275d85a97ad.js": "/dragalia-lost/precache-manifest.ce07e2852bf848599ed25275d85a97ad.js",
+    "precache-manifest.bc66d0a618d3ca1f04ceab4891bd0d55.js": "/dragalia-lost/precache-manifest.bc66d0a618d3ca1f04ceab4891bd0d55.js",
     "service-worker.js": "/dragalia-lost/service-worker.js",
-    "static/css/main.f8f284b0.chunk.css.map": "/dragalia-lost/static/css/main.f8f284b0.chunk.css.map"
+    "static/css/main.1dd1a51b.chunk.css.map": "/dragalia-lost/static/css/main.1dd1a51b.chunk.css.map"
   }
 }
