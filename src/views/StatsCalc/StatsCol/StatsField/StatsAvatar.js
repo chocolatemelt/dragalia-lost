@@ -3,12 +3,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { connect } from 'react-redux';
 import { Image, withTheme } from '../../../../components';
-import {
-  selectFocus,
-  selectStats,
-  translate,
-  getField,
-} from '../../../../actions';
+import { selectFocus, selectStats, translate, getField } from '../../../../actions';
 import { refs } from '../../../../store';
 
 class StatsAvatar extends React.Component {

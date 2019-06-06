@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
-import { getLimit, updateStats } from 'actions';
-import { Input, SelectItem } from 'components';
+import { getLimit, updateStats } from '../../../../actions';
+import { Input, SelectItem } from '../../../../components';
 import StatsAvatar from './StatsAvatar';
 
 class StatsField extends Component {
@@ -13,83 +13,6 @@ class StatsField extends Component {
       bond,
       level,
     };
-  }
-
-  render() {
-    const { bond, level } = this.state;
-    const { item, statsKey } = this.props;
-    const { id, ex, name, mana, unbind, rarity, curRarity } = item || {};
-    const exDisabled = curRarity !== '5';
-    let image = 'add';
-    if (item) {
-      if (statsKey === 'adventurer') {
-        image = `${id}_r0${curRarity}`;
-      } else if (statsKey === 'wyrmprint1' || statsKey === 'wyrmprint2') {
-        const variation = unbind * 1 >= 2 ? '2' : '1';
-        image = `${id}_0${variation}`;
-      } else {
-        image = id;
-      }
-    }
-
-    return (
-      <div className="stats-field flex">
-        <StatsAvatar statsKey={statsKey} image={image} name={name} />
-
-        {item && (
-          <div className="stats-field-setting flex">
-            <Input
-              classes="col-2"
-              label="level"
-              value={level}
-              onChange={this.onChange}
-            />
-
-            {statsKey === 'adventurer' && (
-              <Fragment>
-                <SelectItem
-                  label="curRarity"
-                  value={curRarity}
-                  rarity={rarity}
-                  onChange={this.onChange}
-                />
-
-                <SelectItem
-                  label="mana"
-                  value={mana}
-                  rarity={curRarity}
-                  onChange={this.onChange}
-                />
-
-                <SelectItem
-                  label="ex"
-                  value={ex}
-                  disabled={exDisabled}
-                  onChange={this.onChange}
-                />
-              </Fragment>
-            )}
-
-            {statsKey !== 'adventurer' && (
-              <SelectItem
-                label="unbind"
-                value={unbind}
-                onChange={this.onChange}
-              />
-            )}
-
-            {statsKey === 'dragon' && (
-              <Input
-                classes="col-2"
-                label="bond"
-                value={bond}
-                onChange={this.onChange}
-              />
-            )}
-          </div>
-        )}
-      </div>
-    );
   }
 
   onChange = ({ target: { name, value } }) => {
@@ -159,6 +82,59 @@ class StatsField extends Component {
     }
     return updates;
   };
+
+  render() {
+    const { bond, level } = this.state;
+    const { item, statsKey } = this.props;
+    const { id, ex, name, mana, unbind, rarity, curRarity } = item || {};
+    const exDisabled = curRarity !== '5';
+    let image = 'add';
+    if (item) {
+      if (statsKey === 'adventurer') {
+        image = `${id}_r0${curRarity}`;
+      } else if (statsKey === 'wyrmprint1' || statsKey === 'wyrmprint2') {
+        const variation = unbind * 1 >= 2 ? '2' : '1';
+        image = `${id}_0${variation}`;
+      } else {
+        image = id;
+      }
+    }
+
+    return (
+      <div className="stats-field flex">
+        <StatsAvatar statsKey={statsKey} image={image} name={name} />
+
+        {item && (
+          <div className="stats-field-setting flex">
+            <Input classes="col-2" label="level" value={level} onChange={this.onChange} />
+
+            {statsKey === 'adventurer' && (
+              <Fragment>
+                <SelectItem
+                  label="curRarity"
+                  value={curRarity}
+                  rarity={rarity}
+                  onChange={this.onChange}
+                />
+
+                <SelectItem label="mana" value={mana} rarity={curRarity} onChange={this.onChange} />
+
+                <SelectItem label="ex" value={ex} disabled={exDisabled} onChange={this.onChange} />
+              </Fragment>
+            )}
+
+            {statsKey !== 'adventurer' && (
+              <SelectItem label="unbind" value={unbind} onChange={this.onChange} />
+            )}
+
+            {statsKey === 'dragon' && (
+              <Input classes="col-2" label="bond" value={bond} onChange={this.onChange} />
+            )}
+          </div>
+        )}
+      </div>
+    );
+  }
 }
 
 const mapStateToProps = ({ stats }, { statsKey }) => {
@@ -168,8 +144,7 @@ const mapStateToProps = ({ stats }, { statsKey }) => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    updateStats: (statsKey, updates) =>
-      dispatch(updateStats(statsKey, updates)),
+    updateStats: (statsKey, updates) => dispatch(updateStats(statsKey, updates)),
   };
 };
 

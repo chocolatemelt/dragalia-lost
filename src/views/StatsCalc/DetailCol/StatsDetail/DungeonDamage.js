@@ -1,10 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React, { Fragment } from 'react';
-import { withTheme } from 'components';
-import { translate } from 'actions';
+import { withTheme } from '../../../../components';
+import { translate } from '../../../../actions';
 
 class DungeonDamage extends React.PureComponent {
   state = { collapse: true };
+
+  toggleDetails = () => this.setState(state => ({ collapse: !state.collapse }));
 
   render() {
     const { lang, min, max, HP, textArea } = this.props;
@@ -67,8 +69,6 @@ class DungeonDamage extends React.PureComponent {
       </Fragment>
     );
   }
-
-  toggleDetails = () => this.setState(state => ({ collapse: !state.collapse }));
 }
 
 export default withTheme(DungeonDamage);
