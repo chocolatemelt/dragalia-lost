@@ -2,17 +2,10 @@
 import React, { useContext } from 'react';
 import { connect } from 'react-redux';
 import { Button } from '@material-ui/core';
-import { Context, ToggleButton } from 'components';
-import { setSimc, resetAll, translate } from 'actions';
+import { Context, ToggleButton } from '../../../components';
+import { setSimc, resetAll, translate } from '../../../actions';
 
-const SetBtns = ({
-  expand,
-  expandDisabled,
-  setExpand,
-  simc,
-  setSimc,
-  resetAll,
-}) => {
+const SetBtns = ({ expand, expandDisabled, setExpand, simc, setSimc, resetAll }) => {
   const { lang } = useContext(Context);
 
   return (

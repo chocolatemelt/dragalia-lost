@@ -354,6 +354,28 @@ export const getDetails = (stats, halidom) => {
   return details;
 };
 
+const getStage = unbind => {
+  let stage = 1;
+  if (unbind === 4) {
+    stage = 3;
+  } else if (unbind >= 2) {
+    stage = 2;
+  }
+  return stage;
+};
+
+const getWyrmprintData = wyrmprint => {
+  if (!wyrmprint) return undefined;
+  const unbind = parseInt(wyrmprint.unbind, 10);
+  const stage = getStage(unbind);
+  const wpData = {};
+  for (let i = 1; i <= 3; i += 1) {
+    const abString = `abilities${i}${stage}`;
+    wpData[abString] = wyrmprint[abString].values;
+  }
+  return wpData;
+};
+
 export const calcDamage = (
   resist,
   str,
@@ -384,6 +406,7 @@ export const calcDamage = (
 
 export const getAdventurerDamage = (stats, str) => {
   const { adventurer, dragon, weapon, wyrmprint1, wyrmprint2 } = stats;
+  console.log(getWyrmprintData(wyrmprint1));
   // TODO: calculate skill damage
   // Formula: (5/3) * (1-damage res) * (str) * (mod) * (crit mod) * (skill damage) * (punisher) * (elemental) * (dragon) / (defense) * (defense mod)
   // assume def = 10
