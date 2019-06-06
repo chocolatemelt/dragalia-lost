@@ -406,8 +406,9 @@ export const calcDamage = (
 
 export const getAdventurerDamage = (stats, str) => {
   const { adventurer, dragon, weapon, wyrmprint1, wyrmprint2 } = stats;
-  console.log(getWyrmprintData(wyrmprint1));
-  // TODO: calculate skill damage
+  const wpData1 = getWyrmprintData(wyrmprint1);
+  const wpData2 = getWyrmprintData(wyrmprint2);
+  console.log(adventurer, dragon, weapon, wpData1, wpData2);
   // Formula: (5/3) * (1-damage res) * (str) * (mod) * (crit mod) * (skill damage) * (punisher) * (elemental) * (dragon) / (defense) * (defense mod)
   // assume def = 10
   // round down
