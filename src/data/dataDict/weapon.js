@@ -64,7 +64,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -140,7 +140,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -178,7 +178,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -232,7 +232,7 @@ const weapon =
     "id": "301064_01_30301",
     "name": {
       "en": "Wind Ingot",
-      "ja": "Wind Ingot",
+      "ja": "ウインドインゴット",
       "zh": "Wind Ingot"
     },
     "weapon": "Sword",
@@ -254,7 +254,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -330,7 +330,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -368,7 +368,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -626,7 +626,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -664,7 +664,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -736,7 +736,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -774,7 +774,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -843,7 +843,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -858,7 +858,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -867,7 +867,7 @@ const weapon =
     "id": "301064_01_40301",
     "name": {
       "en": "Tornado Ingot",
-      "ja": "Tornado Ingot",
+      "ja": "トルネードインゴット",
       "zh": "Tornado Ingot"
     },
     "weapon": "Sword",
@@ -889,7 +889,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -958,7 +958,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -973,7 +973,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Stunned Punisher",
+        "ability_type": "Stunned Punisher",
         "ability_value": 15
       }
     }
@@ -1004,7 +1004,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -1042,7 +1042,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -1268,7 +1268,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -1378,7 +1378,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -1393,7 +1393,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -1462,7 +1462,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -1477,7 +1477,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Stunned Punisher",
+        "ability_type": "Stunned Punisher",
         "ability_value": 15
       }
     }
@@ -1720,7 +1720,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -1736,7 +1736,7 @@ const weapon =
     "id": "302071_01_30101",
     "name": {
       "en": "Balefire Blade",
-      "ja": "Balefire Blade",
+      "ja": "妖焔刀・燎火",
       "zh": "Balefire Blade"
     },
     "weapon": "Blade",
@@ -1758,7 +1758,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -1775,7 +1775,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -1846,7 +1846,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -1900,7 +1900,7 @@ const weapon =
     "id": "302050_01_30301",
     "name": {
       "en": "Verdantbreeze Cutter",
-      "ja": "Verdantbreeze Cutter",
+      "ja": "翠琥丸",
       "zh": "Verdantbreeze Cutter"
     },
     "weapon": "Blade",
@@ -1922,7 +1922,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -1998,7 +1998,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -2074,7 +2074,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -2287,7 +2287,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -2325,7 +2325,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -2344,7 +2344,7 @@ const weapon =
     "id": "302057_01_40101",
     "name": {
       "en": "Hellfire Judgment",
-      "ja": "Hellfire Judgment",
+      "ja": "火刃・獄炎丸",
       "zh": "Hellfire Judgment"
     },
     "weapon": "Blade",
@@ -2368,7 +2368,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -2383,7 +2383,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -2394,7 +2394,7 @@ const weapon =
     "id": "302071_01_40101",
     "name": {
       "en": "Balefire Votive",
-      "ja": "Balefire Votive",
+      "ja": "妖焔刀・燎火燈明",
       "zh": "Balefire Votive"
     },
     "weapon": "Blade",
@@ -2416,7 +2416,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -2433,7 +2433,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -2504,7 +2504,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -2544,7 +2544,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -2618,7 +2618,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -2633,7 +2633,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -2642,7 +2642,7 @@ const weapon =
     "id": "302050_01_40301",
     "name": {
       "en": "Verdurewind Cutter",
-      "ja": "Verdurewind Cutter",
+      "ja": "真打・翠嵐琥丸",
       "zh": "Verdurewind Cutter"
     },
     "weapon": "Blade",
@@ -2664,7 +2664,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -2740,7 +2740,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -2755,7 +2755,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Stunned Punisher",
+        "ability_type": "Stunned Punisher",
         "ability_value": 15
       }
     }
@@ -2786,7 +2786,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -2855,7 +2855,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -3075,7 +3075,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -3094,7 +3094,7 @@ const weapon =
     "id": "302057_01_50101",
     "name": {
       "en": "Ogreslayer Judgment",
-      "ja": "Ogreslayer Judgment",
+      "ja": "焔刃・鬼切獄炎",
       "zh": "Ogreslayer Judgment"
     },
     "weapon": "Blade",
@@ -3118,7 +3118,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -3133,7 +3133,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -3199,7 +3199,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -3280,7 +3280,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -3295,7 +3295,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -3357,7 +3357,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -3372,7 +3372,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Stunned Punisher",
+        "ability_type": "Stunned Punisher",
         "ability_value": 15
       }
     }
@@ -3590,7 +3590,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -3628,7 +3628,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -3704,7 +3704,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -3742,7 +3742,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -3818,7 +3818,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -3834,7 +3834,7 @@ const weapon =
     "id": "303053_01_30301",
     "name": {
       "en": "Breezy Big Boy",
-      "ja": "Breezy Big Boy",
+      "ja": "ブラストヘヴィ",
       "zh": "Breezy Big Boy"
     },
     "weapon": "Dagger",
@@ -3856,7 +3856,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -3932,7 +3932,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 10
       }
     },
@@ -3948,7 +3948,7 @@ const weapon =
     "id": "303062_01_30401",
     "name": {
       "en": "Radiant Bolete Dagger",
-      "ja": "Radiant Bolete Dagger",
+      "ja": "キラキラキノコの短剣",
       "zh": "Radiant Bolete Dagger"
     },
     "weapon": "Dagger",
@@ -3970,7 +3970,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -4228,7 +4228,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -4266,7 +4266,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -4304,7 +4304,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -4323,7 +4323,7 @@ const weapon =
     "id": "303057_01_40101",
     "name": {
       "en": "Flame Sting",
-      "ja": "Flame Sting",
+      "ja": "バーストスティンガー",
       "zh": "Flame Sting"
     },
     "weapon": "Dagger",
@@ -4347,7 +4347,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -4362,7 +4362,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -4433,7 +4433,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -4471,7 +4471,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 3
       }
     },
@@ -4488,7 +4488,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -4521,7 +4521,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -4561,7 +4561,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -4635,7 +4635,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -4651,7 +4651,7 @@ const weapon =
     "id": "303053_01_40301",
     "name": {
       "en": "Big Boy of Fortitude",
-      "ja": "Big Boy of Fortitude",
+      "ja": "エアロブリーズヘヴィ",
       "zh": "Big Boy of Fortitude"
     },
     "weapon": "Dagger",
@@ -4673,7 +4673,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -4689,7 +4689,7 @@ const weapon =
     "id": "303066_01_40301",
     "name": {
       "en": "Aero Agony",
-      "ja": "Aero Agony",
+      "ja": "エアリアルペイン",
       "zh": "Aero Agony"
     },
     "weapon": "Dagger",
@@ -4711,7 +4711,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -4726,7 +4726,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -4795,7 +4795,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Physian's Bane",
+        "ability_type": "Physian's Bane",
         "ability_value": 15
       }
     },
@@ -4811,7 +4811,7 @@ const weapon =
     "id": "303062_01_40401",
     "name": {
       "en": "Luminous Morel Dagger",
-      "ja": "Luminous Morel Dagger",
+      "ja": "ギンギラキノコの短剣",
       "zh": "Luminous Morel Dagger"
     },
     "weapon": "Dagger",
@@ -4833,7 +4833,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -5116,7 +5116,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -5135,7 +5135,7 @@ const weapon =
     "id": "303057_01_50101",
     "name": {
       "en": "Searing Stinger",
-      "ja": "Searing Stinger",
+      "ja": "クリムゾンスティンガー",
       "zh": "Searing Stinger"
     },
     "weapon": "Dagger",
@@ -5159,7 +5159,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -5174,7 +5174,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -5238,7 +5238,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 4
       }
     },
@@ -5255,7 +5255,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -5290,7 +5290,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -5349,7 +5349,7 @@ const weapon =
     "id": "303066_01_50301",
     "name": {
       "en": "Turbulent Agony",
-      "ja": "Turbulent Agony",
+      "ja": "タービュラントペイン",
       "zh": "Turbulent Agony"
     },
     "weapon": "Dagger",
@@ -5371,7 +5371,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -5386,7 +5386,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -5642,7 +5642,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -5756,7 +5756,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -5982,7 +5982,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -6054,7 +6054,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 3
       }
     },
@@ -6071,7 +6071,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -6104,7 +6104,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -6173,7 +6173,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -6188,7 +6188,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -6250,7 +6250,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -6265,7 +6265,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Stunned Punisher",
+        "ability_type": "Stunned Punisher",
         "ability_value": 15
       }
     }
@@ -6296,7 +6296,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -6547,7 +6547,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -6626,7 +6626,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 4
       }
     },
@@ -6643,7 +6643,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -6714,7 +6714,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -6729,7 +6729,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -6791,7 +6791,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -6806,7 +6806,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Stunned Punisher",
+        "ability_type": "Stunned Punisher",
         "ability_value": 15
       }
     }
@@ -6986,7 +6986,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -7002,7 +7002,7 @@ const weapon =
     "id": "305080_01_30101",
     "name": {
       "en": "Soulfire Spear",
-      "ja": "Soulfire Spear",
+      "ja": "ソウルファイアスピア",
       "zh": "Soulfire Spear"
     },
     "weapon": "Lance",
@@ -7024,7 +7024,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -7041,7 +7041,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -7112,7 +7112,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -7150,7 +7150,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -7226,7 +7226,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -7340,7 +7340,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -7356,7 +7356,7 @@ const weapon =
     "id": "305070_01_30401",
     "name": {
       "en": "Lightspore Lance",
-      "ja": "Lightspore Lance",
+      "ja": "パラソルライト",
       "zh": "Lightspore Lance"
     },
     "weapon": "Lance",
@@ -7378,7 +7378,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -7454,7 +7454,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -7699,7 +7699,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -7737,7 +7737,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -7756,7 +7756,7 @@ const weapon =
     "id": "305065_01_40101",
     "name": {
       "en": "Reisel, the Solar Flare",
-      "ja": "Reisel, the Solar Flare",
+      "ja": "紅炎槍ライゼル",
       "zh": "Reisel, the Solar Flare"
     },
     "weapon": "Lance",
@@ -7780,7 +7780,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -7795,7 +7795,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -7806,7 +7806,7 @@ const weapon =
     "id": "305080_01_40101",
     "name": {
       "en": "Spiritflame Spear",
-      "ja": "Spiritflame Spear",
+      "ja": "スピリットフレイムスピア",
       "zh": "Spiritflame Spear"
     },
     "weapon": "Lance",
@@ -7828,7 +7828,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -7845,7 +7845,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -7916,7 +7916,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -7954,7 +7954,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 3
       }
     },
@@ -7971,7 +7971,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -8004,7 +8004,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -8044,7 +8044,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -8125,7 +8125,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -8141,7 +8141,7 @@ const weapon =
     "id": "305078_01_40301",
     "name": {
       "en": "Stormsiege Lance",
-      "ja": "Stormsiege Lance",
+      "ja": "震嵐の槍",
       "zh": "Stormsiege Lance"
     },
     "weapon": "Lance",
@@ -8163,7 +8163,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -8178,7 +8178,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -8240,7 +8240,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -8256,7 +8256,7 @@ const weapon =
     "id": "305070_01_40401",
     "name": {
       "en": "Shinespore Lance",
-      "ja": "Shinespore Lance",
+      "ja": "パラソルシャイン",
       "zh": "Shinespore Lance"
     },
     "weapon": "Lance",
@@ -8278,7 +8278,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -8347,7 +8347,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -8599,7 +8599,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -8618,7 +8618,7 @@ const weapon =
     "id": "305065_01_50101",
     "name": {
       "en": "Reiselfeld, the Solar Spray",
-      "ja": "Reiselfeld, the Solar Spray",
+      "ja": "紅炎槍ライゼルフェルド",
       "zh": "Reiselfeld, the Solar Spray"
     },
     "weapon": "Lance",
@@ -8642,7 +8642,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -8657,7 +8657,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -8721,7 +8721,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 4
       }
     },
@@ -8738,7 +8738,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -8773,7 +8773,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -8825,7 +8825,7 @@ const weapon =
     "id": "305078_01_50301",
     "name": {
       "en": "Stormpiercer Lance",
-      "ja": "Stormpiercer Lance",
+      "ja": "狂風大嵐の槍",
       "zh": "Stormpiercer Lance"
     },
     "weapon": "Lance",
@@ -8847,7 +8847,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -8862,7 +8862,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -9087,7 +9087,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -9103,7 +9103,7 @@ const weapon =
     "id": "306066_01_30101",
     "name": {
       "en": "Flickertorch Bow",
-      "ja": "Flickertorch Bow",
+      "ja": "ゆらめく燈火の弓",
       "zh": "Flickertorch Bow"
     },
     "weapon": "Bow",
@@ -9125,7 +9125,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -9142,7 +9142,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -9206,7 +9206,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -9244,7 +9244,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -9320,7 +9320,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -9396,7 +9396,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 10
       }
     },
@@ -9412,7 +9412,7 @@ const weapon =
     "id": "306054_01_30401",
     "name": {
       "en": "Flashfungus",
-      "ja": "Flashfungus",
+      "ja": "フラッシュファンガス",
       "zh": "Flashfungus"
     },
     "weapon": "Bow",
@@ -9434,7 +9434,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -9503,7 +9503,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -9755,7 +9755,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -9793,7 +9793,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -9812,7 +9812,7 @@ const weapon =
     "id": "306066_01_40101",
     "name": {
       "en": "Wispfire Bow",
-      "ja": "Wispfire Bow",
+      "ja": "燃え上がる鬼火の弓",
       "zh": "Wispfire Bow"
     },
     "weapon": "Bow",
@@ -9834,7 +9834,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -9851,7 +9851,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -9922,7 +9922,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -9960,7 +9960,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -10036,7 +10036,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -10052,7 +10052,7 @@ const weapon =
     "id": "306062_01_40301",
     "name": {
       "en": "Wind, the Dustwhirler",
-      "ja": "Wind, the Dustwhirler",
+      "ja": "風塵弓・ヴィント",
       "zh": "Wind, the Dustwhirler"
     },
     "weapon": "Bow",
@@ -10074,7 +10074,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -10089,7 +10089,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -10151,7 +10151,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Undead's Bane",
+        "ability_type": "Undead's Bane",
         "ability_value": 15
       }
     },
@@ -10167,7 +10167,7 @@ const weapon =
     "id": "306054_01_40401",
     "name": {
       "en": "Glowfungus",
-      "ja": "Glowfungus",
+      "ja": "ライトニングファンガス",
       "zh": "Glowfungus"
     },
     "weapon": "Bow",
@@ -10189,7 +10189,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -10258,7 +10258,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -10439,7 +10439,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -10520,7 +10520,7 @@ const weapon =
     "id": "306062_01_50301",
     "name": {
       "en": "Windhoze, the Dustblaster",
-      "ja": "Windhoze, the Dustblaster",
+      "ja": "風塵弓・ヴィントホーゼ",
       "zh": "Windhoze, the Dustblaster"
     },
     "weapon": "Bow",
@@ -10542,7 +10542,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -10557,7 +10557,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -10813,7 +10813,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -10829,7 +10829,7 @@ const weapon =
     "id": "307072_01_30101",
     "name": {
       "en": "Heatshimmer Wand",
-      "ja": "Heatshimmer Wand",
+      "ja": "陽炎のロッド",
       "zh": "Heatshimmer Wand"
     },
     "weapon": "Wand",
@@ -10851,7 +10851,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -10868,7 +10868,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -10939,7 +10939,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -11015,7 +11015,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -11069,7 +11069,7 @@ const weapon =
     "id": "307059_01_30401",
     "name": {
       "en": "The Panic",
-      "ja": "The Panic",
+      "ja": "パニックヘッド",
       "zh": "The Panic"
     },
     "weapon": "Wand",
@@ -11091,7 +11091,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 10
       }
     },
@@ -11167,7 +11167,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 10
       }
     },
@@ -11387,7 +11387,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -11425,7 +11425,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -11444,7 +11444,7 @@ const weapon =
     "id": "307072_01_40101",
     "name": {
       "en": "Brightshimmer Wand",
-      "ja": "Brightshimmer Wand",
+      "ja": "煌々たる陽炎のロッド",
       "zh": "Brightshimmer Wand"
     },
     "weapon": "Wand",
@@ -11466,7 +11466,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -11483,7 +11483,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Strength",
+        "ability_type": "Full HP = Strength",
         "ability_value": 8
       }
     },
@@ -11547,7 +11547,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -11585,7 +11585,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 3
       }
     },
@@ -11602,7 +11602,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -11673,7 +11673,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -11689,7 +11689,7 @@ const weapon =
     "id": "307067_01_40301",
     "name": {
       "en": "Scepter of the Gale",
-      "ja": "Scepter of the Gale",
+      "ja": "烈風の宝笏",
       "zh": "Scepter of the Gale"
     },
     "weapon": "Wand",
@@ -11711,7 +11711,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -11726,7 +11726,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -11766,7 +11766,7 @@ const weapon =
     "id": "307059_01_40401",
     "name": {
       "en": "The Madness",
-      "ja": "The Madness",
+      "ja": "クレイジーヘッド",
       "zh": "The Madness"
     },
     "weapon": "Wand",
@@ -11788,7 +11788,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Thaumian's Bane",
+        "ability_type": "Thaumian's Bane",
         "ability_value": 15
       }
     },
@@ -11864,7 +11864,7 @@ const weapon =
       "values": {
         "req": "Shadow",
         "req_threshold": null,
-        "ability_type": " Blinded Punisher",
+        "ability_type": "Blinded Punisher",
         "ability_value": 15
       }
     },
@@ -12077,7 +12077,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -12156,7 +12156,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Slayer's Strength",
+        "ability_type": "Slayer's Strength",
         "ability_value": 4
       }
     },
@@ -12173,7 +12173,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Strength",
+        "ability_type": "HP 70% = Strength",
         "ability_value": 5
       }
     },
@@ -12215,7 +12215,7 @@ const weapon =
     "id": "307067_01_50301",
     "name": {
       "en": "Scepter of the Maelstrom",
-      "ja": "Scepter of the Maelstrom",
+      "ja": "碧嵐迅の宝笏",
       "zh": "Scepter of the Maelstrom"
     },
     "weapon": "Wand",
@@ -12237,7 +12237,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -12252,7 +12252,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Broken Punisher",
+        "ability_type": "Broken Punisher",
         "ability_value": 15
       }
     }
@@ -12472,7 +12472,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 3
       }
     },
@@ -12552,7 +12552,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 3
       }
     },
@@ -12601,7 +12601,7 @@ const weapon =
     "id": "308049_01_30301",
     "name": {
       "en": "Squallchant",
-      "ja": "Squallchant",
+      "ja": "ツイストオーダー",
       "zh": "Squallchant"
     },
     "weapon": "Staff",
@@ -12625,7 +12625,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 3
       }
     },
@@ -12640,7 +12640,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Recovery Potency",
+        "ability_type": "Recovery Potency",
         "ability_value": 5
       }
     },
@@ -12737,7 +12737,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 3
       }
     },
@@ -12953,7 +12953,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 5
       }
     },
@@ -12993,7 +12993,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -13008,7 +13008,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 4
       }
     }
@@ -13017,7 +13017,7 @@ const weapon =
     "id": "308054_01_40101",
     "name": {
       "en": "Ignis Core",
-      "ja": "Ignis Core",
+      "ja": "コア・オブ・イグニ",
       "zh": "Ignis Core"
     },
     "weapon": "Staff",
@@ -13041,7 +13041,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -13056,7 +13056,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -13122,7 +13122,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 5
       }
     },
@@ -13164,7 +13164,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 15
       }
     },
@@ -13179,7 +13179,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 4
       }
     },
@@ -13243,7 +13243,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -13258,7 +13258,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " HP 70% = Healing",
+        "ability_type": "HP 70% = Healing",
         "ability_value": 8
       }
     }
@@ -13267,7 +13267,7 @@ const weapon =
     "id": "308049_01_40301",
     "name": {
       "en": "Stormchant",
-      "ja": "Stormchant",
+      "ja": "ゲイルスパイラルオーダー",
       "zh": "Stormchant"
     },
     "weapon": "Staff",
@@ -13291,7 +13291,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 5
       }
     },
@@ -13306,7 +13306,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Recovery Potency",
+        "ability_type": "Recovery Potency",
         "ability_value": 5
       }
     },
@@ -13370,7 +13370,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 25
       }
     },
@@ -13385,7 +13385,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Recovery Potency",
+        "ability_type": "Recovery Potency",
         "ability_value": 5
       }
     }
@@ -13418,7 +13418,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " HP 70% = Defense",
+        "ability_type": "HP 70% = Defense",
         "ability_value": 5
       }
     },
@@ -13664,7 +13664,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -13679,7 +13679,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 4
       }
     }
@@ -13688,7 +13688,7 @@ const weapon =
     "id": "308054_01_50101",
     "name": {
       "en": "Igniflare Core",
-      "ja": "Igniflare Core",
+      "ja": "コア・オブ・イグニフレア",
       "zh": "Igniflare Core"
     },
     "weapon": "Staff",
@@ -13712,7 +13712,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -13727,7 +13727,7 @@ const weapon =
       "values": {
         "req": "Flame",
         "req_threshold": null,
-        "ability_type": " HP 70% = Critical Rate",
+        "ability_type": "HP 70% = Critical Rate",
         "ability_value": 5
       }
     },
@@ -13793,7 +13793,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Full HP = Defense",
+        "ability_type": "Full HP = Defense",
         "ability_value": 20
       }
     },
@@ -13808,7 +13808,7 @@ const weapon =
       "values": {
         "req": "Water",
         "req_threshold": null,
-        "ability_type": " Skill Haste",
+        "ability_type": "Skill Haste",
         "ability_value": 4
       }
     },
@@ -13872,7 +13872,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -13887,7 +13887,7 @@ const weapon =
       "values": {
         "req": "Wind",
         "req_threshold": null,
-        "ability_type": " HP 70% = Healing",
+        "ability_type": "HP 70% = Healing",
         "ability_value": 8
       }
     }
@@ -13956,7 +13956,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Skill Prep",
+        "ability_type": "Skill Prep",
         "ability_value": 50
       }
     },
@@ -13971,7 +13971,7 @@ const weapon =
       "values": {
         "req": "Light",
         "req_threshold": null,
-        "ability_type": " Recovery Potency",
+        "ability_type": "Recovery Potency",
         "ability_value": 5
       }
     }
