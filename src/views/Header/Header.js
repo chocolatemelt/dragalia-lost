@@ -1,11 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { Fragment, memo, useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import {
-  MenuOutlined,
-  HomeOutlined,
-  VerticalAlignTopOutlined,
-} from '@material-ui/icons';
+import { MenuOutlined, HomeOutlined, VerticalAlignTopOutlined } from '@material-ui/icons';
 import { Context, GitHubIcon } from 'components';
 import NavDrawer from './NavDrawer';
 
@@ -35,17 +31,6 @@ const Header = memo(() => {
         <div className="header-icon">
           <HomeOutlined />
           <Link to={`/stats/${lang}`} title="HOME">
-            <span className="icon-link" />
-          </Link>
-        </div>
-
-        <div className="header-icon">
-          <img
-            alt="donation"
-            src={`${process.env.PUBLIC_URL}/images/icon/donation.svg`}
-            height="20"
-          />
-          <Link to={`/donation/${lang}`} title="Donation">
             <span className="icon-link" />
           </Link>
         </div>
