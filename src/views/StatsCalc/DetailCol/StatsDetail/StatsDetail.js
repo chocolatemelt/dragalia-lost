@@ -108,20 +108,22 @@ class StatsDetail extends React.Component {
                 <table id="calc-detail" className="gutter">
                   <thead>
                     <tr>
-                      <th>{translate('Skill', lang)}</th>
+                      <th>{translate('Type', lang)}</th>
+                      <th>{translate('Skill Name', lang)}</th>
                       <th>{translate('Level', lang)}</th>
-                      <th>{translate('Damage Mod', lang)}</th>
-                      <th>{translate('Calculated', lang)}</th>
+                      <th>{translate('Modifier', lang)}</th>
+                      <th>{translate('Damage', lang)}</th>
                     </tr>
                   </thead>
                   <tbody>
                     {adventurerTextArea.map(data => {
                       return (
-                        <tr key={data[4]} data-tip={`${data[1]} ${data[0]}`}>
+                        <tr key={data[5]} data-tip={`${data[2]} ${data[1]}`}>
                           <td>{data[0]}</td>
                           <td>{data[1]}</td>
                           <td>{data[2]}</td>
                           <td>{data[3]}</td>
+                          <td>{data[4]}</td>
                         </tr>
                       );
                     })}

@@ -408,8 +408,10 @@ export const getAdventurerDamage = (stats, str) => {
   const { adventurer, dragon, weapon, wyrmprint1, wyrmprint2 } = stats;
   const wpData1 = getWyrmprintData(wyrmprint1);
   const wpData2 = getWyrmprintData(wyrmprint2);
-  console.log(adventurer, dragon, weapon, wpData1, wpData2);
-  // Formula: (5/3) * (1-damage res) * (str) * (mod) * (crit mod) * (skill damage) * (punisher) * (elemental) * (dragon) / (defense) * (defense mod)
+  // console.log(adventurer, dragon, weapon, wpData1, wpData2);
+  // Formula: 
+  // (5/3) * (1-damage res) * (str) * (mod) * (crit mod) * (skill damage) * (punisher) * (elemental) * (dragon)
+  // ÷ (defense) * (defense mod)
   // assume def = 10
   // round down
   const textArea = [];
@@ -419,14 +421,38 @@ export const getAdventurerDamage = (stats, str) => {
   const passiveMod = 1; // punisher/bane/etc
   const elementMod = 1; // 1.5 for elemental advantage, 0.5 disadvantage
 
-  // TODO: Adventurer Combo FS Dash - data is not in a cargo table
-  // TODO: Adventurer Skill
-  const advSkills = [adventurer.skill1, adventurer.skill2];
-  advSkills.forEach(skill => {
-    const baseKey = skill.name;
-    if (skill.modifier) {
-      Object.keys(skill.modifier).forEach(lvl => {
-        const modList = skill.modifier[lvl];
+  // Adventurer, Dragon, & Weapon Skills
+  const skillList = { 'Adv-S1': adventurer.skill1 };
+  if (adventurer.mana >= 15) {
+    skillList['Adv-S2'] = adventurer.skill2;
+  }
+  if (dragon && dragon.skill) {
+    skillList.Dragon = dragon.skill;
+  }
+  if (weapon && weapon.skill) {
+    skillList.Weapon = weapon.skill;
+  }
+  Object.keys(skillList).forEach(k => {
+    const skill = skillList[k];
+    if (skill !== null && skill.modifier) {
+      const baseKey = skill.name;
+      let level = 1;
+      if (k === 'Adv-S1') {
+        if (adventurer.mana >= 45) {
+          level = 3;
+        } else if (adventurer.mana >= 25) {
+          level = 2;
+        }
+      } else if (k === 'Adv-S2' && adventurer.mana >= 35) {
+        level = 2;
+      } else if (k === 'Dragon' && parseInt(dragon.unbind, 10) === 4) {
+        level = 2;
+      } else if (k === 'Weapon' && parseInt(weapon.unbind, 10) === 4) {
+        level = 2;
+      }
+      const lvl = `lvl${level}`;
+      const modList = skill.modifier[lvl];
+      if (modList) {
         Object.keys(modList).forEach(mod => {
           const modKey = baseKey + lvl + mod;
           const dmg = calcDamage(
@@ -439,16 +465,13 @@ export const getAdventurerDamage = (stats, str) => {
             elementMod
           );
           const displayName = mod === 'BASE' ? skill.name : `${skill.name} + ${mod}`;
-          textArea.push([displayName, lvl, modList[mod], dmg, modKey]);
+          textArea.push([k, displayName, lvl, modList[mod], dmg, modKey]);
         });
-      });
-    } else {
-      textArea.push([skill.name, 'N/A', 'N/A', 'N/A', baseKey]);
+      }
     }
   });
-  // TODO: Weapon Skill
+  // TODO: Adventurer Combo FS Dash - data is not in a cargo table
   // TODO: Dragon Combo - data is not in a cargo table
-  // TODO: Dragon Skill
   // const max = Math.floor(base * 1.05);
   // const min = Math.floor(base * 0.95);
 

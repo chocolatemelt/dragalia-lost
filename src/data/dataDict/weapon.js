@@ -22,14 +22,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 614.0
-        },
-        "lvl2": {
-          "BASE": 682.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -98,14 +91,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 614.0
-        },
-        "lvl2": {
-          "BASE": 682.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -212,14 +198,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 614.0
-        },
-        "lvl2": {
-          "BASE": 682.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -288,14 +267,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 614.0
-        },
-        "lvl2": {
-          "BASE": 682.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -402,14 +374,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 614.0
-        },
-        "lvl2": {
-          "BASE": 682.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 57,
@@ -584,14 +549,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 676.0
-        },
-        "lvl2": {
-          "BASE": 750.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 92,
@@ -1076,14 +1034,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 676.0
-        },
-        "lvl2": {
-          "BASE": 750.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 92,
@@ -1226,14 +1177,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 745.0
-        },
-        "lvl2": {
-          "BASE": 825.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -1305,14 +1249,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 745.0
-        },
-        "lvl2": {
-          "BASE": 825.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -1420,14 +1357,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 745.0
-        },
-        "lvl2": {
-          "BASE": 825.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 42,
     "MaxHp": 143,
@@ -1678,14 +1608,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 790.0
-        },
-        "lvl2": {
-          "BASE": 878.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 15,
     "MaxHp": 53,
@@ -1804,14 +1727,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 790.0
-        },
-        "lvl2": {
-          "BASE": 878.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 15,
     "MaxHp": 53,
@@ -1880,14 +1796,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 792.0
-        },
-        "lvl2": {
-          "BASE": 879.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 15,
     "MaxHp": 50,
@@ -1956,14 +1865,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 792.0
-        },
-        "lvl2": {
-          "BASE": 879.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 15,
     "MaxHp": 50,
@@ -2032,14 +1934,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 792.0
-        },
-        "lvl2": {
-          "BASE": 879.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 15,
     "MaxHp": 50,
@@ -2462,14 +2357,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 869.0
-        },
-        "lvl2": {
-          "BASE": 966.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 24,
     "MaxHp": 81,
@@ -2698,14 +2586,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 869.0
-        },
-        "lvl2": {
-          "BASE": 966.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 24,
     "MaxHp": 81,
@@ -3033,14 +2914,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 957.0
-        },
-        "lvl2": {
-          "BASE": 1062.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 39,
     "MaxHp": 132,
@@ -3238,14 +3112,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 957.0
-        },
-        "lvl2": {
-          "BASE": 1062.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 39,
     "MaxHp": 132,
@@ -3399,14 +3266,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 960.0
-        },
-        "lvl2": {
-          "BASE": 1065.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 37,
     "MaxHp": 125,
@@ -3548,14 +3408,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 610.0
-        },
-        "lvl2": {
-          "BASE": 678.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 19,
     "MaxHp": 64,
@@ -3662,14 +3515,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 608.0
-        },
-        "lvl2": {
-          "BASE": 676.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -3776,14 +3622,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 608.0
-        },
-        "lvl2": {
-          "BASE": 676.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -3890,14 +3729,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 610.0
-        },
-        "lvl2": {
-          "BASE": 678.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 19,
     "MaxHp": 64,
@@ -4004,14 +3836,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 608.0
-        },
-        "lvl2": {
-          "BASE": 676.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -4186,14 +4011,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 668.0
-        },
-        "lvl2": {
-          "BASE": 744.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 93,
@@ -4391,14 +4209,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 668.0
-        },
-        "lvl2": {
-          "BASE": 744.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 93,
@@ -4753,14 +4564,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 668.0
-        },
-        "lvl2": {
-          "BASE": 744.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 93,
@@ -5074,14 +4878,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 740.0
-        },
-        "lvl2": {
-          "BASE": 820.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 43,
     "MaxHp": 144,
@@ -5329,14 +5126,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 740.0
-        },
-        "lvl2": {
-          "BASE": 820.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 43,
     "MaxHp": 144,
@@ -5444,14 +5234,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 740.0
-        },
-        "lvl2": {
-          "BASE": 820.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 43,
     "MaxHp": 144,
@@ -5562,14 +5345,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 932.0
-        },
-        "lvl2": {
-          "BASE": 1036.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 59,
@@ -5600,14 +5376,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 932.0
-        },
-        "lvl2": {
-          "BASE": 1036.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 59,
@@ -5676,14 +5445,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 932.0
-        },
-        "lvl2": {
-          "BASE": 1036.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 19,
     "MaxHp": 65,
@@ -5714,14 +5476,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 932.0
-        },
-        "lvl2": {
-          "BASE": 1036.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 19,
     "MaxHp": 65,
@@ -5790,14 +5545,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 932.0
-        },
-        "lvl2": {
-          "BASE": 1036.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 19,
     "MaxHp": 65,
@@ -5940,14 +5688,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 1026.0
-        },
-        "lvl2": {
-          "BASE": 1140.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 28,
     "MaxHp": 95,
@@ -6330,14 +6071,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 1026.0
-        },
-        "lvl2": {
-          "BASE": 1140.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 28,
     "MaxHp": 95,
@@ -6584,14 +6318,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 1128.0
-        },
-        "lvl2": {
-          "BASE": 1254.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -6672,14 +6399,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 1128.0
-        },
-        "lvl2": {
-          "BASE": 1254.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 44,
     "MaxHp": 147,
@@ -6944,14 +6664,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 685.0
-        },
-        "lvl2": {
-          "BASE": 761.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 58,
@@ -7070,14 +6783,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 686.0
-        },
-        "lvl2": {
-          "BASE": 762.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -7184,14 +6890,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 685.0
-        },
-        "lvl2": {
-          "BASE": 761.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 17,
     "MaxHp": 58,
@@ -7260,14 +6959,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 686.0
-        },
-        "lvl2": {
-          "BASE": 762.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -7298,14 +6990,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 687.0
-        },
-        "lvl2": {
-          "BASE": 762.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 55,
@@ -7412,14 +7097,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 686.0
-        },
-        "lvl2": {
-          "BASE": 762.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 18,
     "MaxHp": 61,
@@ -7874,14 +7552,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 755.0
-        },
-        "lvl2": {
-          "BASE": 840.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 28,
     "MaxHp": 94,
@@ -8083,14 +7754,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 755.0
-        },
-        "lvl2": {
-          "BASE": 840.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 28,
     "MaxHp": 94,
@@ -8557,14 +8221,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 830.0
-        },
-        "lvl2": {
-          "BASE": 922.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 43,
     "MaxHp": 145,
@@ -8889,14 +8546,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 830.0
-        },
-        "lvl2": {
-          "BASE": 922.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 43,
     "MaxHp": 145,
@@ -8927,14 +8577,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 830.0
-        },
-        "lvl2": {
-          "BASE": 922.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 43,
     "MaxHp": 145,
@@ -9045,14 +8688,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 705.0
-        },
-        "lvl2": {
-          "BASE": 783.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -9278,14 +8914,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 705.0
-        },
-        "lvl2": {
-          "BASE": 783.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -9354,14 +8983,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 705.0
-        },
-        "lvl2": {
-          "BASE": 783.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -9713,14 +9335,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 777.0
-        },
-        "lvl2": {
-          "BASE": 863.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -9880,14 +9495,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 777.0
-        },
-        "lvl2": {
-          "BASE": 863.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -9994,14 +9602,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 777.0
-        },
-        "lvl2": {
-          "BASE": 863.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 27,
     "MaxHp": 90,
@@ -10584,14 +10185,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 854.0
-        },
-        "lvl2": {
-          "BASE": 949.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 42,
     "MaxHp": 140,
@@ -10622,14 +10216,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 852.0
-        },
-        "lvl2": {
-          "BASE": 948.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 42,
     "MaxHp": 140,
@@ -10771,14 +10358,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 806.0
-        },
-        "lvl2": {
-          "BASE": 895.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -10897,14 +10477,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 806.0
-        },
-        "lvl2": {
-          "BASE": 895.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -10973,14 +10546,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 806.0
-        },
-        "lvl2": {
-          "BASE": 895.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 54,
@@ -11049,14 +10615,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 806.0
-        },
-        "lvl2": {
-          "BASE": 806.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 54,
@@ -11125,14 +10684,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 806.0
-        },
-        "lvl2": {
-          "BASE": 895.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 16,
     "MaxHp": 56,
@@ -11345,14 +10897,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 886.0
-        },
-        "lvl2": {
-          "BASE": 984.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 26,
     "MaxHp": 87,
@@ -11631,14 +11176,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 886.0
-        },
-        "lvl2": {
-          "BASE": 984.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 26,
     "MaxHp": 87,
@@ -11822,14 +11360,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 886.0
-        },
-        "lvl2": {
-          "BASE": 984.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 26,
     "MaxHp": 87,
@@ -12114,14 +11645,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 976.0
-        },
-        "lvl2": {
-          "BASE": 1084.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 40,
     "MaxHp": 134,
@@ -12279,14 +11803,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 976.0
-        },
-        "lvl2": {
-          "BASE": 1084.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 40,
     "MaxHp": 134,
@@ -12428,14 +11945,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 562.0
-        },
-        "lvl2": {
-          "BASE": 624.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 19,
     "MaxHp": 66,
@@ -12508,14 +12018,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 562.0
-        },
-        "lvl2": {
-          "BASE": 624.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 19,
     "MaxHp": 66,
@@ -13914,14 +13417,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 680.0
-        },
-        "lvl2": {
-          "BASE": 755.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 49,
     "MaxHp": 165,
@@ -13998,14 +13494,7 @@ const weapon =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 680.0
-        },
-        "lvl2": {
-          "BASE": 755.0
-        }
-      }
+      "modifier": null
     },
     "MinHp": 49,
     "MaxHp": 165,

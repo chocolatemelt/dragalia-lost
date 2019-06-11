@@ -139,6 +139,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 676.0
+        },
+        "lvl3": {
+          "BASE": 750.0
         }
       }
     },
@@ -160,6 +163,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 638.0
+        },
+        "lvl3": {
+          "BASE": 760.0
         }
       }
     }
@@ -302,6 +308,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 754.0
+        },
+        "lvl3": {
+          "BASE": 838.0
         }
       }
     }
@@ -469,6 +478,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 830.0
+        },
+        "lvl3": {
+          "BASE": 920.0
         }
       }
     }
@@ -1042,14 +1054,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 665.0
-        },
-        "lvl2": {
-          "BASE": 740.0
-        }
-      }
+      "modifier": null
     }
   },
   "100005_01": {
@@ -1194,14 +1199,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 1635.0
-        },
-        "lvl2": {
-          "BASE": 1812.0
-        }
-      }
+      "modifier": null
     }
   },
   "100006_01": {
@@ -1352,6 +1350,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 777.0
+        },
+        "lvl3": {
+          "BASE": 863.0
         }
       }
     }
@@ -1501,16 +1502,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 748.0,
-          "After [[Dragon Transformation|transformation]], '''Flames of Passion'''": 1124.0
-        },
-        "lvl2": {
-          "BASE": 828.0,
-          "After [[Dragon Transformation|transformation]], '''Flames of Passion'''": 1244.0
-        }
-      }
+      "modifier": null
     }
   },
   "100029_02": {
@@ -1640,6 +1632,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 854.0
+        },
+        "lvl3": {
+          "BASE": 949.0
         }
       }
     },
@@ -1806,6 +1801,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 686.0
+        },
+        "lvl3": {
+          "BASE": 762.0
         }
       }
     }
@@ -1958,6 +1956,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 790.0
+        },
+        "lvl3": {
+          "BASE": 878.0
         }
       }
     }
@@ -2110,6 +2111,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 667.0
+        },
+        "lvl3": {
+          "BASE": 701.0
         }
       }
     }
@@ -2262,6 +2266,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 805.0
+        },
+        "lvl3": {
+          "BASE": 895.0
         }
       }
     }
@@ -2414,6 +2421,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 576.0
+        },
+        "lvl3": {
+          "BASE": 606.0
         }
       }
     }
@@ -2556,6 +2566,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 562.0
+        },
+        "lvl3": {
+          "BASE": 624.0
         }
       }
     }
@@ -2708,6 +2721,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 970.0
+        },
+        "lvl3": {
+          "BASE": 1018.0
         }
       }
     }
@@ -2989,14 +3005,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 798.0
-        },
-        "lvl2": {
-          "BASE": 886.0
-        }
-      }
+      "modifier": null
     }
   },
   "110010_01": {
@@ -3451,14 +3460,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 699.0
-        },
-        "lvl2": {
-          "BASE": 716.0
-        }
-      }
+      "modifier": null
     }
   },
   "110012_01": {
@@ -3609,6 +3611,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 933.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
         }
       }
     }
@@ -3761,6 +3766,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 667.0
+        },
+        "lvl3": {
+          "BASE": 701.0
         }
       }
     }
@@ -3903,6 +3911,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 686.0
+        },
+        "lvl3": {
+          "BASE": 762.0
         }
       }
     }
@@ -4055,6 +4066,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 614.0
+        },
+        "lvl3": {
+          "BASE": 682.0
         }
       }
     }
@@ -4647,6 +4661,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 1028.0
+        },
+        "lvl3": {
+          "BASE": 1140.0
         }
       }
     }
@@ -4934,6 +4951,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 576.0
+        },
+        "lvl3": {
+          "BASE": 604.0
         }
       }
     }
@@ -5261,6 +5281,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 744.0
+        },
+        "lvl3": {
+          "BASE": 825.0
         }
       }
     }
@@ -5558,6 +5581,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 932.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
         }
       }
     }
@@ -5700,6 +5726,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 562.0
+        },
+        "lvl3": {
+          "BASE": 624.0
         }
       }
     }
@@ -5852,6 +5881,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 805.0
+        },
+        "lvl3": {
+          "BASE": 895.0
         }
       }
     }
@@ -6004,6 +6036,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 576.0
+        },
+        "lvl3": {
+          "BASE": 606.0
         }
       }
     }
@@ -6146,6 +6181,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 792.0
+        },
+        "lvl3": {
+          "BASE": 879.0
         }
       }
     }
@@ -6298,6 +6336,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 667.0
+        },
+        "lvl3": {
+          "BASE": 701.0
         }
       }
     }
@@ -6872,6 +6913,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 734.0
+        },
+        "lvl3": {
+          "BASE": 771.0
         }
       }
     }
@@ -7039,6 +7083,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 976.0
+        },
+        "lvl3": {
+          "BASE": 1084.0
         }
       }
     }
@@ -7200,14 +7247,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 1226.0
-        },
-        "lvl2": {
-          "BASE": 1288.0
-        }
-      }
+      "modifier": null
     }
   },
   "110033_01": {
@@ -7358,6 +7398,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 932.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
         }
       }
     }
@@ -7655,6 +7698,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 614.0
+        },
+        "lvl3": {
+          "BASE": 682.0
         }
       }
     }
@@ -7783,6 +7829,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 705.0
+        },
+        "lvl3": {
+          "BASE": 786.0
         }
       }
     },
@@ -7804,6 +7853,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 667.0
+        },
+        "lvl3": {
+          "BASE": 701.0
         }
       }
     }
@@ -7956,6 +8008,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 576.0
+        },
+        "lvl3": {
+          "BASE": 606.0
         }
       }
     }
@@ -8233,6 +8288,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 755.0
+        },
+        "lvl3": {
+          "BASE": 840.0
         }
       }
     }
@@ -8385,6 +8443,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 734.0
+        },
+        "lvl3": {
+          "BASE": 771.0
         }
       }
     }
@@ -9142,6 +9203,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 790.0
+        },
+        "lvl3": {
+          "BASE": 878.0
         }
       }
     }
@@ -9294,6 +9358,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 933.0
+        },
+        "lvl3": {
+          "BASE": 1036.0
         }
       }
     }
@@ -9446,6 +9513,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 614.0
+        },
+        "lvl3": {
+          "BASE": 682.0
         }
       }
     }
@@ -9598,6 +9668,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 805.0
+        },
+        "lvl3": {
+          "BASE": 895.0
         }
       }
     }
@@ -9740,6 +9813,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 617.0
+        },
+        "lvl3": {
+          "BASE": 686.0
         }
       }
     }
@@ -9892,6 +9968,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 576.0
+        },
+        "lvl3": {
+          "BASE": 606.0
         }
       }
     }
@@ -10155,6 +10234,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 792.0
+        },
+        "lvl3": {
+          "BASE": 879.0
         }
       }
     },
@@ -10176,6 +10258,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 747.0
+        },
+        "lvl3": {
+          "BASE": 784.0
         }
       }
     }
@@ -10304,6 +10389,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 638.0
+        },
+        "lvl3": {
+          "BASE": 670.0
         }
       }
     },
@@ -10470,6 +10558,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 838.0
+        },
+        "lvl3": {
+          "BASE": 880.0
         }
       }
     }
@@ -10622,6 +10713,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 668.0
+        },
+        "lvl3": {
+          "BASE": 744.0
         }
       }
     }
@@ -11215,14 +11309,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 608.0
-        },
-        "lvl2": {
-          "BASE": 676.0
-        }
-      }
+      "modifier": null
     }
   },
   "110056_01": {
@@ -11925,14 +12012,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 699.0
-        },
-        "lvl2": {
-          "BASE": 1793.4
-        }
-      }
+      "modifier": null
     }
   },
   "110067_01": {
@@ -12243,6 +12323,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 974.0
+        },
+        "lvl3": {
+          "BASE": 1082.0
         }
       }
     }
@@ -12395,6 +12478,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 636.0
+        },
+        "lvl3": {
+          "BASE": 664.0
         }
       }
     }
@@ -12547,6 +12633,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 687.0
+        },
+        "lvl3": {
+          "BASE": 762.0
         }
       }
     }
@@ -12853,14 +12942,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 768.0
-        },
-        "lvl2": {
-          "BASE": 807.0
-        }
-      }
+      "modifier": null
     }
   },
   "110257_01": {
@@ -14054,6 +14136,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 668.0
+        },
+        "lvl3": {
+          "BASE": 744.0
         }
       }
     }
@@ -14378,14 +14463,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 3.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 746.66
-        },
-        "lvl2": {
-          "BASE": 829.62
-        }
-      }
+      "modifier": null
     }
   },
   "110276_01": {
@@ -14991,6 +15069,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 1128.0
+        },
+        "lvl3": {
+          "BASE": 1254.0
         }
       }
     }
@@ -15146,14 +15227,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 0.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 616.0
-        },
-        "lvl2": {
-          "BASE": 685.0
-        }
-      }
+      "modifier": null
     }
   },
   "110299_01": {
@@ -15425,6 +15499,9 @@ const adventurer =
         },
         "lvl2": {
           "BASE": 574.0
+        },
+        "lvl3": {
+          "BASE": 604.0
         }
       }
     },
@@ -17665,14 +17742,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 668.0
-        },
-        "lvl2": {
-          "BASE": 702.0
-        }
-      }
+      "modifier": null
     }
   },
   "110328_01": {
@@ -17826,14 +17896,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 2.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 746.0
-        },
-        "lvl2": {
-          "BASE": 829.0
-        }
-      }
+      "modifier": null
     }
   },
   "110333_01": {
@@ -17990,14 +18053,7 @@ const adventurer =
       "HideLevel3": true,
       "IsAffectedByTension": true,
       "iframe": 1.0,
-      "modifier": {
-        "lvl1": {
-          "BASE": 876.0
-        },
-        "lvl2": {
-          "BASE": 921.0
-        }
-      }
+      "modifier": null
     }
   }
 };
