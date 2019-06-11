@@ -307,8 +307,9 @@ def set_skills():
 
             new_item["modifier"] = {}
             parse_modifier = ["Description1", "Description2", "Description3"]
-            if new_item["HideLevel3"]:
-                parse_modifier = parse_modifier[0:2]
+            # HideLevel3 flag is incorrect on a few skills, so we will ignore it
+            # if new_item["HideLevel3"]:
+            #     parse_modifier = parse_modifier[0:2]
             for d in parse_modifier:
                 mod = regex_skill_modifier(item[d])
                 if mod == 0:
